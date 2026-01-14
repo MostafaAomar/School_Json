@@ -1,0 +1,85 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "What's this, Dad?\n This is a bus.",
+      "translation": "ما هذا يا أبي؟ هذا باص."
+    },
+     {
+      "type": "reading",
+      "questionText": "The bus is slow!",
+      "translation": "الباص بطيء!"
+    },
+    {
+      "type": "reading",
+      "questionText": "That train is fast.",
+      "translation": "ذلك القطار سريع."
+    },
+   
+    {
+      "type": "reading",
+      "questionText": "Is this bike fast, Mum?",
+      "translation": "هل هذه الدراجة سريعة يا أمي؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "What's that, Dad? That's a plane.",
+      "translation": "ما ذاك يا أبي؟ ذلك طائرة."
+    },
+    {
+      "type": "reading",
+      "questionText": "No, it's slow.\n Our car is fast.",
+      "translation": "لا، إنها بطيئة. سيارتنا سريعة."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the vehicles to the pictures",
+      "pairs": [
+        {"id": 1, "left": "bike", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bike.png", "isImage": true},
+        {"id": 2, "left": "car", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/car.png", "isImage": true},
+        {"id": 3, "left": "plane", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/plane.png", "isImage": true},
+        {"id": 4, "left": "bus", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bus.png", "isImage": true},
+        {"id": 5, "left": "train", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/train.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Is this plane fast?",
+      "translation": "هل هذه الطائرة سريعة؟",
+      "options": [
+        {"questionText": "Yes, it is", "correctAnswer": true},
+        {"questionText": "No, it isn't", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "It's a big train. Toot toot toot!",
+      "translation": "إنه قطار كبير. توت توت توت!"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a big plane. Zoom zoom zoom!",
+      "translation": "إنها طائرة كبيرة. زووم زووم زووم!"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a big bus. Beeb beeb beeb!",
+      "translation": "إنه باص كبير. بيب بيب بيب!"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a big car. Broom broom broom!",
+      "translation": "إنها سيارة كبيرة. بروم بروم بروم!"
+    },
+
+    {
+      "type": "reading",
+      "questionText": "M m moon. J j jar.",
+      "translation": " M m — قمر.  J j — جرة."
+    }
+  ]
+}

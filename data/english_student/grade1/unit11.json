@@ -1,0 +1,75 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "Where's Ted?",
+      "translation": "أين تيد؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "He isn't in the bedroom.",
+      "translation": "هو ليس في غرفة النوم."
+    },
+    {
+      "type": "reading",
+      "questionText": "He isn't in the garden.",
+      "translation": "هو ليس في الحديقة."
+    },
+    {
+      "type": "reading",
+      "questionText": "He isn't in the living room.\n Is he in the bedroom?",
+      "translation": "هو ليس في غرفة المعيشة. \n هل هو في غرفة النوم؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "He isn't in the bathroom.",
+      "translation": "هو ليس في الحمّام."
+    },
+    {
+      "type": "reading",
+      "questionText": "Mum! Ted is in the kitchen.",
+      "translation": "أمي! تيد في المطبخ."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the rooms to the pictures",
+      "pairs": [
+        {"id": 1, "left": "garden", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/garden.png", "isImage": true},
+        {"id": 2, "left": "living room", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/livingroom.png", "isImage": true},
+        {"id": 3, "left": "kitchen", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/kitchen.png", "isImage": true},
+        {"id": 4, "left": "bathroom", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bathroom.png", "isImage": true},
+        {"id": 5, "left": "bedroom", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bedroom.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "The mouse is in the box.",
+      "translation": "الفأر داخل الصندوق."
+    },
+    {
+      "type": "reading",
+      "questionText": "The mouse is on the box.",
+      "translation": "الفأر فوق الصندوق."
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Where is the mouse?",
+      "translation": "أين الفأر؟",
+      "options": [
+        {"questionText": "In the box", "correctAnswer": true},
+        {"questionText": "On the tree", "correctAnswer": false},
+        {"questionText": "Under the car", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Where's my father? He's in the garden.",
+      "translation": "أين والدي؟ إنه في الحديقة."
+    }
+  ]
+}

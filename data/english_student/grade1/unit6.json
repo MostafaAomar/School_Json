@@ -1,0 +1,116 @@
+{
+  "unit": "Unit 6 - Colours",
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "What colour is this?",
+      "translation": "ما لون هذا؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's yellow.",
+      "translation": "إنه أصفر."
+    },
+    {
+      "type": "reading",
+      "questionText": "What colour is your pencil?",
+      "translation": "ما لون قلمك؟"
+    },
+    
+    {
+      "type": "reading",
+      "questionText": "It's red.",
+      "translation": "إنه أحمر."
+    },
+    {
+      "type": "reading",
+      "questionText": "Is it green?",
+      "translation": "هل هو أخضر؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "Yes, it is.",
+      "translation": "نعم، هو كذلك."
+    },
+    {
+      "type": "reading",
+      "questionText": "Is this ruler black?",
+      "translation": "هل هذه المسطرة سوداء؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "No, it isn't. It's blue.",
+      "translation": "لا، ليست كذلك. إنها زرقاء."
+    },
+
+    {
+      "type": "reading",
+      "questionText": "The sun is yellow, yellow, yellow, yellow.",
+      "translation": "الشمس صفراء، صفراء، صفراء، صفراء."
+    },
+    {
+      "type": "reading",
+      "questionText": "The sky is blue, blue, blue, blue.",
+      "translation": "السماء زرقاء، زرقاء، زرقاء، زرقاء."
+    },
+    {
+      "type": "reading",
+      "questionText": "The apple is red, red, red, red.",
+      "translation": "التفاحة حمراء، حمراء، حمراء، حمراء."
+    },
+    {
+      "type": "reading",
+      "questionText": "The tree is green, green, green, green.",
+      "translation": "الشجرة خضراء، خضراء، خضراء، خضراء."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the colours to the pictures",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "red",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/red.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "blue",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/blue.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "green",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/green.png",
+          "isImage": true
+        },
+        {
+          "id": 4,
+          "left": "yellow",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/yellow.png",
+          "isImage": true
+        },
+        {
+          "id": 5,
+          "left": "black",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/black.png",
+          "isImage": true
+        }
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "What colour is it?",
+      "translation": "ما لونه؟",
+      "options": [
+        {"questionText": "Red", "correctAnswer": true},
+        {"questionText": "Blue", "correctAnswer": false},
+        {"questionText": "Green", "correctAnswer": false}
+      ]
+    }
+  ]
+}

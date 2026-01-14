@@ -1,0 +1,58 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "He is a policeman.",
+      "translation": "هو شرطي."
+    },
+    {
+      "type": "reading",
+      "questionText": "She is a doctor.",
+      "translation": "هي طبيبة."
+    },
+    {
+      "type": "reading",
+      "questionText": "He is a farmer.",
+      "translation": "هو مزارع."
+    },
+    {
+      "type": "reading",
+      "questionText": "She is a teacher.",
+      "translation": "هي معلمة."
+    },
+    {
+      "type": "reading",
+      "questionText": "Look! He is a pilot.",
+      "translation": "انظر! إنه طيار."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the jobs to the pictures",
+      "pairs": [
+        {"id": 1, "left": "policeman", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/policeman.png", "isImage": true},
+        {"id": 2, "left": "doctor", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/doctor.png", "isImage": true},
+        {"id": 3, "left": "farmer", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/farmer.png", "isImage": true},
+        {"id": 4, "left": "teacher", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/teacher.png", "isImage": true},
+        {"id": 5, "left": "pilot", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/pilot.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Is she a teacher?",
+      "translation": "هل هي معلمة؟",
+      "options": [
+        {"questionText": "No, she isn't. She is a doctor.", "correctAnswer": true},
+        {"questionText": "Yes, she is.", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "R r ring. V v van.",
+      "translation": "  R r — خاتم.   V v — شاحنة صغيرة."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  
+  "questions": [
+    {
+      "type": "reading",
+      "questionText": "I'm a boy.",
+      "translation": "أنا ولد."
+    },
+    {
+      "type": "reading",
+      "questionText": "I'm a girl.",
+      "translation": "أنا بنت."
+    },
+    {
+      "type": "reading",
+      "questionText": "He's a boy.",
+      "translation": "هو ولد."
+    },
+    {
+      "type": "reading",
+      "questionText": "She's a girl.",
+      "translation": "هي بنت."
+    },
+    {
+      "type": "reading",
+      "questionText": "How many boys?\n Two boys.",
+      "translation": "كم عدد الأولاد؟ ولدان."
+    },
+    {
+      "type": "reading",
+      "questionText": "How many girls?\n Three girls.",
+      "translation": "كم عدد البنات؟ ثلاث بنات."
+    },
+    {
+      "type": "reading",
+      "questionText": "How many lemons?\n Five lemons.",
+      "translation": "كم عدد الليمونات؟ خمس ليمونات."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the words to the pictures",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "boy",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/boy.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "girl",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/girl.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "lemons",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/limon.png",
+          "isImage": true
+        }
+      ]
+    }
+  ]
+}

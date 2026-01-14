@@ -1,0 +1,254 @@
+{
+  "questionText": {
+    "en": "**A Different Class**\nHanan Al-Hroub was a poorly paid teacher in the West Bank. Then she won the $1 million Global Teacher Prize. The committee praised Mrs. Al-Hroub’s “play and learn” method,  which she still employs.  Besides her clown outfit, Mrs. Al-Hroub uses balloons,  hula-hoops, toy cars and puppets to explain her lessons.  Her aim is to make the classroom a calm and fun place  where children can forget about the struggle of daily life,  and open their minds.  “We play first, and when we play we learn,” she said. “The kids don’t even realise they are  learning.”  In addition to the toys and balloons, which she pays for with her own money, she uses  videos and even PowerPoint in the classroom. For the first month of a new school year, her  eight-year-old pupils may not even see an exercise book.  Parents often refuse the focus on play. That soon changes, Mrs. Al-Hroub says, when they  realise that her methods improve behaviour – especially in troubled kids – and academic  results. She also sees it as her duty to build their characters. “No to violence” is a motto in  her classes.  Mrs. Al-Hroub plans to establish her own foundation and use some of her winnings to train  other teachers to follow her approach.  It is worth mentioning that Mrs. Al-Hroub's dream was to be a doctor but failing to do so did  not prevent her from being a special person who could make a difference.\n\n**Key Words**\ncommittee: a group of people chosen to make decisions\n  praise: to express approval, love, or admiration for something\n  employ: to make use of something\n  outfit: a set of clothes that you wear together\n  struggle: something that is difficult for you to do or achieve  \nviolence: the use of physical force to harm someone",
+    "ar": "**فئة مختلفة**\nكانت حنان الحروب معلمة تتقاضى أجراً زهيداً في الضفة الغربية. ثم فازت بجائزة المعلم العالمية بقيمة مليون دولار.  وأثنى اللجنة على طريقة \"اللعب والتعلم\" التي تتبعها السيدة الحروب ولا تزال تطبقها.  وبالإضافة إلى زيها المهرج، تستخدم السيدة الحروب البالونات وحلقات الهولا والسيارات اللعبة والدمى لشرح دروسها.  وتهدف إلى تحويل الفصل الدراسي إلى مكان هادئ وممتع يستطيع الأطفال فيه نسيان معاناة الحياة اليومية وتوسيع آفاق عقولهم.  قالت: \"نلعب أولاً، وعندما نلعب نتعلم\". مضيفةً: \"الأطفال لا يدركون أنهم يتعلمون بالفعل.\"  وبالإضافة إلى الألعاب والبالونات التي تمولها من مالها الخاص، تستخدم مقاطع الفيديو وحتى عروض باوربوينت في الصف. ففي الشهر الأول من العام الدراسي الجديد، قد لا يرى تلاميذها البالغ عددهم ثمانية أعوام دفتر تمارين.  غالباً ما يرفض الآباء التركيز على اللعب، ولكن هذا يتغير سريعاً، كما تقول السيدة الحروب، عندما يدركون أن أساليبها تحسن السلوك – خاصةً لدى الأطفال ذوي المشاكل – وكذلك النتائج الدراسية.  وترى أيضاً أنه من واجبها بناء شخصيات التلاميذ، حيث يعد شعار صفوفها \"لا للعنف\" أساسياً.  تعتزم السيدة الحروب إنشاء مؤسستها الخاصة واستخدام جزء من مكافأتها لتدريب معلمين آخرين على اتباع نهجها.  ومن الجدير بالذكر أن حلم السيدة الحروب كان أن تصبح طبيبة، لكن فشلها في ذلك لم يمنعها من أن تكون شخصية مميزة قادرة على إحداث فرق.\n\n**الكلمات المفتاحية**\nاللجنة: مجموعة من الأشخاص المختارين لاتخاذ القرارات \n الثناء: التعبير عن الموافقة أو الحب أو الإعجاب بشيء ما \n توظيف: الاستفادة من شيء \n الزي: مجموعة من الملابس التي تُرتدى معاً \n الصراع: أمر يصعب عليك القيام به أو تحقيقه \n العنف: استخدام القوة البدنية لإيذاء شخص ما"
+  }
+,
+  "videoUrl": "https://www.youtube.com/watch?v=m-mPikl3OC0&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=4&ab_channel=Mostafa",
+  "audioUrl": "",
+  "audioType": "audio/mp3",
+  "externalLinks": [
+    {
+      "type": "text",
+      "url": "https://www.youtube.com/watch?v=RndzJuL7z70&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=3&ab_channel=Mostafa",
+      "text": { "ar": "مراجعه للحاضر المستمر", "en": "" },
+      "title": { "ar": " مراجعه للحاضر المستمر", "en": "" }
+    }
+  ],
+  "module1_s_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+    "supportContent": {
+      "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+      "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "1. Mrs. Al-Hroub <input type='text' class='fill-blank-input' data-blank-id='w1_1' placeholder='(verb)...'> balloons, hula-hoops, toy cars and puppets.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "w1_1": { "en": "uses", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Mrs. Al-Hroub  uses') مفرد غائب، لذا يجب إضافة '-s' إلى الفعل في صيغة المضارع البسيط."
+    }
+  },
+  "module1_s_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "2. Parents often <input type='text' class='fill-blank-input' data-blank-id='ps2' placeholder='(verb)...'> the focus on play.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps2": { "en": "support", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Parents support') جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+    "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "3. Her methods <input type='text' class='fill-blank-input' data-blank-id='ps3' placeholder='(verb)...'> behaviour.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps3": { "en": "improve", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('Her methods improve') جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      "en": "4. We <input type='text' class='fill-blank-input' data-blank-id='ps4' placeholder='(verb)...'> first and when we play we learn.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps4": { "en": "play", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('We play') متكلم جمع، لذا نستخدم صيغة المصدر للفعل في المضارع البسيط."
+    }
+  },
+  "module1_s_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-simple", "reading-comprehension", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Complete the sentence with the correct Present Simple form based on the text context.",
+       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة بناءً على سياق النص."
+    },
+    "questionText": {
+      
+      "en": "5. The kids <input type='text' class='fill-blank-input' data-blank-id='ps5a' placeholder='(verb)...'> even <input type='text' class='fill-blank-input' data-blank-id='ps5b' placeholder='(verb)...'> they are learning.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "ps5a": { "en": "don't", "ar": "" },  
+      "ps5b": { "en": "realise", "ar": "" }  
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. الفاعل ('The kids don't even realise they are learning') جمع. الفعل الثاني ('realise' أو 'know') يأتي بصيغة المصدر. الفعل الأول هو فعل مساعد للنفي في المضارع البسيط للفاعل الجمع ('don't')."
+    }
+  },
+
+  "module1_s_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "1. She <input type='text' class='fill-blank-input' data-blank-id='pc1' placeholder='(talk)'> on the phone right now.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc1": { "en": "is talking", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('She') مفرد غائب، لذا نستخدم 'is talking'."
+    }
+  },
+  "module1_s_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "2. I <input type='text' class='fill-blank-input' data-blank-id='pc2' placeholder='(study)'> in the library at the moment.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc2": { "en": "am studying", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('I') متكلم مفرد، لذا نستخدم 'am studying'."
+    }
+  },
+  "module1_s_8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "changing-situation", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "3. It’s good news to hear that John’s health <input type='text' class='fill-blank-input' data-blank-id='pc3' placeholder='(improve)'>.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc3": { "en": "is improving", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('John’s health') مفرد غائب، لذا نستخدم 'is improving'."
+    }
+  },
+  "module1_s_9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": ["grammar", "tenses", "present-continuous", "current-action", "module1", "fill-blank"],
+     "supportContent": {
+       "en": "Write the verb in brackets using the Present Continuous.",
+       "ar": "اكتب الفعل بين القوسين باستخدام صيغة المضارع المستمر."
+    },
+    "questionText": {
+      "en": "4. Where are the children? There they are. They <input type='text' class='fill-blank-input' data-blank-id='pc4' placeholder='(play)'> tennis.",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "pc4": { "en": "are playing", "ar": "" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. صيغة المضارع المستمر هي (am/is/are + V-ing). الفاعل ('They') جمع غائب، لذا نستخدم 'are playing'."
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

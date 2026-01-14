@@ -1,0 +1,74 @@
+{
+
+  "questions": [
+
+    {
+      "type": "matching",
+      "questionText": "Read and match.",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "I'm a girl.",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/girl.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "Close the book.",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/close_book.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "He's a boy.",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/boy.png",
+          "isImage": true
+        },
+        {
+          "id": 4,
+          "left": "Sit down.",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sit_down.png",
+          "isImage": true
+        }
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Hello. I'm Tom. What's your name?",
+      "translation": "مرحبًا. أنا توم. ما اسمك؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I'm Mary. How are you?",
+      "translation": "أنا ماري. كيف حالك؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I'm fine. Thank you.",
+      "translation": "أنا بخير. شكرًا لك."
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "How many boys?",
+      "translation": "كم عدد الأولاد؟",
+      "options": [
+        {"questionText": "1", "correctAnswer": false},
+        {"questionText": "3", "correctAnswer": false},
+        {"questionText": "4", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "How many girls?",
+      "translation": "كم عدد البنات؟",
+      "options": [
+        {"questionText": "1", "correctAnswer": false},
+        {"questionText": "3", "correctAnswer": true},
+        {"questionText": "5", "correctAnswer": false}
+      ]
+    }
+  ]
+}

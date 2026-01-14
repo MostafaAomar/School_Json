@@ -1,0 +1,601 @@
+{
+  "questionText": {
+    "en": "**Autonomous Vehicles**\nSome people think that autonomous vehicles will change our lives for the better. They think that they will be safer and transportation will be more efficient. However, others believe that autonomous vehicles will cause many problems that need to be solved before they are allowed to become a part of our daily lives.\n\nFirst, driverless cars will increase unemployment. Thousands of drivers will lose their jobs if autonomous vehicles are allowed to take over the roads. Truck drivers, delivery drivers, taxi drivers, and many other kinds of drivers will lose their jobs. This increase in unemployment could cause serious social problems.\n\nSecond, companies and governments will lose money. For example, insurance companies now get about fifty percent of their income from car insurance. Governments and cities, too, will lose much money from parking, speeding fines, and petrol taxes.\n\nFinally, there is no planning. Dramatic change is coming, but governments haven’t begun thinking about it. Only some American cities have done long-term planning. Driverless cars could arrive by 2030, but most government officials and transport ministers are only worried about short-term problems.\n\nIn conclusion, it is possible that autonomous vehicles will not benefit society if they are introduced too quickly. They may cause social chaos through unemployment, financial loss, and lack of planning. It is important that these issues are addressed before autonomous vehicles are allowed on our roads.\n\n**Key Words**\n- efficient: working well without wasting time or energy\n- allow: to let someone do something/ to permit\n- delivery: the act of bringing goods, letters etc. to a particular person or place\n- insurance: protection against future loss\n- fine: money that you have to pay as a punishment\n- an official: a person who is in position of authority\n- financial: relating to money",
+    "ar": "**المركبات ذاتية القيادة**\nيعتقد بعض الناس أن المركبات ذاتية القيادة ستغير حياتنا للأفضل. فهم يعتقدون أنها ستكون أكثر أمانًا وأن وسائل النقل ستكون أكثر كفاءة. ومع ذلك، يعتقد آخرون أن المركبات ذاتية القيادة ستسبب العديد من المشاكل التي يجب حلها قبل أن تصبح جزءًا من حياتنا اليومية.\n\nأولاً، ستزيد السيارات بدون سائق من البطالة. الآلاف من السائقين سيفقدون وظائفهم إذا سُمح للمركبات ذاتية القيادة بالسيطرة على الطرق. سائقو الشاحنات، وسائقو التوصيل، وسائقو سيارات الأجرة، والعديد من أنواع السائقين الآخرين سيفقدون وظائفهم. هذا الارتفاع في البطالة قد يسبب مشاكل اجتماعية خطيرة.\n\nثانيًا، ستخسر الشركات والحكومات المال. على سبيل المثال، تحصل شركات التأمين الآن على حوالي خمسين بالمائة من دخلها من التأمين على السيارات. كما ستخسر الحكومات والمدن الكثير من المال من مواقف السيارات والغرامات السرعة وضرائب الوقود.\n\nوأخيرًا، لا يوجد تخطيط. التغيير الدراماتيكي قادم، لكن الحكومات لم تبدأ التفكير فيه بعد. فقط بعض المدن الأمريكية قامت بالتخطيط طويل الأمد. يمكن أن تصل السيارات بدون سائق بحلول عام 2030، لكن معظم المسؤولين الحكوميين ووزراء النقل يهتمون فقط بالمشاكل قصيرة الأجل.\n\nفي الختام، من الممكن أن المركبات ذاتية القيادة لن تفيد المجتمع إذا تم تقديمها بسرعة كبيرة. فقد تسبب فوضى اجتماعية من خلال البطالة والخسائر المالية ونقص التخطيط. من المهم معالجة هذه القضايا قبل السماح للمركبات ذاتية القيادة في طرقنا.\n\n**الكلمات المفتاحية**\n- كفاءة: العمل بشكل جيد دون إضاعة الوقت أو الطاقة\n- السماح: السماح لشخص ما بفعل شيء ما/ التصريح بذلك\n- التوصيل: عملية جلب السلع أو الرسائل إلى شخص أو مكان معين\n- التأمين: الحماية ضد الخسارة المستقبلية\n- الغرامة: المال الذي يجب دفعه كعقوبة\n- مسؤول رسمي: شخص في موقع سلطة\n- مالي: متعلق بالمال"
+  }
+,
+  "videoUrl": "https://www.youtube.com/watch?v=sflsLTNIeso&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=31&ab_channel=Mostafa",
+  "audioUrl": "",
+  "audioType": "audio/mp3",
+  "externalLinks": [
+    {
+      "type": "text",
+      "url": "",
+      "text": { "ar": "", "en": "" },
+      "title": { "ar": "", "en": "" }
+    }
+  ],
+  "unit4_s_1": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "finance",
+      "health",
+      "law",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Do you have <input type='text' class='fill-blank-input' data-blank-id='vocab1' placeholder='word...'> on your house and its contents?",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab1": {
+        "en": "insurance",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني تغطية ضد الخسارة أو الضرر للمنزل ومحتوياته هي 'insurance' (تأمين)."  
+    }
+  },
+  "unit4_s_2": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "health",
+      "time",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. The <input type='text' class='fill-blank-input' data-blank-id='vocab2' placeholder='word...'> effects of smoking are serious.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab2": {
+        "en": "long-term",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تصف الآثار التي تستمر لفترة طويلة هي 'long-term' (طويلة الأمد)."  
+    }
+  },
+  "unit4_s_3": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "law",
+      "punishment",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. He was <input type='text' class='fill-blank-input' data-blank-id='vocab3' placeholder='word...'> for parking on the wrong side of the street.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab3": {
+        "en": "fined",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنه تم فرض غرامة مالية عليه بسبب مخالفة هي 'fined' (تم تغريمه)."  
+    }
+  },
+  "unit4_s_4": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "society",
+      "improvement",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. They are working together to <input type='text' class='fill-blank-input' data-blank-id='vocab4' placeholder='word...'> the whole society.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab4": {
+        "en": "benefit",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن يعود بالنفع أو الفائدة على المجتمع هي 'benefit' (يفيد)."  
+    }
+  },
+  "unit4_s_5": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "permission",
+      "travel",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "5. My parents wouldn’t <input type='text' class='fill-blank-input' data-blank-id='vocab5' placeholder='word...'> me to go abroad.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab5": {
+        "en": "allow",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أنهم لن يسمحوا لي بالذهاب هي 'allow' (يسمح)."  
+    }
+  },
+  "unit4_s_6": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "vocabulary",
+      "finance",
+      "work",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a word from the box: [allow, insurance, fined, income, long-term, benefit]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "6. She took on extra work to increase her <input type='text' class='fill-blank-input' data-blank-id='vocab6' placeholder='word...'>.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "vocab6": {
+        "en": "income",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني المال الذي تكسبه من العمل هي 'income' (الدخل)."  
+    }
+  },
+  "unit4_s_7": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a determiner from the box: [these, much, many, their]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "1. Some people believe that autonomous vehicles will cause <input type='text' class='fill-blank-input' data-blank-id='det1' placeholder='determiner...'> problems.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det1": {
+        "en": "many",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'problems' هي اسم معدود جمع. المحدد المناسب للإشارة إلى عدد كبير من المشاكل هو 'many' (العديد من)."  
+    }
+  },
+  "unit4_s_8": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "possessive-adjective",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a determiner from the box: [these, much, many, their]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "2. Thousands of drivers will lose <input type='text' class='fill-blank-input' data-blank-id='det2' placeholder='determiner...'> jobs.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det2": {
+        "en": "their",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. الكلمة تشير إلى وظائف السائقين (ملكية). ضمير الملكية المناسب للجمع الغائب هو 'their' (وظائفهم)."  
+    }
+  },
+  "unit4_s_9": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "uncountable",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a determiner from the box: [these, much, many, their]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "3. Governments and cities won’t get <input type='text' class='fill-blank-input' data-blank-id='det3' placeholder='determiner...'> money from parking.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det3": {
+        "en": "much",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'money' هي اسم غير معدود. المحدد المناسب للإشارة إلى كمية كبيرة من المال (وغالباً ما يستخدم في النفي) هو 'much' (الكثير من)."  
+    }
+  },
+  "unit4_s_10": {
+    "type": "fill-blank",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "demonstrative",
+      "unit4",
+      "fill-blank"
+    ],
+    "supportContent": {
+      "en": "Complete the sentence with a determiner from the box: [these, much, many, their]",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "4. It is important that <input type='text' class='fill-blank-input' data-blank-id='det4' placeholder='determiner...'> issues are addressed before autonomous vehicles are allowed on our roads.",
+      "ar": ""  
+    },
+    "correctAnswers": {
+      "det4": {
+        "en": "these",
+        "ar": ""
+      }
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. كلمة 'issues' هي اسم معدود جمع. ضمير الإشارة المناسب للجمع القريب (هذه القضايا التي نتحدث عنها الآن) هو 'these' (هذه)."  
+    }
+  },
+  "unit4_s_11": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "countable",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "I would like to ask ______ questions.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "a few",
+        "ar": ""
+      },
+      {
+        "en": "any",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "a few",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'A few' is used with countable nouns ('questions') in an affirmative context to mean a small number.",
+      "ar": "صحيح! تُستخدم 'A few' مع الأسماء المعدودة ('questions') في سياق مثبت لتعني عددًا قليلاً."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'any' تُستخدم عادةً في النفي والاستفهام. هنا الجملة مثبتة وتشير إلى رغبة في طرح عدد قليل من الأسئلة، لذا 'a few' هي الأنسب."  
+    }
+  },
+  "unit4_s_12": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "countable",
+      "negative",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "She doesn’t have ______ friends.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "much",
+        "ar": ""
+      },
+      {
+        "en": "many",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "many",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Many' is used with countable nouns ('friends') in negative sentences.",
+      "ar": "صحيح! تُستخدم 'Many' مع الأسماء المعدودة ('friends') في الجمل المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'friends' اسم معدود. 'much' تُستخدم مع الأسماء غير المعدودة. في الجمل المنفية مع الأسماء المعدودة، نستخدم 'many'."  
+    }
+  },
+  "unit4_s_13": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "There are ______ birds on the tree.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "a lot",
+        "ar": ""
+      },  
+      {
+        "en": "some",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "some",  
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Some' is used with countable plural nouns in affirmative sentences.",
+      "ar": "صحيح! تُستخدم 'Some' مع الأسماء المعدودة الجمع في الجمل المثبتة."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. بينما 'a lot of' صحيحة، فإن 'a lot' وحدها أقل شيوعًا كصفة. 'some' (بعض) مناسبة هنا للإشارة إلى عدد غير محدد من الطيور."  
+    }
+  },
+  "unit4_s_14": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "quantifiers",
+      "uncountable",
+      "negative",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "He doesn’t have ______ money.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "much",
+        "ar": ""
+      },
+      {
+        "en": "many",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "much",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Much' is used with uncountable nouns ('money') in negative sentences.",
+      "ar": "صحيح! تُستخدم 'Much' مع الأسماء غير المعدودة ('money') في الجمل المنفية."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'money' اسم غير معدود. 'many' تُستخدم مع الأسماء المعدودة. في الجمل المنفية مع الأسماء غير المعدودة، نستخدم 'much'."  
+    }
+  },
+  "unit4_s_15": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "articles",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "______ sun rises in the East.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "A",
+        "ar": ""
+      },
+      {
+        "en": "The",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "The",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'The' is used with unique nouns like 'sun'.",
+      "ar": "صحيح! تُستخدم 'The' مع الأسماء الفريدة مثل 'sun'."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'sun' (الشمس) اسم فريد من نوعه (لا يوجد إلا شمس واحدة في نظامنا)، لذا نستخدم أداة التعريف 'The'."  
+    }
+  },
+  "unit4_s_16": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": [
+      "grammar",
+      "determiners",
+      "demonstrative",
+      "unit4",
+      "mcq"
+    ],
+    "supportContent": {
+      "en": "Select the correct determiner in brackets.",
+      "ar": ""  
+    },
+    "questionText": {
+      "en": "______ flowers aren’t for sale.",
+      "ar": ""  
+    },
+    "options": [
+      {
+        "en": "These",
+        "ar": ""
+      },
+      {
+        "en": "This",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "These",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'These' is the plural demonstrative used with plural nouns ('flowers').",
+      "ar": "صحيح! 'These' هو ضمير الإشارة للجمع المستخدم مع الأسماء الجمع ('flowers')."  
+    },
+    "feedbackIncorrect": {
+      "en": "",  
+      "ar": "الإجابة غير صحيحة. 'flowers' (زهور) اسم جمع. 'This' يُستخدم للمفرد القريب. 'These' يُستخدم للجمع القريب."  
+    }
+  }
+}

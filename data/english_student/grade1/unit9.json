@@ -1,0 +1,74 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "Happy birthday, Tom.",
+      "translation": "عيد ميلاد سعيد يا توم."
+    },
+    {
+      "type": "reading",
+      "questionText": "I'm six.",
+      "translation": "عمري ست سنوات."
+    },
+    {
+      "type": "reading",
+      "questionText": "How old are you?",
+      "translation": "كم عمرك؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I'm ten.",
+      "translation": "عمري عشر سنوات."
+    },
+    
+    {
+      "type": "reading",
+      "questionText": "How old is Tom's sister?\n She's five.",
+      "translation": "كم عمر أخت توم؟\n عمرها خمس سنوات."
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Six, seven, eight, nine, ten.",
+      "translation": "ستة، سبعة، ثمانية، تسعة، عشرة."
+    },
+
+    {
+      "type": "reading",
+      "questionText": "How old is Mary?\n She's six.",
+      "translation": "كم عمر ماري؟ \nعمرها ست سنوات."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the children to their ages",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "Sandy",
+          "right": "5",
+          "isImage": false
+        },
+        {
+          "id": 2,
+          "left": "Mary",
+          "right": "6",
+          "isImage": false
+        },
+        {
+          "id": 3,
+          "left": "Peter",
+          "right": "10",
+          "isImage": false
+        }
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Happy birthday to you,\n happy birthday just for you.\nHappy birthday to me and you.",
+      "translation": "عيد ميلاد سعيد لك، عيد ميلاد سعيد خصيصًا لك عيد ميلاد سعيد لي ولك."
+    }
+  ]
+}

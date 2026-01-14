@@ -1,0 +1,120 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "What's this?",
+      "translation": "ما هذا؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's your hand.",
+      "translation": "إنها يدك."
+    },
+    {
+      "type": "reading",
+      "questionText": "Is it a mouth?",
+      "translation": "هل هذا فم؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "Yes, it is.",
+      "translation": "نعم، هو كذلك."
+    },
+    {
+      "type": "reading",
+      "questionText": "This is my eye.",
+      "translation": "هذه عيني."
+    },
+    {
+      "type": "reading",
+      "questionText": "This is my ear.",
+      "translation": "هذه أذني."
+    },
+    {
+      "type": "reading",
+      "questionText": "Is it your hand?",
+      "translation": "هل هذه يدك؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "No, it isn't. It's my nose.",
+      "translation": "لا، ليست كذلك. إنه أنفي."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's foot?",
+      "translation": " هذه قدمك"
+    },
+    {
+      "type": "reading",
+      "questionText": "No, it isn't. It's my nose.",
+      "translation": "لا، ليست كذلك. إنه أنفي."
+    },
+    {
+      "type": "matching",
+      "questionText": "Match the body parts to the pictures",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "hand",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/hand.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "foot",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/foot.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "eye",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/eye.png",
+          "isImage": true
+        },
+        {
+          "id": 4,
+          "left": "nose",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/nose.png",
+          "isImage": true
+        },
+        {
+          "id": 5,
+          "left": "mouth",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mouth.png",
+          "isImage": true
+        },
+        {
+          "id": 6,
+          "left": "ear",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/ear.png",
+          "isImage": true
+        }
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Is it a nose? No, it isn't. It's a hand.",
+      "translation": "هل هذا أنف؟ لا، ليس كذلك. إنها يد."
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Sunday,\n Monday,\n Tuesday,\n Wednesday,\n Thursday,\n Friday,\n Saturday.",
+      "translation": "الأحد، الاثنين، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت."
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Touch your nose.",
+      "translation": "المس أنفك.",
+      "options": [
+        {"questionText": "Nose", "correctAnswer": true},
+        {"questionText": "Ear", "correctAnswer": false},
+        {"questionText": "Hand", "correctAnswer": false}
+      ]
+    }
+  ]
+}

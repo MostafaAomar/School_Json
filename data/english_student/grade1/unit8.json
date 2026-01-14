@@ -1,0 +1,62 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "This is my father.",
+      "translation": "هذا والدي."
+    },
+    {
+      "type": "reading",
+      "questionText": "Who's he? He's my brother.",
+      "translation": "من هذا؟ إنه أخي."
+    },
+    {
+      "type": "reading",
+      "questionText": "Father, mother, sister, brother, \n who is she?\n She's my sister, she's my sister, \n oh, I see.\n Father, mother, sister, brother,\n who is he? \n He's my brother, he's my brother,\n oh, I see.",
+      "translation": "أب، أم، أخت، أخ، من هي؟ إنها أختي، إنها أختي، آه، فهمت. أب، أم، أخت، أخ، من هو؟ إنه أخي، إنه أخي، آه، فهمت." 
+    },
+    {
+      "type": "matching",
+      "questionText": "Match the family members to the pictures",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "father",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/father.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "mother",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mother.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "brother",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/brother.png",
+          "isImage": true
+        },
+        {
+          "id": 4,
+          "left": "sister",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sister.png",
+          "isImage": true
+        },
+        {
+          "id": 5,
+          "left": "grandfather",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/grandfather.png",
+          "isImage": true
+        },
+        {
+          "id": 6,
+          "left": "grandmother",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/grandmother.png",
+          "isImage": true
+        }
+      ]
+    }
+  ]
+}

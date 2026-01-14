@@ -1,0 +1,73 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "Is this my sandwich?",
+      "translation": "هل هذه شطيرتي؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "Yes, it is.",
+      "translation": "نعم، هي كذلك."
+    },
+    {
+      "type": "reading",
+      "questionText": "What do you like?",
+      "translation": "ماذا تحب؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I like rice.",
+      "translation": "أنا أحب الأرز."
+    },
+    
+    {
+      "type": "reading",
+      "questionText": "I like cheese and juice.",
+      "translation": "أنا أحب الجبن والعصير."
+    },
+    {
+      "type": "reading",
+      "questionText": "I like chicken. It's delicious.",
+      "translation": "أنا أحب الدجاج. إنه لذيذ."
+    },
+    {
+      "type": "reading",
+      "questionText": "I like milk, meow meow.",
+      "translation": "أنا أحب الحليب، مياو مياو."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the food to the pictures",
+      "pairs": [
+        {"id": 1, "left": "sandwich", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sandwich.png", "isImage": true},
+        {"id": 2, "left": "cheese", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/cheese.png", "isImage": true},
+        {"id": 3, "left": "chicken", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/chicken.png", "isImage": true},
+        {"id": 4, "left": "milk", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/milk.png", "isImage": true},
+        {"id": 5, "left": "juice", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/juice.png", "isImage": true},
+        {"id": 6, "left": "rice", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/rice.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "I like chicken.\n What do you like?",
+      "translation": "أنا أحب الدجاج. ماذا تحب أنت؟"
+    },
+
+
+    {
+      "type": "reading",
+      "questionText": "What's in my lunch box?\n Is it a sandwich?\n No, it isn't.\n Is it a banana?\n Yes, it is.",
+      "translation": "ماذا يوجد في صندوق طعامي؟ هل هي شطيرة؟ لا. هل هي موزة؟ نعم."
+    },
+
+    {
+      "type": "reading",
+      "questionText": "I like to eat,\n eat eat eat,\n apples and bananas.",
+      "translation": "أنا أحب أن آكل، آكل آكل، التفاح والموز."
+    }
+  ]
+}

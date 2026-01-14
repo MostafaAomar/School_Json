@@ -1,0 +1,493 @@
+{"questionText": {
+    "en": "** How does the Immune System Work?\n **The immune system has a vital role since it protects your body from harmful substances, germs and cell changes that could make you ill. It is made up of various organs, cells and proteins.As long as your immune system is running smoothly, you don’t notice that it’s there. But if it stops working properly – because it’s weak or can't fight particularly aggressive germs – you get ill. Germs that your body\nhas never encountered before are also likely to make you ill. Some germs will only make you ill the first time you come into contact with them. These include childhood diseases like chickenpox.\n **The task of the immune system**\nWithout an immune system, we would have no way to fight harmful things that enter our body from the\noutside or harmful changes that occur inside our body. The main tasks of the body’s immune system are:\n• to fight disease-causing germs (pathogens) like   bacteria, viruses, parasites or fungi, and to remove   them from the body.\n• to recognize and neutralize harmful substances from the environment.\n• to fight disease-causing changes in the body, such as cancer cells.\n**How is the immune system activated?**\nThe immune system can be activated by a lot of different things that the body doesn’t recognize as its own. These are called antigens. Examples of antigens include the proteins on the surfaces of bacteria, and viruses. When these antigens attach to special receptors on the immune cells (immune system cells), a whole series of processes are triggered in the body. Once the body has come into contact with a disease-causing germ for the first time, it usually stores information about the germ and how to fight it. Then, if it comes into contact with the germ again, it recognizes the germ straight away and can start fighting it faster.\n",
+    "ar": "**كيف يعمل جهاز المناعة؟**\nيلعب جهاز المناعة دورًا حيويًا؛ إذ يحمي جسمك من المواد الضارة والجراثيم والتغيرات الخلوية التي قد تجعلك مريضًا. يتكون من عدة أعضاء وخلايا وبروتينات. وطالما يعمل جهاز المناعة بسلاسة، لن تشعر بوجوده. لكن إذا توقف عن العمل بشكل صحيح – بسبب ضعفه أو عدم قدرته على محاربة الجراثيم العدوانية – ستصاب بالمرض. كما أن الجراثيم التي لم يسبق لجسمك أن تعرض لها من قبل من المحتمل أن تجعلك مريضًا. بعض الجراثيم تسبب المرض فقط في المرة الأولى التي تتعرض لها، مثل الأمراض الطفولية كالجدري.\n\n**مهمة جهاز المناعة**\nبدون جهاز المناعة، لن يكون لدينا وسيلة لمحاربة الأشياء الضارة التي تدخل جسمنا من الخارج أو التغيرات الضارة التي تحدث داخله. المهام الرئيسية لجهاز المناعة هي:\n• محاربة الجراثيم المسببة للأمراض (العوامل الممرضة) مثل البكتيريا، والفيروسات، والطفيليات، أو الفطريات، وإزالتها من الجسم.\n• التعرف على المواد الضارة من البيئة وتحييدها.\n• محاربة التغيرات الضارة داخل الجسم، مثل الخلايا السرطانية.\n\n**كيف يتم تنشيط جهاز المناعة؟**\nيمكن تنشيط جهاز المناعة بواسطة أشياء عديدة لا يتعرف عليها الجسم على أنها من نفسه. تُعرف هذه بالمستضدات؛ فمن أمثلتها البروتينات الموجودة على سطح البكتيريا والفيروسات. عندما ترتبط هذه المستضدات بمستقبلات خاصة على الخلايا المناعية، تبدأ سلسلة من العمليات في الجسم. وبمجرد أن يتعرض الجسم لجرثومة مسببة للمرض لأول مرة، يخزن عادةً معلومات عنها وعن كيفية محاربتها. ثم، إذا تعرض له مرة أخرى، يتعرف عليها سريعًا ويبدأ في محاربتها بشكل أسرع.\n"
+  }
+
+
+,
+  "videoUrl": "https://www.youtube.com/watch?v=9cJrm6uCiW8&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=15&ab_channel=Mostafa",
+  "audioUrl": "https://drive.google.com/file/d/1CARjOkvo-mEyHwJdJAi11kqA15s8TwNj/view",
+  "audioType": "audio/mp3",
+  "externalLinks": [
+    {
+      "type": "text",
+      "url": "https://dictionary.cambridge.org/dictionary/english/aspire",
+      "text": { "ar": "تعريف كلمة Aspire (قاموس كامبريدج)", "en": "Definition of Aspire (Cambridge)" },
+      "title": { "ar": "زيارة قاموس كامبريدج", "en": "Visit Cambridge Dictionary" }
+    }
+  ],
+  "unit8_w_1_matching_biology": {
+    "type": "matching",
+    "difficulty": 2,
+    "tags": [
+      "vocabulary",
+      "biology",
+      "health",
+      "unit8",
+      "matching",
+      "matching"
+    ],
+    "supportContent": {
+      "en": "Match the words with their definitions.",
+      "ar": "كتاب العلمي"
+    },
+    "questionText": {
+      "en": "Match the words with their definitions:",
+      "ar": "كتاب العلمي"
+    },
+    "draggableItems": [
+      {
+        "id": "word_encounter",
+        "text": {
+          "en": "1. encounter",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_aggressive",
+        "text": {
+          "en": "2. aggressive",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_receptors",
+        "text": {
+          "en": "3. receptors",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_trigger",
+        "text": {
+          "en": "4. trigger",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_parasites",
+        "text": {
+          "en": "5. parasites",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_antigens",
+        "text": {
+          "en": "6. antigens",
+          "ar": ""
+        }
+      },
+      {
+        "id": "word_fungi",
+        "text": {
+          "en": "7. fungi",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "def_f",
+        "label": {
+          "en": "f. to meet or experience something unpleasant",
+          "ar": ""
+        },
+        "accepts": "word_encounter"
+      },
+      {
+        "id": "def_b",
+        "label": {
+          "en": "b. behaving in an angry threatening way",
+          "ar": ""
+        },
+        "accepts": "word_aggressive"
+      },
+      {
+        "id": "def_g",
+        "label": {
+          "en": "g. nerve endings which receive information about changes in light, heat and causes the body to react in particular ways",
+          "ar": ""
+        },
+        "accepts": "word_receptors"
+      },
+      {
+        "id": "def_c",
+        "label": {
+          "en": "c. to make something happen very quickly",
+          "ar": ""
+        },
+        "accepts": "word_trigger"
+      },
+      {
+        "id": "def_a",
+        "label": {
+          "en": "a. organisms that live on or in another organism of a different species",
+          "ar": ""
+        },
+        "accepts": "word_parasites"
+      },
+      {
+        "id": "def_d",
+        "label": {
+          "en": "d. a substance that makes the body produce antibodies",
+          "ar": ""
+        },
+        "accepts": "word_antigens"
+      },
+      {
+        "id": "def_e",
+        "label": {
+          "en": "e. simple type of plants that grow on the surface",
+          "ar": ""
+        },
+        "accepts": "word_fungi"
+      }
+    ],
+    "feedbackCorrect": {
+      "en": "Well done! You've matched all the biological terms correctly.",
+      "ar": "أحسنت! لقد طابقت جميع المصطلحات البيولوجية بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "الإجابة غير صحيحة. راجع معاني الكلمات جيداً: 'encounter' يعني مواجهة أو مصادفة، 'aggressive' يعني عدواني، 'receptors' هي مستقبلات عصبية، 'trigger' يعني يثير أو يحفز، 'parasites' هي طفيليات، 'antigens' هي مولدات الضد، و 'fungi' هي فطريات."
+    }
+  },
+    "unit8_w_2_idiom_fill1": {
+      "type": "fill-blank",
+      "difficulty": 1,
+      "tags": [
+        "vocabulary",
+        "idiom",
+        "annoyance",
+        "unit8",
+        "fill-blank"
+      ],
+      "supportContent": {
+        "en": "Complete the sentence with the correct form of an idiom from the list: [follow your heart, pain in the neck, jumped out of one’s skin, speak one’s mind, cost an arm and a leg]",
+        "ar": ""
+      },
+      "questionText": {
+        "en": "1. His sudden outbursts have made him a real <input type='text' class='fill-blank-input' data-blank-id='idiom1' placeholder='idiom...'> and a socially unwanted.",
+        "ar": ""
+      },
+      "correctAnswers": {
+        "idiom1": {
+          "en": "pain in the neck",
+          "ar": ""
+        }
+      },
+      "feedbackCorrect": {
+        "en": "Correct!",
+        "ar": "صحيح!"
+      },
+      "feedbackIncorrect": {
+        "en": "",
+        "ar": "الإجابة غير صحيحة. المصطلح الذي يعني شخصًا مزعجًا للغاية هو 'pain in the neck'."
+      }
+    },
+    "unit8_w_3_idiom_fill2": {
+      "type": "fill-blank",
+      "difficulty": 1,
+      "tags": [
+        "vocabulary",
+        "idiom",
+        "cost",
+        "expense",
+        "unit8",
+        "fill-blank"
+      ],
+      "supportContent": {
+        "en": "Complete the sentence with the correct form of an idiom from the list: [follow your heart, pain in the neck, jumped out of one’s skin, speak one’s mind, cost an arm and a leg]",
+        "ar": ""
+      },
+      "questionText": {
+        "en": "2. Buying a brand new car is going to <input type='text' class='fill-blank-input' data-blank-id='idiom2' placeholder='idiom...'>. Maybe we should ride bikes.",
+        "ar": ""
+      },
+      "correctAnswers": {
+        "idiom2": {
+          "en": "cost an arm and a leg",
+          "ar": ""
+        }
+      },
+      "feedbackCorrect": {
+        "en": "Correct!",
+        "ar": "صحيح!"
+      },
+      "feedbackIncorrect": {
+        "en": "",
+        "ar": "الإجابة غير صحيحة. المصطلح الذي يعني أن شيئًا ما باهظ الثمن للغاية هو 'cost an arm and a leg'."
+      }
+    },
+    "unit8_w_4_idiom_fill3": {
+      "type": "fill-blank",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "idiom",
+        "honesty",
+        "opinion",
+        "unit8",
+        "fill-blank"
+      ],
+      "supportContent": {
+        "en": "Complete the sentence with the correct form of an idiom from the list: [follow your heart, pain in the neck, jumped out of one’s skin, speak one’s mind, cost an arm and a leg]",
+        "ar": ""
+      },
+      "questionText": {
+        "en": "3. My sister is very polite. She does not <input type='text' class='fill-blank-input' data-blank-id='idiom3' placeholder='idiom...'>.",
+        "ar": ""
+      },
+      "correctAnswers": {
+        "idiom3": {
+          "en": "speak her mind",
+          "ar": ""
+        } 
+      },
+      "feedbackCorrect": {
+        "en": "Correct! If she's polite, she might avoid speaking her mind too bluntly.",
+        "ar": "صحيح! إذا كانت مؤدبة، فقد تتجنب قول ما تفكر به بصراحة تامة."
+      },
+      "feedbackIncorrect": {
+        "en": "",
+        "ar": "الإجابة غير صحيحة. المصطلح الذي يعني قول ما يفكر به الشخص بصراحة هو 'speak one’s mind'. الجملة منفية ('does not')."
+      }
+    },
+    "unit8_w_5_idiom_fill4": {
+      "type": "fill-blank",
+      "difficulty": 1,
+      "tags": [
+        "vocabulary",
+        "idiom",
+        "instinct",
+        "feeling",
+        "advice",
+        "unit8",
+        "fill-blank"
+      ],
+      "supportContent": {
+        "en": "Complete the sentence with the correct form of an idiom from the list: [follow your heart, pain in the neck, jumped out of one’s skin, speak one’s mind, cost an arm and a leg]",
+        "ar": ""
+      },
+      "questionText": {
+        "en": "4. The best advice is to <input type='text' class='fill-blank-input' data-blank-id='idiom4' placeholder='idiom...'> but keep your eyes open.",
+        "ar": ""
+      },
+      "correctAnswers": {
+        "idiom4": {
+          "en": "follow your heart",
+          "ar": ""
+        }
+      },
+      "feedbackCorrect": {
+        "en": "Correct!",
+        "ar": "صحيح!"
+      },
+      "feedbackIncorrect": {
+        "en": "",
+        "ar": "الإجابة غير صحيحة. المصطلح الذي يعني اتباع مشاعرك العميقة هو 'follow your heart'."
+      }
+    },
+    "unit8_w_6_idiom_fill5": {
+      "type": "fill-blank",
+      "difficulty": 1,
+      "tags": [
+        "vocabulary",
+        "idiom",
+        "surprise",
+        "shock",
+        "unit8",
+        "fill-blank"
+      ],
+      "supportContent": {
+        "en": "Complete the sentence with the correct form of an idiom from the list: [follow your heart, pain in the neck, jumped out of one’s skin, speak one’s mind, cost an arm and a leg]",
+        "ar": ""
+      },
+      "questionText": {
+        "en": "5. Our friend almost <input type='text' class='fill-blank-input' data-blank-id='idiom5' placeholder='idiom...'> when she learned her son and his wife were having triplets.",
+        "ar": ""
+      },
+      "correctAnswers": {
+        "idiom5": {
+          "en": "jumped out of her skin",
+          "ar": ""
+        } 
+      },
+      "feedbackCorrect": {
+        "en": "Correct! Adjusted for the pronoun 'her'.",
+        "ar": "صحيح! تم تعديل الضمير إلى 'her'."
+      },
+      "feedbackIncorrect": {
+        "en": "",
+        "ar": "الإجابة غير صحيحة. المصطلح الذي يعني الشعور بصدمة أو مفاجأة شديدة هو 'jumped out of one’s skin'. انتبه لتغيير الضمير ليتناسب مع 'she'."
+      }
+    },
+    
+      "unit8_w_7_indef_pron1": {
+        "type": "fill-blank",
+        "difficulty": 1,
+        "tags": [
+          "grammar",
+          "indefinite-relative-pronoun",
+          "mcq",
+          "unit8",
+          "fill-blank"
+        ],
+        "supportContent": {
+          "en": "Fill in the gap with a word from the list: [whoever, wherever, whichever, whenever, whatever]",
+          "ar": ""
+        },
+        "questionText": {
+          "en": "1. There are two books on the table. Take <input type='text' class='fill-blank-input' data-blank-id='pron1' placeholder='...'> you like.",
+          "ar": ""
+        },
+        "correctAnswers": {
+          "pron1": {
+            "en": "whichever",
+            "ar": ""
+          }
+        },
+        "feedbackCorrect": {
+          "en": "Correct!",
+          "ar": "صحيح!"
+        },
+        "feedbackIncorrect": {
+          "en": "",
+          "ar": "الإجابة غير صحيحة. عند الاختيار من بين مجموعة محدودة (كتابين)، نستخدم 'whichever'."
+        }
+      },
+      "unit8_w_8_indef_pron2": {
+        "type": "fill-blank",
+        "difficulty": 1,
+        "tags": [
+          "grammar",
+          "indefinite-relative-pronoun",
+          "place",
+          "unit8",
+          "fill-blank"
+        ],
+        "supportContent": {
+          "en": "Fill in the gap with a word from the list: [whoever, wherever, whichever, whenever, whatever]",
+          "ar": ""
+        },
+        "questionText": {
+          "en": "2. <input type='text' class='fill-blank-input' data-blank-id='pron2' placeholder='...'> you go, you’ll find people speak English.",
+          "ar": ""
+        },
+        "correctAnswers": {
+          "pron2": {
+            "en": "Wherever",
+            "ar": ""
+          } 
+        },
+        "feedbackCorrect": {
+          "en": "Correct!",
+          "ar": "صحيح!"
+        },
+        "feedbackIncorrect": {
+          "en": "",
+          "ar": "الإجابة غير صحيحة. للإشارة إلى أي مكان تذهب إليه، نستخدم 'Wherever'. انتبه لأنها تبدأ الجملة."
+        }
+      },
+      "unit8_w_9_indef_pron3": {
+        "type": "fill-blank",
+        "difficulty": 1,
+        "tags": [
+          "grammar",
+          "indefinite-relative-pronoun",
+          "person",
+          "unit8",
+          "fill-blank"
+        ],
+        "supportContent": {
+          "en": "Fill in the gap with a word from the list: [whoever, wherever, whichever, whenever, whatever]",
+          "ar": ""
+        },
+        "questionText": {
+          "en": "3. I don’t want to talk to him <input type='text' class='fill-blank-input' data-blank-id='pron3' placeholder='...'> he is.",
+          "ar": ""
+        },
+        "correctAnswers": {
+          "pron3": {
+            "en": "whoever",
+            "ar": ""
+          }
+        },
+        "feedbackCorrect": {
+          "en": "Correct!",
+          "ar": "صحيح!"
+        },
+        "feedbackIncorrect": {
+          "en": "",
+          "ar": "الإجابة غير صحيحة. للإشارة إلى أي شخص كان (لا يهم من هو)، نستخدم 'whoever'."
+        }
+      },
+      "unit8_w_10_indef_pron4": {
+        "type": "fill-blank",
+        "difficulty": 1,
+        "tags": [
+          "grammar",
+          "indefinite-relative-pronoun",
+          "thing",
+          "unit8",
+          "fill-blank"
+        ],
+        "supportContent": {
+          "en": "Fill in the gap with a word from the list: [whoever, wherever, whichever, whenever, whatever]",
+          "ar": ""
+        },
+        "questionText": {
+          "en": "4. I’ll cook <input type='text' class='fill-blank-input' data-blank-id='pron4' placeholder='...'> you want.",
+          "ar": ""
+        },
+        "correctAnswers": {
+          "pron4": {
+            "en": "whatever",
+            "ar": ""
+          }
+        },
+        "feedbackCorrect": {
+          "en": "Correct!",
+          "ar": "صحيح!"
+        },
+        "feedbackIncorrect": {
+          "en": "",
+          "ar": "الإجابة غير صحيحة. للإشارة إلى أي شيء تريده (لا يهم ما هو)، نستخدم 'whatever'."
+        }
+      },
+      "unit8_w_11_indef_pron5": {
+        "type": "fill-blank",
+        "difficulty": 1,
+        "tags": [
+          "grammar",
+          "indefinite-relative-pronoun",
+          "time",
+          "unit8",
+          "fill-blank"
+        ],
+        "supportContent": {
+          "en": "Fill in the gap with a word from the list: [whoever, wherever, whichever, whenever, whatever]",
+          "ar": ""
+        },
+        "questionText": {
+          "en": "5. You can borrow my car <input type='text' class='fill-blank-input' data-blank-id='pron5' placeholder='...'> you like.",
+          "ar": ""
+        },
+        "correctAnswers": {
+          "pron5": {
+            "en": "whenever",
+            "ar": ""
+          }
+        },
+        "feedbackCorrect": {
+          "en": "Correct!",
+          "ar": "صحيح!"
+        },
+        "feedbackIncorrect": {
+          "en": "",
+          "ar": "الإجابة غير صحيحة. للإشارة إلى أي وقت تريده (لا يهم متى)، نستخدم 'whenever'."
+        }
+      }
+    }
+  

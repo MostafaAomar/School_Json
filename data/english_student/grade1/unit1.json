@@ -1,0 +1,85 @@
+{
+  "questions": [
+  {
+ "q1_fill": {     
+  "type": "fill-blank",
+  "questionText": { 
+    "en": "The capital of France is ......", 
+    "ar": "عاصمة فرنسا هي ......" 
+  },
+  "correctAnswers": {
+    "w1_1": { "en": "Paris", "ar": "" }
+  }
+},
+         
+      "type": "reading",
+      "questionText": "I'm Tom. What's your name?",
+      "translation": "أنا توم. ما اسمك؟"
+    },   
+ {
+
+      "type": "mcq",
+
+      "questionText": "Where is Tom?",
+
+      "translation": "أين توم؟",
+
+      "options": [
+
+        {"questionText": "In the kitchen", "correctAnswer": false},
+
+        {"questionText": "In the bedroom", "correctAnswer": true}
+
+      ]
+
+    },
+  {
+
+      "type": "matching",
+
+      "questionText": "Match the words to the images",
+
+      "pairs": [
+
+        {
+
+          "id": 1,
+
+          "left": "Apple",
+
+          "right": "https://cdn-icons-png.flaticon.com/512/415/415733.png",
+
+          "isImage": true
+
+        },
+
+        {
+
+          "id": 2,
+
+          "left": "Car",
+
+          "right": "سيارة",
+
+          "isImage": false
+
+        },
+
+        {
+
+          "id": 3,
+
+          "left": "Book",
+
+          "right": "كتاب",
+
+          "isImage": false
+
+        }
+
+      ]
+
+    }
+
+  ]
+}

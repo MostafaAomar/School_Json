@@ -1,0 +1,130 @@
+{
+  "questions": [
+
+    {
+      "type": "mcq",
+      "questionText": "Where is Tom?",
+      "translation": "أين توم؟",
+      "options": [
+        {"questionText": "In the kitchen", "correctAnswer": false},
+        {"questionText": "In the bedroom", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Is the ball in the box?",
+      "translation": "هل الكرة داخل الصندوق؟",
+      "options": [
+        {"questionText": "No, it isn't", "correctAnswer": true},
+        {"questionText": "Yes, it is", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Where is the doll?",
+      "translation": "أين الدمية؟",
+      "options": [
+        {"questionText": "On the table", "correctAnswer": false},
+        {"questionText": "On the chair", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Odd one out: doll, dress, shirt, hat",
+      "translation": "اختر المختلف: دمية، فستان، قميص، قبعة",
+      "options": [
+        {"questionText": "doll", "correctAnswer": true},
+        {"questionText": "dress", "correctAnswer": false},
+        {"questionText": "shirt", "correctAnswer": false},
+        {"questionText": "hat", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Odd one out: milk, sandwich, chair, chicken",
+      "translation": "اختر المختلف: حليب، شطيرة، كرسي، دجاج",
+      "options": [
+        {"questionText": "chair", "correctAnswer": true},
+        {"questionText": "milk", "correctAnswer": false},
+        {"questionText": "sandwich", "correctAnswer": false},
+        {"questionText": "chicken", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Odd one out: winter, summer, blue, autumn",
+      "translation": "اختر المختلف: شتاء، صيف، أزرق، خريف",
+      "options": [
+        {"questionText": "blue", "correctAnswer": true},
+        {"questionText": "winter", "correctAnswer": false},
+        {"questionText": "summer", "correctAnswer": false},
+        {"questionText": "autumn", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Listen and circle: My favourite season is...",
+      "translation": "استمع وضع دائرة: فصلي المفضل هو...",
+      "options": [
+        {"questionText": "winter", "correctAnswer": false},
+        {"questionText": "spring", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "The weather is...",
+      "translation": "الطقس...",
+      "options": [
+        {"questionText": "cold", "correctAnswer": false},
+        {"questionText": "hot", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "My brother has a green...",
+      "translation": "أخي لديه ... أخضر",
+      "options": [
+        {"questionText": "hat", "correctAnswer": true},
+        {"questionText": "jacket", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "I’m a small",
+      "translation": "أنا صغير",
+      "options": [
+        {"questionText": "ant", "correctAnswer": true},
+        {"questionText": "cat", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "My house is",
+      "translation": "بيتي هو",
+      "options": [
+        {"questionText": "big", "correctAnswer": false},
+        {"questionText": "small", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "I like",
+      "translation": "أنا أحب",
+      "options": [
+        {"questionText": "summer", "correctAnswer": true},
+        {"questionText": "winter", "correctAnswer": false}
+      ]
+    }
+  ]
+}

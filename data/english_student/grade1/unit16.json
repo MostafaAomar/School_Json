@@ -1,0 +1,68 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "Look! There are four elephants. \n They are big.",
+      "translation": "انظر! هناك أربعة أفيال. إنها كبيرة."
+    },
+    {
+      "type": "reading",
+      "questionText": "Is there a tiger?\n Yes, there is.",
+      "translation": "هل هناك نمر؟ نعم، هناك."
+    },
+    {
+      "type": "reading",
+      "questionText": "There is a monkey.\n It is funny.",
+      "translation": "هناك قرد. إنه مضحك."
+    },
+    {
+      "type": "reading",
+      "questionText": "Are there parrots?\n No, there aren't.",
+      "translation": "هل هناك ببغاوات؟ لا، لا يوجد."
+    },
+    {
+      "type": "reading",
+      "questionText": "Look, it is a small rabbit.",
+      "translation": "انظر، إنه أرنب صغير."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the animals to the pictures",
+      "pairs": [
+        {"id": 1, "left": "elephant", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/elephant.png", "isImage": true},
+        {"id": 2, "left": "tiger", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tiger.png", "isImage": true},
+        {"id": 3, "left": "monkey", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/monkey.png", "isImage": true},
+        {"id": 4, "left": "parrot", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/parrot.png", "isImage": true},
+        {"id": 5, "left": "rabbit", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/rabbit.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Is there an elephant?",
+      "translation": "هل هناك فيل؟",
+      "options": [
+        {"questionText": "Yes, there is", "correctAnswer": true},
+        {"questionText": "No, there isn't", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "Are there parrots?",
+      "translation": "هل هناك ببغاوات؟",
+      "options": [
+        {"questionText": "Yes, there are", "correctAnswer": false},
+        {"questionText": "No, there aren't", "correctAnswer": true}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "B b basket. S s strawberry.",
+      "translation": " B b — سلة.  S s — فراولة."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "Who's that?",
+      "translation": "من هذا؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "That's Peter.",
+      "translation": "ذلك بيتر."
+    },
+    {
+      "type": "reading",
+      "questionText": "Who's this?",
+      "translation": "من هذا؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "Jack has a red hat.",
+      "translation": "جاك لديه قبعة حمراء."
+    },
+    {
+      "type": "reading",
+      "questionText": "He has a black jacket.",
+      "translation": "لديه سترة سوداء."
+    },
+    {
+      "type": "reading",
+      "questionText": "This is Tom.",
+      "translation": "هذا توم."
+    },
+    {
+      "type": "reading",
+      "questionText": "That's Mary.",
+      "translation": "تلك ماري."
+    },
+    {
+      "type": "reading",
+      "questionText": "He has a blue shirt and a yellow tie.",
+      "translation": "لديه قميص أزرق وربطة عنق صفراء."
+    },
+    {
+      "type": "reading",
+      "questionText": "Mary has a green dress.",
+      "translation": "ماري لديها فستان أخضر."
+    },
+
+    {
+      "type": "matching",
+      "questionText": "Match the clothes to the pictures",
+      "pairs": [
+        {"id": 1, "left": "shirt", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/shirt.png", "isImage": true},
+        {"id": 2, "left": "dress", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/dress.png", "isImage": true},
+        {"id": 3, "left": "hat", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/hat.png", "isImage": true},
+        {"id": 4, "left": "jacket", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/jacket.png", "isImage": true},
+        {"id": 5, "left": "tie", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tie.png", "isImage": true}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "Who's that?\n That's Boxy.\n Boxy has a red hat.",
+      "translation": "من هذا؟ هذا بوكسي. لدى بوكسي قبعة حمراء."
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "What colour is Tom's shirt?",
+      "translation": "ما لون قميص توم؟",
+      "options": [
+        {"questionText": "Blue", "correctAnswer": true},
+        {"questionText": "Red", "correctAnswer": false},
+        {"questionText": "Green", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "What colour is Mary's dress?",
+      "translation": "ما لون فستان ماري؟",
+      "options": [
+        {"questionText": "Green", "correctAnswer": true},
+        {"questionText": "Yellow", "correctAnswer": false},
+        {"questionText": "Black", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "P p pen.\n H h hen.",
+      "translation": " P p — قلم. \n H h — دجاجة."
+    },
+    {
+      "type": "reading",
+      "questionText": "This is a pen, p, p, pen.\n This is a hen, h, h, hen.\n I draw a hen with my pen.",
+      "translation": " هذا قلم، ب، ب، قلم. \n هذه دجاجة، هـ، هـ، دجاجة. \n أرسم دجاجة بقلمي."
+    }
+  ]
+}

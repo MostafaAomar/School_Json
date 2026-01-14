@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "type": "matching",
+      "questionText": "Match the sentence to the pictures",
+      "pairs": [
+        {
+          "id": 1,
+          "left": "He’s my father.",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/father.png",
+          "isImage": true
+        },
+        {
+          "id": 2,
+          "left": "She’s my mother",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mother.png",
+          "isImage": true
+        },
+        {
+          "id": 3,
+          "left": "He’s my brother",
+          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/brother.png",
+          "isImage": true
+        }
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tree.png  ",
+      "translation": "ما هذا؟ ",
+      "isImage": true,
+      "options": [
+        {"questionText": "It’s a tree.", "correctAnswer": true},
+        {"questionText": "It’s a banana.", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "mcq",
+      "questionText": "2- Is it a red flower?",
+      "translation": "هل هي زهرة حمراء؟ ",
+      "options": [
+        {"questionText": "No, it isn’t.", "correctAnswer": true},
+        {"questionText": "Yes, it is.", "correctAnswer": false}
+      ]
+    },
+    {
+      "type": "mcq",
+      "questionText": "3- How old is Suzan?",
+      "translation": "كم عمر سوزان؟ ",
+      "options": [
+        {"questionText": "She’s seven.", "correctAnswer": false},
+        {"questionText": "She’s ten.", "correctAnswer": true}
+      ]
+    }
+  ]
+}

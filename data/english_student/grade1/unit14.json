@@ -1,0 +1,48 @@
+{
+  "questions": [
+
+    {
+      "type": "reading",
+      "questionText": "I like spring.\n What's your favourite season, Mary?",
+      "translation": "أنا أحب الربيع.   ما هو فصلك المفضل يا ماري؟"
+    },
+    
+    {
+      "type": "reading",
+      "questionText": "I like summer. It's hot.\n What's your favourite season, Sally?",
+      "translation": "أنا أحب الصيف. الجو حار.  ما هو فصلك المفضل يا سالي؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I like autumn. \n What about you, Jack?",
+      "translation": "أنا أحب الخريف. وماذا عنك يا جاك؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I like winter.\n It's cold in winter.",
+      "translation": "أنا أحب الشتاء. الجو بارد في الشتاء."
+    },
+    {
+      "type": "mcq",
+      "questionText": "What's your favourite season?",
+      "translation": "ما هو فصلك المفضل؟",
+      "options": [
+        {"questionText": "Spring", "correctAnswer": false},
+        {"questionText": "Summer", "correctAnswer": true},
+        {"questionText": "Winter", "correctAnswer": false},
+        {"questionText": "Autumn", "correctAnswer": false}
+      ]
+    },
+
+    {
+      "type": "reading",
+      "questionText": "It's cold.",
+      "translation": "إنه بارد."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's hot.",
+      "translation": "إنه حار."
+    }
+  ]
+}

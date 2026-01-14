@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "type": "reading",
+      "questionText": "What's this?",
+      "translation": "ما هذا؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a book.",
+      "translation": "إنه كتاب."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a desk.",
+      "translation": "إنه مكتب."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a table.",
+      "translation": "إنه طاولة."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a pencil.",
+      "translation": "إنه قلم رصاص."
+    },
+    {
+      "type": "reading",
+      "questionText": "It's a bag.",
+      "translation": "إنه حقيبة."
+    },
+    {
+      "type": "reading",
+      "questionText": "Touch the desk.",
+      "translation": "المس المكتب."
+    },
+    {
+      "type": "reading",
+      "questionText": "What's this? It's a pencil.",
+      "translation": "ما هذا؟ إنه قلم رصاص."
+    },
+    {
+      "type": "reading",
+      "questionText": "In my classroom, I can see, point with me, point with me.",
+      "translation": "في صفي، أستطيع أن أرى، أشر معي، أشر معي."
+    },
+    {
+      "type": "reading",
+      "questionText": "I can see a chair, can you see?",
+      "translation": "أستطيع أن أرى كرسيًا، هل تستطيع أن ترى؟"
+    },
+    {
+      "type": "reading",
+      "questionText": "I can see a desk, can you see?",
+      "translation": "أستطيع أن أرى مكتبًا، هل تستطيع أن ترى؟"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "type": "reading",
+      "questionText": "Sit down, please!",
+      "translation": "اجلس من فضلك!"
+    },
+    {
+      "type": "reading",
+      "questionText": "Stand up, please!",
+      "translation": "قف من فضلك!"
+    },
+    {
+      "type": "reading",
+      "questionText": "Come here.",
+      "translation": "تعال هنا."
+    },
+    {
+      "type": "reading",
+      "questionText": "Close the window.",
+      "translation": "أغلق النافذة."
+    },
+    {
+      "type": "reading",
+      "questionText": "Open the door.",
+      "translation": "افتح الباب."
+    },
+    {
+      "type": "reading",
+      "questionText": "Open your book, please.",
+      "translation": "افتح كتابك من فضلك."
+    },
+    {
+      "type": "reading",
+      "questionText": "Thank you!",
+      "translation": "شكرًا لك!"
+    },
+    {
+      "type": "reading",
+      "questionText": "One,\n two,\n three,\n four,\n five.",
+      "translation": "واحد، اثنان، ثلاثة، أربعة، خمسة."
+    },
+    {
+      "type": "reading",
+      "questionText": "One two three,\n four and five.",
+      "translation": "واحد اثنان ثلاثة، أربعة وخمسة."
+    },
+    {
+      "type": "reading",
+      "questionText": "Let's play,\n count and say:\n One two three,\n four and five.",
+      "translation": "لنلعب، عد وقل: واحد اثنان ثلاثة، أربعة وخمسة."
+    }
+  ]
+}
