@@ -20,7 +20,7 @@
     "tags": ["vocabulary", "completion", "context", "unit2"],
     "supportContent": {
       "en": "Now use the words in bold in the text (not provided, guessed below) to complete these sentences.",
-      "ar": ""
+      "ar": " الآن استخدم الكلمات المكتوبة بالخط العريض في النص (غير موفر، تم تخمينها أدناه) لإكمال هذه الجمل."
     },
     "questionText": {
       "en": "1. Their companies went <input type='text' class='fill-blank-input' data-blank-id='w1_1' placeholder='______' style='width: 120px;'> before they reached a great economic recovery.\n\n2. Failures are often considered a <input type='text' class='fill-blank-input' data-blank-id='w1_2' placeholder='______' style='width: 120px;'> of success in all areas of life.\n\n3. He obtained <input type='text' class='fill-blank-input' data-blank-id='w1_3' placeholder='______' style='width: 120px;'> for inventing new things.\n\n4. Throughout his career, he won a <input type='text' class='fill-blank-input' data-blank-id='w1_4' placeholder='______' style='width: 120px;'> fortune of billions of dollars.\n\n5. He retired after failing as a/an <input type='text' class='fill-blank-input' data-blank-id='w1_5' placeholder='______' style='width: 120px;'> employee.\n\n6. He <input type='text' class='fill-bank-input' data-blank-id='w1_6' placeholder='______' style='width: 120px;'> useless methods until he finally succeeded.",
