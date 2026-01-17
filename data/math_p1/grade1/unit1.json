@@ -1,16 +1,5 @@
 {
-  "metadata": {
-    "unitTitle": {
-      "en": "Unit 2: Math Operations",
-      "ar": "الوحدة الثانية: العمليات الحسابية"
-    },
-    "passage": {
-      "en": "Mathematics is the language of the universe. It helps us understand patterns, solve problems, and make logical decisions in our daily lives.",
-      "ar": "الرياضيات هي لغة الكون. فهي تساعدنا على فهم الأنماط، حل المشكلات، واتخاذ قرارات منطقية في حياتنا اليومية."
-    },
-    "videoUrl": "https://www.youtube.com/watch?v=math-video-id",
-    "audioUrl": "https://raw.githubusercontent.com/username/repo/main/audio/math_intro.mp3"
-  },
+
 
   "math_q1_mcq": {
     "type": "mcq",
