@@ -21,6 +21,13 @@
       "color": "#A78BFA",
       "icon": "📝",
       "available_grades": [1, 9, 12]
+    },
+    {
+      "id": "math_p2",
+      "name": " رياضيات فصل ثاني",
+      "color": "#A78BFA",
+      "icon": "📝",
+      "available_grades": [1, 9, 12]
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+
+
+  "math_q1_mcq": {
+    "type": "mcq",
+    "difficulty": 1,
+    "tags": ["addition", "basics"],
+    "supportContent": {
+      "en": "Choose the correct answer for the sum.",
+      "ar": "اختر الإجابة الصحيحة لناتج الجمع."
+    },
+    "questionText": {
+      "en": "What is 150 + 250?",
+      "ar": "ما هو ناتج 150 + 250؟"
+    },
+    "options": [
+      { "en": "300", "ar": "300" },
+      { "en": "400", "ar": "400" },
+      { "en": "350", "ar": "350" },
+      { "en": "450", "ar": "450" }
+    ],
+    "correctAnswer": { "en": "400", "ar": "400" },
+    "feedbackCorrect": {
+      "en": "Excellent! 150 + 250 = 400.",
+      "ar": "ممتاز! 150 + 250 = 400."
+    },
+    "feedbackIncorrect": {
+      "en": "Try again. Hint: 15+25 = 40, then add the zero.",
+      "ar": "حاول ثانية. تلميح: 15+25 = 40، ثم أضف الصفر."
+    }
+  },
+
+  "math_q2_matching": {
+    "type": "matching",
+    "difficulty": 2,
+    "tags": ["geometry", "shapes"],
+    "supportContent": {
+      "en": "Match each shape with the number of its sides.",
+      "ar": "طابق كل شكل بعدد أضلاعه."
+    },
+    "questionText": {
+      "en": "Match shapes to side counts:",
+      "ar": "طابق الأشكال بعدد الأضلاع:"
+    },
+    "draggableItems": [
+      { "id": "sides_3", "text": { "en": "3 Sides", "ar": "3 أضلاع" } },
+      { "id": "sides_4", "text": { "en": "4 Sides", "ar": "4 أضلاع" } },
+      { "id": "sides_5", "text": { "en": "5 Sides", "ar": "5 أضلاع" } },
+      { "id": "sides_6", "text": { "en": "6 Sides", "ar": "6 أضلاع" } }
+    ],
+    "dropZones": [
+      { "id": "zone_tri", "label": { "en": "Triangle", "ar": "المثلث" }, "accepts": "sides_3" },
+      { "id": "zone_squ", "label": { "en": "Square", "ar": "المربع" }, "accepts": "sides_4" },
+      { "id": "zone_pen", "label": { "en": "Pentagon", "ar": "المخمس" }, "accepts": "sides_5" },
+      { "id": "zone_hex", "label": { "en": "Hexagon", "ar": "المسدس" }, "accepts": "sides_6" }
+    ],
+    "feedbackCorrect": {
+      "en": "Well done! You know your geometric shapes.",
+      "ar": "أحسنت! أنت تعرف أشكالك الهندسية جيداً."
+    },
+    "feedbackIncorrect": {
+      "en": "Some shapes are matched incorrectly. Review the number of sides for each shape.",
+      "ar": "بعض الأشكال غير متطابقة بشكل صحيح. راجع عدد الأضلاع لكل شكل."
+    }
+  },
+
+  "math_q3_fill": {
+    "type": "fill-blank",
+    "difficulty": 2,
+    "tags": ["multiplication", "logic"],
+    "supportContent": {
+      "en": "Type the missing number in the multiplication table.",
+      "ar": "اكتب الرقم الناقص في جدول الضرب."
+    },
+    "questionText": {
+      "en": "If 7 x 8 = <input type='text' class='fill-blank-input' data-blank-id='mult_result' placeholder='?'>",
+      "ar": "إذا كان 7 × 8 = <input type='text' class='fill-blank-input' data-blank-id='mult_result' placeholder='؟'>"
+    },
+    "correctAnswers": {
+      "mult_result": { "en": "56", "ar": "56" }
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 7 times 8 is 56.",
+      "ar": "صحيح! 7 ضرب 8 يساوي 56."
+    },
+    "feedbackIncorrect": {
+      "en": "Not quite. 7 x 7 is 49, so add another 7 to get the answer.",
+      "ar": "ليس تماماً. 7 × 7 هو 49، لذا أضف 7 أخرى لتحصل على الإجابة."
+    }
+  }
+}
