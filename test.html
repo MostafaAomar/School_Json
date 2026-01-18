@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منشئ المحتوى المتقدم - تعدد الوسائط</title>
+    <style>
+        :root { --primary: #2563eb; --secondary: #6366f1; --success: #10b981; --bg: #f8fafc; --danger: #ef4444; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); padding: 20px; color: #1e293b; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        h1 { text-align: center; color: var(--primary); margin-bottom: 30px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        
+        .section { background: #f1f5f9; padding: 20px; border-radius: 12px; margin-bottom: 25px; border: 1px solid #e2e8f0; }
+        .section-title { font-weight: bold; margin-bottom: 15px; display: block; color: var(--primary); font-size: 20px; border-right: 4px solid var(--primary); padding-right: 10px; }
+        
+        input, textarea, select { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; font-size: 14px; }
+        
+        /* تصميم كروت المحتوى والأسئلة */
+        .card { background: white; padding: 20px; border-radius: 12px; margin-top: 15px; border: 1px solid #e2e8f0; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .content-card { border-right: 6px solid var(--secondary); }
+        .question-card { border-right: 6px solid var(--primary); }
+
+        .btn { cursor: pointer; border: none; padding: 12px 20px; border-radius: 8px; font-weight: bold; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .btn-add { background: var(--secondary); color: white; margin-top: 10px; }
+        .btn-add-q { background: var(--primary); color: white; width: 100%; margin-top: 15px; justify-content: center; }
+        .btn-download { background: var(--success); color: white; width: 100%; font-size: 20px; margin-top: 30px; height: 60px; justify-content: center; }
+        .btn-remove { background: var(--danger); color: white; padding: 6px 12px; font-size: 12px; position: absolute; left: 15px; top: 15px; }
+        
+        .matching-item-row { display: grid; grid-template-columns: 1fr 1fr 1fr 40px; gap: 10px; background: #f8fafc; padding: 10px; border-radius: 8px; margin-top: 10px; border: 1px dashed #cbd5e1; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; background: #fffbeb; padding: 10px; border-radius: 8px; margin-top: 10px; }
+        label { font-size: 13px; font-weight: bold; color: #475569; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>📝 نظام إنشاء الدروس التفاعلية المتطور</h1>
+
+    <div class="section">
+        <span class="section-title">1. عناوين الوحدة</span>
+        <div class="grid">
+            <input type="text" id="unitEn" placeholder="اسم الوحدة (English)">
+            <input type="text" id="unitAr" placeholder="اسم الوحدة (عربي)">
+        </div>
+    </div>
+
+    <div class="section">
+        <span class="section-title">2. مادة الدرس (نصوص وفيديوهات متعددة)</span>
+        <div id="contentBlocksContainer"></div>
+        <button class="btn btn-add" onclick="addContentBlock()">➕ إضافة (نص + فيديو + صوت) جديد</button>
+    </div>
+
+    <div class="section">
+        <span class="section-title">3. الأسئلة والتمارين</span>
+        <div id="questionsContainer"></div>
+        <button class="btn btn-add-q" onclick="addQuestion()">➕ إضافة سؤال جديد للدرس</button>
+    </div>
+
+    <button class="btn btn-download" onclick="exportJSON()">💾 تصدير ملف JSON النهائي</button>
+</div>
+
+<script>
+    let contentCount = 0;
+    let questionCount = 0;
+
+    // إضافة بلوك محتوى (نص + وسائط)
+    function addContentBlock() {
+        contentCount++;
+        const container = document.getElementById('contentBlocksContainer');
+        const div = document.createElement('div');
+        div.className = 'card content-card';
+        div.id = `content_block_${contentCount}`;
+        div.innerHTML = `
+            <button class="btn btn-remove" onclick="removeElement('content_block_${contentCount}')">حذف هذا الجزء</button>
+            <label>الجزء التعليمي #${contentCount}</label>
+            <div class="grid">
+                <textarea class="c-text-en" placeholder="النص الشرحي (English)" rows="3"></textarea>
+                <textarea class="c-text-ar" placeholder="النص الشرحي (عربي)" rows="3"></textarea>
+            </div>
+            <div class="media-grid">
+                <div>
+                    <label>رابط الفيديو لهذا الجزء:</label>
+                    <input type="text" class="c-video" placeholder="YouTube Link">
+                </div>
+                <div>
+                    <label>رابط الملف الصوتي لهذا الجزء:</label>
+                    <input type="text" class="c-audio" placeholder="Audio Link (MP3)">
+                </div>
+            </div>
+        `;
+        container.appendChild(div);
+    }
+
+    // إضافة سؤال
+    function addQuestion() {
+        questionCount++;
+        const container = document.getElementById('questionsContainer');
+        const div = document.createElement('div');
+        div.className = 'card question-card';
+        div.id = `q_card_${questionCount}`;
+        div.innerHTML = `
+            <button class="btn btn-remove" onclick="removeElement('q_card_${questionCount}')">حذف السؤال</button>
+            <span class="section-title" style="font-size:16px;">سؤال #${questionCount}</span>
+            <select onchange="renderQuestionInputs(${questionCount}, this.value)" id="type_${questionCount}">
+                <option value="mcq">اختيار من متعدد (MCQ)</option>
+                <option value="matching">توصيل (Matching) - صور ونصوص</option>
+                <option value="fill-blank">إكمال الفراغ</option>
+            </select>
+            <div class="grid">
+                <input type="text" id="q_text_en_${questionCount}" placeholder="نص السؤال (EN)">
+                <input type="text" id="q_text_ar_${questionCount}" placeholder="نص السؤال (AR)">
+            </div>
+            <div id="dynamic_area_${questionCount}"></div>
+        `;
+        container.appendChild(div);
+        renderQuestionInputs(questionCount, 'mcq');
+    }
+
+    function renderQuestionInputs(qId, type) {
+        const area = document.getElementById(`dynamic_area_${qId}`);
+        if (type === 'mcq') {
+            area.innerHTML = `<div class="grid"><input type="text" id="opt_correct_${qId}" placeholder="الجواب الصحيح"><input type="text" id="opt_2_${qId}" placeholder="خيار خاطئ"></div>`;
+        } else if (type === 'matching') {
+            area.innerHTML = `<div id="match_list_${qId}"></div><button class="btn btn-add" style="background:#4b5563; font-size:12px;" onclick="addMatchingRow(${qId})">➕ إضافة عنصر توصيل</button>`;
+            addMatchingRow(qId);
+        }
+    }
+
+    function addMatchingRow(qId) {
+        const list = document.getElementById(`match_list_${qId}`);
+        const row = document.createElement('div');
+        row.className = 'matching-item-row';
+        row.innerHTML = `<input type="text" class="m-en" placeholder="EN"><input type="text" class="m-ar" placeholder="AR"><input type="text" class="m-img" placeholder="رابط صورة"><button class="btn btn-remove" onclick="this.parentElement.remove()">X</button>`;
+        list.appendChild(row);
+    }
+
+    function removeElement(id) { document.getElementById(id).remove(); }
+
+    function exportJSON() {
+        const json = {
+            version: Date.now(),
+            metadata: {
+                unitTitle: { en: document.getElementById('unitEn').value, ar: document.getElementById('unitAr').value },
+                contentSections: [] // المصفوفة الجديدة لدعم تعدد النصوص والوسائط
+            }
+        };
+
+        // جمع أقسام المحتوى
+        document.querySelectorAll('.content-card').forEach(card => {
+            json.metadata.contentSections.push({
+                text: { en: card.querySelector('.c-text-en').value, ar: card.querySelector('.c-text-ar').value },
+                videoUrl: card.querySelector('.c-video').value,
+                audioUrl: card.querySelector('.c-audio').value
+            });
+        });
+
+        // جمع الأسئلة (بنفس المنطق السابق لضمان التوافق)
+        document.querySelectorAll('.question-card').forEach((card, index) => {
+            const qNum = card.id.split('_')[2];
+            const type = document.getElementById(`type_${qNum}`).value;
+            const key = `q_${index + 1}`;
+            
+            let qObj = {
+                type: type,
+                questionText: { en: document.getElementById(`q_text_en_${qNum}`).value, ar: document.getElementById(`q_text_ar_${qNum}`).value }
+            };
+
+            if (type === 'mcq') {
+                qObj.options = [{ en: document.getElementById(`opt_correct_${qNum}`).value, ar: "" }, { en: document.getElementById(`opt_2_${qNum}`).value, ar: "" }];
+                qObj.correctAnswer = qObj.options[0];
+            } else if (type === 'matching') {
+                qObj.draggableItems = []; qObj.targetItems = [];
+                card.querySelectorAll('.matching-item-row').forEach((row, rIdx) => {
+                    const id = `m_${rIdx}`;
+                    qObj.draggableItems.push({ id, text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value }, image: row.querySelector('.m-img').value || null });
+                    qObj.targetItems.push({ id, text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value } });
+                });
+            }
+            json[key] = qObj;
+        });
+
+        const dataUri = "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json, null, 2));
+        const link = document.createElement('a');
+        link.setAttribute("href", dataUri);
+        link.setAttribute("download", "lesson_multi_content.json");
+        link.click();
+    }
+</script>
+
+</body>
+</html>
