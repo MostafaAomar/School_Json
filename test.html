@@ -2,9 +2,9 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>منشئ المحتوى المتقدم - تعدد الوسائط</title>
+    <title>منشئ المحتوى التعليمي - النسخة الشاملة</title>
     <style>
-        :root { --primary: #2563eb; --secondary: #6366f1; --success: #10b981; --bg: #f8fafc; --danger: #ef4444; }
+        :root { --primary: #2563eb; --secondary: #6366f1; --success: #10b981; --bg: #f8fafc; --danger: #ef4444; --warning: #f59e0b; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); padding: 20px; color: #1e293b; line-height: 1.6; }
         .container { max-width: 1100px; margin: 0 auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
         h1 { text-align: center; color: var(--primary); margin-bottom: 30px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
@@ -14,7 +14,6 @@
         
         input, textarea, select { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; font-size: 14px; }
         
-        /* تصميم كروت المحتوى والأسئلة */
         .card { background: white; padding: 20px; border-radius: 12px; margin-top: 15px; border: 1px solid #e2e8f0; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
         .content-card { border-right: 6px solid var(--secondary); }
         .question-card { border-right: 6px solid var(--primary); }
@@ -25,8 +24,14 @@
         .btn-download { background: var(--success); color: white; width: 100%; font-size: 20px; margin-top: 30px; height: 60px; justify-content: center; }
         .btn-remove { background: var(--danger); color: white; padding: 6px 12px; font-size: 12px; position: absolute; left: 15px; top: 15px; }
         
-        .matching-item-row { display: grid; grid-template-columns: 1fr 1fr 1fr 40px; gap: 10px; background: #f8fafc; padding: 10px; border-radius: 8px; margin-top: 10px; border: 1px dashed #cbd5e1; }
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .mcq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .mcq-grid input.correct { border-right: 4px solid var(--success); background: #f0fdf4; }
+        
+        .matching-item-row { display: grid; grid-template-columns: 1fr 1fr 1fr 40px; gap: 10px; background: #f8fafc; padding: 10px; border-radius: 8px; margin-top: 10px; border: 1px dashed #cbd5e1; }
+        .feedback-box { background: #fff7ed; padding: 15px; border-radius: 8px; margin-top: 15px; border: 1px solid #fed7aa; }
+        .feedback-label { font-size: 12px; font-weight: bold; color: var(--warning); display: block; margin-bottom: 5px; }
+        
         .media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; background: #fffbeb; padding: 10px; border-radius: 8px; margin-top: 10px; }
         label { font-size: 13px; font-weight: bold; color: #475569; }
     </style>
@@ -34,24 +39,22 @@
 <body>
 
 <div class="container">
-    <h1>📝 نظام إنشاء الدروس التفاعلية المتطور</h1>
+    <h1>📝 منشئ المحتوى التفاعلي المتكامل</h1>
 
     <div class="section">
-        <span class="section-title">1. عناوين الوحدة</span>
+        <span class="section-title">1. البيانات الأساسية (Metadata)</span>
         <div class="grid">
-            <input type="text" id="unitEn" placeholder="اسم الوحدة (English)">
-            <input type="text" id="unitAr" placeholder="اسم الوحدة (عربي)">
+            <input type="text" id="unitEn" placeholder="عنوان الوحدة (English)">
+            <input type="text" id="unitAr" placeholder="عنوان الوحدة (عربي)">
+            <input type="number" id="manualVersion" placeholder="رقم الإصدار (مثلاً 1)" value="1">
         </div>
-    </div>
-
-    <div class="section">
-        <span class="section-title">2. مادة الدرس (نصوص وفيديوهات متعددة)</span>
+        
         <div id="contentBlocksContainer"></div>
-        <button class="btn btn-add" onclick="addContentBlock()">➕ إضافة (نص + فيديو + صوت) جديد</button>
+        <button class="btn btn-add" onclick="addContentBlock()">➕ إضافة فقرة شرح (نص + وسائط) للوحدة</button>
     </div>
 
     <div class="section">
-        <span class="section-title">3. الأسئلة والتمارين</span>
+        <span class="section-title">2. الأسئلة والتمارين</span>
         <div id="questionsContainer"></div>
         <button class="btn btn-add-q" onclick="addQuestion()">➕ إضافة سؤال جديد للدرس</button>
     </div>
@@ -63,7 +66,6 @@
     let contentCount = 0;
     let questionCount = 0;
 
-    // إضافة بلوك محتوى (نص + وسائط)
     function addContentBlock() {
         contentCount++;
         const container = document.getElementById('contentBlocksContainer');
@@ -71,27 +73,20 @@
         div.className = 'card content-card';
         div.id = `content_block_${contentCount}`;
         div.innerHTML = `
-            <button class="btn btn-remove" onclick="removeElement('content_block_${contentCount}')">حذف هذا الجزء</button>
-            <label>الجزء التعليمي #${contentCount}</label>
+            <button class="btn btn-remove" onclick="removeElement('content_block_${contentCount}')">حذف</button>
+            <label>فقرة المحتوى #${contentCount}</label>
             <div class="grid">
-                <textarea class="c-text-en" placeholder="النص الشرحي (English)" rows="3"></textarea>
-                <textarea class="c-text-ar" placeholder="النص الشرحي (عربي)" rows="3"></textarea>
+                <textarea class="c-text-en" placeholder="النص (EN)" rows="3"></textarea>
+                <textarea class="c-text-ar" placeholder="النص (AR)" rows="3"></textarea>
             </div>
             <div class="media-grid">
-                <div>
-                    <label>رابط الفيديو لهذا الجزء:</label>
-                    <input type="text" class="c-video" placeholder="YouTube Link">
-                </div>
-                <div>
-                    <label>رابط الملف الصوتي لهذا الجزء:</label>
-                    <input type="text" class="c-audio" placeholder="Audio Link (MP3)">
-                </div>
+                <input type="text" class="c-video" placeholder="رابط فيديو YouTube">
+                <input type="text" class="c-audio" placeholder="رابط ملف صوتي MP3">
             </div>
         `;
         container.appendChild(div);
     }
 
-    // إضافة سؤال
     function addQuestion() {
         questionCount++;
         const container = document.getElementById('questionsContainer');
@@ -103,7 +98,7 @@
             <span class="section-title" style="font-size:16px;">سؤال #${questionCount}</span>
             <select onchange="renderQuestionInputs(${questionCount}, this.value)" id="type_${questionCount}">
                 <option value="mcq">اختيار من متعدد (MCQ)</option>
-                <option value="matching">توصيل (Matching) - صور ونصوص</option>
+                <option value="matching">توصيل (Matching)</option>
                 <option value="fill-blank">إكمال الفراغ</option>
             </select>
             <div class="grid">
@@ -111,6 +106,19 @@
                 <input type="text" id="q_text_ar_${questionCount}" placeholder="نص السؤال (AR)">
             </div>
             <div id="dynamic_area_${questionCount}"></div>
+            
+            <div class="feedback-box">
+                <span class="feedback-label">✅ عند الإجابة الصحيحة (Feedback Correct):</span>
+                <div class="grid">
+                    <input type="text" id="fb_c_en_${questionCount}" placeholder="English Feedback">
+                    <input type="text" id="fb_c_ar_${questionCount}" placeholder="تغذية راجعة بالعربي">
+                </div>
+                <span class="feedback-label" style="margin-top:10px;">❌ عند الإجابة الخاطئة (Feedback Incorrect):</span>
+                <div class="grid">
+                    <input type="text" id="fb_i_en_${questionCount}" placeholder="English Feedback">
+                    <input type="text" id="fb_i_ar_${questionCount}" placeholder="تغذية راجعة بالعربي">
+                </div>
+            </div>
         `;
         container.appendChild(div);
         renderQuestionInputs(questionCount, 'mcq');
@@ -119,10 +127,20 @@
     function renderQuestionInputs(qId, type) {
         const area = document.getElementById(`dynamic_area_${qId}`);
         if (type === 'mcq') {
-            area.innerHTML = `<div class="grid"><input type="text" id="opt_correct_${qId}" placeholder="الجواب الصحيح"><input type="text" id="opt_2_${qId}" placeholder="خيار خاطئ"></div>`;
+            area.innerHTML = `
+                <div class="mcq-grid">
+                    <input type="text" id="opt_correct_${qId}" class="correct" placeholder="الخيار الصحيح (A)">
+                    <input type="text" id="opt_2_${qId}" placeholder="خيار خاطئ (B)">
+                    <input type="text" id="opt_3_${qId}" placeholder="خيار خاطئ (C)">
+                    <input type="text" id="opt_4_${qId}" placeholder="خيار خاطئ (D)">
+                </div>`;
         } else if (type === 'matching') {
-            area.innerHTML = `<div id="match_list_${qId}"></div><button class="btn btn-add" style="background:#4b5563; font-size:12px;" onclick="addMatchingRow(${qId})">➕ إضافة عنصر توصيل</button>`;
+            area.innerHTML = `
+                <div id="match_list_${qId}"></div>
+                <button class="btn btn-add" style="background:#4b5563; font-size:12px;" onclick="addMatchingRow(${qId})">➕ إضافة عنصر توصيل (كلمة أو صورة)</button>`;
             addMatchingRow(qId);
+        } else if (type === 'fill-blank') {
+            area.innerHTML = `<input type="text" id="blank_ans_${qId}" placeholder="الإجابة الصحيحة للفراغ">`;
         }
     }
 
@@ -130,7 +148,12 @@
         const list = document.getElementById(`match_list_${qId}`);
         const row = document.createElement('div');
         row.className = 'matching-item-row';
-        row.innerHTML = `<input type="text" class="m-en" placeholder="EN"><input type="text" class="m-ar" placeholder="AR"><input type="text" class="m-img" placeholder="رابط صورة"><button class="btn btn-remove" onclick="this.parentElement.remove()">X</button>`;
+        row.innerHTML = `
+            <input type="text" class="m-en" placeholder="النص (EN)  الجانب الأيسر">
+            <input type="text" class="m-ar" placeholder="النص (AR) الجانب الأيمن">
+            <input type="text" class="m-img" placeholder=" الجانب الأيمن رابط الصورة (اختياري)">
+            <button class="btn btn-remove" onclick="this.parentElement.remove()">X</button>
+        `;
         list.appendChild(row);
     }
 
@@ -138,14 +161,13 @@
 
     function exportJSON() {
         const json = {
-            version: Date.now(),
+            version: document.getElementById('manualVersion').value || 1,
             metadata: {
                 unitTitle: { en: document.getElementById('unitEn').value, ar: document.getElementById('unitAr').value },
-                contentSections: [] // المصفوفة الجديدة لدعم تعدد النصوص والوسائط
+                contentSections: []
             }
         };
 
-        // جمع أقسام المحتوى
         document.querySelectorAll('.content-card').forEach(card => {
             json.metadata.contentSections.push({
                 text: { en: card.querySelector('.c-text-en').value, ar: card.querySelector('.c-text-ar').value },
@@ -154,7 +176,6 @@
             });
         });
 
-        // جمع الأسئلة (بنفس المنطق السابق لضمان التوافق)
         document.querySelectorAll('.question-card').forEach((card, index) => {
             const qNum = card.id.split('_')[2];
             const type = document.getElementById(`type_${qNum}`).value;
@@ -162,19 +183,41 @@
             
             let qObj = {
                 type: type,
-                questionText: { en: document.getElementById(`q_text_en_${qNum}`).value, ar: document.getElementById(`q_text_ar_${qNum}`).value }
+                questionText: { en: document.getElementById(`q_text_en_${qNum}`).value, ar: document.getElementById(`q_text_ar_${qNum}`).value },
+                feedbackCorrect: { 
+                    en: document.getElementById(`fb_c_en_${qNum}`).value, 
+                    ar: document.getElementById(`fb_c_ar_${qNum}`).value 
+                },
+                feedbackIncorrect: { 
+                    en: document.getElementById(`fb_i_en_${qNum}`).value, 
+                    ar: document.getElementById(`fb_i_ar_${qNum}`).value 
+                }
             };
 
             if (type === 'mcq') {
-                qObj.options = [{ en: document.getElementById(`opt_correct_${qNum}`).value, ar: "" }, { en: document.getElementById(`opt_2_${qNum}`).value, ar: "" }];
+                qObj.options = [
+                    { en: document.getElementById(`opt_correct_${qNum}`).value, ar: "" },
+                    { en: document.getElementById(`opt_2_${qNum}`).value, ar: "" },
+                    { en: document.getElementById(`opt_3_${qNum}`).value, ar: "" },
+                    { en: document.getElementById(`opt_4_${qNum}`).value, ar: "" }
+                ];
                 qObj.correctAnswer = qObj.options[0];
             } else if (type === 'matching') {
                 qObj.draggableItems = []; qObj.targetItems = [];
                 card.querySelectorAll('.matching-item-row').forEach((row, rIdx) => {
-                    const id = `m_${rIdx}`;
-                    qObj.draggableItems.push({ id, text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value }, image: row.querySelector('.m-img').value || null });
-                    qObj.targetItems.push({ id, text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value } });
+                    const id = `item_${rIdx}`;
+                    qObj.draggableItems.push({ 
+                        id, 
+                        text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value }, 
+                        image: row.querySelector('.m-img').value || null 
+                    });
+                    qObj.targetItems.push({ 
+                        id, 
+                        text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value } 
+                    });
                 });
+            } else if (type === 'fill-blank') {
+                qObj.correctAnswer = document.getElementById(`blank_ans_${qNum}`).value;
             }
             json[key] = qObj;
         });
@@ -182,7 +225,7 @@
         const dataUri = "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json, null, 2));
         const link = document.createElement('a');
         link.setAttribute("href", dataUri);
-        link.setAttribute("download", "lesson_multi_content.json");
+        link.setAttribute("download", "advanced_lesson.json");
         link.click();
     }
 </script>
