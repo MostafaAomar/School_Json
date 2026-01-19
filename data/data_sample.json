@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "unitTitle": { "en": "", "ar": "" },
+    "passage": { "en": "", "ar": "" },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  
+  "ID_السؤال_الأول": {
+    "type": "matching",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": { "en": "", "ar": "" },
+    "questionText": { "en": "", "ar": "" },
+    "draggableItems": [
+      { "id": "", "text": { "en": "", "ar": "" }, "image": "" }
+    ],
+    "dropZones": [
+      { "id": "", "label": { "en": "", "ar": "" }, "accepts": "ID_العنصر_المسحوب" }
+    ],
+    "feedbackCorrect": { "en": "", "ar": "" },
+    "feedbackIncorrect": { "en": "", "ar": "" }
+  },
+
+  "ID_السؤال_الثاني": {
+    "type": "mcq",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": { "en": "", "ar": "" },
+    "questionText": { "en": "", "ar": "" },
+    "options": [
+      { "en": "", "ar": "" }
+    ],
+    "correctAnswer": { "en": "", "ar": "" },
+    "feedbackCorrect": { "en": "", "ar": "" },
+    "feedbackIncorrect": { "en": "", "ar": "" }
+  },
+
+  "ID_السؤال_الثالث": {
+    "type": "fill-blank",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": { "en": "", "ar": "" },
+    "questionText": { "en": "", "ar": "" },
+    "correctAnswers": {
+      "data_blank_id": { "en": "", "ar": "" }
+    },
+    "feedbackCorrect": { "en": "", "ar": "" },
+    "feedbackIncorrect": { "en": "", "ar": "" }
+  }
+}
