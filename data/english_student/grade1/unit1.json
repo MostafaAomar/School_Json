@@ -1,85 +1,157 @@
 {
-  "questions": [
-  {
- "q1_fill": {     
-  "type": "fill-blank",
-  "questionText": { 
-    "en": "The capital of France is ......", 
-    "ar": "عاصمة فرنسا هي ......" 
-  },
-  "correctAnswers": {
-    "w1_1": { "en": "Paris", "ar": "" }
-  }
-},
-         
-      "type": "reading",
-      "questionText": "I'm Tom. What's your name?",
-      "translation": "أنا توم. ما اسمك؟"
-    },   
- {
-
-      "type": "mcq",
-
-      "questionText": "Where is Tom?",
-
-      "translation": "أين توم؟",
-
-      "options": [
-
-        {"questionText": "In the kitchen", "correctAnswer": false},
-
-        {"questionText": "In the bedroom", "correctAnswer": true}
-
-      ]
-
+  "metadata": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-  {
-
-      "type": "matching",
-
-      "questionText": "Match the words to the images",
-
-      "pairs": [
-
-        {
-
-          "id": 1,
-
-          "left": "Apple",
-
-          "right": "https://cdn-icons-png.flaticon.com/512/415/415733.png",
-
-          "isImage": true
-
-        },
-
-        {
-
-          "id": 2,
-
-          "left": "Car",
-
-          "right": "سيارة",
-
-          "isImage": false
-
-        },
-
-        {
-
-          "id": 3,
-
-          "left": "Book",
-
-          "right": "كتاب",
-
-          "isImage": false
-
-        }
-
-      ]
-
+    "passage": {
+      "en": "I'm Tom. What's your name?",
+      "ar": " أنا توم. ما اسمك؟ "
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "ID_السؤال_4": {
+    "type": "fill-blank",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The capital of France is ......",
+      "ar": " عاصمة فرنسا هي ....."
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_7935": {
+        "en": "Paris",
+        "ar": ""
+      }
     }
-
-  ]
+  },
+  "ID_السؤال_5": {
+    "type": "mcq",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Where is Tom?",
+      "ar": "أين توم؟"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "In the bedroom",
+        "ar": ""
+      },
+      {
+        "en": "In the kitchen",
+        "ar": ""
+      },
+      {
+        "en": "In the garden",
+        "ar": ""
+      },
+      {
+        "en": "In the street",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "In the bedroom",
+      "ar": ""
+    }
+  },
+  "ID_السؤال_6": {
+    "type": "matching",
+    "difficulty": 0,
+    "tags": [],
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the words to the images",
+      "ar": " طابق الكلمات بالصور"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "https://cdn-icons-png.flaticon.com/512/415/415733.png"
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "Car",
+          "ar": ""
+        },
+        "image": ""
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "Book",
+          "ar": ""
+        },
+        "image": ""
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "Apple",
+          "ar": "تفاحة"
+        },
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": "سيارة"
+        },
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "",
+          "ar": "كتاب"
+        },
+        "accepts": "item_3"
+      }
+    ]
+  }
 }
