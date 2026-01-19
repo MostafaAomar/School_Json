@@ -201,7 +201,7 @@
                 data.draggableItems = []; data.dropZones = [];
                 q.querySelectorAll('.matching-pair-row').forEach((m, i) => {
                     const id = `item_${i+1}`;
-                    data.draggableItems.push({ id: id, text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value }, image: m.querySelector('.m-img').value });
+                    data.draggableItems.push({ id: id, text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value }, imageName: m.querySelector('.m-img').value });
                     data.dropZones.push({ id: `zone_${i+1}`, label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value }, accepts: id });
                 });
             } else if (type === 'fill-blank') {
