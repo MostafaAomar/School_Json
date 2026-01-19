@@ -25,15 +25,15 @@
           "en": "",
           "ar": ""
         },
-        "image": "bathroom.png"
+        "imageName": "bathroom.png"
       },
       {
         "id": "item_2",
         "text": {
-          "en": "dog",
+          "en": "",
           "ar": ""
         },
-        "image": ""
+        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png"
       }
     ],
     "dropZones": [

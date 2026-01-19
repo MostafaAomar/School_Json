@@ -172,7 +172,9 @@
     }
 
     function buildJsonObject() {
-        const obj = { version: document.getElementById('file-version').value || "1.0.0" };
+        const counter  = x ;
+        counter++;
+        const obj = { version: document.getElementById('file-version').value || counter };
         
         document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
             const k = i === 0 ? "metadata" : `metadata_${i+1}`;
@@ -222,7 +224,7 @@
         const data = buildJsonObject();
         const a = document.createElement('a');
         a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type:"application/json"}));
-        a.download = `content_v${data.version}.json`;
+        a.download = `unit${data.version}.json`;
         a.click();
     }
     addMetadataBlock();
