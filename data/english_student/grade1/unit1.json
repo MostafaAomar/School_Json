@@ -3,29 +3,29 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "",
+      "en": "Match the words to the images",
       "ar": ""
     },
     "questionText": {
-      "en": "Match the words to the images",
-      "ar": " طابق الكلمات بالصور "
+      "en": "",
+      "ar": "طابق الكلمات بالصور "
     },
     "feedbackCorrect": {
-      "en": "",
+      "en": "right",
       "ar": ""
     },
     "feedbackIncorrect": {
-      "en": "",
+      "en": "error",
       "ar": ""
     },
     "draggableItems": [
       {
         "id": "item_1",
         "text": {
-          "en": "",
+          "en": "hiihh",
           "ar": ""
         },
-        "imageName": "bathroom.png"
+        "image": ""
       },
       {
         "id": "item_2",
@@ -33,25 +33,41 @@
           "en": "",
           "ar": ""
         },
-        "imageName": "bike.png"
+        "image": "bike.png"
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "bathroom.png"
       }
     ],
     "dropZones": [
       {
         "id": "zone_1",
         "label": {
-          "en": "Apple",
-          "ar": ""
+          "en": "",
+          "ar": "dwdwd"
         },
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": {
-          "en": "car",
+          "en": "bike",
           "ar": ""
         },
         "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "bathroom",
+          "ar": ""
+        },
+        "accepts": "item_3"
       }
     ]
   }

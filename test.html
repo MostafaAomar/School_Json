@@ -172,9 +172,9 @@
     }
 
     function buildJsonObject() {
-        const counter  = x ;
-        counter++;
-        const obj = { version: document.getElementById('file-version').value || counter };
+        let counter = 1; 
+              counter++;
+        const obj = { version: document.getElementById('file-version').value || 1 };
         
         document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
             const k = i === 0 ? "metadata" : `metadata_${i+1}`;
@@ -220,13 +220,35 @@
     }
 
     function updatePreview() { document.getElementById('output').value = JSON.stringify(buildJsonObject(), null, 2); }
-    function downloadJSON() {
-        const data = buildJsonObject();
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type:"application/json"}));
-        a.download = `unit${data.version}.json`;
-        a.click();
-    }
+   // 1. تعريف العداد خارج الوظيفة لضمان استمراريته
+let unitFileCounter = 1; 
+
+function downloadJSON() {
+    const data = buildJsonObject();
+    
+    // 2. تحويل البيانات إلى نص JSON
+    const jsonString = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonString], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    
+    // 3. تسمية الملف بناءً على العداد الحالي
+    // سيخرج الاسم: unit1.json ثم unit2.json وهكذا
+    a.download = `unit${unitFileCounter}.json`;
+    
+    // تنفيذ التحميل
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    
+    // 4. زيادة العداد للتحميل القادم
+    unitFileCounter++; 
+    
+    // تنظيف الذاكرة
+    URL.revokeObjectURL(url);
+}
     addMetadataBlock();
 </script>
 </body>
