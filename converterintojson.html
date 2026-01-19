@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نظام بناء المحتوى v8.0</title>
+    <title>منشئ المحتوى - الصور في مناطق الإسقاط</title>
     <style>
         :root { --primary: #2563eb; --success: #059669; --error: #dc2626; --bg: #f8fafc; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); padding: 20px; color: #1e293b; }
@@ -15,16 +15,19 @@
         
         .version-box { background: #eff6ff; border: 2px solid var(--primary); padding: 15px; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; gap: 20px; }
         
-        /* واجهة التوصيل يمين ويسار */
+        /* تصميم التوصيل */
         .matching-pair-row { 
             display: grid; grid-template-columns: 1fr 1fr; gap: 20px; 
             background: #f8fafc; padding: 15px; border-radius: 10px; 
             margin-bottom: 15px; border: 1px solid #e2e8f0;
         }
         .side-box { padding: 10px; border-radius: 8px; border: 2px dashed #cbd5e1; background: white; }
-        .side-left { border-right: 4px solid var(--primary); }
-        .side-right { border-right: 4px solid var(--success); }
-        .side-label { font-weight: bold; font-size: 11px; margin-bottom: 8px; color: #1e293b; text-align: center; display: block; background: #eee; padding: 3px; border-radius: 4px; }
+        
+        /* تعديل الألوان لتمييز الجهات */
+        .side-drag { border-right: 4px solid var(--primary); } /* السحب (نص) */
+        .side-drop { border-right: 4px solid var(--success); } /* الإسقاط (صورة) */
+        
+        .side-label { font-weight: bold; font-size: 12px; margin-bottom: 8px; color: #1e293b; text-align: center; display: block; background: #eee; padding: 5px; border-radius: 4px; }
 
         .btn { padding: 10px 20px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; transition: 0.2s; }
         .btn-add { background: var(--success); color: white; margin-bottom: 10px; }
@@ -40,7 +43,7 @@
 <body>
 
 <div class="container">
-    <h1 style="text-align: center; color: var(--primary);">منشئ JSON التعليمي المطور</h1>
+    <h1 style="text-align: center; color: var(--primary);">منشئ JSON (الصور في DropZone)</h1>
 
     <div class="version-box">
         <label>إصدار الملف:</label>
@@ -48,9 +51,9 @@
     </div>
 
     <div id="metadata-list"></div>
-    <button class="btn btn-add" onclick="addMetadataBlock()">+ إضافة Metadata جديد</button>
+    <button class="btn btn-add" onclick="addMetadataBlock()">+ إضافة Metadata</button>
 
-    <hr style="margin: 30px 0; border-top: 2px dashed #cbd5e1; border-bottom: none;">
+    <hr style="margin: 30px 0; border-top: 2px dashed #cbd5e1;">
 
     <div id="questions-list"></div>
 
@@ -71,6 +74,7 @@
 <script>
     let qGlobalCount = 0;
     let metaGlobalCount = 0;
+    let unitFileCounter = 1; // عداد الملفات لمنع التكرار (1)، (2)
 
     function addMetadataBlock() {
         metaGlobalCount++;
@@ -129,7 +133,7 @@
             html += `
                 <div style="background:#e2e8f0; padding:10px; border-radius:8px; margin:10px 0;">
                     <div class="match-container"></div>
-                    <button class="btn btn-add" style="width:100%" onclick="addMatchPair(this)">+ إضافة زوج (يمين/يسار)</button>
+                    <button class="btn btn-add" style="width:100%" onclick="addMatchPair(this)">+ إضافة زوج جديد</button>
                 </div>`;
         } else if (type === 'fill-blank') {
             html += `<div class="grid">
@@ -157,24 +161,26 @@
         const div = document.createElement('div');
         div.className = 'matching-pair-row';
         div.innerHTML = `
-            <div class="side-box side-left">
-                <span class="side-label">يسار (سحب)</span>
-                <input type="text" class="m-text-en" placeholder="EN"><input type="text" class="m-text-ar" placeholder="AR" style="margin-top:5px">
-                <input type="text" class="m-img" placeholder="URL الصورة" style="margin-top:5px" dir="ltr">
+            <div class="side-box side-drag">
+                <span class="side-label" style="background:#dbeafe; color:#1e40af;">👉 عنصر السحب (نص)</span>
+                <input type="text" class="m-text-en" placeholder="نص السحب EN">
+                <input type="text" class="m-text-ar" placeholder="نص السحب AR" style="margin-top:5px">
+                </div>
+            
+            <div class="side-box side-drop">
+                <span class="side-label" style="background:#dcfce7; color:#166534;">🎯 منطقة الإسقاط (صورة/هدف)</span>
+                <input type="text" class="m-zone-en" placeholder="نص الهدف EN">
+                <input type="text" class="m-zone-ar" placeholder="نص الهدف AR" style="margin-top:5px">
+                <input type="text" class="m-img" placeholder="رابط الصورة (يوضع هنا)" style="margin-top:5px; border-color:#22c55e;" dir="ltr">
             </div>
-            <div class="side-box side-right">
-                <span class="side-label">يمين (إسقاط)</span>
-                <input type="text" class="m-zone-en" placeholder="EN"><input type="text" class="m-zone-ar" placeholder="AR" style="margin-top:5px">
-            </div>
+
             <button class="btn btn-remove" style="grid-column: span 2; margin-top:5px" onclick="this.parentElement.remove()">حذف الزوج</button>
         `;
         container.appendChild(div);
     }
 
     function buildJsonObject() {
-        let counter = 1; 
-              counter++;
-        const obj = { version: document.getElementById('file-version').value || 1 };
+        const obj = { version: document.getElementById('file-version').value || "1.0.0" };
         
         document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
             const k = i === 0 ? "metadata" : `metadata_${i+1}`;
@@ -201,8 +207,27 @@
                 data.draggableItems = []; data.dropZones = [];
                 q.querySelectorAll('.matching-pair-row').forEach((m, i) => {
                     const id = `item_${i+1}`;
-                    data.draggableItems.push({ id: id, text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value }, imageName: m.querySelector('.m-img').value });
-                    data.dropZones.push({ id: `zone_${i+1}`, label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value }, accepts: id });
+                    
+                    // Draggable Items: نصوص فقط الآن
+                    data.draggableItems.push({ 
+                        id: id, 
+                        text: { 
+                            en: m.querySelector('.m-text-en').value, 
+                            ar: m.querySelector('.m-text-ar').value 
+                        }
+                        // لا يوجد صورة هنا
+                    });
+
+                    // Drop Zones: نصوص + الصورة
+                    data.dropZones.push({ 
+                        id: `zone_${i+1}`, 
+                        label: { 
+                            en: m.querySelector('.m-zone-en').value, 
+                            ar: m.querySelector('.m-zone-ar').value 
+                        }, 
+                        image: m.querySelector('.m-img').value, // الصورة هنا
+                        accepts: id 
+                    });
                 });
             } else if (type === 'fill-blank') {
                 const bId = `blank_${Math.floor(Math.random()*9000)+1000}`;
@@ -220,35 +245,25 @@
     }
 
     function updatePreview() { document.getElementById('output').value = JSON.stringify(buildJsonObject(), null, 2); }
-   // 1. تعريف العداد خارج الوظيفة لضمان استمراريته
-let unitFileCounter = 1; 
-
-function downloadJSON() {
-    const data = buildJsonObject();
     
-    // 2. تحويل البيانات إلى نص JSON
-    const jsonString = JSON.stringify(data, null, 2);
-    const blob = new Blob([jsonString], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    
-    const a = document.createElement('a');
-    a.href = url;
-    
-    // 3. تسمية الملف بناءً على العداد الحالي
-    // سيخرج الاسم: unit1.json ثم unit2.json وهكذا
-    a.download = `unit${unitFileCounter}.json`;
-    
-    // تنفيذ التحميل
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    
-    // 4. زيادة العداد للتحميل القادم
-    unitFileCounter++; 
-    
-    // تنظيف الذاكرة
-    URL.revokeObjectURL(url);
-}
+    function downloadJSON() {
+        const data = buildJsonObject();
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        
+        // استخدام العداد لتسمية الملفات unit1, unit2, etc.
+        a.download = `unit${unitFileCounter}.json`;
+        
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        
+        // زيادة العداد للمرة القادمة
+        unitFileCounter++; 
+        URL.revokeObjectURL(url);
+    }
     addMetadataBlock();
 </script>
 </body>
