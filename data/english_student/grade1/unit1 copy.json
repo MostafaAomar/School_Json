@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
+    },
+    "passage": {
+      "en": "I'm Tom. What's your name?",
+      "ar": "أنا توم. ما اسمك؟ "
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "The capital of France is ......",
+      "ar": " عاصمة فرنسا هي ....."
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "correctAnswers": {
+      "blank_8125": {
+        "en": "Paris",
+        "ar": ""
+      }
+    }
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Where is Tom?",
+      "ar": " أين توم؟"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "In the bedroom",
+        "ar": ""
+      },
+      {
+        "en": "In the kitchen",
+        "ar": ""
+      },
+      {
+        "en": "In the garden",
+        "ar": ""
+      },
+      {
+        "en": "In the street",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "In the bedroom",
+      "ar": ""
+    }
+  },
+  "question_ID__3": {
+    "type": "matching",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the words to the images",
+      "ar": "طابق الكلمات بالصور "
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": {
+          "en": "",
+          "ar": ""
+        },
+        "imageName": "bathroom.png"
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "Car",
+          "ar": ""
+        },
+        "imageName": ""
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "Book",
+          "ar": ""
+        },
+        "imageName": ""
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "Apple",
+          "ar": ""
+        },
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": "سيارة"
+        },
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "",
+          "ar": "كتاب"
+        },
+        "accepts": "item_3"
+      }
+    ]
+  }
+}
