@@ -2,232 +2,236 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>منشئ المحتوى التعليمي - النسخة الشاملة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منشئ JSON الاحترافي</title>
     <style>
-        :root { --primary: #2563eb; --secondary: #6366f1; --success: #10b981; --bg: #f8fafc; --danger: #ef4444; --warning: #f59e0b; }
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); padding: 20px; color: #1e293b; line-height: 1.6; }
-        .container { max-width: 1100px; margin: 0 auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
-        h1 { text-align: center; color: var(--primary); margin-bottom: 30px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        :root { --primary: #2563eb; --success: #059669; --error: #dc2626; --bg: #f8fafc; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); padding: 20px; color: #1e293b; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 20px; border: 1px solid #e2e8f0; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 10px; }
+        label { display: block; font-weight: bold; font-size: 0.85rem; margin-bottom: 5px; color: #64748b; }
+        input, textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
         
-        .section { background: #f1f5f9; padding: 20px; border-radius: 12px; margin-bottom: 25px; border: 1px solid #e2e8f0; }
-        .section-title { font-weight: bold; margin-bottom: 15px; display: block; color: var(--primary); font-size: 20px; border-right: 4px solid var(--primary); padding-right: 10px; }
+        .matching-item { border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px; margin-bottom: 15px; background: #fff; border-right: 5px solid #6366f1; }
+        .image-field { background: #fff7ed; border: 1px solid #fdba74; padding: 10px; border-radius: 5px; }
         
-        input, textarea, select { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; font-size: 14px; }
+        .btn { padding: 10px 20px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; transition: 0.2s; }
+        .btn-add { background: var(--success); color: white; margin-bottom: 10px; }
+        .btn-remove { background: var(--error); color: white; padding: 5px 10px; }
         
-        .card { background: white; padding: 20px; border-radius: 12px; margin-top: 15px; border: 1px solid #e2e8f0; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .content-card { border-right: 6px solid var(--secondary); }
-        .question-card { border-right: 6px solid var(--primary); }
-
-        .btn { cursor: pointer; border: none; padding: 12px 20px; border-radius: 8px; font-weight: bold; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
-        .btn-add { background: var(--secondary); color: white; margin-top: 10px; }
-        .btn-add-q { background: var(--primary); color: white; width: 100%; margin-top: 15px; justify-content: center; }
-        .btn-download { background: var(--success); color: white; width: 100%; font-size: 20px; margin-top: 30px; height: 60px; justify-content: center; }
-        .btn-remove { background: var(--danger); color: white; padding: 6px 12px; font-size: 12px; position: absolute; left: 15px; top: 15px; }
+        .action-zone { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .btn-preview { background: #6366f1; color: white; font-size: 1.1rem; }
+        .btn-download { background: #1e293b; color: white; font-size: 1.1rem; }
         
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-        .mcq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        .mcq-grid input.correct { border-right: 4px solid var(--success); background: #f0fdf4; }
-        
-        .matching-item-row { display: grid; grid-template-columns: 1fr 1fr 1fr 40px; gap: 10px; background: #f8fafc; padding: 10px; border-radius: 8px; margin-top: 10px; border: 1px dashed #cbd5e1; }
-        .feedback-box { background: #fff7ed; padding: 15px; border-radius: 8px; margin-top: 15px; border: 1px solid #fed7aa; }
-        .feedback-label { font-size: 12px; font-weight: bold; color: var(--warning); display: block; margin-bottom: 5px; }
-        
-        .media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; background: #fffbeb; padding: 10px; border-radius: 8px; margin-top: 10px; }
-        label { font-size: 13px; font-weight: bold; color: #475569; }
+        .feedback-box { padding: 10px; border-radius: 6px; margin-top: 10px; border: 1px solid #ddd; background: #fcfcfc; }
+        #output { width: 100%; height: 400px; font-family: 'Consolas', monospace; direction: ltr; background: #1e293b; color: #34d399; padding: 15px; border-radius: 8px; margin-top: 15px; border: none; white-space: pre; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>📝 منشئ المحتوى التفاعلي المتكامل</h1>
+    <h1 style="text-align: center;">نظام بناء المحتوى الرقمي</h1>
 
-    <div class="section">
-        <span class="section-title">1. البيانات الأساسية (Metadata)</span>
-        <div class="grid">
-            <input type="text" id="unitEn" placeholder="عنوان الوحدة (English)">
-            <input type="text" id="unitAr" placeholder="عنوان الوحدة (عربي)">
-            <input type="number" id="manualVersion" placeholder="رقم الإصدار (مثلاً 1)" value="1">
-        </div>
-        
-        <div id="contentBlocksContainer"></div>
-        <button class="btn btn-add" onclick="addContentBlock()">➕ إضافة فقرة شرح (نص + وسائط) للوحدة</button>
+    <div id="metadata-list"></div>
+    <button class="btn btn-add" onclick="addMetadataBlock()">+ إضافة قسم Metadata جديد</button>
+
+    <hr style="margin: 30px 0; border: 0; border-top: 2px dashed #cbd5e1;">
+
+    <div id="questions-list"></div>
+
+    <div class="card" style="display: flex; gap: 10px; justify-content: center; background: #f1f5f9;">
+        <button class="btn btn-add" onclick="addQuestion('mcq')">إضافة MCQ</button>
+        <button class="btn btn-add" onclick="addQuestion('matching')">إضافة توصيل</button>
+        <button class="btn btn-add" onclick="addQuestion('fill-blank')">إضافة أكمل الفراغ</button>
     </div>
 
-    <div class="section">
-        <span class="section-title">2. الأسئلة والتمارين</span>
-        <div id="questionsContainer"></div>
-        <button class="btn btn-add-q" onclick="addQuestion()">➕ إضافة سؤال جديد للدرس</button>
+    <div class="action-zone">
+        <button class="btn btn-preview" onclick="updatePreview()">1. معاينة الكود (Generate)</button>
+        <button class="btn btn-download" onclick="downloadJSON()">2. تحميل الملف (Download JSON)</button>
     </div>
 
-    <button class="btn btn-download" onclick="exportJSON()">💾 تصدير ملف JSON النهائي</button>
+    <div class="card" style="margin-top: 20px;">
+        <label>معاينة الكود الناتج:</label>
+        <textarea id="output" readonly></textarea>
+    </div>
 </div>
 
 <script>
-    let contentCount = 0;
-    let questionCount = 0;
+    let qGlobalCount = 0;
+    let metaGlobalCount = 0;
 
-    function addContentBlock() {
-        contentCount++;
-        const container = document.getElementById('contentBlocksContainer');
+    function addMetadataBlock() {
+        metaGlobalCount++;
+        const container = document.getElementById('metadata-list');
         const div = document.createElement('div');
-        div.className = 'card content-card';
-        div.id = `content_block_${contentCount}`;
+        div.className = 'card';
         div.innerHTML = `
-            <button class="btn btn-remove" onclick="removeElement('content_block_${contentCount}')">حذف</button>
-            <label>فقرة المحتوى #${contentCount}</label>
-            <div class="grid">
-                <textarea class="c-text-en" placeholder="النص (EN)" rows="3"></textarea>
-                <textarea class="c-text-ar" placeholder="النص (AR)" rows="3"></textarea>
+            <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #eee; margin-bottom:15px; padding-bottom:10px;">
+                <h2 style="margin:0; color:var(--primary)">قسم البيانات الأساسية #${metaGlobalCount}</h2>
+                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف القسم</button>
             </div>
-            <div class="media-grid">
-                <input type="text" class="c-video" placeholder="رابط فيديو YouTube">
-                <input type="text" class="c-audio" placeholder="رابط ملف صوتي MP3">
+            <div class="grid">
+                <div><label>العنوان (EN)</label><input type="text" class="meta-unit-en"></div>
+                <div><label>العنوان (AR)</label><input type="text" class="meta-unit-ar"></div>
+            </div>
+            <div class="grid">
+                <div><label>النص/القطعة (EN)</label><textarea class="meta-pass-en" rows="3"></textarea></div>
+                <div><label>النص/القطعة (AR)</label><textarea class="meta-pass-ar" rows="3"></textarea></div>
+            </div>
+            <div class="grid">
+                <div><label>رابط فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
+                <div><label>رابط صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
             </div>
         `;
         container.appendChild(div);
     }
 
-    function addQuestion() {
-        questionCount++;
-        const container = document.getElementById('questionsContainer');
-        const div = document.createElement('div');
-        div.className = 'card question-card';
-        div.id = `q_card_${questionCount}`;
-        div.innerHTML = `
-            <button class="btn btn-remove" onclick="removeElement('q_card_${questionCount}')">حذف السؤال</button>
-            <span class="section-title" style="font-size:16px;">سؤال #${questionCount}</span>
-            <select onchange="renderQuestionInputs(${questionCount}, this.value)" id="type_${questionCount}">
-                <option value="mcq">اختيار من متعدد (MCQ)</option>
-                <option value="matching">توصيل (Matching)</option>
-                <option value="fill-blank">إكمال الفراغ</option>
-            </select>
-            <div class="grid">
-                <input type="text" id="q_text_en_${questionCount}" placeholder="نص السؤال (EN)">
-                <input type="text" id="q_text_ar_${questionCount}" placeholder="نص السؤال (AR)">
-            </div>
-            <div id="dynamic_area_${questionCount}"></div>
-            
-            <div class="feedback-box">
-                <span class="feedback-label">✅ عند الإجابة الصحيحة (Feedback Correct):</span>
-                <div class="grid">
-                    <input type="text" id="fb_c_en_${questionCount}" placeholder="English Feedback">
-                    <input type="text" id="fb_c_ar_${questionCount}" placeholder="تغذية راجعة بالعربي">
-                </div>
-                <span class="feedback-label" style="margin-top:10px;">❌ عند الإجابة الخاطئة (Feedback Incorrect):</span>
-                <div class="grid">
-                    <input type="text" id="fb_i_en_${questionCount}" placeholder="English Feedback">
-                    <input type="text" id="fb_i_ar_${questionCount}" placeholder="تغذية راجعة بالعربي">
-                </div>
-            </div>
-        `;
-        container.appendChild(div);
-        renderQuestionInputs(questionCount, 'mcq');
-    }
+    function addQuestion(type) {
+        qGlobalCount++;
+        const qId = `ID_السؤال_${qGlobalCount}`;
+        const container = document.getElementById('questions-list');
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.type = type;
+        card.dataset.qid = qId;
 
-    function renderQuestionInputs(qId, type) {
-        const area = document.getElementById(`dynamic_area_${qId}`);
+        let content = `
+            <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--primary); margin-bottom:15px;">
+                <h3 style="margin:0;">${type.toUpperCase()} - ${qId}</h3>
+                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف</button>
+            </div>
+            <div class="grid">
+                <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en"></div>
+                <div><label>نص السؤال (AR)</label><input type="text" class="q-text-ar"></div>
+            </div>
+            <div class="grid">
+                <div><label>الدعم (Support EN)</label><input type="text" class="supp-en"></div>
+                <div><label>الدعم (Support AR)</label><input type="text" class="supp-ar"></div>
+            </div>`;
+
         if (type === 'mcq') {
-            area.innerHTML = `
-                <div class="mcq-grid">
-                    <input type="text" id="opt_correct_${qId}" class="correct" placeholder="الخيار الصحيح (A)">
-                    <input type="text" id="opt_2_${qId}" placeholder="خيار خاطئ (B)">
-                    <input type="text" id="opt_3_${qId}" placeholder="خيار خاطئ (C)">
-                    <input type="text" id="opt_4_${qId}" placeholder="خيار خاطئ (D)">
-                </div>`;
-        } else if (type === 'matching') {
-            area.innerHTML = `
-                <div id="match_list_${qId}"></div>
-                <button class="btn btn-add" style="background:#4b5563; font-size:12px;" onclick="addMatchingRow(${qId})">➕ إضافة عنصر توصيل (كلمة أو صورة)</button>`;
-            addMatchingRow(qId);
-        } else if (type === 'fill-blank') {
-            area.innerHTML = `<input type="text" id="blank_ans_${qId}" placeholder="الإجابة الصحيحة للفراغ">`;
-        }
-    }
-
-    function addMatchingRow(qId) {
-        const list = document.getElementById(`match_list_${qId}`);
-        const row = document.createElement('div');
-        row.className = 'matching-item-row';
-        row.innerHTML = `
-            <input type="text" class="m-en" placeholder="النص (EN)  الجانب الأيسر">
-            <input type="text" class="m-ar" placeholder="النص (AR) الجانب الأيمن">
-            <input type="text" class="m-img" placeholder=" الجانب الأيمن رابط الصورة (اختياري)">
-            <button class="btn btn-remove" onclick="this.parentElement.remove()">X</button>
-        `;
-        list.appendChild(row);
-    }
-
-    function removeElement(id) { document.getElementById(id).remove(); }
-
-    function exportJSON() {
-        const json = {
-            version: document.getElementById('manualVersion').value || 1,
-            metadata: {
-                unitTitle: { en: document.getElementById('unitEn').value, ar: document.getElementById('unitAr').value },
-                contentSections: []
+            content += `<h4>الخيارات</h4>`;
+            for (let i = 1; i <= 4; i++) {
+                content += `<div class="grid"><input type="text" class="opt-en" placeholder="EN"><input type="text" class="opt-ar" placeholder="AR"></div>`;
             }
-        };
+            content += `<label>الإجابة الصحيحة (نص EN فقط)</label><input type="text" class="correct-ans">`;
+        } else if (type === 'matching') {
+            content += `<h4>عناصر التوصيل</h4><div class="match-container"></div>
+                        <button class="btn btn-add" style="font-size:11px" onclick="addMatchPair(this)">+ إضافة عنصر</button>`;
+        } else if (type === 'fill-blank') {
+            content += `<div class="grid">
+                <div><label>الإجابة EN</label><input type="text" class="blank-en"></div>
+                <div><label>الإجابة AR</label><input type="text" class="blank-ar"></div>
+            </div>`;
+        }
 
-        document.querySelectorAll('.content-card').forEach(card => {
-            json.metadata.contentSections.push({
-                text: { en: card.querySelector('.c-text-en').value, ar: card.querySelector('.c-text-ar').value },
-                videoUrl: card.querySelector('.c-video').value,
-                audioUrl: card.querySelector('.c-audio').value
-            });
+        content += `
+            <div class="grid" style="margin-top:15px">
+                <div class="feedback-box"><label>تغذية صح (EN/AR)</label><input type="text" class="f-c-en"><input type="text" class="f-c-ar"></div>
+                <div class="feedback-box"><label>تغذية خطأ (EN/AR)</label><input type="text" class="f-i-en"><input type="text" class="f-i-ar"></div>
+            </div>`;
+
+        card.innerHTML = content;
+        container.appendChild(card);
+        if (type === 'matching') addMatchPair(card.querySelector('.btn-add'));
+    }
+
+    function addMatchPair(btn) {
+        const container = btn.previousElementSibling;
+        const div = document.createElement('div');
+        div.className = 'matching-item';
+        div.innerHTML = `
+            <div class="grid">
+                <div><label>العنصر EN</label><input type="text" class="m-text-en"><label>العنصر AR</label><input type="text" class="m-text-ar"></div>
+                <div class="image-field"><label>صورة (رابط اختياري)</label><input type="text" class="m-img" dir="ltr"></div>
+            </div>
+            <div class="grid">
+                <div><label>الهدف EN (Zone)</label><input type="text" class="m-zone-en"></div>
+                <div><label>الهدف AR (Zone)</label><input type="text" class="m-zone-ar"></div>
+            </div>
+            <button class="btn btn-remove" style="padding:2px 10px" onclick="this.parentElement.remove()">حذف الزوج</button>
+        `;
+        container.appendChild(div);
+    }
+
+    function buildJsonObject() {
+        const finalObj = {};
+        
+        // Metadata as separate keys
+        document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
+            const key = i === 0 ? "metadata" : `metadata_${i + 1}`;
+            finalObj[key] = {
+                unitTitle: { en: m.querySelector('.meta-unit-en').value, ar: m.querySelector('.meta-unit-ar').value },
+                passage: { en: m.querySelector('.meta-pass-en').value, ar: m.querySelector('.meta-pass-ar').value },
+                videoUrl: m.querySelector('.meta-video').value,
+                audioUrl: m.querySelector('.meta-audio').value
+            };
         });
 
-        document.querySelectorAll('.question-card').forEach((card, index) => {
-            const qNum = card.id.split('_')[2];
-            const type = document.getElementById(`type_${qNum}`).value;
-            const key = `q_${index + 1}`;
-            
-            let qObj = {
+        // Questions
+        document.querySelectorAll('#questions-list > .card').forEach(q => {
+            const qid = q.dataset.qid;
+            const type = q.dataset.type;
+            const qData = {
                 type: type,
-                questionText: { en: document.getElementById(`q_text_en_${qNum}`).value, ar: document.getElementById(`q_text_ar_${qNum}`).value },
-                feedbackCorrect: { 
-                    en: document.getElementById(`fb_c_en_${qNum}`).value, 
-                    ar: document.getElementById(`fb_c_ar_${qNum}`).value 
-                },
-                feedbackIncorrect: { 
-                    en: document.getElementById(`fb_i_en_${qNum}`).value, 
-                    ar: document.getElementById(`fb_i_ar_${qNum}`).value 
-                }
+                difficulty: 0,
+                tags: [],
+                supportContent: { en: q.querySelector('.supp-en').value, ar: q.querySelector('.supp-ar').value },
+                questionText: { en: q.querySelector('.q-text-en').value, ar: q.querySelector('.q-text-ar').value },
+                feedbackCorrect: { en: q.querySelector('.f-c-en').value, ar: q.querySelector('.f-c-ar').value },
+                feedbackIncorrect: { en: q.querySelector('.f-i-en').value, ar: q.querySelector('.f-i-ar').value }
             };
 
             if (type === 'mcq') {
-                qObj.options = [
-                    { en: document.getElementById(`opt_correct_${qNum}`).value, ar: "" },
-                    { en: document.getElementById(`opt_2_${qNum}`).value, ar: "" },
-                    { en: document.getElementById(`opt_3_${qNum}`).value, ar: "" },
-                    { en: document.getElementById(`opt_4_${qNum}`).value, ar: "" }
-                ];
-                qObj.correctAnswer = qObj.options[0];
+                qData.options = [];
+                q.querySelectorAll('.opt-en').forEach((el, i) => {
+                    if (el.value) qData.options.push({ en: el.value, ar: q.querySelectorAll('.opt-ar')[i].value });
+                });
+                qData.correctAnswer = { en: q.querySelector('.correct-ans').value, ar: "" };
             } else if (type === 'matching') {
-                qObj.draggableItems = []; qObj.targetItems = [];
-                card.querySelectorAll('.matching-item-row').forEach((row, rIdx) => {
-                    const id = `item_${rIdx}`;
-                    qObj.draggableItems.push({ 
-                        id, 
-                        text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value }, 
-                        image: row.querySelector('.m-img').value || null 
+                qData.draggableItems = [];
+                qData.dropZones = [];
+                q.querySelectorAll('.matching-item').forEach((m, i) => {
+                    const id = `item_${i + 1}`;
+                    qData.draggableItems.push({
+                        id: id,
+                        text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value },
+                        image: m.querySelector('.m-img').value
                     });
-                    qObj.targetItems.push({ 
-                        id, 
-                        text: { en: row.querySelector('.m-en').value, ar: row.querySelector('.m-ar').value } 
+                    qData.dropZones.push({
+                        id: `zone_${i + 1}`,
+                        label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value },
+                        accepts: id
                     });
                 });
             } else if (type === 'fill-blank') {
-                qObj.correctAnswer = document.getElementById(`blank_ans_${qNum}`).value;
+                const autoId = `blank_${Math.floor(Math.random()*9000)+1000}`;
+                qData.correctAnswers = { [autoId]: { en: q.querySelector('.blank-en').value, ar: q.querySelector('.blank-ar').value } };
             }
-            json[key] = qObj;
+            finalObj[qid] = qData;
         });
 
-        const dataUri = "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json, null, 2));
-        const link = document.createElement('a');
-        link.setAttribute("href", dataUri);
-        link.setAttribute("download", "advanced_lesson.json");
-        link.click();
+        return finalObj;
     }
+
+    function updatePreview() {
+        const data = buildJsonObject();
+        document.getElementById('output').value = JSON.stringify(data, null, 2);
+    }
+
+    function downloadJSON() {
+        const data = buildJsonObject();
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "content_data.json";
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    addMetadataBlock();
 </script>
 
 </body>
