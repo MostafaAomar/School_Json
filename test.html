@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منشئ JSON الاحترافي</title>
+    <title>منشئ JSON التعليمي - الإصدار 5.0</title>
     <style>
         :root { --primary: #2563eb; --success: #059669; --error: #dc2626; --bg: #f8fafc; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); padding: 20px; color: #1e293b; }
@@ -13,6 +13,10 @@
         label { display: block; font-weight: bold; font-size: 0.85rem; margin-bottom: 5px; color: #64748b; }
         input, textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
         
+        /* تصميم حقل الإصدار */
+        .version-box { background: #eff6ff; border: 2px solid var(--primary); padding: 15px; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; gap: 20px; }
+        .version-box input { width: 150px; font-weight: bold; text-align: center; color: var(--primary); }
+
         .matching-item { border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px; margin-bottom: 15px; background: #fff; border-right: 5px solid #6366f1; }
         .image-field { background: #fff7ed; border: 1px solid #fdba74; padding: 10px; border-radius: 5px; }
         
@@ -31,7 +35,12 @@
 <body>
 
 <div class="container">
-    <h1 style="text-align: center;">نظام بناء المحتوى الرقمي</h1>
+    <h1 style="text-align: center;">نظام إدارة المحتوى التعليمي</h1>
+
+    <div class="version-box">
+        <label style="margin:0; font-size: 1.1rem; color: var(--primary);">رقم إصدار الملف (Version):</label>
+        <input type="text" id="file-version" placeholder="مثلاً: 1.0.2" value="1.0.0">
+    </div>
 
     <div id="metadata-list"></div>
     <button class="btn btn-add" onclick="addMetadataBlock()">+ إضافة قسم Metadata جديد</button>
@@ -52,7 +61,7 @@
     </div>
 
     <div class="card" style="margin-top: 20px;">
-        <label>معاينة الكود الناتج:</label>
+        <label>معاينة JSON:</label>
         <textarea id="output" readonly></textarea>
     </div>
 </div>
@@ -68,20 +77,20 @@
         div.className = 'card';
         div.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #eee; margin-bottom:15px; padding-bottom:10px;">
-                <h2 style="margin:0; color:var(--primary)">قسم البيانات الأساسية #${metaGlobalCount}</h2>
-                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف القسم</button>
+                <h2 style="margin:0; color:var(--primary)">قسم البيانات #${metaGlobalCount}</h2>
+                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف</button>
             </div>
             <div class="grid">
                 <div><label>العنوان (EN)</label><input type="text" class="meta-unit-en"></div>
                 <div><label>العنوان (AR)</label><input type="text" class="meta-unit-ar"></div>
             </div>
             <div class="grid">
-                <div><label>النص/القطعة (EN)</label><textarea class="meta-pass-en" rows="3"></textarea></div>
-                <div><label>النص/القطعة (AR)</label><textarea class="meta-pass-ar" rows="3"></textarea></div>
+                <div><label>النص (EN)</label><textarea class="meta-pass-en" rows="3"></textarea></div>
+                <div><label>النص (AR)</label><textarea class="meta-pass-ar" rows="3"></textarea></div>
             </div>
             <div class="grid">
-                <div><label>رابط فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
-                <div><label>رابط صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
+                <div><label>فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
+                <div><label>صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
             </div>
         `;
         container.appendChild(div);
@@ -89,7 +98,7 @@
 
     function addQuestion(type) {
         qGlobalCount++;
-        const qId = `question_Id_${qGlobalCount}`;
+        const qId = `question_ID__${qGlobalCount}`;
         const container = document.getElementById('questions-list');
         const card = document.createElement('div');
         card.className = 'card';
@@ -104,10 +113,6 @@
             <div class="grid">
                 <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en"></div>
                 <div><label>نص السؤال (AR)</label><input type="text" class="q-text-ar"></div>
-            </div>
-            <div class="grid">
-                <div><label>الدعم (Support EN)</label><input type="text" class="supp-en"></div>
-                <div><label>الدعم (Support AR)</label><input type="text" class="supp-ar"></div>
             </div>`;
 
         if (type === 'mcq') {
@@ -115,14 +120,14 @@
             for (let i = 1; i <= 4; i++) {
                 content += `<div class="grid"><input type="text" class="opt-en" placeholder="EN"><input type="text" class="opt-ar" placeholder="AR"></div>`;
             }
-            content += `<label>الإجابة الصحيحة (نص EN فقط)</label><input type="text" class="correct-ans">`;
+            content += `<label>الإجابة الصحيحة (EN)</label><input type="text" class="correct-ans">`;
         } else if (type === 'matching') {
             content += `<h4>عناصر التوصيل</h4><div class="match-container"></div>
                         <button class="btn btn-add" style="font-size:11px" onclick="addMatchPair(this)">+ إضافة عنصر</button>`;
         } else if (type === 'fill-blank') {
             content += `<div class="grid">
-                <div><label>الإجابة EN</label><input type="text" class="blank-en"></div>
-                <div><label>الإجابة AR</label><input type="text" class="blank-ar"></div>
+                <div><label>إجابة EN</label><input type="text" class="blank-en"></div>
+                <div><label>إجابة AR</label><input type="text" class="blank-ar"></div>
             </div>`;
         }
 
@@ -144,21 +149,24 @@
         div.innerHTML = `
             <div class="grid">
                 <div><label>العنصر EN</label><input type="text" class="m-text-en"><label>العنصر AR</label><input type="text" class="m-text-ar"></div>
-                <div class="image-field"><label>صورة (رابط اختياري)</label><input type="text" class="m-img" dir="ltr"></div>
+                <div class="image-field"><label>صورة (رابط)</label><input type="text" class="m-img" dir="ltr"></div>
             </div>
             <div class="grid">
-                <div><label>الهدف EN (Zone)</label><input type="text" class="m-zone-en"></div>
-                <div><label>الهدف AR (Zone)</label><input type="text" class="m-zone-ar"></div>
+                <div><label>الهدف EN</label><input type="text" class="m-zone-en"></div>
+                <div><label>الهدف AR</label><input type="text" class="m-zone-ar"></div>
             </div>
-            <button class="btn btn-remove" style="padding:2px 10px" onclick="this.parentElement.remove()">حذف الزوج</button>
+            <button class="btn btn-remove" style="padding:2px 10px" onclick="this.parentElement.remove()">حذف</button>
         `;
         container.appendChild(div);
     }
 
     function buildJsonObject() {
-        const finalObj = {};
+        // إضافة رقم الإصدار في بداية الكائن
+        const finalObj = {
+            version: document.getElementById('file-version').value || "1.0.0"
+        };
         
-        // Metadata as separate keys
+        // Metadata
         document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
             const key = i === 0 ? "metadata" : `metadata_${i + 1}`;
             finalObj[key] = {
@@ -175,9 +183,7 @@
             const type = q.dataset.type;
             const qData = {
                 type: type,
-                difficulty: 0,
-                tags: [],
-                supportContent: { en: q.querySelector('.supp-en').value, ar: q.querySelector('.supp-ar').value },
+                supportContent: { en: "", ar: "" }, // متوفر إذا أردت تفعيله لاحقاً
                 questionText: { en: q.querySelector('.q-text-en').value, ar: q.querySelector('.q-text-ar').value },
                 feedbackCorrect: { en: q.querySelector('.f-c-en').value, ar: q.querySelector('.f-c-ar').value },
                 feedbackIncorrect: { en: q.querySelector('.f-i-en').value, ar: q.querySelector('.f-i-ar').value }
@@ -194,16 +200,8 @@
                 qData.dropZones = [];
                 q.querySelectorAll('.matching-item').forEach((m, i) => {
                     const id = `item_${i + 1}`;
-                    qData.draggableItems.push({
-                        id: id,
-                        text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value },
-                        image: m.querySelector('.m-img').value
-                    });
-                    qData.dropZones.push({
-                        id: `zone_${i + 1}`,
-                        label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value },
-                        accepts: id
-                    });
+                    qData.draggableItems.push({ id: id, text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value }, image: m.querySelector('.m-img').value });
+                    qData.dropZones.push({ id: `zone_${i + 1}`, label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value }, accepts: id });
                 });
             } else if (type === 'fill-blank') {
                 const autoId = `blank_${Math.floor(Math.random()*9000)+1000}`;
@@ -226,7 +224,7 @@
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = "content_data.json";
+        a.download = `lesson_v${data.version}.json`;
         a.click();
         URL.revokeObjectURL(url);
     }

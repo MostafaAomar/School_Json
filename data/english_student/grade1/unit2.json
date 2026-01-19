@@ -1,51 +1,97 @@
 {
-  "version": 1,
+  "version": "1.0.0",
   "metadata": {
     "unitTitle": {
       "en": "Classroom Objects",
-      "ar": "أشياء الفصل الدراسي"
+      "ar": " أشياء الفصل الدراسي "
     },
-    "contentSections": [
-      {
-        "text": {
-          "en": "In my classroom, I can see, point with me, point with me. I can see a chair, can you see? I can see a desk, can you see?",
-          "ar": "في صفي، أستطيع أن أرى، أشر معي، أشر معي. أستطيع أن أرى كرسيًا، هل تستطيع أن ترى؟ أستطيع أن أرى مكتبًا، هل تستطيع أن ترى؟"
-        },
-        "videoUrl": "",
-        "audioUrl": ""
-      }
-    ]
+    "passage": {
+      "en": "In my classroom, I can see, point with me, point with me. I can see a chair, can you see? I can see a desk, can you see?",
+      "ar": " في صفي، أستطيع أن أرى، أشر معي، أشر معي. أستطيع أن أرى كرسيًا، هل تستطيع أن ترى؟ أستطيع أن أرى مكتبًا، هل تستطيع أن ترى؟ "
+    },
+    "videoUrl": "",
+    "audioUrl": ""
   },
-  "q_1": {
+  "question_ID__1": {
     "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
     "questionText": {
       "en": "What's this?",
-      "ar": "ما هذا؟"
+      "ar": " ما هذا؟ "
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
     },
     "options": [
-      { "en": "It's a book.", "ar": "إنه كتاب." },
-      { "en": "It's a desk.", "ar": "إنه مكتب." },
-      { "en": "It's a table.", "ar": "إنه طاولة." },
-      { "en": "It's a bag.", "ar": "إنه حقيبة." }
+      {
+        "en": "It's a book.",
+        "ar": " إنه كتاب. "
+      },
+      {
+        "en": "It's a desk.",
+        "ar": " إنه مكتب. "
+      },
+      {
+        "en": "It's a table.",
+        "ar": " إنه طاولة.  "
+      },
+      {
+        "en": "It's a bag.",
+        "ar": " إنه حقيبة. "
+      }
     ],
-    "correctAnswer": { "en": "It's a book.", "ar": "إنه كتاب." },
-    "feedbackCorrect": { "en": "Excellent!", "ar": "ممتاز!" },
-    "feedbackIncorrect": { "en": "Try again.", "ar": "حاول مرة أخرى." }
+    "correctAnswer": {
+      "en": "It's a book.",
+      "ar": ""
+    }
   },
-  "q_2": {
+  "question_ID__2": {
     "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
     "questionText": {
       "en": "What's this? (Pencil)",
-      "ar": "ما هذا؟ (قلم رصاص)"
+      "ar": " ما هذا؟ (قلم رصاص) "
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
     },
     "options": [
-      { "en": "It's a pencil.", "ar": "إنه قلم رصاص." },
-      { "en": "It's a chair.", "ar": "إنه كرسي." },
-      { "en": "It's a desk.", "ar": "إنه مكتب." },
-      { "en": "It's a table.", "ar": "إنه طاولة." }
+      {
+        "en": "It's a pencil.",
+        "ar": " إنه قلم رصاص."
+      },
+      {
+        "en": "It's a chair",
+        "ar": " إنه كرسي."
+      },
+      {
+        "en": "It's a desk.",
+        "ar": " إنه مكتب."
+      },
+      {
+        "en": "It's a table.",
+        "ar": " إنه طاولة."
+      }
     ],
-    "correctAnswer": { "en": "It's a pencil.", "ar": "إنه قلم رصاص." },
-    "feedbackCorrect": { "en": "Great job!", "ar": "عمل رائع!" },
-    "feedbackIncorrect": { "en": "Look closer.", "ar": "انظر بتركيز أكبر." }
+    "correctAnswer": {
+      "en": "It's a pencil.",
+      "ar": ""
+    }
   }
 }
