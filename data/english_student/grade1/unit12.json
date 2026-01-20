@@ -1,101 +1,99 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "Who's that?",
-      "translation": "من هذا؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Clothes and Colors",
+      "ar": "الملابس والألوان"
     },
-    {
-      "type": "reading",
-      "questionText": "That's Peter.",
-      "translation": "ذلك بيتر."
+    "passage": {
+      "en": "Who's that? That's Peter. Who's this? Jack has a red hat. He has a black jacket. This is Tom. That's Mary. He has a blue shirt and a yellow tie. Mary has a green dress. Who's that? That's Boxy. Boxy has a red hat. P p pen. H h hen. This is a pen. This is a hen. I draw a hen with my pen.",
+      "ar": "من هذا؟ ذلك بيتر. من هذا؟ جاك لديه قبعة حمراء. لديه سترة سوداء. هذا توم. تلك ماري. لديه قميص أزرق وربطة عنق صفراء. ماري لديها فستان أخضر. من هذا؟ هذا بوكسي. لدى بوكسي قبعة حمراء. P p قلم. H h دجاجة. هذا قلم. هذه دجاجة. أرسم دجاجة بقلمي."
     },
-    {
-      "type": "reading",
-      "questionText": "Who's this?",
-      "translation": "من هذا؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the clothing items with the correct images.",
+      "ar": "طابق قطع الملابس بالصور الصحيحة."
     },
-    {
-      "type": "reading",
-      "questionText": "Jack has a red hat.",
-      "translation": "جاك لديه قبعة حمراء."
+    "questionText": {
+      "en": "Match the clothes to the pictures",
+      "ar": "طابق الملابس بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "He has a black jacket.",
-      "translation": "لديه سترة سوداء."
+    "feedbackCorrect": {
+      "en": "Great! You identified all the clothes correctly.",
+      "ar": "رائع! لقد عرفت جميع الملابس بشكل صحيح."
     },
-    {
-      "type": "reading",
-      "questionText": "This is Tom.",
-      "translation": "هذا توم."
+    "feedbackIncorrect": {
+      "en": "Look at the colors and types of clothes again.",
+      "ar": "انظر إلى الألوان وأنواع الملابس مرة أخرى."
     },
-    {
-      "type": "reading",
-      "questionText": "That's Mary.",
-      "translation": "تلك ماري."
-    },
-    {
-      "type": "reading",
-      "questionText": "He has a blue shirt and a yellow tie.",
-      "translation": "لديه قميص أزرق وربطة عنق صفراء."
-    },
-    {
-      "type": "reading",
-      "questionText": "Mary has a green dress.",
-      "translation": "ماري لديها فستان أخضر."
-    },
-
-    {
-      "type": "matching",
-      "questionText": "Match the clothes to the pictures",
-      "pairs": [
-        {"id": 1, "left": "shirt", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/shirt.png", "isImage": true},
-        {"id": 2, "left": "dress", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/dress.png", "isImage": true},
-        {"id": 3, "left": "hat", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/hat.png", "isImage": true},
-        {"id": 4, "left": "jacket", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/jacket.png", "isImage": true},
-        {"id": 5, "left": "tie", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tie.png", "isImage": true}
-      ]
-    },
-
-    {
-      "type": "reading",
-      "questionText": "Who's that?\n That's Boxy.\n Boxy has a red hat.",
-      "translation": "من هذا؟ هذا بوكسي. لدى بوكسي قبعة حمراء."
-    },
-
-    {
-      "type": "mcq",
-      "questionText": "What colour is Tom's shirt?",
-      "translation": "ما لون قميص توم؟",
-      "options": [
-        {"questionText": "Blue", "correctAnswer": true},
-        {"questionText": "Red", "correctAnswer": false},
-        {"questionText": "Green", "correctAnswer": false}
-      ]
-    },
-
-    {
-      "type": "mcq",
-      "questionText": "What colour is Mary's dress?",
-      "translation": "ما لون فستان ماري؟",
-      "options": [
-        {"questionText": "Green", "correctAnswer": true},
-        {"questionText": "Yellow", "correctAnswer": false},
-        {"questionText": "Black", "correctAnswer": false}
-      ]
-    },
-
-    {
-      "type": "reading",
-      "questionText": "P p pen.\n H h hen.",
-      "translation": " P p — قلم. \n H h — دجاجة."
-    },
-    {
-      "type": "reading",
-      "questionText": "This is a pen, p, p, pen.\n This is a hen, h, h, hen.\n I draw a hen with my pen.",
-      "translation": " هذا قلم، ب، ب، قلم. \n هذه دجاجة، هـ، هـ، دجاجة. \n أرسم دجاجة بقلمي."
-    }
-  ]
+    "draggableItems": [
+      { "id": "item_1", "text": { "en": "shirt", "ar": "قميص" } },
+      { "id": "item_2", "text": { "en": "dress", "ar": "فستان" } },
+      { "id": "item_3", "text": { "en": "hat", "ar": "قبعة" } },
+      { "id": "item_4", "text": { "en": "jacket", "ar": "سترة" } },
+      { "id": "item_5", "text": { "en": "tie", "ar": "ربطة عنق" } }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Shirt", "ar": "قميص" },
+        "image": "shirt.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Dress", "ar": "فستان" },
+        "image": "dress.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Hat", "ar": "قبعة" },
+        "image": "hat.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Jacket", "ar": "سترة" },
+        "image": "jacket.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "Tie", "ar": "ربطة عنق" },
+        "image": "tie.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": { "en": "Refer to Tom's description in the text.", "ar": "راجع وصف توم في النص." },
+    "questionText": { "en": "What colour is Tom's shirt?", "ar": "ما لون قميص توم؟" },
+    "feedbackCorrect": { "en": "Correct! Tom has a blue shirt.", "ar": "صحيح! توم لديه قميص أزرق." },
+    "feedbackIncorrect": { "en": "Incorrect, check the passage again.", "ar": "خاطئ، راجع النص مرة أخرى." },
+    "options": [
+      { "en": "Blue", "ar": "أزرق" },
+      { "en": "Red", "ar": "أحمر" },
+      { "en": "Green", "ar": "أخضر" }
+    ],
+    "correctAnswer": { "en": "Blue", "ar": "أزرق" }
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": { "en": "Refer to Mary's description in the text.", "ar": "راجع وصف ماري في النص." },
+    "questionText": { "en": "What colour is Mary's dress?", "ar": "ما لون فستان ماري؟" },
+    "feedbackCorrect": { "en": "Correct! Mary's dress is green.", "ar": "صحيح! فستان ماري أخضر." },
+    "feedbackIncorrect": { "en": "Try again, what color did the text mention?", "ar": "حاول ثانية، ما اللون الذي ذكره النص؟" },
+    "options": [
+      { "en": "Green", "ar": "أخضر" },
+      { "en": "Yellow", "ar": "أصفر" },
+      { "en": "Black", "ar": "أسود" }
+    ],
+    "correctAnswer": { "en": "Green", "ar": "أخضر" }
+  }
 }

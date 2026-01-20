@@ -1,0 +1,839 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "How to be a Good Son or Daughter?",
+      "ar": "كيف تكون ابناً أو ابنة جيدة؟"
+    },
+    "passage": {
+      "en": "This section covers advice on family relationships, including showing love to parents, being kind to siblings, and doing well in school. It also reviews the grammar of using 'wish' for present situations.",
+      "ar": "يغطي هذا القسم نصائح حول العلاقات الأسرية، بما في ذلك إظهار الحب للوالدين، واللطف مع الإخوة، والاجتهاد في المدرسة. كما يراجع قواعد استخدام 'wish' للتعبير عن الأمنيات في الحاضر."
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "review2_w_1_vocab_match": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the words with their meanings.",
+      "ar": "طابق الكلمات بمعانيها."
+    },
+    "questionText": {
+      "en": "Match the words (Numbers) with their meanings (Letters):",
+      "ar": "طابق الكلمات (الأرقام) بالمعاني (الحروف):"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! All words matched successfully.",
+      "ar": "ممتاز! تم مطابقة جميع الكلمات بمعانيها بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Some matches are incorrect. Remember: a sibling is a brother or sister.",
+      "ar": "الإجابة غير صحيحة. تذكر: 'sibling' تعني أخ أو أخت، و 'appreciate' تعني التقدير."
+    },
+    "draggableItems": [
+      { "id": "meaning_a", "text": { "en": "a- a brother or a sister", "ar": "أ- أخ أو أخت" } },
+      { "id": "meaning_b", "text": { "en": "b- to have a friendly relationship", "ar": "ب- أن تكون لديك علاقة ودية" } },
+      { "id": "meaning_c", "text": { "en": "c- to know the good qualities", "ar": "ج- أن تعرف الصفات الجيدة لشيء/شخص" } },
+      { "id": "meaning_d", "text": { "en": "d- how much something is worth", "ar": "د- كم يساوي الشيء (القيمة)" } }
+    ],
+    "dropZones": [
+      { "id": "zone_1", "label": { "en": "1- to appreciate", "ar": "1- يُقدّر" }, "image": "", "accepts": "meaning_c" },
+      { "id": "zone_2", "label": { "en": "2- value", "ar": "2- قيمة" }, "image": "", "accepts": "meaning_d" },
+      { "id": "zone_3", "label": { "en": "3- sibling", "ar": "3- شقيق/ة" }, "image": "", "accepts": "meaning_a" },
+      { "id": "zone_4", "label": { "en": "4- to get along with", "ar": "4- يتوافق مع" }, "image": "", "accepts": "meaning_b" }
+    ]
+  },
+  "review2_w_2_wish1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "1. I don’t have a car. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b1' placeholder='...'> a car.",
+      "ar": "1. ليس لدي سيارة. أتمنى لو ___________ (have) سيارة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! After 'I wish' for present situations, we use the Past Simple.",
+      "ar": "صحيح! بعد 'I wish' للتعبير عن أمنية في الحاضر، نستخدم الماضي البسيط."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use Past Simple (had) for a present wish.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي، نستخدم الماضي البسيط 'had'."
+    },
+    "correctAnswers": {
+      "wish_b1": { "en": "had", "ar": "" }
+    }
+  },
+  "review2_w_3_wish2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "2. I can’t play the piano. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b2' placeholder='...'> the piano.",
+      "ar": "2. لا أستطيع عزف البيانو. أتمنى لو ___________ (can play) البيانو."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'could' is used after 'I wish' to talk about abilities.",
+      "ar": "صحيح! تُستخدم 'could' بعد 'I wish' للتحدث عن القدرات."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'could play' for present abilities we don't have.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص قدرة لا نملكها، نستخدم 'could play'."
+    },
+    "correctAnswers": {
+      "wish_b2": { "en": "could play", "ar": "" }
+    }
+  },
+  "review2_w_4_wish3": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "3. I’m at work. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b3' placeholder='...'> at work.",
+      "ar": "3. أنا في العمل الآن. أتمنى لو لم ___________ (be) في العمل."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'weren't' is the formal form for present situations with 'be'.",
+      "ar": "صحيح! تُستخدم 'weren't' للحالات الحالية مع الفعل 'be'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'weren't' or 'wasn't' after 'I wish'.",
+      "ar": "الإجابة غير صحيحة. نستخدم الماضي البسيط للفعل 'be' وهو 'weren't'."
+    },
+    "correctAnswers": {
+      "wish_b3": { "en": "weren't", "ar": "" }
+    }
+  },
+  "review2_w_5_wish4": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "4. It’s winter. I wish it <input type='text' class='fill-blank-input' data-blank-id='wish_b4' placeholder='...'> winter.",
+      "ar": "4. الجو شتاء الآن. أتمنى لو لم ___________ (be) الجو شتاءً."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'weren't' to express a wish against the current reality.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي، نستخدم 'weren't'."
+    },
+    "correctAnswers": {
+      "wish_b4": { "en": "weren't", "ar": "" }
+    }
+  },
+
+  "review2_w_6_wish5": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "5. I’m ill. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b5' placeholder='...'> ill.",
+      "ar": "5. أنا مريض. أتمنى لو لم ___________ (be) مريضاً."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. For a present wish with 'be', use 'weren't'.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي، نستخدم الماضي البسيط للفعل 'be' وهو 'weren't'."
+    },
+    "correctAnswers": {
+      "wish_b5": {
+        "en": "weren't",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_7_wish6": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "6. I don’t have new shoes. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b6' placeholder='...'> new shoes.",
+      "ar": "6. لا أملك أحذية جديدة. أتمنى لو ___________ (have) أحذية جديدة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use Past Simple 'had' for present wishes.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي، نستخدم الماضي البسيط بعد 'I wish'. الإجابة: had."
+    },
+    "correctAnswers": {
+      "wish_b6": {
+        "en": "had",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_8_wish7": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "7. I can’t afford to go on holiday. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b7' placeholder='...'> to go on holiday.",
+      "ar": "7. لا أستطيع تحمل تكلفة عطلة. أتمنى لو ___________ (can afford) الذهاب في عطلة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'could afford' for present abilities.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص قدرة حالية لا نمتلكها، نستخدم 'could + المصدر'."
+    },
+    "correctAnswers": {
+      "wish_b7": {
+        "en": "could afford",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_9_wish8": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence using the correct form after 'I wish'.",
+      "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
+    },
+    "questionText": {
+      "en": "8. I don’t have time to read lots of books. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b8' placeholder='...'> time to read lots of books.",
+      "ar": "8. ليس لدي وقت للقراءة. أتمنى لو ___________ (have) وقتاً لقراءة الكثير من الكتب."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'had' for present wishes about possession.",
+      "ar": "الإجابة غير صحيحة. للتعبير عن أمنية بخصوص وضع حالي، نستخدم الماضي البسيط 'had'."
+    },
+    "correctAnswers": {
+      "wish_b8": {
+        "en": "had",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_10_report1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "1. Mandy: \"Are the boys reading the book?\"\nMandy asked me <input type='text' class='fill-blank-input' data-blank-id='rep_s1' placeholder='reported speech...'>",
+      "ar": "1. ماندي: \"هل يقرأ الأولاد الكتاب؟\"\nماندي سألتني ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! You used 'if/whether' and backshifted the tense.",
+      "ar": "صحيح! لقد استخدمت 'if/whether' وأرجعت الزمن بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Change to statement form and backshift 'are reading' to 'were reading'.",
+      "ar": "الإجابة غير صحيحة. عند نقل سؤال 'نعم/لا'، نستخدم 'if' ونحول الزمن إلى الماضي المستمر 'were reading'."
+    },
+    "correctAnswers": {
+      "rep_s1": {
+        "en": "if/whether the boys were reading the book",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_11_report2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "2. Robert: \"Is Tim leaving on Friday?\"\nRobert asked me <input type='text' class='fill-blank-input' data-blank-id='rep_s2' placeholder='reported speech...'>",
+      "ar": "2. روبرت: \"هل سيغادر تيم يوم الجمعة؟\"\nروبرت سألني ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Backshift 'is leaving' to 'was leaving'.",
+      "ar": "الإجابة غير صحيحة. نستخدم 'if' ونحول الزمن من المضارع المستمر إلى الماضي المستمر 'was leaving'."
+    },
+    "correctAnswers": {
+      "rep_s2": {
+        "en": "if/whether Tim was leaving on Friday",
+        "ar": ""
+      }
+    }
+  },
+
+  "review2_w_12_report3": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "3. Daniel: \"Will it rain tomorrow?\"\nDaniel asked me <input type='text' class='fill-blank-input' data-blank-id='rep_s3' placeholder='reported speech...'>",
+      "ar": "3. دانيال: \"هل ستمطر غداً؟\"\nدانيال سألني ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will' changes to 'would' and 'tomorrow' changes to 'the following day'.",
+      "ar": "صحيح! 'will' تتغير إلى 'would' و 'tomorrow' تتغير إلى 'the following day'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'if/whether', change 'will' to 'would', and update the time expression.",
+      "ar": "الإجابة غير صحيحة. استخدم 'if'، وحول 'will' إلى 'would'، وغير 'tomorrow' إلى 'the next day'."
+    },
+    "correctAnswers": {
+      "rep_s3": {
+        "en": "if/whether it would rain the next day/the following day",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_13_report4": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "4. Jennifer: \"Where do you play football?\"\nJennifer wanted to know <input type='text' class='fill-blank-input' data-blank-id='rep_s4' placeholder='reported speech...'>",
+      "ar": "4. جينيفر: \"أين تلعب كرة القدم؟\"\nأرادت جينيفر أن تعرف ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Keep 'where', change 'you' to 'I', and backshift the verb to 'played'.",
+      "ar": "الإجابة غير صحيحة. حافظ على 'where'، حول الضمير إلى 'I' والزمن إلى الماضي البسيط 'played'."
+    },
+    "correctAnswers": {
+      "rep_s4": {
+        "en": "where I played football",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_14_report5": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "5. Nancy: \"Why didn't Nick go to New York last summer?\"\nNancy asked <input type='text' class='fill-blank-input' data-blank-id='rep_s5' placeholder='reported speech...'>",
+      "ar": "5. نانسي: \"لماذا لم يذهب نيك إلى نيويورك الصيف الماضي؟\"\nنانسي سألت ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Tense and time expression are backshifted successfully.",
+      "ar": "صحيح! تم إرجاع الزمن وتعبير الوقت بنجاح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Backshift 'didn't go' to 'hadn't gone' and change 'last summer'.",
+      "ar": "الإجابة غير صحيحة. حول الماضي البسيط إلى ماضي تام 'hadn't gone' وغير 'last summer' إلى 'the previous summer'."
+    },
+    "correctAnswers": {
+      "rep_s5": {
+        "en": "why Nick hadn't gone to New York the previous summer/the summer before",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_15_report6": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following sentence into reported speech.",
+      "ar": "حول الجملة التالية إلى كلام منقول."
+    },
+    "questionText": {
+      "en": "6. Linda: \"Did Max fly to London two weeks ago?\"\nLinda wanted to know <input type='text' class='fill-blank-input' data-blank-id='rep_s6' placeholder='reported speech...'>",
+      "ar": "6. ليندا: \"هل سافر ماكس إلى لندن قبل أسبوعين؟\"\nأرادت ليندا أن تعرف ___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'if', backshift to 'had flown', and change 'ago' to 'before'.",
+      "ar": "الإجابة غير صحيحة. استخدم 'if'، حول الزمن إلى ماضي تام 'had flown'، وغير 'ago' إلى 'before'."
+    },
+    "correctAnswers": {
+      "rep_s6": {
+        "en": "if/whether Max had flown to London two weeks before/earlier",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_16_passive1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following statement into passive voice.",
+      "ar": "حول الجملة التالية إلى مبني للمجهول."
+    },
+    "questionText": {
+      "en": "1. The chef baked a chocolate cake yesterday.\n<input type='text' class='fill-blank-input' data-blank-id='pass_v1' placeholder='Passive voice...'>",
+      "ar": "1. خبز الطاهي كعكة شوكولاتة بالأمس.\n___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Structure: Object + was/were + past participle. Answer: A chocolate cake was baked by the chef yesterday.",
+      "ar": "الإجابة غير صحيحة. الهيكل: المفعول به + was + التصريف الثالث. الإجابة: A chocolate cake was baked by the chef yesterday."
+    },
+    "correctAnswers": {
+      "pass_v1": {
+        "en": "A chocolate cake was baked by the chef yesterday.",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_17_passive2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following statement into passive voice.",
+      "ar": "حول الجملة التالية إلى مبني للمجهول."
+    },
+    "questionText": {
+      "en": "2. The workers built a new house.\n<input type='text' class='fill-blank-input' data-blank-id='pass_v2' placeholder='Passive voice...'>",
+      "ar": "2. بنى العمال منزلاً جديداً.\n___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'was built'. Answer: A new house was built by the workers.",
+      "ar": "الإجابة غير صحيحة. استخدم 'was built'. الإجابة: A new house was built by the workers."
+    },
+    "correctAnswers": {
+      "pass_v2": {
+        "en": "A new house was built by the workers.",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_18_passive3": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following statement into passive voice.",
+      "ar": "حول الجملة التالية إلى مبني للمجهول."
+    },
+    "questionText": {
+      "en": "3. The school manager advised students to study well.\n<input type='text' class='fill-blank-input' data-blank-id='pass_v3' placeholder='Passive voice...'>",
+      "ar": "3. نصح مدير المدرسة الطلاب بالدراسة جيداً.\n___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Since 'students' is plural, use 'were advised'.",
+      "ar": "الإجابة غير صحيحة. بما أن 'students' جمع، نستخدم 'were advised'."
+    },
+    "correctAnswers": {
+      "pass_v3": {
+        "en": "Students were advised by the school manager to study well.",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_19_passive4": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Change the following statement into passive voice.",
+      "ar": "حول الجملة التالية إلى مبني للمجهول."
+    },
+    "questionText": {
+      "en": "4. Mum drank a lot of coffee.\n<input type='text' class='fill-blank-input' data-blank-id='pass_v4' placeholder='Passive voice...'>",
+      "ar": "4. شربت أمي الكثير من القهوة.\n___________."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The past participle of 'drink' is 'drunk'. Answer: A lot of coffee was drunk by Mum.",
+      "ar": "الإجابة غير صحيحة. التصريف الثالث لـ 'drink' هو 'drunk'. الإجابة: A lot of coffee was drunk by Mum."
+    },
+    "correctAnswers": {
+      "pass_v4": {
+        "en": "A lot of coffee was drunk by Mum.",
+        "ar": ""
+      }
+    }
+  }
+,
+  "review2_w_20_tag1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "2. The car isn't in the garage, <input type='text' class='fill-blank-input' data-blank-id='q_tag1' placeholder='...?'>",
+      "ar": "2. السيارة ليست في المرآب، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Since the sentence is negative ('isn't'), the tag must be positive ('is it?').",
+      "ar": "الإجابة غير صحيحة. بما أن الجملة منفية، يجب أن يكون السؤال المذيل مثبتاً 'is it؟'."
+    },
+    "correctAnswers": {
+      "q_tag1": {
+        "en": "is it?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_21_tag2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "3. You are John, <input type='text' class='fill-blank-input' data-blank-id='q_tag2' placeholder='...?'>",
+      "ar": "3. أنت جون، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The sentence is positive, so the tag should be negative: 'aren't you?'.",
+      "ar": "الإجابة غير صحيحة. الجملة مثبتة، لذا يجب أن يكون السؤال المذيل منفياً: 'aren't you؟'."
+    },
+    "correctAnswers": {
+      "q_tag2": {
+        "en": "aren't you?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_22_tag3": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "4. She went to the library yesterday, <input type='text' class='fill-blank-input' data-blank-id='q_tag3' placeholder='...?'>",
+      "ar": "4. ذهبت هي إلى المكتبة بالأمس، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'didn't' because 'went' is past simple and the sentence is positive.",
+      "ar": "الإجابة غير صحيحة. استخدم 'didn't' لأن الفعل 'went' في الماضي البسيط والجملة مثبتة."
+    },
+    "correctAnswers": {
+      "q_tag3": {
+        "en": "didn't she?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_23_tag4": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "5. He didn't recognize me, <input type='text' class='fill-blank-input' data-blank-id='q_tag4' placeholder='...?'>",
+      "ar": "5. هو لم يتعرف علي، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The tag should be 'did he?' because the sentence is negative.",
+      "ar": "الإجابة غير صحيحة. يجب أن يكون السؤال المذيل 'did he؟' لأن الجملة منفية."
+    },
+    "correctAnswers": {
+      "q_tag4": {
+        "en": "did he?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_24_tag5": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "6. Cars pollute the environment, <input type='text' class='fill-blank-input' data-blank-id='q_tag5' placeholder='...?'>",
+      "ar": "6. السيارات تلوث البيئة، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'don't they?' for present simple positive sentences with plural subjects.",
+      "ar": "الإجابة غير صحيحة. استخدم 'don't they؟' للجمل المثبتة في المضارع البسيط مع فاعل جمع."
+    },
+    "correctAnswers": {
+      "q_tag5": {
+        "en": "don't they?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_25_tag6": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "7. Mr. Pritchard has been to Scotland recently, <input type='text' class='fill-blank-input' data-blank-id='q_tag6' placeholder='...?'>",
+      "ar": "7. السيد بريتشارد كان في اسكتلندا مؤخراً، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The tag is 'hasn't he?' because the sentence uses 'has'.",
+      "ar": "الإجابة غير صحيحة. السؤال المذيل هو 'hasn't he؟' لأن الجملة تستخدم الفعل المساعد 'has'."
+    },
+    "correctAnswers": {
+      "q_tag6": {
+        "en": "hasn't he?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_26_tag7": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "8. The trip is very expensive, <input type='text' class='fill-blank-input' data-blank-id='q_tag7' placeholder='...?'>",
+      "ar": "8. الرحلة غالية جداً، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'isn't it?' to match the auxiliary verb 'is' and the subject 'The trip'.",
+      "ar": "الإجابة غير صحيحة. استخدم 'isn't it؟' لتناسب الفعل المساعد 'is' والفاعل 'The trip'."
+    },
+    "correctAnswers": {
+      "q_tag7": {
+        "en": "isn't it?",
+        "ar": ""
+      }
+    }
+  },
+
+
+  "review2_w_27_tag8": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "9. He won't tell her, <input type='text' class='fill-blank-input' data-blank-id='q_tag8' placeholder='...?'>",
+      "ar": "9. هو لن يخبرها، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The auxiliary 'won't' is negative, so the tag must be positive: 'will he?'.",
+      "ar": "الإجابة غير صحيحة. الفعل المساعد 'won't' منفي، لذا يجب أن يكون السؤال المذيل مثبتاً: 'will he؟'."
+    },
+    "correctAnswers": {
+      "q_tag8": {
+        "en": "will he?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_28_tag9": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the correct question tag.",
+      "ar": "أكمل الجملة بالسؤال المذيل الصحيح."
+    },
+    "questionText": {
+      "en": "10. Huda had a red car, <input type='text' class='fill-blank-input' data-blank-id='q_tag9' placeholder='...?'>",
+      "ar": "10. كان لدى هدى سيارة حمراء، ___________؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! When 'had' is the main verb of possession, use 'didn't' in the tag.",
+      "ar": "صحيح! عندما يكون 'had' هو الفعل الرئيسي للملكية، نستخدم 'didn't' في السؤال المذيل."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'didn't she?' because 'had' here is a main verb in the past simple.",
+      "ar": "الإجابة غير صحيحة. استخدم 'didn't she؟' لأن 'had' هنا فعل رئيسي في الماضي البسيط."
+    },
+    "correctAnswers": {
+      "q_tag9": {
+        "en": "didn't she?",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_29_rel1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the suitable relative pronoun.",
+      "ar": "أكمل الجملة باستخدام الضمير الموصول المناسب."
+    },
+    "questionText": {
+      "en": "1. He wore a mask <input type='text' class='fill-blank-input' data-blank-id='rel_p1' placeholder='...'> made him look like Mickey Mouse.",
+      "ar": "1. ارتدى قناعاً ___________ جعله يبدو مثل ميكي ماوس."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'that' or 'which' refers to things.",
+      "ar": "صحيح! 'that' أو 'which' تشير إلى الأشياء."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The relative pronoun for 'a mask' (a thing) is 'that' or 'which'.",
+      "ar": "الإجابة غير صحيحة. الضمير الموصول الذي يعود على 'mask' (شيء) هو 'that' أو 'which'."
+    },
+    "correctAnswers": {
+      "rel_p1": {
+        "en": "that",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_30_rel2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the suitable relative pronoun.",
+      "ar": "أكمل الجملة باستخدام الضمير الموصول المناسب."
+    },
+    "questionText": {
+      "en": "2. She came with a friend <input type='text' class='fill-blank-input' data-blank-id='rel_p2' placeholder='...'> waited outside in the car.",
+      "ar": "2. جاءت مع صديق ___________ انتظر في الخارج في السيارة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'who' refers to people.",
+      "ar": "صحيح! 'who' تشير إلى الأشخاص."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'who' to refer to 'a friend' (a person).",
+      "ar": "الإجابة غير صحيحة. استخدم 'who' للإشارة إلى 'friend' (شخص)."
+    },
+    "correctAnswers": {
+      "rel_p2": {
+        "en": "who",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_31_rel3": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the suitable relative pronoun.",
+      "ar": "أكمل الجملة باستخدام الضمير الموصول المناسب."
+    },
+    "questionText": {
+      "en": "3. The woman <input type='text' class='fill-blank-input' data-blank-id='rel_p3' placeholder='...'> gave him the money was young.",
+      "ar": "3. المرأة ___________ أعطته المال كانت شابة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'who' is the correct relative pronoun for 'The woman'.",
+      "ar": "الإجابة غير صحيحة. 'who' هو الضمير الموصول الصحيح لـ 'The woman'."
+    },
+    "correctAnswers": {
+      "rel_p3": {
+        "en": "who",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_32_rel4": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the suitable relative pronoun.",
+      "ar": "أكمل الجملة باستخدام الضمير الموصول المناسب."
+    },
+    "questionText": {
+      "en": "4. The bag <input type='text' class='fill-blank-input' data-blank-id='rel_p4' placeholder='...'> contained the money was yellow.",
+      "ar": "4. الحقيبة ___________ احتوت على المال كانت صفراء."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'that' or 'which' for 'The bag'.",
+      "ar": "الإجابة غير صحيحة. استخدم 'that' أو 'which' للحقيبة."
+    },
+    "correctAnswers": {
+      "rel_p4": {
+        "en": "that",
+        "ar": ""
+      }
+    }
+  },
+  "review2_w_33_rel5": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "Complete the sentence with the suitable relative pronoun.",
+      "ar": "أكمل الجملة باستخدام الضمير الموصول المناسب."
+    },
+    "questionText": {
+      "en": "5. The woman <input type='text' class='fill-blank-input' data-blank-id='rel_p5' placeholder='...'> bag was stolen went to the police station.",
+      "ar": "5. المرأة ___________ سُرقت حقيبتها ذهبت إلى مركز الشرطة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'whose' is used to show possession.",
+      "ar": "صحيح! 'whose' تستخدم للدلالة على الملكية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use 'whose' to show that the bag belongs to the woman.",
+      "ar": "الإجابة غير صحيحة. استخدم 'whose' لتوضيح أن الحقيبة تعود للمرأة."
+    },
+    "correctAnswers": {
+      "rel_p5": {
+        "en": "whose",
+        "ar": ""
+      }
+    }
+  }
+}

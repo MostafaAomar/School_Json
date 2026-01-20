@@ -1,74 +1,134 @@
 {
-
-  "questions": [
-
-    {
-      "type": "matching",
-      "questionText": "Read and match.",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "I'm a girl.",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/girl.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "Close the book.",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/close_book.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "He's a boy.",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/boy.png",
-          "isImage": true
-        },
-        {
-          "id": 4,
-          "left": "Sit down.",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sit_down.png",
-          "isImage": true
-        }
-      ]
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Greetings and Instructions",
+      "ar": "التحيات والتعليمات"
     },
-
-    {
-      "type": "reading",
-      "questionText": "Hello. I'm Tom. What's your name?",
-      "translation": "مرحبًا. أنا توم. ما اسمك؟"
+    "passage": {
+      "en": "Hello. I'm Tom. What's your name? I'm Mary. How are you? I'm fine. Thank you.",
+      "ar": "مرحبًا. أنا توم. ما اسمك؟ أنا ماري. كيف حالك؟ أنا بخير. شكرًا لك."
     },
-    {
-      "type": "reading",
-      "questionText": "I'm Mary. How are you?",
-      "translation": "أنا ماري. كيف حالك؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Read the sentences and match them with the correct pictures.",
+      "ar": "اقرأ الجمل وقم بمطابقتها مع الصور الصحيحة."
     },
-    {
-      "type": "reading",
-      "questionText": "I'm fine. Thank you.",
-      "translation": "أنا بخير. شكرًا لك."
+    "questionText": {
+      "en": "Read and match.",
+      "ar": "اقرأ وطابق."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "How many boys?",
-      "translation": "كم عدد الأولاد؟",
-      "options": [
-        {"questionText": "1", "correctAnswer": false},
-        {"questionText": "3", "correctAnswer": false},
-        {"questionText": "4", "correctAnswer": true}
-      ]
+    "feedbackCorrect": {
+      "en": "Great job! You understood the instructions and identities.",
+      "ar": "عمل رائع! لقد فهمت التعليمات والهويات."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "How many girls?",
-      "translation": "كم عدد البنات؟",
-      "options": [
-        {"questionText": "1", "correctAnswer": false},
-        {"questionText": "3", "correctAnswer": true},
-        {"questionText": "5", "correctAnswer": false}
-      ]
+    "feedbackIncorrect": {
+      "en": "Try again. Look closely at the actions in the pictures.",
+      "ar": "حاول مرة أخرى. انظر جيداً إلى الأفعال في الصور."
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "I'm a girl.", "ar": "أنا بنت." }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "Close the book.", "ar": "أغلق الكتاب." }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "He's a boy.", "ar": "هو ولد." }
+      },
+      {
+        "id": "item_4",
+        "text": { "en": "Sit down.", "ar": "اجلس." }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Girl", "ar": "بنت" },
+        "image": "girl.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Close book", "ar": "إغلاق الكتاب" },
+        "image": "close_book.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Boy", "ar": "ولد" },
+        "image": "boy.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Sit down", "ar": "جلوس" },
+        "image": "sit_down.png",
+        "accepts": "item_4"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Count the boys based on the activity.",
+      "ar": "عد الأولاد بناءً على النشاط."
+    },
+    "questionText": {
+      "en": "How many boys?",
+      "ar": "كم عدد الأولاد؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! There are 4 boys.",
+      "ar": "صحيح! هناك 4 أولاد."
+    },
+    "feedbackIncorrect": {
+      "en": "Count again carefully.",
+      "ar": "عد مرة أخرى بعناية."
+    },
+    "options": [
+      { "en": "1", "ar": "1" },
+      { "en": "3", "ar": "3" },
+      { "en": "4", "ar": "4" }
+    ],
+    "correctAnswer": {
+      "en": "4",
+      "ar": "4"
     }
-  ]
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Count the girls based on the activity.",
+      "ar": "عد البنات بناءً على النشاط."
+    },
+    "questionText": {
+      "en": "How many girls?",
+      "ar": "كم عدد البنات؟"
+    },
+    "feedbackCorrect": {
+      "en": "Well done! There are 3 girls.",
+      "ar": "أحسنت! هناك 3 بنات."
+    },
+    "feedbackIncorrect": {
+      "en": "Look again and count the girls.",
+      "ar": "انظر مرة أخرى وعد البنات."
+    },
+    "options": [
+      { "en": "1", "ar": "1" },
+      { "en": "3", "ar": "3" },
+      { "en": "5", "ar": "5" }
+    ],
+    "correctAnswer": {
+      "en": "3",
+      "ar": "3"
+    }
+  }
 }

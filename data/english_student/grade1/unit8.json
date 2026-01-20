@@ -1,62 +1,80 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "This is my father.",
-      "translation": "هذا والدي."
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "My Family Members",
+      "ar": "أفراد عائلتي"
     },
-    {
-      "type": "reading",
-      "questionText": "Who's he? He's my brother.",
-      "translation": "من هذا؟ إنه أخي."
+    "passage": {
+      "en": "This is my father. Who's he? He's my brother. Father, mother, sister, brother, who is she? She's my sister, she's my sister, oh, I see. Father, mother, sister, brother, who is he? He's my brother, he's my brother, oh, I see.",
+      "ar": "هذا والدي. من هذا؟ إنه أخي. أب، أم، أخت، أخ، من هي؟ إنها أختي، إنها أختي، آه، فهمت. أب، أم، أخت، أخ، من هو؟ إنه أخي، إنه أخي، آه، فهمت."
     },
-    {
-      "type": "reading",
-      "questionText": "Father, mother, sister, brother, \n who is she?\n She's my sister, she's my sister, \n oh, I see.\n Father, mother, sister, brother,\n who is he? \n He's my brother, he's my brother,\n oh, I see.",
-      "translation": "أب، أم، أخت، أخ، من هي؟ إنها أختي، إنها أختي، آه، فهمت. أب، أم، أخت، أخ، من هو؟ إنه أخي، إنه أخي، آه، فهمت." 
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match each word with the correct picture of the family member.",
+      "ar": "طابق كل كلمة مع الصورة الصحيحة لفرد العائلة."
     },
-    {
-      "type": "matching",
-      "questionText": "Match the family members to the pictures",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "father",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/father.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "mother",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mother.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "brother",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/brother.png",
-          "isImage": true
-        },
-        {
-          "id": 4,
-          "left": "sister",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sister.png",
-          "isImage": true
-        },
-        {
-          "id": 5,
-          "left": "grandfather",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/grandfather.png",
-          "isImage": true
-        },
-        {
-          "id": 6,
-          "left": "grandmother",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/grandmother.png",
-          "isImage": true
-        }
-      ]
-    }
-  ]
+    "questionText": {
+      "en": "Match the family members to the pictures",
+      "ar": "طابق أفراد العائلة بالصور"
+    },
+    "feedbackCorrect": {
+      "en": "Excellent! You know all your family members.",
+      "ar": "ممتاز! أنت تعرف جميع أفراد عائلتك."
+    },
+    "feedbackIncorrect": {
+      "en": "Try again, look closely at the pictures.",
+      "ar": "حاول مرة أخرى، انظر جيداً إلى الصور."
+    },
+    "draggableItems": [
+      { "id": "item_1", "text": { "en": "father", "ar": "أب" } },
+      { "id": "item_2", "text": { "en": "mother", "ar": "أم" } },
+      { "id": "item_3", "text": { "en": "brother", "ar": "أخ" } },
+      { "id": "item_4", "text": { "en": "sister", "ar": "أخت" } },
+      { "id": "item_5", "text": { "en": "grandfather", "ar": "جد" } },
+      { "id": "item_6", "text": { "en": "grandmother", "ar": "جدة" } }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Father", "ar": "الأب" },
+        "image": "father.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Mother", "ar": "الأم" },
+        "image": "mother.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Brother", "ar": "الأخ" },
+        "image": "brother.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Sister", "ar": "الأخت" },
+        "image": "sister.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "Grandfather", "ar": "الجد" },
+        "image": "grandfather.png",
+        "accepts": "item_5"
+      },
+      {
+        "id": "zone_6",
+        "label": { "en": "Grandmother", "ar": "الجدة" },
+        "image": "grandmother.png",
+        "accepts": "item_6"
+      }
+    ]
+  }
 }

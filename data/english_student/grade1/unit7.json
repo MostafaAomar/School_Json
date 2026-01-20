@@ -1,120 +1,108 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "What's this?",
-      "translation": "ما هذا؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "My Body and Days of the Week",
+      "ar": "جسمي وأيام الأسبوع"
     },
-    {
-      "type": "reading",
-      "questionText": "It's your hand.",
-      "translation": "إنها يدك."
+    "passage": {
+      "en": "What's this? It's your hand. Is it a mouth? Yes, it is. This is my eye and this is my ear. Is it your hand? No, it isn't, it's my nose. Is it your foot? No, it isn't, it's my nose. Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.",
+      "ar": "ما هذا؟ إنها يدك. هل هذا فم؟ نعم، هو كذلك. هذه عيني وهذه أذني. هل هذه يدك؟ لا، ليست كذلك، إنه أنفي. هل هذه قدمك؟ لا، ليست كذلك، إنه أنفي. الأحد، الاثنين، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت."
     },
-    {
-      "type": "reading",
-      "questionText": "Is it a mouth?",
-      "translation": "هل هذا فم؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Identify the body parts and match them with their pictures.",
+      "ar": "تعرف على أجزاء الجسم وقم بمطابقتها مع صورها."
     },
-    {
-      "type": "reading",
-      "questionText": "Yes, it is.",
-      "translation": "نعم، هو كذلك."
+    "questionText": {
+      "en": "Match the body parts to the pictures",
+      "ar": "طابق أجزاء الجسم بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "This is my eye.",
-      "translation": "هذه عيني."
+    "feedbackCorrect": {
+      "en": "Well done! You know your body parts perfectly.",
+      "ar": "أحسنت! أنت تعرف أجزاء جسمك بشكل ممتاز."
     },
-    {
-      "type": "reading",
-      "questionText": "This is my ear.",
-      "translation": "هذه أذني."
+    "feedbackIncorrect": {
+      "en": "Try again, look at the pictures carefully.",
+      "ar": "حاول ثانية، انظر إلى الصور بعناية."
     },
-    {
-      "type": "reading",
-      "questionText": "Is it your hand?",
-      "translation": "هل هذه يدك؟"
+    "draggableItems": [
+      { "id": "item_1", "text": { "en": "hand", "ar": "يد" } },
+      { "id": "item_2", "text": { "en": "foot", "ar": "قدم" } },
+      { "id": "item_3", "text": { "en": "eye", "ar": "عين" } },
+      { "id": "item_4", "text": { "en": "nose", "ar": "أنف" } },
+      { "id": "item_5", "text": { "en": "mouth", "ar": "فم" } },
+      { "id": "item_6", "text": { "en": "ear", "ar": "أذن" } }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Hand", "ar": "يد" },
+        "image": "hand.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Foot", "ar": "قدم" },
+        "image": "foot.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Eye", "ar": "عين" },
+        "image": "eye.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Nose", "ar": "أنف" },
+        "image": "nose.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "Mouth", "ar": "فم" },
+        "image": "mouth.png",
+        "accepts": "item_5"
+      },
+      {
+        "id": "zone_6",
+        "label": { "en": "Ear", "ar": "أذن" },
+        "image": "ear.png",
+        "accepts": "item_6"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Listen or read the command and select the correct part.",
+      "ar": "استمع أو اقرأ الأمر واختر الجزء الصحيح."
     },
-    {
-      "type": "reading",
-      "questionText": "No, it isn't. It's my nose.",
-      "translation": "لا، ليست كذلك. إنه أنفي."
+    "questionText": {
+      "en": "Touch your nose.",
+      "ar": "المس أنفك."
     },
-    {
-      "type": "reading",
-      "questionText": "It's foot?",
-      "translation": " هذه قدمك"
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "إجابة صحيحة!"
     },
-    {
-      "type": "reading",
-      "questionText": "No, it isn't. It's my nose.",
-      "translation": "لا، ليست كذلك. إنه أنفي."
+    "feedbackIncorrect": {
+      "en": "Not that one, try again.",
+      "ar": "ليس هذا الجزء، حاول مجدداً."
     },
-    {
-      "type": "matching",
-      "questionText": "Match the body parts to the pictures",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "hand",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/hand.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "foot",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/foot.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "eye",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/eye.png",
-          "isImage": true
-        },
-        {
-          "id": 4,
-          "left": "nose",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/nose.png",
-          "isImage": true
-        },
-        {
-          "id": 5,
-          "left": "mouth",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mouth.png",
-          "isImage": true
-        },
-        {
-          "id": 6,
-          "left": "ear",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/ear.png",
-          "isImage": true
-        }
-      ]
-    },
-
-    {
-      "type": "reading",
-      "questionText": "Is it a nose? No, it isn't. It's a hand.",
-      "translation": "هل هذا أنف؟ لا، ليس كذلك. إنها يد."
-    },
-
-    {
-      "type": "reading",
-      "questionText": "Sunday,\n Monday,\n Tuesday,\n Wednesday,\n Thursday,\n Friday,\n Saturday.",
-      "translation": "الأحد، الاثنين، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت."
-    },
-
-    {
-      "type": "mcq",
-      "questionText": "Touch your nose.",
-      "translation": "المس أنفك.",
-      "options": [
-        {"questionText": "Nose", "correctAnswer": true},
-        {"questionText": "Ear", "correctAnswer": false},
-        {"questionText": "Hand", "correctAnswer": false}
-      ]
+    "options": [
+      { "en": "Nose", "ar": "أنف" },
+      { "en": "Ear", "ar": "أذن" },
+      { "en": "Hand", "ar": "يد" }
+    ],
+    "correctAnswer": {
+      "en": "Nose",
+      "ar": "أنف"
     }
-  ]
+  }
 }

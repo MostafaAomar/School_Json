@@ -1,73 +1,98 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "Is this my sandwich?",
-      "translation": "هل هذه شطيرتي؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Food and Drinks",
+      "ar": "الطعام والشراب"
     },
-    {
-      "type": "reading",
-      "questionText": "Yes, it is.",
-      "translation": "نعم، هي كذلك."
+    "passage": {
+      "en": "Is this my sandwich? Yes, it is. What do you like? I like rice. I like cheese and juice. I like chicken. It's delicious. I like milk, meow meow. I like chicken. What do you like? What's in my lunch box? Is it a sandwich? No, it isn't. Is it a banana? Yes, it is. I like to eat, eat eat eat, apples and bananas.",
+      "ar": "هل هذه شطيرتي؟ نعم، هي كذلك. ماذا تحب؟ أنا أحب الأرز. أنا أحب الجبن والعصير. أنا أحب الدجاج، إنه لذيذ. أنا أحب الحليب، مياو مياو. أنا أحب الدجاج، ماذا تحب أنت؟ ماذا يوجد في صندوق طعامي؟ هل هي شطيرة؟ لا. هل هي موزة؟ نعم. أنا أحب أن آكل، التفاح والموز."
     },
-    {
-      "type": "reading",
-      "questionText": "What do you like?",
-      "translation": "ماذا تحب؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Look at the pictures and match them with the correct word.",
+      "ar": "انظر إلى الصور وقم بمطابقتها مع الكلمة الصحيحة."
     },
-    {
-      "type": "reading",
-      "questionText": "I like rice.",
-      "translation": "أنا أحب الأرز."
+    "questionText": {
+      "en": "Match the food to the pictures",
+      "ar": "طابق الطعام بالصور"
     },
-    
-    {
-      "type": "reading",
-      "questionText": "I like cheese and juice.",
-      "translation": "أنا أحب الجبن والعصير."
+    "feedbackCorrect": {
+      "en": "Excellent! You know your food items well.",
+      "ar": "ممتاز! أنت تعرف أنواع الطعام جيداً."
     },
-    {
-      "type": "reading",
-      "questionText": "I like chicken. It's delicious.",
-      "translation": "أنا أحب الدجاج. إنه لذيذ."
+    "feedbackIncorrect": {
+      "en": "Not quite right, try to match the picture with its name.",
+      "ar": "ليس صحيحاً تماماً، حاول مطابقة الصورة مع اسمها."
     },
-    {
-      "type": "reading",
-      "questionText": "I like milk, meow meow.",
-      "translation": "أنا أحب الحليب، مياو مياو."
-    },
-
-    {
-      "type": "matching",
-      "questionText": "Match the food to the pictures",
-      "pairs": [
-        {"id": 1, "left": "sandwich", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/sandwich.png", "isImage": true},
-        {"id": 2, "left": "cheese", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/cheese.png", "isImage": true},
-        {"id": 3, "left": "chicken", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/chicken.png", "isImage": true},
-        {"id": 4, "left": "milk", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/milk.png", "isImage": true},
-        {"id": 5, "left": "juice", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/juice.png", "isImage": true},
-        {"id": 6, "left": "rice", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/rice.png", "isImage": true}
-      ]
-    },
-
-    {
-      "type": "reading",
-      "questionText": "I like chicken.\n What do you like?",
-      "translation": "أنا أحب الدجاج. ماذا تحب أنت؟"
-    },
-
-
-    {
-      "type": "reading",
-      "questionText": "What's in my lunch box?\n Is it a sandwich?\n No, it isn't.\n Is it a banana?\n Yes, it is.",
-      "translation": "ماذا يوجد في صندوق طعامي؟ هل هي شطيرة؟ لا. هل هي موزة؟ نعم."
-    },
-
-    {
-      "type": "reading",
-      "questionText": "I like to eat,\n eat eat eat,\n apples and bananas.",
-      "translation": "أنا أحب أن آكل، آكل آكل، التفاح والموز."
-    }
-  ]
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "sandwich", "ar": "شطيرة" }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "cheese", "ar": "جبن" }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "chicken", "ar": "دجاج" }
+      },
+      {
+        "id": "item_4",
+        "text": { "en": "milk", "ar": "حليب" }
+      },
+      {
+        "id": "item_5",
+        "text": { "en": "juice", "ar": "عصير" }
+      },
+      {
+        "id": "item_6",
+        "text": { "en": "rice", "ar": "أرز" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Sandwich", "ar": "شطيرة" },
+        "image": "sandwich.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Cheese", "ar": "جبن" },
+        "image": "cheese.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Chicken", "ar": "دجاج" },
+        "image": "chicken.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Milk", "ar": "حليب" },
+        "image": "milk.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "Juice", "ar": "عصير" },
+        "image": "juice.png",
+        "accepts": "item_5"
+      },
+      {
+        "id": "zone_6",
+        "label": { "en": "Rice", "ar": "أرز" },
+        "image": "rice.png",
+        "accepts": "item_6"
+      }
+    ]
+  }
 }

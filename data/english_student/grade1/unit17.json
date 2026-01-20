@@ -1,85 +1,259 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "What's this, Dad?\n This is a bus.",
-      "translation": "ما هذا يا أبي؟ هذا باص."
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-     {
-      "type": "reading",
-      "questionText": "The bus is slow!",
-      "translation": "الباص بطيء!"
+    "passage": {
+      "en": "What's this, Dad? \n This is a bus.",
+      "ar": " ما هذا يا أبي؟ \nهذا باص."
     },
-    {
-      "type": "reading",
-      "questionText": "That train is fast.",
-      "translation": "ذلك القطار سريع."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_2": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-   
-    {
-      "type": "reading",
-      "questionText": "Is this bike fast, Mum?",
-      "translation": "هل هذه الدراجة سريعة يا أمي؟"
+    "passage": {
+      "en": "The bus is slow!",
+      "ar": " الباص بطيء!"
     },
-    {
-      "type": "reading",
-      "questionText": "What's that, Dad? That's a plane.",
-      "translation": "ما ذاك يا أبي؟ ذلك طائرة."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_3": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    {
-      "type": "reading",
-      "questionText": "No, it's slow.\n Our car is fast.",
-      "translation": "لا، إنها بطيئة. سيارتنا سريعة."
+    "passage": {
+      "en": "That train is fast.",
+      "ar": " ذلك القطار سريع."
     },
-
-    {
-      "type": "matching",
-      "questionText": "Match the vehicles to the pictures",
-      "pairs": [
-        {"id": 1, "left": "bike", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bike.png", "isImage": true},
-        {"id": 2, "left": "car", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/car.png", "isImage": true},
-        {"id": 3, "left": "plane", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/plane.png", "isImage": true},
-        {"id": 4, "left": "bus", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bus.png", "isImage": true},
-        {"id": 5, "left": "train", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/train.png", "isImage": true}
-      ]
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_4": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-
-    {
-      "type": "mcq",
-      "questionText": "Is this plane fast?",
-      "translation": "هل هذه الطائرة سريعة؟",
-      "options": [
-        {"questionText": "Yes, it is", "correctAnswer": true},
-        {"questionText": "No, it isn't", "correctAnswer": false}
-      ]
+    "passage": {
+      "en": "Is this bike fast, Mum?",
+      "ar": " هل هذه الدراجة سريعة يا أمي؟"
     },
-
-    {
-      "type": "reading",
-      "questionText": "It's a big train. Toot toot toot!",
-      "translation": "إنه قطار كبير. توت توت توت!"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_5": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    {
-      "type": "reading",
-      "questionText": "It's a big plane. Zoom zoom zoom!",
-      "translation": "إنها طائرة كبيرة. زووم زووم زووم!"
+    "passage": {
+      "en": "What's that, Dad? That's a plane.",
+      "ar": " ما ذاك يا أبي؟ ذلك طائرة."
     },
-    {
-      "type": "reading",
-      "questionText": "It's a big bus. Beeb beeb beeb!",
-      "translation": "إنه باص كبير. بيب بيب بيب!"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_6": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    {
-      "type": "reading",
-      "questionText": "It's a big car. Broom broom broom!",
-      "translation": "إنها سيارة كبيرة. بروم بروم بروم!"
+    "passage": {
+      "en": "No, it's slow.\n Our car is fast. ",
+      "ar": "\"لا، إنها بطيئة.\n سيارتنا سريعة."
     },
-
-    {
-      "type": "reading",
-      "questionText": "M m moon. J j jar.",
-      "translation": " M m — قمر.  J j — جرة."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_7": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
+    },
+    "passage": {
+      "en": "It's a big train. Toot toot toot!",
+      "ar": " إنه قطار كبير. توت توت توت!"
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_8": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
+    },
+    "passage": {
+      "en": "It's a big plane. Zoom zoom zoom!",
+      "ar": " إنها طائرة كبيرة. زووم زووم زووم!"
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_9": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
+    },
+    "passage": {
+      "en": "It's a big bus. Beeb beeb beeb!",
+      "ar": " إنه باص كبير. بيب بيب بيب!"
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_10": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
+    },
+    "passage": {
+      "en": "It's a big car. Broom broom broom!",
+      "ar": " إنها سيارة كبيرة. بروم بروم بروم!"
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the vehicles to the pictures",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": {
+          "en": "bike",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "car  ",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "plane",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_4",
+        "text": {
+          "en": "bus",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_5",
+        "text": {
+          "en": "train",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "bike.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "car.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "plane.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "bus.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "train.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Is this plane fast?",
+      "ar": " هل هذه الطائرة سريعة؟"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "Yes, it is",
+        "ar": ""
+      },
+      {
+        "en": "No, it isn't",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "Yes, it is",
+      "ar": ""
     }
-  ]
+  }
 }

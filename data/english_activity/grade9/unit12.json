@@ -1,0 +1,537 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Trekking in Nepal",
+      "ar": "رحلة المشي في نيبال"
+    },
+    "passage": {
+      "en": "Today is the second day of my trek around Mount Annapurna. I am exhausted and my legs are shaking; I just hope I am able to complete the trek. Nepal is a fascinating country, but I have a great deal to learn. Everything is so different, and I am trying to adapt to the new way of life here.",
+      "ar": "اليوم هو اليوم الثاني من رحلتي حول جبل أنابورنا. أشعر بالإرهاق وساقاي ترتجفان؛ آمل فقط أن أتمكن من إكمال الرحلة. نيبال بلد رائع، لكن لدي الكثير لأتعلمه. كل شيء مختلف جدًا، وأنا أحاول التكيف مع نمط الحياة الجديد هنا."
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "review1_w_1_vocab_match": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the words with their correct definitions.",
+      "ar": "قم بمطابقة الكلمات بالتعاريف الصحيحة لها."
+    },
+    "questionText": {
+      "en": "Vocabulary Matching: Travel and Emotions",
+      "ar": "مطابقة المفردات: السفر والمشاعر"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! All words are matched with their definitions.",
+      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها بنجاح."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Please review the meanings carefully. For example, 'trek' is a long walk in mountains.",
+      "ar": "الإجابة غير صحيحة. راجع المعاني بعناية. على سبيل المثال، 'trek' هي رحلة مشي طويلة في الجبال."
+    },
+    "draggableItems": [
+      {
+        "id": "word_trek",
+        "text": { "en": "trek", "ar": "رحلة مشي" }
+      },
+      {
+        "id": "word_exhaust",
+        "text": { "en": "exhausted", "ar": "مرهق" }
+      },
+      {
+        "id": "word_inn",
+        "text": { "en": "inn", "ar": "نزل/فندق صغير" }
+      },
+      {
+        "id": "word_adapt",
+        "text": { "en": "adapt", "ar": "يتكيف" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "A long hard walk, especially in the mountains",
+          "ar": "مشي طويل وشاق، خاصة في الجبال"
+        },
+        "image": "",
+        "accepts": "word_trek"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "Very tired",
+          "ar": "متعب جداً"
+        },
+        "image": "",
+        "accepts": "word_exhaust"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "An old-fashioned hotel in the country",
+          "ar": "فندق ذو طراز قديم في الأرياف"
+        },
+        "image": "",
+        "accepts": "word_inn"
+      },
+      {
+        "id": "zone_4",
+        "label": {
+          "en": "To change behaviour to deal with a new situation",
+          "ar": "تغيير السلوك للتعامل مع موقف جديد"
+        },
+        "image": "",
+        "accepts": "word_adapt"
+      }
+    ]
+  },
+  "review1_w_2_mcq_vocab1": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the most suitable word to complete the sentence.",
+      "ar": "اختر الكلمة الأنسب لإكمال الجملة."
+    },
+    "questionText": {
+      "en": "1. The accident has not caused any ………… damage.",
+      "ar": "1. الحادث لم يسبب أي ضرر …………."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Permanent means lasting forever.",
+      "ar": "صحيح! كلمة Permanent تعني دائم."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The word that means lasting or non-repairable damage is 'permanent'.",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني ضررًا دائمًا هي 'permanent'."
+    },
+    "options": [
+      { "en": "beneficial", "ar": "مفيد" },
+      { "en": "permanent", "ar": "دائم" },
+      { "en": "gathered", "ar": "مجموع" },
+      { "en": "discover", "ar": "يكتشف" }
+    ],
+    "correctAnswer": {
+      "en": "permanent",
+      "ar": "دائم"
+    }
+  },
+  "review1_w_5_mcq_vocab4": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the correct adjective for the context.",
+      "ar": "اختر الصفة الصحيحة للسياق."
+    },
+    "questionText": {
+      "en": "4. A good diet is ……….. for your health.",
+      "ar": "4. النظام الغذائي الجيد هو ……….. لصحتك."
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "صحيح!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The word that means helpful for your health is 'beneficial'.",
+      "ar": "الإجابة غير صحيحة. الكلمة التي تعني مفيد لصحتك هي 'beneficial'."
+    },
+    "options": [
+      { "en": "beneficial", "ar": "مفيد" },
+      { "en": "implemented", "ar": "مُنفذ" },
+      { "en": "permanent", "ar": "دائم" },
+      { "en": "fine", "ar": "غرامة/بخير" }
+    ],
+    "correctAnswer": {
+      "en": "beneficial",
+      "ar": "مفيد"
+    }
+  }
+,
+
+
+  "review1_w_3_mcq_vocab2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the verb that means to collect or bring together.",
+      "ar": "اختر الفعل الذي يعني يجمع أو يحضر الأشياء معاً."
+    },
+    "questionText": {
+      "en": "2. All the information that we ………… has been kept in a file.",
+      "ar": "2. كل المعلومات التي ………… تم الاحتفاظ بها في ملف."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Gathered' is used for collecting information or objects.",
+      "ar": "صحيح! تستخدم كلمة 'Gathered' لجمع المعلومات أو الأشياء."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The word that means collecting information is 'gathered'.",
+      "ar": "إجابة غير صحيحة. الكلمة التي تعني جمع المعلومات هي 'gathered'."
+    },
+    "options": [
+      { "en": "beneficial", "ar": "مفيد" },
+      { "en": "gathered", "ar": "جمعناها" },
+      { "en": "implemented", "ar": "نُفذت" },
+      { "en": "discover", "ar": "يكتشف" }
+    ],
+    "correctAnswer": {
+      "en": "gathered",
+      "ar": "جمعناها"
+    }
+  },
+  "review1_w_4_mcq_vocab3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the verb that means to find out or learn something for the first time.",
+      "ar": "اختر الفعل الذي يعني معرفة أو تعلم شيء ما لأول مرة."
+    },
+    "questionText": {
+      "en": "3. The police are working hard to …………… the cause of the fire.",
+      "ar": "3. تعمل الشرطة جاهدة لـ …………… سبب الحريق."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Discover' means to find something that was unknown.",
+      "ar": "صحيح! 'Discover' تعني العثور على شيء كان مجهولاً."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The police are trying to 'discover' or find out the cause.",
+      "ar": "إجابة غير صحيحة. تحاول الشرطة 'اكتشاف' أو معرفة السبب."
+    },
+    "options": [
+      { "en": "discover", "ar": "يكتشفوا" },
+      { "en": "permanent", "ar": "دائم" },
+      { "en": "fine", "ar": "غرامة" },
+      { "en": "implemented", "ar": "نُفذ" }
+    ],
+    "correctAnswer": {
+      "en": "discover",
+      "ar": "يكتشفوا"
+    }
+  }
+,
+
+"review1_w_6_mcq_vocab5": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Complete the sentence with the word that means 'put into action'.",
+      "ar": "أكمل الجملة بالكلمة التي تعني 'وضع قيد التنفيذ'."
+    },
+    "questionText": {
+      "en": "5. A new work programme for young people will be ………… soon.",
+      "ar": "5. سيتم ………… برنامج عمل جديد للشباب قريباً."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Implemented' means to put a decision or plan into effect.",
+      "ar": "صحيح! كلمة 'Implemented' تعني تنفيذ قرار أو خطة ما."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The correct word is 'implemented'.",
+      "ar": "إجابة غير صحيحة. الكلمة الصحيحة هي 'implemented'."
+    },
+    "options": [
+      { "en": "gathered", "ar": "مجموع" },
+      { "en": "implemented", "ar": "مُنفذ" },
+      { "en": "permanent", "ar": "دائم" },
+      { "en": "fine", "ar": "غرامة" }
+    ],
+    "correctAnswer": {
+      "en": "implemented",
+      "ar": "مُنفذ"
+    }
+  },
+  "review1_w_8_mcq_vocab7": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the word that refers to a financial penalty.",
+      "ar": "اختر الكلمة التي تشير إلى عقوبة مالية."
+    },
+    "questionText": {
+      "en": "7. She has to pay a ………….. for speeding.",
+      "ar": "7. يجب عليها دفع ………….. بسبب السرعة الزائدة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! A 'fine' is a sum of money paid as a penalty.",
+      "ar": "صحيح! 'Fine' هي مبلغ مالي يدفع كعقوبة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The word for a financial penalty is 'fine'.",
+      "ar": "إجابة غير صحيحة. الكلمة التي تعني عقوبة مالية هي 'fine' (غرامة)."
+    },
+    "options": [
+      { "en": "fine", "ar": "غرامة" },
+      { "en": "beneficial", "ar": "مفيد" },
+      { "en": "discover", "ar": "يكتشف" },
+      { "en": "permanent", "ar": "دائم" }
+    ],
+    "correctAnswer": {
+      "en": "fine",
+      "ar": "غرامة"
+    }
+  },
+  "review1_w_9_verb_form1_part1": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the correct tense for an action currently in progress.",
+      "ar": "اختر الزمن الصحيح لفعل قيد التنفيذ حالياً."
+    },
+    "questionText": {
+      "en": "1. We ______ a garage next to our house.",
+      "ar": "1. نحن ______ مرآباً بجوار منزلنا."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Are building' shows a temporary action happening around now.",
+      "ar": "صحيح! 'Are building' تظهر فعلاً مؤقتاً يحدث في الوقت الحالي."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Building a garage is a temporary ongoing action, so use 'are building'.",
+      "ar": "إجابة غير صحيحة. بناء المرآب فعل مستمر مؤقت، لذا نستخدم 'are building'."
+    },
+    "options": [
+      { "en": "build", "ar": "نبني (عادة)" },
+      { "en": "are building", "ar": "نبني (حالياً)" }
+    ],
+    "correctAnswer": {
+      "en": "are building",
+      "ar": "نبني (حالياً)"
+    }
+  },
+  "review1_w_10_verb_form1_part2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the correct form for a state verb (verbs of needing/feeling).",
+      "ar": "اختر الصيغة الصحيحة لفعل حالة (أفعال الاحتياج/الشعور)."
+    },
+    "questionText": {
+      "en": "1. ... We ______ somewhere to put the car.",
+      "ar": "1. ... نحن ______ مكاناً لوضع السيارة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Need' is a state verb and is used in the Present Simple.",
+      "ar": "صحيح! 'Need' فعل حالة ويستخدم في المضارع البسيط."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Need' describes a state, not an action, so use 'need'.",
+      "ar": "إجابة غير صحيحة. الفعل 'Need' يصف حالة وليس حركة، لذا نستخدم 'need'."
+    },
+    "options": [
+      { "en": "need", "ar": "نحتاج" },
+      { "en": "have needed", "ar": "احتجنا (سابقاً)" }
+    ],
+    "correctAnswer": {
+      "en": "need",
+      "ar": "نحتاج"
+    }
+  },
+ 
+  "review1_w_11_verb_form2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the correct verb form for a daily habit.",
+      "ar": "اختر صيغة الفعل الصحيحة للتعبير عن عادة يومية."
+    },
+    "questionText": {
+      "en": "2. Mrs. James ______ early every day.",
+      "ar": "2. السيدة جيمس ______ باكراً كل يوم."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'leaves' is Present Simple, used for habits.",
+      "ar": "صحيح! 'leaves' هو مضارع بسيط، يستخدم للتعبير عن العادات."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Every day' indicates a habit, so use Present Simple 'leaves'.",
+      "ar": "إجابة غير صحيحة. 'Every day' تدل على عادة، لذا نستخدم المضارع البسيط 'leaves'."
+    },
+    "options": [
+      { "en": "leaves", "ar": "تغادر" },
+      { "en": "has left", "ar": "غادرت (توّاً)" }
+    ],
+    "correctAnswer": {
+      "en": "leaves", "ar": "تغادر"
+    }
+  },
+  "review1_w_12_verb_form3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the tense that links the past to the present (using 'since').",
+      "ar": "اختر الزمن الذي يربط الماضي بالحاضر (باستخدام 'since')."
+    },
+    "questionText": {
+      "en": "3. They ______ the museum since 2014.",
+      "ar": "3. هم ______ المتحف منذ عام 2014."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Present Perfect 'haven't visited' is used with 'since'.",
+      "ar": "صحيح! المضارع التام 'haven't visited' يُستخدم مع 'since'."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'Since 2014' requires the Present Perfect tense.",
+      "ar": "إجابة غير صحيحة. 'Since 2014' تتطلب زمن المضارع التام."
+    },
+    "options": [
+      { "en": "didn’t visit", "ar": "لم يزوروا (ماضي بسيط)" },
+      { "en": "haven’t visited", "ar": "لم يزوروا (مضارع تام)" }
+    ],
+    "correctAnswer": {
+      "en": "haven’t visited", "ar": "لم يزوروا (مضارع تام)"
+    }
+  },
+  "review1_w_13_verb_form4": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the continuous action that was happening when an interruption occurred.",
+      "ar": "اختر الفعل المستمر الذي كان يحدث عند وقوع مقاطعة."
+    },
+    "questionText": {
+      "en": "4. Sarah hurt her ankle while she ______.",
+      "ar": "4. آذت سارة كاحلها بينما كانت ______."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'was running' shows the ongoing action interrupted by the injury.",
+      "ar": "صحيح! 'was running' يظهر الفعل المستمر الذي قطعه حدوث الإصابة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. After 'while', we usually use Past Continuous for the longer action.",
+      "ar": "إجابة غير صحيحة. بعد 'while'، نستخدم عادة الماضي المستمر للفعل الأطول."
+    },
+    "options": [
+      { "en": "run", "ar": "تركض" },
+      { "en": "was running", "ar": "كانت تركض" }
+    ],
+    "correctAnswer": {
+      "en": "was running", "ar": "كانت تركض"
+    }
+  },
+  "review1_w_15_verb_form6": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Identify the future action that will happen after graduation.",
+      "ar": "حدد الفعل المستقبلي الذي سيحدث بعد التخرج."
+    },
+    "questionText": {
+      "en": "6. As soon as I graduate, I ______ for a job.",
+      "ar": "6. بمجرد أن أتخرج، ______ عن وظيفة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'will look' describes a future intention.",
+      "ar": "صحيح! 'will look' تصف نية مستقبلية."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Use Future Simple 'will look' for actions following a time connector like 'as soon as'.",
+      "ar": "إجابة غير صحيحة. استخدم المستقبل البسيط 'will look' للأفعال التي تلي روابط زمنية مثل 'as soon as'."
+    },
+    "options": [
+      { "en": "will look", "ar": "سأبحث" },
+      { "en": "have looked", "ar": "بحثت" }
+    ],
+    "correctAnswer": {
+      "en": "will look", "ar": "سأبحث"
+    }
+  }
+,
+
+"review1_w_16_verb_form7": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the tense used for an action in progress at a specific moment in the past.",
+      "ar": "اختر الزمن المستخدم لفعل كان مستمراً في لحظة محددة في الماضي."
+    },
+    "questionText": {
+      "en": "7. This time last year, she ______ at university.",
+      "ar": "7. في مثل هذا الوقت من العام الماضي، هي ______ في الجامعة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Was studying' is used because the action was in progress at that exact time.",
+      "ar": "صحيح! نستخدم 'Was studying' لأن الفعل كان مستمراً في ذلك الوقت المحدد."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. 'This time last year' acts as a specific timestamp, requiring the Past Continuous.",
+      "ar": "إجابة غير صحيحة. 'This time last year' تعمل كطابع زمني محدد، مما يتطلب الماضي المستمر."
+    },
+    "options": [
+      { "en": "studied", "ar": "درست (ماضي بسيط)" },
+      { "en": "was studying", "ar": "كانت تدرس (ماضي مستمر)" }
+    ],
+    "correctAnswer": {
+      "en": "was studying",
+      "ar": "كانت تدرس (ماضي مستمر)"
+    }
+  },
+  "review1_w_17_verb_form8": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the completed past action that explains the situation.",
+      "ar": "اختر الفعل الماضي المكتمل الذي يفسر الموقف."
+    },
+    "questionText": {
+      "en": "8. I ______ your call because I was working.",
+      "ar": "8. أنا ______ مكالمتك لأنني كنت أعمل."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Missed' is a completed action in the past.",
+      "ar": "صحيح! 'Missed' هو فعل مكتمل في الماضي."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The missing of the call happened while working in the past, so use 'missed'.",
+      "ar": "إجابة غير صحيحة. فوات المكالمة حدث أثناء العمل في الماضي، لذا نستخدم 'missed'."
+    },
+    "options": [
+      { "en": "missed", "ar": "فوتت / لم أرد" },
+      { "en": "will miss", "ar": "سوف أفوت" }
+    ],
+    "correctAnswer": {
+      "en": "missed",
+      "ar": "فوتت / لم أرد"
+    }
+  },
+  "review1_w_18_verb_form9": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Identify the sequential past action.",
+      "ar": "حدد الفعل الماضي المتسلسل."
+    },
+    "questionText": {
+      "en": "9. When we saw the accident, we ______ the police.",
+      "ar": "9. عندما رأينا الحادث، ______ الشرطة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! When one past action follows another immediately, we use Past Simple for both.",
+      "ar": "صحيح! عندما يتبع فعل ماضٍ فعلاً آخر مباشرة، نستخدم الماضي البسيط لكليهما."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. Seeing and calling are two finished actions in a sequence.",
+      "ar": "إجابة غير صحيحة. الرؤية والاتصال فعلان منتهيان في تسلسل زمني."
+    },
+    "options": [
+      { "en": "called", "ar": "اتصلنا" },
+      { "en": "are calling", "ar": "نتصل (الآن)" }
+    ],
+    "correctAnswer": {
+      "en": "called", "ar": "اتصلنا"
+    }
+  },
+  "review1_w_19_verb_form10": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the correct imperative form for a warning.",
+      "ar": "اختر صيغة الأمر الصحيحة للتحذير."
+    },
+    "questionText": {
+      "en": "10. ( ______ ) out! You are driving very fast.",
+      "ar": "10. ( ______ ) ! أنت تقود بسرعة كبيرة."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! 'Watch out' is the imperative base form used for warnings.",
+      "ar": "صحيح! 'Watch out' هي صيغة المصدر المستخدمة للأمر والتحذير."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. We use the base form of the verb (without -ing) for imperatives.",
+      "ar": "إجابة غير صحيحة. نستخدم الصيغة الأساسية للفعل (بدون -ing) في صيغة الأمر."
+    },
+    "options": [
+      { "en": "Watch", "ar": "انتبه" },
+      { "en": "Watching", "ar": "انتباه / يراقب" }
+    ],
+    "correctAnswer": {
+      "en": "Watch",
+      "ar": "انتبه"
+    }
+  }
+}

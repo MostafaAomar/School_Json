@@ -1,68 +1,142 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "Look! There are four elephants. \n They are big.",
-      "translation": "انظر! هناك أربعة أفيال. إنها كبيرة."
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Animals Unit",
+      "ar": "وحدة الحيوانات"
     },
-    {
-      "type": "reading",
-      "questionText": "Is there a tiger?\n Yes, there is.",
-      "translation": "هل هناك نمر؟ نعم، هناك."
+    "passage": {
+      "en": "Look! There are four elephants. They are big. Is there a tiger? Yes, there is. There is a monkey. It is funny. Are there parrots? No, there aren't. Look, it is a small rabbit. B b basket. S s strawberry.",
+      "ar": "انظر! هناك أربعة أفيال. إنها كبيرة. هل هناك نمر؟ نعم، هناك. هناك قرد. إنه مضحك. هل هناك ببغاوات؟ لا، لا يوجد. انظر، إنه أرنب صغير. B b — سلة. S s — فراولة."
     },
-    {
-      "type": "reading",
-      "questionText": "There is a monkey.\n It is funny.",
-      "translation": "هناك قرد. إنه مضحك."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the animals to their pictures",
+      "ar": "طابق الحيوانات بصورها"
     },
-    {
-      "type": "reading",
-      "questionText": "Are there parrots?\n No, there aren't.",
-      "translation": "هل هناك ببغاوات؟ لا، لا يوجد."
+    "questionText": {
+      "en": "Match the animals to the pictures",
+      "ar": "طابق الحيوانات بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "Look, it is a small rabbit.",
-      "translation": "انظر، إنه أرنب صغير."
+    "feedbackCorrect": {
+      "en": "Great job! You know your animals.",
+      "ar": "عمل رائع! أنت تعرف حيواناتك جيداً."
     },
-
-    {
-      "type": "matching",
-      "questionText": "Match the animals to the pictures",
-      "pairs": [
-        {"id": 1, "left": "elephant", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/elephant.png", "isImage": true},
-        {"id": 2, "left": "tiger", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tiger.png", "isImage": true},
-        {"id": 3, "left": "monkey", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/monkey.png", "isImage": true},
-        {"id": 4, "left": "parrot", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/parrot.png", "isImage": true},
-        {"id": 5, "left": "rabbit", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/rabbit.png", "isImage": true}
-      ]
+    "feedbackIncorrect": {
+      "en": "Try again, look closely at the pictures.",
+      "ar": "حاول مجدداً، انظر جيداً إلى الصور."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "Is there an elephant?",
-      "translation": "هل هناك فيل؟",
-      "options": [
-        {"questionText": "Yes, there is", "correctAnswer": true},
-        {"questionText": "No, there isn't", "correctAnswer": false}
-      ]
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "elephant", "ar": "فيل" }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "tiger", "ar": "نمر" }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "monkey", "ar": "قرد" }
+      },
+      {
+        "id": "item_4",
+        "text": { "en": "parrot", "ar": "ببغاء" }
+      },
+      {
+        "id": "item_5",
+        "text": { "en": "rabbit", "ar": "أرنب" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "", "ar": "" },
+        "image": "elephant.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "", "ar": "" },
+        "image": "tiger.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "", "ar": "" },
+        "image": "monkey.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "", "ar": "" },
+        "image": "parrot.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "", "ar": "" },
+        "image": "rabbit.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
     },
-
-    {
-      "type": "mcq",
-      "questionText": "Are there parrots?",
-      "translation": "هل هناك ببغاوات؟",
-      "options": [
-        {"questionText": "Yes, there are", "correctAnswer": false},
-        {"questionText": "No, there aren't", "correctAnswer": true}
-      ]
+    "questionText": {
+      "en": "Is there an elephant?",
+      "ar": "هل هناك فيل؟"
     },
-
-    {
-      "type": "reading",
-      "questionText": "B b basket. S s strawberry.",
-      "translation": " B b — سلة.  S s — فراولة."
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "إجابة صحيحة!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect, look at the text again.",
+      "ar": "إجابة خاطئة، راجع النص مجدداً."
+    },
+    "options": [
+      { "en": "Yes, there is", "ar": "نعم، هناك" },
+      { "en": "No, there isn't", "ar": "لا، ليس هناك" }
+    ],
+    "correctAnswer": {
+      "en": "Yes, there is",
+      "ar": "نعم، هناك"
     }
-  ]
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Are there parrots?",
+      "ar": "هل هناك ببغاوات؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "إجابة صحيحة!"
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect, look at the text again.",
+      "ar": "إجابة خاطئة، راجع النص مجدداً."
+    },
+    "options": [
+      { "en": "Yes, there are", "ar": "نعم، يوجد" },
+      { "en": "No, there aren't", "ar": "لا، لا يوجد" }
+    ],
+    "correctAnswer": {
+      "en": "No, there aren't",
+      "ar": "لا، لا يوجد"
+    }
+  }
 }

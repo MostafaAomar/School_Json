@@ -1,729 +1,375 @@
-{"questionText": {
-    "en": "**Late to Go Back**\nSam walked into a cake shop, after he'd finished his work, to buy his daughter a birthday cake. It was about four o'clock and the store usually closes at five. So he should make his mind quickly and decide what he should buy. Sam asked himself \"Which one should I choose?\" He began wandering in the shop watching the various kinds of cakes which were kept in the refrigerators around. The cakes looked very delicious and tasty so it was difficult for Sam to choose.\n\nTime was passing but in vain. Sam couldn't decide yet, when he heard the chef saying \"Come on. Hurry up, please, we are about to close the store.\"\n\n\"No, wait please, I should choose the most suitable and delicious cake.\" Sam said sorrowfully.\n\nSam's eyes kept moving from one refrigerator to another, but all of the options looked so good and he couldn’t make a decision yet.\n\n\"Try to be quick Man, make up your mind, we have to close,\" the impatient chef said.\n\nSuddenly, the chef had enough and asked Sam to leave immediately. Sam walked out of the shop empty-handed feeling depressed and frustrated. He wanted them all, but ended up with nothing because he couldn’t choose any.\n\nThink of what happened to Sam. It's just that we’re all Sam and the world is that cake shop. We have extremely large numbers of options available to us, but if we don’t make a decision about our career, education, relationships, investments, or other important issues, we end up empty-handed.\n\nSometimes we worry about making the wrong decision. What if we regret the direction that we take and it’s too late to go back? The real danger is that we make no decision at all and end up going nowhere and doing nothing.\n\n**Key Words**\n- sorrowfully: sadly\n- an option: a mcq you can make in a particular situation\n- impatient: annoyed because of delays, or because of someone else's mistakes (restless)",
-    "ar": "**متأخر للعودة**\nدخل سام إلى محل الكعك بعد أن أنهى عمله ليشتري لابنته كعكة عيد ميلاد. كانت الساعة حوالي الرابعة والمحل عادةً يغلق في الخامسة. لذا عليه أن يقرر بسرعة ما يجب أن يشتريه. سأل سام نفسه \"أي واحدة يجب أن أختار؟\" وبدأ يتجول في المحل يشاهد الأنواع المختلفة من الكعك المحفوظة في الثلاجات حوله. كانت الكعكات تبدو لذيذة جدًا، لذا كان من الصعب على سام أن يختار.\n\nمر الوقت ولكن دون جدوى. لم يستطع سام اتخاذ القرار بعد، عندما سمع الطاهي يقول \"هيا، أسرع من فضلك، نحن على وشك إغلاق المتجر.\"\n\n\"لا، انتظر من فضلك، يجب أن أختار الكعكة الأكثر ملاءمة ولذة.\" قال سام بحزن.\n\nاستمرت عينا سام في التحرك من ثلاجة إلى أخرى، لكن جميع الخيارات بدت جيدة جدًا ولم يتمكن من اتخاذ قرار بعد.\n\n\"حاول أن تكون سريعًا يا رجل، قرر، علينا الإغلاق،\" قال الطاهي بفارغ الصبر.\n\nفجأة، فقد الطاهي صبره وطلب من سام المغادرة فورًا. خرج سام من المحل خالي الوفاض، يشعر بالإحباط وخيبة الأمل. كان يريدهم جميعًا، لكنه انتهى بلا شيء لأنه لم يستطع اختيار أي منهم.\n\nفكر فيما حدث لسام. نحن جميعًا مثل سام، والعالم هو محل الكعك. لدينا عدد هائل من الخيارات المتاحة لنا، ولكن إذا لم نتخذ قرارًا بشأن حياتنا المهنية، تعليمنا، علاقاتنا، استثماراتنا، أو أي قضايا مهمة أخرى، سننتهي خالي الوفاض.\n\nأحيانًا نقلق بشأن اتخاذ القرار الخاطئ. ماذا لو ندمنا على الاتجاه الذي اتخذناه وكان الوقت قد فات للعودة؟ الخطر الحقيقي هو أننا لا نتخذ أي قرار على الإطلاق وننتهي بلا وجهة أو إنجاز.\n\n**الكلمات المفتاحية**\n- بحزن: بشكل حزين\n- خيار: اختيار يمكنك اتخاذه في موقف معين\n- نافد الصبر: منزعج بسبب التأخيرات أو بسبب أخطاء الآخرين (متململ)"
-  }
-,
-  "videoUrl": "https://www.youtube.com/watch?v=qYuOz33Dyos&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=18&ab_channel=Mostafa",
-  "audioUrl": "",
-  "audioType": "audio/mp3",
-  "externalLinks": [
-    {
-      "type": "text",
-      "url": "",
-      "text": { "ar": "", "en": "" },
-      "title": { "ar": "", "en": "" }
-    }
-  ],
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Late to Go Back",
+      "ar": "متأخر للعودة (اتخاذ القرار)"
+    },
+    "passage": {
+      "en": "The story of Sam in the cake shop teaches us that having too many options can lead to indecision. If we don't make choices about important issues like career or education, we risk ending up with nothing, just like Sam did.",
+      "ar": "تعلمنا قصة سام في محل الكعك أن وجود خيارات كثيرة قد يؤدي إلى العجز عن اتخاذ القرار. إذا لم نتخذ خيارات بشأن القضايا المهمة مثل المهنة أو التعليم، فإننا نخاطر بالبقاء خالي الوفاض، تماماً كما حدث مع سام."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qYuOz33Dyos&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=18&ab_channel=Mostafa",
+    "audioUrl": ""
+  },
   "unit5_w_sentence_match1": {
     "type": "matching",
-    "difficulty": 2,
-    "tags": [
-      "reading-comprehension",
-      "sentence-structure",
-      "decision-making",
-      "unit5",
-      "matching",
-      "matching"
-    ],
     "supportContent": {
-      "en": "Match the numbered sentence beginnings (draggable) with the correct numbered sentence endings (drop zones) to form meaningful sentences.",
-      "ar": ""  
+      "en": "Match the sentence beginnings with the correct endings to form meaningful sentences.",
+      "ar": "صل بدايات الجمل مع النهايات الصحيحة لتكوين جمل ذات معنى."
     },
     "questionText": {
-      "en": "Drag each sentence beginning to its matching numbered ending:",
-      "ar": ""  
+      "en": "Drag each sentence beginning to its matching ending:",
+      "ar": "اسحب بداية كل جملة إلى النهاية التي تناسبها:"
     },
-    "draggableItems": [  
-      {
-        "id": "begin1_id",
-        "text": {
-          "en": "1. This world is full of",
-          "ar": ""
-        }
-      },
-      {
-        "id": "begin2_id",
-        "text": {
-          "en": "2. If you don't make the right decision now,",
-          "ar": ""
-        }
-      },
-      {
-        "id": "begin3_id",
-        "text": {
-          "en": "3. You may end with nothing",
-          "ar": ""
-        }
-      },
-      {
-        "id": "begin4_id",
-        "text": {
-          "en": "4. Make up your mind",
-          "ar": ""
-        }
-      },
-      {
-        "id": "begin5_id",
-        "text": {
-          "en": "5. Sam did",
-          "ar": ""
-        }
-      }
-      
-    ],
-    "dropZones": [
-       
-      {
-        "id": "dropzone_ending_a",
-        "label": {
-          "en": "1. you'll only regret it.",
-          "ar": ""
-        },
-        "accepts": "begin2_id"
-      },  
-      {
-        "id": "dropzone_ending_b",
-        "label": {
-          "en": "2. decision about our career.",
-          "ar": ""
-        },
-        "accepts": "begin4_id"
-      },  
-      {
-        "id": "dropzone_ending_c",
-        "label": {
-          "en": "3. options available to us.",
-          "ar": ""
-        },
-        "accepts": "begin1_id"
-      },  
-      {
-        "id": "dropzone_ending_d",
-        "label": {
-          "en": "4. what we all might do in life.",
-          "ar": ""
-        },
-        "accepts": "begin5_id"
-      },  
-      {
-        "id": "dropzone_ending_e",
-        "label": {
-          "en": "5. if you want to get all the options.",
-          "ar": ""
-        },
-        "accepts": "begin3_id"
-      }  
-    ],
     "feedbackCorrect": {
       "en": "Correct! All parts are matched to form meaningful sentences.",
-      "ar": "صحيح! تم مطابقة جميع الأجزاء لتكوين جمل ذات معنى."  
+      "ar": "صحيح! تم مطابقة جميع الأجزاء لتكوين جمل ذات معنى."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. حاول سحب كل بداية جملة إلى رقم النهاية الذي يكمل معناها بشكل صحيح. على سبيل المثال، 'This world is full of' يجب أن تسحبها إلى رقم النهاية الذي يمثل 'options available to us'."  
-    }
+      "en": "Incorrect. Try to link each beginning to its logical ending based on the story.",
+      "ar": "الإجابة غير صحيحة. حاول ربط كل بداية بنهايتها المنطقية بناءً على القصة."
+    },
+    "draggableItems": [
+      { "id": "begin1_id", "text": { "en": "1. This world is full of", "ar": "1. هذا العالم مليء بـ" } },
+      { "id": "begin2_id", "text": { "en": "2. If you don't make the right decision now,", "ar": "2. إذا لم تتخذ القرار الصحيح الآن،" } },
+      { "id": "begin3_id", "text": { "en": "3. You may end with nothing", "ar": "3. قد تنتهي بلا شيء" } },
+      { "id": "begin4_id", "text": { "en": "4. Make up your mind", "ar": "4. اتخذ قرارك" } },
+      { "id": "begin5_id", "text": { "en": "5. Sam did", "ar": "5. ما فعله سام هو" } }
+    ],
+    "dropZones": [
+      { "id": "zone_a", "label": { "en": "you'll only regret it.", "ar": "ستندم فقط." }, "accepts": "begin2_id" },
+      { "id": "zone_b", "label": { "en": "decision about our career.", "ar": "قرار بشأن حياتنا المهنية." }, "accepts": "begin4_id" },
+      { "id": "zone_c", "label": { "en": "options available to us.", "ar": "خيارات متاحة لنا." }, "accepts": "begin1_id" },
+      { "id": "zone_d", "label": { "en": "what we all might do in life.", "ar": "ما قد نفعله جميعاً في الحياة." }, "accepts": "begin5_id" },
+      { "id": "zone_e", "label": { "en": "if you want to get all the options.", "ar": "إذا كنت تريد الحصول على كل الخيارات." }, "accepts": "begin3_id" }
+    ]
   },
   "unit5_w_vocab_fill1": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "vocabulary",
-      "availability",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Complete the statement with a word from the box: [extremely, available, investment, regret]",
-      "ar": ""  
+      "en": "Complete the statement with: [extremely, available, investment, regret]",
+      "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "1. Tickets are <input type='text' class='fill-blank-input' data-blank-id='fill_1' placeholder='word...'> in the box office.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "fill_1": {
-        "en": "available",
-        "ar": ""
-      }
+      "en": "1. Tickets are <input type='text' class='fill-blank-input' data-blank-id='fill_1' placeholder='...'> in the box office.",
+      "ar": "1. التذاكر ___________ في شباك التذاكر."
     },
     "feedbackCorrect": {
       "en": "Correct!",
-      "ar": "صحيح!"  
+      "ar": "صحيح!"
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن التذاكر متوفرة أو يمكن الحصول عليها هي 'available'."  
+      "en": "Incorrect. The word meaning you can get or find the tickets is 'available'.",
+      "ar": "إجابة غير صحيحة. الكلمة التي تعني أن التذاكر متوفرة أو يمكن الحصول عليها هي 'available'."
+    },
+    "correctAnswers": {
+      "fill_1": { "en": "available", "ar": "متاحة" }
     }
   },
   "unit5_w_vocab_fill2": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "difficulty",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Complete the statement with a word from the box: [extremely, available, investment, regret]",
-      "ar": ""  
+      "en": "Complete the statement with: [extremely, available, investment, regret]",
+      "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "2. Earthquakes are <input type='text' class='fill-blank-input' data-blank-id='fill_2' placeholder='word...'> difficult to predict.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "fill_2": {
-        "en": "extremely",
-        "ar": ""
-      }
+      "en": "2. Earthquakes are <input type='text' class='fill-blank-input' data-blank-id='fill_2' placeholder='...'> difficult to predict.",
+      "ar": "2. الزلازل صعبة التنبؤ ___________."
     },
     "feedbackCorrect": {
       "en": "Correct!",
-      "ar": "صحيح!"  
+      "ar": "صحيح!"
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الكلمة التي تعني 'جداً' أو 'للغاية' وتصف مدى صعوبة التنبؤ بالزلازل هي 'extremely'."  
+      "en": "Incorrect. The word that means 'very' or 'highly' is 'extremely'.",
+      "ar": "إجابة غير صحيحة. الكلمة التي تعني 'جداً' أو 'للغاية' هي 'extremely'."
+    },
+    "correctAnswers": {
+      "fill_2": { "en": "extremely", "ar": "للغاية" }
     }
   },
   "unit5_w_vocab_fill3": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "vocabulary",
-      "emotion",
-      "decision",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Complete the statement with a word from the box: [extremely, available, investment, regret]",
-      "ar": ""  
+      "en": "Complete the statement with: [extremely, available, investment, regret]",
+      "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "3. Don't do anything you might <input type='text' class='fill-blank-input' data-blank-id='fill_3' placeholder='word...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "fill_3": {
-        "en": "regret",
-        "ar": ""
-      }
+      "en": "3. Don't do anything you might <input type='text' class='fill-blank-input' data-blank-id='fill_3' placeholder='...'>.",
+      "ar": "3. لا تفعل أي شيء قد ___________ عليه."
     },
     "feedbackCorrect": {
       "en": "Correct!",
-      "ar": "صحيح!"  
+      "ar": "صحيح!"
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الكلمة التي تعني أن تشعر بالأسف أو الندم على شيء فعلته هي 'regret'."  
+      "en": "Incorrect. The word that means to feel sorry about something you did is 'regret'.",
+      "ar": "إجابة غير صحيحة. الكلمة التي تعني الشعور بالأسف أو الندم هي 'regret'."
+    },
+    "correctAnswers": {
+      "fill_3": { "en": "regret", "ar": "تندم" }
     }
   },
+ 
   "unit5_w_vocab_fill4": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "vocabulary",
-      "finance",
-      "property",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Complete the statement with a word from the box: [extremely, available, investment, regret]",
-      "ar": ""  
+      "en": "Complete with a word from: [extremely, available, investment, regret]",
+      "ar": "أكمل الجملة باختيار الكلمة المناسبة: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "4. We plan to buy some property as an <input type='text' class='fill-blank-input' data-blank-id='fill_4' placeholder='word...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "fill_4": {
-        "en": "investment",
-        "ar": ""
-      }
+      "en": "4. We plan to buy some property as an <input type='text' class='fill-blank-input' data-blank-id='fill_4' placeholder='...'>.",
+      "ar": "4. نحن نخطط لشراء بعض العقارات كـ ___________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! Buying property to make a profit is an investment.",
+      "ar": "صحيح! شراء العقارات بهدف الربح يعتبر استثماراً."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الكلمة التي تعني شراء شيء بقصد تحقيق ربح أو فائدة في المستقبل هي 'investment'."  
+      "en": "Incorrect. The term for putting money into something for future profit is 'investment'.",
+      "ar": "إجابة غير صحيحة. المصطلح الذي يعني وضع المال في شيء لتحقيق ربح مستقبلي هو 'investment'."
+    },
+    "correctAnswers": {
+      "fill_4": { "en": "investment", "ar": "استثمار" }
     }
   },
-  "unit5_w_past_tense1": {  
+  "unit5_w_past_tense1": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
+      "en": "Use Past Continuous (was/were -ing) or Past Simple.",
+      "ar": "استخدم الماضي المستمر أو الماضي البسيط."
     },
     "questionText": {
       "en": "1. Tom <input type='text' class='fill-blank-input' data-blank-id='verb1a' placeholder='(wrap)'> the gift when I <input type='text' class='fill-blank-input' data-blank-id='verb1b' placeholder='(walk)'> into the room.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "verb1a": {
-        "en": "was wrapping",
-        "ar": ""
-      },
-      "verb1b": {
-        "en": "walked",
-        "ar": ""
-      }
+      "ar": "1. كان توم ___________ الهدية عندما ___________ أنا إلى الغرفة."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! Tom was in the middle of wrapping when you entered.",
+      "ar": "صحيح! كان توم في منتصف عملية التغليف عندما دخلت أنت."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل الأول ('wrap') كان مستمراً عندما وقع الفعل الثاني ('walk'). استخدم الماضي المستمر للفعل المستمر (was wrapping) والماضي البسيط للفعل القاطع (walked)."  
+      "en": "Incorrect. Use Past Continuous for the ongoing action (was wrapping) and Past Simple for the interruption (walked).",
+      "ar": "إجابة غير صحيحة. استخدم الماضي المستمر للفعل المستمر (was wrapping) والماضي البسيط للفعل القاطع (walked)."
+    },
+    "correctAnswers": {
+      "verb1a": { "en": "was wrapping", "ar": "" },
+      "verb1b": { "en": "walked", "ar": "" }
     }
   },
   "unit5_w_past_tense2": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "question-form",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
+      "en": "Form a question in the Past Continuous.",
+      "ar": "صغ سؤالاً في زمن الماضي المستمر."
     },
     "questionText": {
-      "en": "2. What <input type='text' class='fill-blank-input' data-blank-id='verb2a' placeholder='auxiliary...'> the manager <input type='text' class='fill-blank-input' data-blank-id='verb2b' placeholder='(do)'> at 7:00 pm yesterday?",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "verb2a": {
-        "en": "was",
-        "ar": ""
-      },
-      "verb2b": {
-        "en": "doing",
-        "ar": ""
-      }
+      "en": "2. What <input type='text' class='fill-blank-input' data-blank-id='verb2a' placeholder='...'> the manager <input type='text' class='fill-blank-input' data-blank-id='verb2b' placeholder='(do)'> at 7:00 pm yesterday?",
+      "ar": "2. ماذا ___________ المدير ___________ في الساعة السابعة مساء أمس؟"
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! 'Was doing' is used for actions at a specific time in the past.",
+      "ar": "صحيح! نستخدم 'Was doing' للأفعال التي كانت مستمرة في وقت محدد في الماضي."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال عن فعل كان مستمراً في وقت محدد في الماضي ('at 7:00 pm yesterday'). استخدم صيغة السؤال في الماضي المستمر: (What + was/were + subject + V-ing?)."  
-    }
-  },
-  "unit5_w_past_tense3": {
-    "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
-    "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "3. Tina and Shelly <input type='text' class='fill-blank-input' data-blank-id='verb3a' placeholder='(walk)'> to the hotel when it <input type='text' class='fill-blank-input' data-blank-id='verb3b' placeholder='(start)'> to rain.",
-      "ar": ""  
+      "en": "Incorrect. The question asks about an ongoing action at a specific time. Use: was ... doing?",
+      "ar": "إجابة غير صحيحة. السؤال عن فعل مستمر في وقت محدد. استخدم: was ... doing؟"
     },
     "correctAnswers": {
-      "verb3a": {
-        "en": "were walking",
-        "ar": ""
-      },
-      "verb3b": {
-        "en": "started",
-        "ar": ""
-      }
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل الأول ('walk') كان مستمراً عندما بدأ الفعل الثاني ('start'). استخدم الماضي المستمر للجمع (were walking) والماضي البسيط للفعل الذي بدأ (started)."  
+      "verb2a": { "en": "was", "ar": "" },
+      "verb2b": { "en": "doing", "ar": "" }
     }
   },
   "unit5_w_past_tense4": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
+      "en": "Identify which action was ongoing and which was the interruption.",
+      "ar": "حدد أي فعل كان مستمراً وأي فعل كان قاطعاً."
     },
     "questionText": {
       "en": "4. When Donny <input type='text' class='fill-blank-input' data-blank-id='verb4a' placeholder='(enter)'> the room, everyone <input type='text' class='fill-blank-input' data-blank-id='verb4b' placeholder='(talk)'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "verb4a": {
-        "en": "entered",
-        "ar": ""
-      },
-      "verb4b": {
-        "en": "was talking",
-        "ar": ""
-      }  
+      "ar": "4. عندما ___________ دوني الغرفة، كان الجميع ___________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! Entering is the quick action, and talking was the background action.",
+      "ar": "صحيح! الدخول هو الفعل السريع، والتحدث كان الفعل الخلفي المستمر."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل الأول ('enter') هو فعل قصير قاطع. الفعل الثاني ('talk') كان مستمراً عندما دخل دوني. استخدم الماضي البسيط للفعل القاطع (entered) والماضي المستمر للفعل المستمر (was talking - 'everyone' يأخذ فعلاً مفرداً عادةً)."  
-    }
-  },
-  "unit5_w_past_tense5": {
-    "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
-    "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "5. I <input type='text' class='fill-blank-input' data-blank-id='verb5a' placeholder='(work)'> in the sales department when I first <input type='text' class='fill-blank-input' data-blank-id='verb5b' placeholder='(meet)'> Sofie.",
-      "ar": ""  
+      "en": "Incorrect. Use Past Simple (entered) and Past Continuous (was talking).",
+      "ar": "إجابة غير صحيحة. استخدم الماضي البسيط (entered) والماضي المستمر (was talking)."
     },
     "correctAnswers": {
-      "verb5a": {
-        "en": "was working",
-        "ar": ""
-      },
-      "verb5b": {
-        "en": "met",
-        "ar": ""
-      }
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل الأول ('work') كان مستمراً عندما وقع الفعل الثاني ('meet'). استخدم الماضي المستمر (was working) والماضي البسيط (met)."  
+      "verb4a": { "en": "entered", "ar": "" },
+      "verb4b": { "en": "was talking", "ar": "" }
     }
   },
   "unit5_w_past_tense6": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
-      "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
+      "en": "Use 'while' for simultaneous actions.",
+      "ar": "استخدم 'while' للأفعال المتزامنة."
     },
     "questionText": {
       "en": "6. My brother <input type='text' class='fill-blank-input' data-blank-id='verb6a' placeholder='(use)'> the computer while I <input type='text' class='fill-blank-input' data-blank-id='verb6b' placeholder='(pack)'> for my trip.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "verb6a": {
-        "en": "was using",
-        "ar": ""
-      },  
-      "verb6b": {
-        "en": "was packing",
-        "ar": ""
-      }
+      "ar": "6. كان أخي ___________ الكمبيوتر بينما كنت أنا ___________ لرحلتي."
     },
     "feedbackCorrect": {
-      "en": "Correct! Both actions were likely happening simultaneously.",
-      "ar": "صحيح! كلا الفعلين كانا يحدثان في نفس الوقت على الأرجح."  
+      "en": "Correct! Both actions were happening at the same time.",
+      "ar": "صحيح! كلا الفعلين كانا يحدثان في نفس الوقت."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. كلمة 'while' تشير عادةً إلى فعلين كانا مستمرين في نفس الوقت في الماضي. استخدم الماضي المستمر لكلا الفعلين (was using, was packing)."  
+      "en": "Incorrect. 'While' typically connects two Past Continuous actions. Use: was using / was packing.",
+      "ar": "إجابة غير صحيحة. 'While' تربط عادة فعلين في الماضي المستمر. استخدم: was using / was packing."
+    },
+    "correctAnswers": {
+      "verb6a": { "en": "was using", "ar": "" },
+      "verb6b": { "en": "was packing", "ar": "" }
     }
-  },
+  }
+,
+
+   
   "unit5_w_past_tense7": {
     "type": "fill-blank",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "fill-blank"
-    ],
     "supportContent": {
       "en": "Write the correct form of the verb in Past Progressive or Past Simple.",
-      "ar": ""  
+      "ar": "اكتب الصيغة الصحيحة للفعل في الماضي المستمر أو الماضي البسيط."
     },
     "questionText": {
       "en": "7. This morning, while I <input type='text' class='fill-blank-input' data-blank-id='verb7a' placeholder='(have)'> breakfast, someone <input type='text' class='fill-blank-input' data-blank-id='verb7b' placeholder='(knock)'> at the door.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "verb7a": {
-        "en": "was having",
-        "ar": ""
-      },
-      "verb7b": {
-        "en": "knocked",
-        "ar": ""
-      }
+      "ar": "7. هذا الصباح، بينما كنت ___________ الإفطار، ___________ شخص ما على الباب."
     },
     "feedbackCorrect": {
       "en": "Correct!",
-      "ar": "صحيح!"  
+      "ar": "صحيح!"
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل الأول ('have' breakfast) كان مستمراً عندما وقع الفعل الثاني ('knock'). استخدم الماضي المستمر (was having) والماضي البسيط (knocked)."  
+      "en": "Incorrect. Use Past Continuous for the ongoing breakfast (was having) and Past Simple for the knock (knocked).",
+      "ar": "الإجابة غير صحيحة. استخدم الماضي المستمر لفعل الإفطار (was having) والماضي البسيط لفعل الطرق (knocked)."
+    },
+    "correctAnswers": {
+      "verb7a": { "en": "was having", "ar": "" },
+      "verb7b": { "en": "knocked", "ar": "" }
     }
   },
   "unit5_w_mcq_past1": {
     "type": "mcq",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "past-simple",
-      "unit5",
-      "mcq"
-    ],
     "supportContent": {
       "en": "Select the correct answer between brackets.",
-      "ar": ""  
+      "ar": "اختر الإجابة الصحيحة مما بين القوسين."
     },
     "questionText": {
       "en": "He ______ an e-mail when the phone rang.",
-      "ar": ""  
-    },
-    "options": [
-      {
-        "en": "was writing",
-        "ar": ""
-      },
-      {
-        "en": "wrote",
-        "ar": ""
-      }
-    ],
-    "correctAnswer": {
-      "en": "was writing",
-      "ar": ""
+      "ar": "هو ___________ بريداً إلكترونياً عندما رن الهاتف."
     },
     "feedbackCorrect": {
       "en": "Correct! The writing was in progress when the phone rang.",
-      "ar": "صحيح! الكتابة كانت مستمرة عندما رن الهاتف."  
+      "ar": "صحيح! الكتابة كانت مستمرة عندما رن الهاتف."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. فعل الكتابة ('writing') كان مستمراً عندما وقع فعل الرنين القصير. استخدم الماضي المستمر (was writing) للفعل الأطول."  
-    }
+      "en": "Incorrect. The action 'writing' was ongoing, so use Past Continuous (was writing).",
+      "ar": "إجابة غير صحيحة. فعل الكتابة كان مستمراً، لذا نستخدم الماضي المستمر (was writing)."
+    },
+    "options": [
+      { "en": "was writing", "ar": "كان يكتب" },
+      { "en": "wrote", "ar": "كتب" }
+    ],
+    "correctAnswer": { "en": "was writing", "ar": "كان يكتب" }
   },
   "unit5_w_mcq_past2": {
     "type": "mcq",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "unit5",
-      "mcq"
-    ],
     "supportContent": {
       "en": "Select the correct answer between brackets.",
-      "ar": ""  
+      "ar": "اختر الإجابة الصحيحة مما بين القوسين."
     },
     "questionText": {
       "en": "I ______ dinner while Melanie was working upstairs.",
-      "ar": ""  
-    },
-    "options": [
-      {
-        "en": "was preparing",
-        "ar": ""
-      },
-      {
-        "en": "were preparing",
-        "ar": ""
-      }
-    ],
-    "correctAnswer": {
-      "en": "was preparing",
-      "ar": ""
+      "ar": "أنا ___________ العشاء بينما كانت ميلاني تعمل في الطابق العلوي."
     },
     "feedbackCorrect": {
-      "en": "Correct! 'was preparing' agrees with the singular subject 'I'. Both actions were ongoing.",
-      "ar": "صحيح! 'was preparing' تتوافق مع الفاعل المفرد 'I'. كلا الفعلين كانا مستمرين."  
+      "en": "Correct! 'was preparing' agrees with 'I'.",
+      "ar": "صحيح! 'was preparing' تتوافق مع الضمير 'I'."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفاعل هو 'I' (أنا)، وهو مفرد. فعل الكينونة المناسب للماضي المستمر مع 'I' هو 'was'. 'were' تُستخدم مع الجمع أو 'you'."  
-    }
+      "en": "Incorrect. 'I' takes 'was' in Past Continuous, not 'were'.",
+      "ar": "إجابة غير صحيحة. الضمير 'I' يأخذ 'was' في الماضي المستمر وليس 'were'."
+    },
+    "options": [
+      { "en": "was preparing", "ar": "كنت أجهز" },
+      { "en": "were preparing", "ar": "كنا نجهز / كنتم تجهزون" }
+    ],
+    "correctAnswer": { "en": "was preparing", "ar": "كنت أجهز" }
   },
   "unit5_w_mcq_past3": {
     "type": "mcq",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-simple",
-      "unit5",
-      "mcq"
-    ],
     "supportContent": {
       "en": "Select the correct answer between brackets.",
-      "ar": ""  
+      "ar": "اختر الإجابة الصحيحة مما بين القوسين."
     },
     "questionText": {
       "en": "I wasn’t sleeping when you ______ home last night.",
-      "ar": ""  
-    },
-    "options": [
-      {
-        "en": "came",
-        "ar": ""
-      },
-      {
-        "en": "come",
-        "ar": ""
-      }
-    ],
-    "correctAnswer": {
-      "en": "came",
-      "ar": ""
+      "ar": "لم أكن نائماً عندما ___________ إلى المنزل الليلة الماضية."
     },
     "feedbackCorrect": {
-      "en": "Correct! 'came' is the Past Simple, referring to a completed action last night.",
-      "ar": "صحيح! 'came' هي صيغة الماضي البسيط، وتشير إلى فعل مكتمل الليلة الماضية."  
+      "en": "Correct! 'came' is the Past Simple form.",
+      "ar": "صحيح! 'came' هي صيغة الماضي البسيط."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الجملة تشير إلى حدث وقع في الماضي ('last night'). صيغة الماضي البسيط للفعل 'come' هي 'came'."  
-    }
+      "en": "Incorrect. The sentence refers to 'last night', so we need Past Simple 'came'.",
+      "ar": "إجابة غير صحيحة. الجملة تشير إلى 'الليلة الماضية'، لذا نحتاج للماضي البسيط 'came'."
+    },
+    "options": [
+      { "en": "came", "ar": "أتيت" },
+      { "en": "come", "ar": "يأتي" }
+    ],
+    "correctAnswer": { "en": "came", "ar": "أتيت" }
   },
   "unit5_w_mcq_past4": {
     "type": "mcq",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-simple",
-      "unit5",
-      "mcq"
-    ],
     "supportContent": {
       "en": "Select the correct answer between brackets.",
-      "ar": ""  
+      "ar": "اختر الإجابة الصحيحة مما بين القوسين."
     },
     "questionText": {
       "en": "When Mrs. Brown ______, the girls were studying.",
-      "ar": ""  
-    },
-    "options": [
-      {
-        "en": "arrived",
-        "ar": ""
-      },
-      {
-        "en": "arrives",
-        "ar": ""
-      }
-    ],
-    "correctAnswer": {
-      "en": "arrived",
-      "ar": ""
+      "ar": "عندما ___________ السيدة براون، كانت الفتيات يدرسن."
     },
     "feedbackCorrect": {
-      "en": "Correct! 'arrived' is the Past Simple for the action that happened while the girls 'were studying'.",
-      "ar": "صحيح! 'arrived' هي صيغة الماضي البسيط للفعل الذي حدث بينما كانت الفتيات 'were studying'."  
+      "en": "Correct! 'arrived' is the completed action interrupting the study.",
+      "ar": "صحيح! 'arrived' هو الفعل المكتمل الذي قطع فعل الدراسة."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. الفعل 'were studying' (كن يدرسن) في الماضي المستمر. الفعل الذي وقع خلال ذلك (وصول السيدة براون) يجب أن يكون في الماضي البسيط 'arrived'. 'arrives' هي للمضارع."  
-    }
+      "en": "Incorrect. Use Past Simple (arrived) because the study was already in progress.",
+      "ar": "إجابة غير صحيحة. استخدم الماضي البسيط (arrived) لأن فعل الدراسة كان مستمراً بالفعل."
+    },
+    "options": [
+      { "en": "arrived", "ar": "وصلت" },
+      { "en": "arrives", "ar": "تصل" }
+    ],
+    "correctAnswer": { "en": "arrived", "ar": "وصلت" }
   },
   "unit5_w_mcq_past5": {
     "type": "mcq",
-    "difficulty": 1,
-    "tags": [
-      "grammar",
-      "tenses",
-      "past-continuous",
-      "unit5",
-      "mcq"
-    ],
     "supportContent": {
       "en": "Select the correct answer between brackets.",
-      "ar": ""  
+      "ar": "اختر الإجابة الصحيحة مما بين القوسين."
     },
     "questionText": {
       "en": "I lost my keys while I ______ to school.",
-      "ar": ""  
-    },
-    "options": [
-      {
-        "en": "was walking",
-        "ar": ""
-      },
-      {
-        "en": "walked",
-        "ar": ""
-      }
-    ],
-    "correctAnswer": {
-      "en": "was walking",
-      "ar": ""
+      "ar": "فقدت مفاتيحي بينما كنت ___________ إلى المدرسة."
     },
     "feedbackCorrect": {
-      "en": "Correct! 'was walking' describes the ongoing action during which the keys were lost.",
-      "ar": "صحيح! 'was walking' تصف الفعل المستمر الذي ضاعت خلاله المفاتيح."  
+      "en": "Correct! 'was walking' is the ongoing action.",
+      "ar": "صحيح! 'was walking' هو الفعل المستمر."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. كلمة 'while' تشير إلى أن فعل فقدان المفاتيح حدث خلال فعل المشي المستمر. استخدم الماضي المستمر (was walking) للفعل الأطول الذي كان يحدث."  
-    }
+      "en": "Incorrect. 'While' is followed by Past Continuous (was walking) for the long action.",
+      "ar": "إجابة غير صحيحة. 'While' يتبعها الماضي المستمر (was walking) للفعل الطويل."
+    },
+    "options": [
+      { "en": "was walking", "ar": "كنت أمشي" },
+      { "en": "walked", "ar": "مشيت" }
+    ],
+    "correctAnswer": { "en": "was walking", "ar": "كنت أمشي" }
   }
 }

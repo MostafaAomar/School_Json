@@ -1,116 +1,101 @@
 {
-  "unit": "Unit 6 - Colours",
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "What colour is this?",
-      "translation": "ما لون هذا؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Unit 6 - Colours",
+      "ar": "الوحدة السادسة - الألوان"
     },
-    {
-      "type": "reading",
-      "questionText": "It's yellow.",
-      "translation": "إنه أصفر."
+    "passage": {
+      "en": "What colour is this? It's yellow. What colour is your pencil? It's red. Is it green? Yes, it is. Is this ruler black? No, it isn't. It's blue. The sun is yellow, the sky is blue, the apple is red, and the tree is green.",
+      "ar": "ما لون هذا؟ إنه أصفر. ما لون قلمك؟ إنه أحمر. هل هو أخضر؟ نعم، هو كذلك. هل هذه المسطرة سوداء؟ لا، ليست كذلك، إنها زرقاء. الشمس صفراء، السماء زرقاء، التفاحة حمراء، والشجرة خضراء."
     },
-    {
-      "type": "reading",
-      "questionText": "What colour is your pencil?",
-      "translation": "ما لون قلمك؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Identify the colours and match them with the correct colour splashes.",
+      "ar": "تعرف على الألوان وقم بمطابقتها مع بقع الألوان الصحيحة."
     },
-    
-    {
-      "type": "reading",
-      "questionText": "It's red.",
-      "translation": "إنه أحمر."
+    "questionText": {
+      "en": "Match the colours to the pictures",
+      "ar": "طابق الألوان بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "Is it green?",
-      "translation": "هل هو أخضر؟"
+    "feedbackCorrect": {
+      "en": "Great job! You know all your colours.",
+      "ar": "عمل رائع! أنت تعرف كل الألوان."
     },
-    {
-      "type": "reading",
-      "questionText": "Yes, it is.",
-      "translation": "نعم، هو كذلك."
+    "feedbackIncorrect": {
+      "en": "Look closely at the colours and try again.",
+      "ar": "انظر جيداً إلى الألوان وحاول مرة أخرى."
     },
-    {
-      "type": "reading",
-      "questionText": "Is this ruler black?",
-      "translation": "هل هذه المسطرة سوداء؟"
+    "draggableItems": [
+      { "id": "item_1", "text": { "en": "red", "ar": "أحمر" } },
+      { "id": "item_2", "text": { "en": "blue", "ar": "أزرق" } },
+      { "id": "item_3", "text": { "en": "green", "ar": "أخضر" } },
+      { "id": "item_4", "text": { "en": "yellow", "ar": "أصفر" } },
+      { "id": "item_5", "text": { "en": "black", "ar": "أسود" } }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Red", "ar": "أحمر" },
+        "image": "red.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Blue", "ar": "أزرق" },
+        "image": "blue.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Green", "ar": "أخضر" },
+        "image": "green.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "Yellow", "ar": "أصفر" },
+        "image": "yellow.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "Black", "ar": "أسود" },
+        "image": "black.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "What color is mentioned as the color of an apple in the text?",
+      "ar": "ما هو اللون المذكور للون التفاحة في النص؟"
     },
-    {
-      "type": "reading",
-      "questionText": "No, it isn't. It's blue.",
-      "translation": "لا، ليست كذلك. إنها زرقاء."
+    "questionText": {
+      "en": "What colour is it?",
+      "ar": "ما لونه؟"
     },
-
-    {
-      "type": "reading",
-      "questionText": "The sun is yellow, yellow, yellow, yellow.",
-      "translation": "الشمس صفراء، صفراء، صفراء، صفراء."
+    "feedbackCorrect": {
+      "en": "Correct!",
+      "ar": "إجابة صحيحة!"
     },
-    {
-      "type": "reading",
-      "questionText": "The sky is blue, blue, blue, blue.",
-      "translation": "السماء زرقاء، زرقاء، زرقاء، زرقاء."
+    "feedbackIncorrect": {
+      "en": "Try again.",
+      "ar": "حاول ثانية."
     },
-    {
-      "type": "reading",
-      "questionText": "The apple is red, red, red, red.",
-      "translation": "التفاحة حمراء، حمراء، حمراء، حمراء."
-    },
-    {
-      "type": "reading",
-      "questionText": "The tree is green, green, green, green.",
-      "translation": "الشجرة خضراء، خضراء، خضراء، خضراء."
-    },
-
-    {
-      "type": "matching",
-      "questionText": "Match the colours to the pictures",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "red",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/red.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "blue",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/blue.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "green",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/green.png",
-          "isImage": true
-        },
-        {
-          "id": 4,
-          "left": "yellow",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/yellow.png",
-          "isImage": true
-        },
-        {
-          "id": 5,
-          "left": "black",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/black.png",
-          "isImage": true
-        }
-      ]
-    },
-
-    {
-      "type": "mcq",
-      "questionText": "What colour is it?",
-      "translation": "ما لونه؟",
-      "options": [
-        {"questionText": "Red", "correctAnswer": true},
-        {"questionText": "Blue", "correctAnswer": false},
-        {"questionText": "Green", "correctAnswer": false}
-      ]
+    "options": [
+      { "en": "Red", "ar": "أحمر" },
+      { "en": "Blue", "ar": "أزرق" },
+      { "en": "Green", "ar": "أخضر" }
+    ],
+    "correctAnswer": {
+      "en": "Red",
+      "ar": "أحمر"
     }
-  ]
+  }
 }

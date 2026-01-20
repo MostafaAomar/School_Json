@@ -1,89 +1,121 @@
 {
-  "questionText": {
-    "en": "**No One Had Believed it was Possible**\nIn 1912, the “Titanic” hit an iceberg on its first trip across the Atlantic. The Titanic was the largest ship that had ever travelled on the sea. It was carrying 2207 people, but it had taken on enough lifeboats for only 1178 people. Not more than 651 of the passengers were able to get into lifeboats.\n\nSome of the survivors had been in the icy water for hours when they were saved. Most of the passengers hadn’t lived long; 1502 people had lost their lives. But why was there such a great loss of life and so few survivors who were on the edge of death?\n\nNobody had prepared for such a tragedy. Nobody had believed that the Titanic could sink. The steamship company had thought that its ship would be completely safe in all situations. They had followed an old rule for the number of lifeboats, so they had supplied lifeboats for only half the people. The passengers had not yet received their lifeboat numbers, nor had they practiced lifeboat drill before the accident. Many of them had not even dressed warmly, the ship had hit the iceberg late at night, and they did not believe they were in danger.\n\nThe ship had already received 6 ice warnings on its radio when it struck the iceberg. Nevertheless, it had not changed its direction or its speed. A tragedy like the sinking of the Titanic should never happen again.",
-    "ar": "**لم يصدق أحد أنه كان ممكنًا**\nفي عام 1912، اصطدمت سفينة \"تيتانيك\" بجبل جليدي في رحلتها الأولى عبر المحيط الأطلسي. كانت تيتانيك أكبر سفينة أبحرت على البحر حتى ذلك الوقت. كانت تحمل 2207 أشخاص، لكنها لم تكن مجهزة إلا بعدد كافٍ من قوارب النجاة لـ 1178 شخصًا فقط. لم يتمكن أكثر من 651 راكبًا من الصعود إلى قوارب النجاة.\n\nكان بعض الناجين في المياه المتجمدة لساعات عندما تم إنقاذهم. لم يعش معظم الركاب طويلًا؛ فقد فقد 1502 شخص حياتهم. ولكن لماذا كان هناك هذا العدد الكبير من الضحايا وعدد قليل جدًا من الناجين الذين كانوا على حافة الموت؟\n\nلم يكن أحد مستعدًا لمثل هذه المأساة. لم يصدق أحد أن تيتانيك يمكن أن تغرق. كانت شركة البواخر تعتقد أن سفينتها ستكون آمنة تمامًا في جميع الظروف. لقد اتبعوا قاعدة قديمة لعدد قوارب النجاة، لذا قاموا بتوفير قوارب نجاة لنصف عدد الركاب فقط. لم يكن الركاب قد تلقوا أرقام قوارب النجاة الخاصة بهم بعد، ولم يمارسوا تدريبات النجاة قبل الحادث. لم يكن العديد منهم حتى يرتدي ملابس دافئة، فقد اصطدمت السفينة بالجبل الجليدي في وقت متأخر من الليل، ولم يعتقدوا أنهم في خطر.\n\nكانت السفينة قد تلقت بالفعل 6 تحذيرات من الجليد عبر الراديو عندما اصطدمت بالجبل الجليدي. ومع ذلك، لم تغير اتجاهها أو سرعتها. يجب ألا تتكرر مأساة مثل غرق تيتانيك مرة أخرى."
-  }
-
-,
-  "videoUrl": "",
-  "audioUrl": "",
-  "audioType": "audio/mp3",
-  "externalLinks": [
-    {
-      "type": "text",
-      "url": "",
-      "text": { "ar": "", "en": "" },
-      "title": { "ar": "", "en": "" }
-    }
-  ],
-  "unit7_s_1_vocab_match": {
-    "type": "matching",
-    "difficulty": 1,
-    "tags": ["vocabulary", "sea", "disaster", "titanic", "unit7", "matching", "matching"],
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "No One Had Believed it was Possible",
+      "ar": "لم يصدق أحد أنه كان ممكنًا"
+    },
+    "passage": {
+      "en": "In 1912, the Titanic hit an iceberg. It was the largest ship ever, carrying 2207 people but only enough lifeboats for 1178. Due to old rules and a lack of preparation, 1502 people lost their lives. Despite 6 ice warnings, the ship did not change speed or direction.",
+      "ar": "في عام 1912، اصطدمت سفينة تيتانيك بجبل جليدي. كانت أكبر سفينة على الإطلاق، تحمل 2207 شخصاً ولكنها لم تمتلك قوارب نجاة إلا لـ 1178 فقط. بسبب القواعد القديمة ونقص الاستعداد، فقد 1502 شخصاً حياتهم. ورغم تلقي 6 تحذيرات من الجليد، لم تغير السفينة سرعتها أو اتجاهها."
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "fill-blank",
     "supportContent": {
-      "en": "Match the words in column A (draggable) with their definitions in column B (drop zones).",
-      "ar": ""  
+      "en": "Complete the sentence based on the story of the Titanic.",
+      "ar": "أكمل الجملة بناءً على قصة تيتانيك."
     },
     "questionText": {
-      "en": "Match the words with their definitions:",
-      "ar": ""  
+      "en": "The Titanic hit an [blank_7813] on its first trip across the Atlantic.",
+      "ar": "اصطدمت تيتانيك بـ [blank_7813] في رحلتها الأولى عبر المحيط الأطلسي."
     },
-    "draggableItems": [
-      { "id": "word_iceberg", "text": { "en": "iceberg", "ar": "" } },  
-      { "id": "word_lifeboat", "text": { "en": "lifeboat", "ar": "" } },
-      { "id": "word_sink", "text": { "en": "to sink", "ar": "" } },
-      { "id": "word_survivor", "text": { "en": "survivor", "ar": "" } },
-      { "id": "word_supply", "text": { "en": "to supply", "ar": "" } }
-    ],
-    "dropZones": [
-      
-      { "id": "def_dropzone_1", "label": { "en": "1. a small boat to save people on board if the ship sinks", "ar": "" }, "accepts": "word_lifeboat" },
-      { "id": "def_dropzone_2", "label": { "en": "2. a person who continues to live after danger", "ar": "" }, "accepts": "word_survivor" },
-      { "id": "def_dropzone_3", "label": { "en": "3. to provide", "ar": "" }, "accepts": "word_supply" },
-      { "id": "def_dropzone_4", "label": { "en": "4. to go down below the surface or towards the bottom of a liquid or soft substance.", "ar": "" }, "accepts": "word_sink" },
-      { "id": "def_dropzone_5", "label": { "en": "5. a large mass of ice floating in the sea", "ar": "" }, "accepts": "word_iceberg" }
-    ],
     "feedbackCorrect": {
-      "en": "Correct! All words are matched with their definitions.",
-      "ar": "صحيح! تم مطابقة جميع الكلمات بتعاريفها."  
+      "en": "Correct! An iceberg is a large mass of ice floating in the sea.",
+      "ar": "صحيح! الجبل الجليدي هو كتلة كبيرة من الجليد تطفو في البحر."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. راجع المعاني: 'iceberg' هو جبل جليدي، 'lifeboat' هو قارب نجاة، 'to sink' يعني يغرق، 'survivor' هو الناجي، و 'to supply' يعني يزود أو يوفر."  
+      "en": "Incorrect. The ship hit a large mass of floating ice called an 'iceberg'.",
+      "ar": "غير صحيح. اصطدمت السفينة بكتلة كبيرة من الجليد العائم تسمى 'جبل جليدي'."
+    },
+    "correctAnswers": {
+      "blank_7813": {
+        "en": "iceberg",
+        "ar": "جبل جليدي"
+      }
     }
-  }
-,
-  "unit7_s_2_sentence_match": {
+  },
+  "question_ID__2": {
     "type": "matching",
-    "difficulty": 2,
-    "tags": ["reading-comprehension", "titanic", "history", "sequence-of-events", "unit7", "matching", "matching"],
     "supportContent": {
-      "en": "Match the beginnings of the sentences in column A (draggable) with their correct endings in column B (drop zones).",
-      "ar": ""  
+      "en": "Match the maritime vocabulary with its correct definition.",
+      "ar": "طابق مفردات المصطلحات البحرية بتعريفها الصحيح."
     },
     "questionText": {
-      "en": "Match the sentence beginnings with their endings:",
-      "ar": ""  
+      "en": "Match the words to their meanings:",
+      "ar": "طابق الكلمات بمعانيها:"
     },
-    "draggableItems": [
-      { "id": "begin_titanic", "text": { "en": "1. The Titanic was carrying 2207 people, but", "ar": "" } },
-      { "id": "begin_passengers", "text": { "en": "2. Many passengers had not dressed warmly,", "ar": "" } },
-      { "id": "begin_warnings", "text": { "en": "3. The ship had received 6 warnings when", "ar": "" } },
-      { "id": "begin_direction", "text": { "en": "4. It had not changed its direction or", "ar": "" } }
-    ],
-    "dropZones": [
-      { "id": "end_dropzone_1", "label": { "en": "1. because they didn't believe that they were in danger.", "ar": "" }, "accepts": "begin_passengers" },
-      { "id": "end_dropzone_2", "label": { "en": "2. it had taken lifeboats enough for only 1178 people.", "ar": "" }, "accepts": "begin_titanic" },
-      { "id": "end_dropzone_3", "label": { "en": "3. its speed after 6 warnings.", "ar": "" }, "accepts": "begin_direction" },
-      { "id": "end_dropzone_4", "label": { "en": "4. it struck the iceberg.", "ar": "" }, "accepts": "begin_warnings" }
-    ],
     "feedbackCorrect": {
-      "en": "Correct! All sentence parts are matched to form historically accurate statements about the Titanic.",
-      "ar": "صحيح! تم مطابقة جميع أجزاء الجمل لتكوين عبارات دقيقة تاريخيًا حول تيتانيك."  
+      "en": "Great job! You know your maritime terms.",
+      "ar": "عمل رائع! أنت تعرف المصطلحات البحرية جيداً."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. حاول ربط بداية كل جملة بالنهاية التي تكمل معناها بشكل منطقي بناءً على أحداث تيتانيك. على سبيل المثال، قلة قوارب النجاة تتعلق بعدد الركاب، وعدم ارتداء ملابس دافئة كان بسبب عدم تصديق الخطر."  
+      "en": "Some matches are incorrect. Remember, a lifeboat is for saving people and sinking means going underwater.",
+      "ar": "بعض التطابقات غير صحيحة. تذكر، قارب النجاة مخصص لإنقاذ الناس، والغرق يعني النزول تحت الماء."
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "Lifeboat", "ar": "قارب نجاة" }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "To sink", "ar": "يغرق" }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "Survivor", "ar": "ناجٍ" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "A small boat used for emergencies", "ar": "قارب صغير يستخدم في حالات الطوارئ" },
+        "image": "",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "To go down below the surface of water", "ar": "النزول تحت سطح الماء" },
+        "image": "",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "A person who continues to live after a disaster", "ar": "شخص يستمر في الحياة بعد وقوع كارثة" },
+        "image": "",
+        "accepts": "item_3"
+      }
+    ]
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Choose the correct answer based on the passage.",
+      "ar": "اختر الإجابة الصحيحة بناءً على النص."
+    },
+    "questionText": {
+      "en": "How many ice warnings had the ship received before it struck the iceberg?",
+      "ar": "كم عدد تحذيرات الجليد التي تلقتها السفينة قبل اصطدامها بالجبل الجليدي؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! The ship ignored 6 warnings before the collision.",
+      "ar": "صحيح! تجاهلت السفينة 6 تحذيرات قبل الاصطدام."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect. The text mentions that the ship had already received 6 ice warnings.",
+      "ar": "غير صحيح. يذكر النص أن السفينة كانت قد تلقت بالفعل 6 تحذيرات من الجليد."
+    },
+    "options": [
+      { "en": "2 warnings", "ar": "تحذيران" },
+      { "en": "6 warnings", "ar": "6 تحذيرات" },
+      { "en": "10 warnings", "ar": "10 تحذيرات" }
+    ],
+    "correctAnswer": {
+      "en": "6 warnings",
+      "ar": "6 تحذيرات"
     }
   }
 }

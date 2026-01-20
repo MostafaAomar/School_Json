@@ -1,48 +1,44 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "I like spring.\n What's your favourite season, Mary?",
-      "translation": "أنا أحب الربيع.   ما هو فصلك المفضل يا ماري؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Seasons and Weather",
+      "ar": "الفصول والطقس"
     },
-    
-    {
-      "type": "reading",
-      "questionText": "I like summer. It's hot.\n What's your favourite season, Sally?",
-      "translation": "أنا أحب الصيف. الجو حار.  ما هو فصلك المفضل يا سالي؟"
+    "passage": {
+      "en": "I like spring. What's your favourite season, Mary? I like summer. It's hot. What's your favourite season, Sally? I like autumn. What about you, Jack? I like winter. It's cold in winter. It's cold. It's hot.",
+      "ar": "أنا أحب الربيع. ما هو فصلك المفضل يا ماري؟ أنا أحب الصيف، الجو حار. ما هو فصلك المفضل يا سالي؟ أنا أحب الخريف، وماذا عنك يا جاك؟ أنا أحب الشتاء، الجو بارد في الشتاء. إنه بارد. إنه حار."
     },
-    {
-      "type": "reading",
-      "questionText": "I like autumn. \n What about you, Jack?",
-      "translation": "أنا أحب الخريف. وماذا عنك يا جاك؟"
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Select the correct season from the text.",
+      "ar": "اختر الفصل الصحيح بناءً على النص."
     },
-    {
-      "type": "reading",
-      "questionText": "I like winter.\n It's cold in winter.",
-      "translation": "أنا أحب الشتاء. الجو بارد في الشتاء."
+    "questionText": {
+      "en": "What's your favourite season?",
+      "ar": "ما هو فصلك المفضل؟"
     },
-    {
-      "type": "mcq",
-      "questionText": "What's your favourite season?",
-      "translation": "ما هو فصلك المفضل؟",
-      "options": [
-        {"questionText": "Spring", "correctAnswer": false},
-        {"questionText": "Summer", "correctAnswer": true},
-        {"questionText": "Winter", "correctAnswer": false},
-        {"questionText": "Autumn", "correctAnswer": false}
-      ]
+    "feedbackCorrect": {
+      "en": "Well done! You remembered the dialogue.",
+      "ar": "أحسنت! لقد تذكرت الحوار بشكل جيد."
     },
-
-    {
-      "type": "reading",
-      "questionText": "It's cold.",
-      "translation": "إنه بارد."
+    "feedbackIncorrect": {
+      "en": "Try again, look at the text.",
+      "ar": "حاول مرة أخرى، انظر إلى النص."
     },
-    {
-      "type": "reading",
-      "questionText": "It's hot.",
-      "translation": "إنه حار."
+    "options": [
+      { "en": "Spring", "ar": "الربيع" },
+      { "en": "Summer", "ar": "الصيف" },
+      { "en": "Winter", "ar": "الشتاء" },
+      { "en": "Autumn", "ar": "الخريف" }
+    ],
+    "correctAnswer": {
+      "en": "Summer",
+      "ar": "الصيف"
     }
-  ]
+  }
 }

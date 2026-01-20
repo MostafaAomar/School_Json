@@ -1,65 +1,93 @@
 {
-  
-  "questions": [
-    {
-      "type": "reading",
-      "questionText": "I'm a boy.",
-      "translation": "أنا ولد."
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Gender and Counting",
+      "ar": "النوع والعد"
     },
-    {
-      "type": "reading",
-      "questionText": "I'm a girl.",
-      "translation": "أنا بنت."
+    "passage": {
+      "en": "I'm a boy. I'm a girl. He's a boy. She's a girl. How many boys? Two boys. How many girls? Three girls. How many lemons? Five lemons.",
+      "ar": "أنا ولد. أنا بنت. هو ولد. هي بنت. كم عدد الأولاد؟ ولدان. كم عدد البنات؟ ثلاث بنات. كم عدد الليمونات؟ خمس ليمونات."
     },
-    {
-      "type": "reading",
-      "questionText": "He's a boy.",
-      "translation": "هو ولد."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the words with the correct images.",
+      "ar": "طابق الكلمات بالصور الصحيحة."
     },
-    {
-      "type": "reading",
-      "questionText": "She's a girl.",
-      "translation": "هي بنت."
+    "questionText": {
+      "en": "Match the words to the pictures",
+      "ar": "طابق الكلمات بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "How many boys?\n Two boys.",
-      "translation": "كم عدد الأولاد؟ ولدان."
+    "feedbackCorrect": {
+      "en": "Excellent! You matched them all correctly.",
+      "ar": "ممتاز! لقد طابقتهم جميعاً بشكل صحيح."
     },
-    {
-      "type": "reading",
-      "questionText": "How many girls?\n Three girls.",
-      "translation": "كم عدد البنات؟ ثلاث بنات."
+    "feedbackIncorrect": {
+      "en": "Not quite right, look at the pictures again.",
+      "ar": "ليس صحيحاً تماماً، انظر إلى الصور مرة أخرى."
     },
-    {
-      "type": "reading",
-      "questionText": "How many lemons?\n Five lemons.",
-      "translation": "كم عدد الليمونات؟ خمس ليمونات."
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "boy", "ar": "ولد" }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "girl", "ar": "بنت" }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "lemons", "ar": "ليمون" }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Boy", "ar": "ولد" },
+        "image": "boy.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Girl", "ar": "بنت" },
+        "image": "girl.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Lemons", "ar": "ليمون" },
+        "image": "limon.png",
+        "accepts": "item_3"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "How many lemons are there?",
+      "ar": "كم عدد الليمونات؟"
     },
-
-    {
-      "type": "matching",
-      "questionText": "Match the words to the pictures",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "boy",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/boy.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "girl",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/girl.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "lemons",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/limon.png",
-          "isImage": true
-        }
-      ]
+    "questionText": {
+      "en": "There are [blank_9921] lemons.",
+      "ar": "يوجد [blank_9921] ليمونات."
+    },
+    "feedbackCorrect": {
+      "en": "Correct! There are five lemons.",
+      "ar": "صحيح! هناك خمس ليمونات."
+    },
+    "feedbackIncorrect": {
+      "en": "Try again, check the passage.",
+      "ar": "حاول مرة أخرى، راجع النص."
+    },
+    "correctAnswers": {
+      "blank_9921": {
+        "en": "five",
+        "ar": "خمسة"
+      }
     }
-  ]
+  }
 }

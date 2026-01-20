@@ -1,58 +1,187 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "He is a policeman.",
-      "translation": "هو شرطي."
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    {
-      "type": "reading",
-      "questionText": "She is a doctor.",
-      "translation": "هي طبيبة."
+    "passage": {
+      "en": "He is a policeman.",
+      "ar": " هو شرطي."
     },
-    {
-      "type": "reading",
-      "questionText": "He is a farmer.",
-      "translation": "هو مزارع."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_2": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    {
-      "type": "reading",
-      "questionText": "She is a teacher.",
-      "translation": "هي معلمة."
+    "passage": {
+      "en": "She is a doctor.",
+      "ar": " هو مزارع. "
     },
-    {
-      "type": "reading",
-      "questionText": "Look! He is a pilot.",
-      "translation": "انظر! إنه طيار."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_3": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-
-    {
-      "type": "matching",
-      "questionText": "Match the jobs to the pictures",
-      "pairs": [
-        {"id": 1, "left": "policeman", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/policeman.png", "isImage": true},
-        {"id": 2, "left": "doctor", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/doctor.png", "isImage": true},
-        {"id": 3, "left": "farmer", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/farmer.png", "isImage": true},
-        {"id": 4, "left": "teacher", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/teacher.png", "isImage": true},
-        {"id": 5, "left": "pilot", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/pilot.png", "isImage": true}
-      ]
+    "passage": {
+      "en": "She is a teacher. ",
+      "ar": " هي معلمة."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "Is she a teacher?",
-      "translation": "هل هي معلمة؟",
-      "options": [
-        {"questionText": "No, she isn't. She is a doctor.", "correctAnswer": true},
-        {"questionText": "Yes, she is.", "correctAnswer": false}
-      ]
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "metadata_4": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-
-    {
-      "type": "reading",
-      "questionText": "R r ring. V v van.",
-      "translation": "  R r — خاتم.   V v — شاحنة صغيرة."
+    "passage": {
+      "en": "Look! He is a pilot.",
+      "ar": " انظر! إنه طيار."
+    },
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Match the jobs to the pictures",
+      "ar": ""
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": {
+          "en": "policeman",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "doctor",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "farmer",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_4",
+        "text": {
+          "en": "teacher",
+          "ar": ""
+        }
+      },
+      {
+        "id": "item_5",
+        "text": {
+          "en": "pilot",
+          "ar": ""
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "policeman.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "doctor.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "farmer.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "teacher.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": {
+          "en": "",
+          "ar": ""
+        },
+        "image": "pilot.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": ""
+    },
+    "questionText": {
+      "en": "Is she a teacher?",
+      "ar": " هل هي معلمة؟"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": ""
+    },
+    "options": [
+      {
+        "en": "No, she isn't. She is a doctor.",
+        "ar": ""
+      },
+      {
+        "en": "Yes, she is.",
+        "ar": ""
+      }
+    ],
+    "correctAnswer": {
+      "en": "No, she isn't. She is a doctor.",
+      "ar": ""
     }
-  ]
+  }
 }

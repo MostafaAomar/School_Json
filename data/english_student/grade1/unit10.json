@@ -1,58 +1,143 @@
 {
-  "questions": [
-    {
-      "type": "matching",
-      "questionText": "Match the sentence to the pictures",
-      "pairs": [
-        {
-          "id": 1,
-          "left": "He’s my father.",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/father.png",
-          "isImage": true
-        },
-        {
-          "id": 2,
-          "left": "She’s my mother",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/mother.png",
-          "isImage": true
-        },
-        {
-          "id": 3,
-          "left": "He’s my brother",
-          "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/brother.png",
-          "isImage": true
-        }
-      ]
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "My Family and My World",
+      "ar": "عائلتي وعالمي"
     },
-
-    {
-      "type": "mcq",
-      "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/tree.png  ",
-      "translation": "ما هذا؟ ",
-      "isImage": true,
-      "options": [
-        {"questionText": "It’s a tree.", "correctAnswer": true},
-        {"questionText": "It’s a banana.", "correctAnswer": false}
-      ]
+    "passage": {
+      "en": "Meet my family: my father, my mother, and my brother. Look around at nature, there are trees and flowers. We also learn about age; for example, Suzan is ten years old.",
+      "ar": "تعرف على عائلتي: أبي وأمي وأخي. انظر حولك إلى الطبيعة، هناك أشجار وأزهار. نتعلم أيضاً عن العمر؛ على سبيل المثال، سوزان تبلغ من العمر عشر سنوات."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "2- Is it a red flower?",
-      "translation": "هل هي زهرة حمراء؟ ",
-      "options": [
-        {"questionText": "No, it isn’t.", "correctAnswer": true},
-        {"questionText": "Yes, it is.", "correctAnswer": false}
-      ]
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Look at the family members and match them to their pictures.",
+      "ar": "انظر إلى أفراد العائلة وقم بمطابقتهم مع صورهم."
     },
-    {
-      "type": "mcq",
-      "questionText": "3- How old is Suzan?",
-      "translation": "كم عمر سوزان؟ ",
-      "options": [
-        {"questionText": "She’s seven.", "correctAnswer": false},
-        {"questionText": "She’s ten.", "correctAnswer": true}
-      ]
+    "questionText": {
+      "en": "Match the sentence to the pictures",
+      "ar": "طابق الجملة بالصور"
+    },
+    "feedbackCorrect": {
+      "en": "Great! You identified your family members correctly.",
+      "ar": "رائع! لقد عرفت أفراد عائلتك بشكل صحيح."
+    },
+    "feedbackIncorrect": {
+      "en": "Try again, look closely at the pictures.",
+      "ar": "حاول مرة أخرى، انظر جيداً إلى الصور."
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": { "en": "He’s my father.", "ar": "هذا أبي." }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "She’s my mother.", "ar": "هذه أمي." }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "He’s my brother.", "ar": "هذا أخي." }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "Father", "ar": "الأب" },
+        "image": "father.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "Mother", "ar": "الأم" },
+        "image": "mother.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Brother", "ar": "الأخ" },
+        "image": "brother.png",
+        "accepts": "item_3"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Identify the object in the image.",
+      "ar": "تعرف على الشيء الموجود في الصورة."
+    },
+    "questionText": {
+      "en": "What is this?",
+      "ar": "ما هذا؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! It is a tree.",
+      "ar": "صحيح! إنها شجرة."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect, look at the image again.",
+      "ar": "خطأ، انظر إلى الصورة مرة أخرى."
+    },
+    "options": [
+      { "en": "It’s a tree.", "ar": "إنها شجرة." },
+      { "en": "It’s a banana.", "ar": "إنها موزة." }
+    ],
+    "correctAnswer": {
+      "en": "It’s a tree.",
+      "ar": "إنها شجرة."
     }
-  ]
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "", "ar": ""
+    },
+    "questionText": {
+      "en": "Is it a red flower?",
+      "ar": "هل هي زهرة حمراء؟"
+    },
+    "feedbackCorrect": {
+      "en": "Excellent!", "ar": "ممتاز!"
+    },
+    "feedbackIncorrect": {
+      "en": "Try again.", "ar": "حاول ثانية."
+    },
+    "options": [
+      { "en": "No, it isn’t.", "ar": "لا، ليست كذلك." },
+      { "en": "Yes, it is.", "ar": "نعم، هي كذلك." }
+    ],
+    "correctAnswer": {
+      "en": "No, it isn’t.",
+      "ar": "لا، ليست كذلك."
+    }
+  },
+  "question_ID__4": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "", "ar": ""
+    },
+    "questionText": {
+      "en": "How old is Suzan?",
+      "ar": "كم عمر سوزان؟"
+    },
+    "feedbackCorrect": {
+      "en": "Correct! Suzan is ten.", "ar": "صحيح! سوزان تبلغ عشر سنوات."
+    },
+    "feedbackIncorrect": {
+      "en": "Incorrect, check the age again.", "ar": "خطأ، تحقق من العمر مرة أخرى."
+    },
+    "options": [
+      { "en": "She’s seven.", "ar": "عمرها سبع سنوات." },
+      { "en": "She’s ten.", "ar": "عمرها عشر سنوات." }
+    ],
+    "correctAnswer": {
+      "en": "She’s ten.",
+      "ar": "عمرها عشر سنوات."
+    }
+  }
 }

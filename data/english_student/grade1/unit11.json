@@ -1,75 +1,101 @@
 {
-  "questions": [
-
-    {
-      "type": "reading",
-      "questionText": "Where's Ted?",
-      "translation": "أين تيد؟"
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "At Home",
+      "ar": "في المنزل"
     },
-    {
-      "type": "reading",
-      "questionText": "He isn't in the bedroom.",
-      "translation": "هو ليس في غرفة النوم."
+    "passage": {
+      "en": "Where's Ted? He isn't in the bedroom, garden, living room, or bathroom. Mum! Ted is in the kitchen. The mouse is in the box. The mouse is on the box. Where's my father? He's in the garden.",
+      "ar": "أين تيد؟ هو ليس في غرفة النوم أو الحديقة أو غرفة المعيشة أو الحمام. أمي! تيد في المطبخ. الفأر داخل الصندوق. الفأر فوق الصندوق. أين والدي؟ إنه في الحديقة."
     },
-    {
-      "type": "reading",
-      "questionText": "He isn't in the garden.",
-      "translation": "هو ليس في الحديقة."
+    "videoUrl": "",
+    "audioUrl": ""
+  },
+  "question_ID__1": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Look at the pictures of the house and match them to the correct room names.",
+      "ar": "انظر إلى صور المنزل وقم بمطابقتها مع أسماء الغرف الصحيحة."
     },
-    {
-      "type": "reading",
-      "questionText": "He isn't in the living room.\n Is he in the bedroom?",
-      "translation": "هو ليس في غرفة المعيشة. \n هل هو في غرفة النوم؟"
+    "questionText": {
+      "en": "Match the rooms to the pictures",
+      "ar": "طابق الغرف بالصور"
     },
-    {
-      "type": "reading",
-      "questionText": "He isn't in the bathroom.",
-      "translation": "هو ليس في الحمّام."
+    "feedbackCorrect": {
+      "en": "Excellent! You identified all the rooms correctly.",
+      "ar": "ممتاز! لقد عرفت جميع الغرف بشكل صحيح."
     },
-    {
-      "type": "reading",
-      "questionText": "Mum! Ted is in the kitchen.",
-      "translation": "أمي! تيد في المطبخ."
+    "feedbackIncorrect": {
+      "en": "Try again, check the furniture in each room.",
+      "ar": "حاول مرة أخرى، افحص الأثاث الموجود في كل غرفة."
     },
-
-    {
-      "type": "matching",
-      "questionText": "Match the rooms to the pictures",
-      "pairs": [
-        {"id": 1, "left": "garden", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/garden.png", "isImage": true},
-        {"id": 2, "left": "living room", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/livingroom.png", "isImage": true},
-        {"id": 3, "left": "kitchen", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/kitchen.png", "isImage": true},
-        {"id": 4, "left": "bathroom", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bathroom.png", "isImage": true},
-        {"id": 5, "left": "bedroom", "right": "https://raw.githubusercontent.com/MostafaAomar/School_Json/School_Json/images/bedroom.png", "isImage": true}
-      ]
+    "draggableItems": [
+      { "id": "item_1", "text": { "en": "garden", "ar": "الحديقة" } },
+      { "id": "item_2", "text": { "en": "living room", "ar": "غرفة المعيشة" } },
+      { "id": "item_3", "text": { "en": "kitchen", "ar": "المطبخ" } },
+      { "id": "item_4", "text": { "en": "bathroom", "ar": "الحمام" } },
+      { "id": "item_5", "text": { "en": "bedroom", "ar": "غرفة النوم" } }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": { "en": "", "ar": "" },
+        "image": "garden.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": { "en": "", "ar": "" },
+        "image": "livingroom.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "", "ar": "" },
+        "image": "kitchen.png",
+        "accepts": "item_3"
+      },
+      {
+        "id": "zone_4",
+        "label": { "en": "", "ar": "" },
+        "image": "bathroom.png",
+        "accepts": "item_4"
+      },
+      {
+        "id": "zone_5",
+        "label": { "en": "", "ar": "" },
+        "image": "bedroom.png",
+        "accepts": "item_5"
+      }
+    ]
+  },
+  "question_ID__2": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "Look at the description of the mouse in the text.",
+      "ar": "انظر إلى وصف الفأر في النص."
     },
-
-    {
-      "type": "reading",
-      "questionText": "The mouse is in the box.",
-      "translation": "الفأر داخل الصندوق."
+    "questionText": {
+      "en": "Where is the mouse?",
+      "ar": "أين الفأر؟"
     },
-    {
-      "type": "reading",
-      "questionText": "The mouse is on the box.",
-      "translation": "الفأر فوق الصندوق."
+    "feedbackCorrect": {
+      "en": "Correct! The mouse is in the box.",
+      "ar": "صحيح! الفأر داخل الصندوق."
     },
-
-    {
-      "type": "mcq",
-      "questionText": "Where is the mouse?",
-      "translation": "أين الفأر؟",
-      "options": [
-        {"questionText": "In the box", "correctAnswer": true},
-        {"questionText": "On the tree", "correctAnswer": false},
-        {"questionText": "Under the car", "correctAnswer": false}
-      ]
+    "feedbackIncorrect": {
+      "en": "Incorrect, look at the passage again.",
+      "ar": "خاطئ، راجع النص مرة أخرى."
     },
-
-    {
-      "type": "reading",
-      "questionText": "Where's my father? He's in the garden.",
-      "translation": "أين والدي؟ إنه في الحديقة."
+    "options": [
+      { "en": "In the box", "ar": "داخل الصندوق" },
+      { "en": "On the tree", "ar": "فوق الشجرة" },
+      { "en": "Under the car", "ar": "تحت السيارة" }
+    ],
+    "correctAnswer": {
+      "en": "In the box",
+      "ar": "داخل الصندوق"
     }
-  ]
+  }
 }

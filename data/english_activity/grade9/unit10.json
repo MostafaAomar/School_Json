@@ -1,330 +1,247 @@
-{ "questionText": {
-    "en": "**Hurry up Before the Gates are Shut!**\nOnce, a king and a lazy man named Hani were very good friends. One morning, the king said, \"Why don't you work to earn some money?\"\n\nHani said, \"No one offers me a job. My enemies told everyone that I never do any work in time.\" The kind king said, \"You can go into my treasury and collect as much wealth as you can, but you have to finish before sunset.\" Hani was so happy and rushed home to tell his wife. She said, \"Go and get the gold coins and gems now.\" He said: \"I cannot go now. I am so hungry. I'd like to eat first.\"\n\nAfter lunch, he took a nap for an hour. Then in the late afternoon, he picked some bags and went to the palace. On the way, he felt hot so he sat under a tree to rest and drink some water. Two hours later, when he wanted to move on, he saw a man showing some magic tricks. He stopped to watch for an hour again. On the way to the palace, he met an old friend and chatted with him for some time. When he reached the palace, it was already sunset time. The palace gates had been shut.\n\nHani lost a golden chance because he had not learnt the value of time. If Hani worked hard, he wouldn’t be poor. This story teaches us that once time is spent, it will never come back again.\n\n**Key Words**\n- treasury: a place where treasure (money, jewellery) is kept\n- gems: precious stones",
-    "ar": "**اسرع قبل أن تغلق البوابات!**\nكان هناك ملك ورجل كسول يُدعى هاني وكانا صديقين مقربين جدًا. ذات صباح، قال الملك: \"لماذا لا تعمل لكسب المال؟\"\n\nقال هاني: \"لا أحد يعرض عليّ وظيفة. أعدائي أخبروا الجميع أنني لا أقوم بأي عمل في الوقت المناسب.\" قال الملك الطيب: \"يمكنك الدخول إلى خزنتي وجمع ما تستطيع من الثروة، ولكن عليك أن تنتهي قبل غروب الشمس.\" شعر هاني بسعادة غامرة واندفع إلى المنزل ليخبر زوجته. قالت: \"اذهب واحصل على العملات الذهبية والجواهر الآن.\" قال: \"لا يمكنني الذهاب الآن. أنا جائع جدًا. أود أن أتناول الطعام أولًا.\"\n\nبعد الغداء، أخذ قيلولة لمدة ساعة. ثم في وقت متأخر من بعد الظهر، جمع بعض الأكياس وذهب إلى القصر. في الطريق، شعر بالحر فجلس تحت شجرة ليستريح ويشرب بعض الماء. بعد ساعتين، عندما أراد التحرك، رأى رجلًا يعرض بعض الخدع السحرية. توقف لمشاهدتها لمدة ساعة أخرى. في طريقه إلى القصر، التقى بصديق قديم وتحدث معه لبعض الوقت. عندما وصل إلى القصر، كان الوقت قد حان لغروب الشمس. كانت بوابات القصر قد أُغلقت.\n\nأضاع هاني فرصة ذهبية لأنه لم يتعلم قيمة الوقت. لو كان هاني يعمل بجد، لما كان فقيرًا. تعلمنا هذه القصة أنه بمجرد أن يُستهلك الوقت، فإنه لن يعود مرة أخرى.\n\n**الكلمات المفتاحية**\n- الخزانة: مكان تُحفظ فيه الكنوز (المال، المجوهرات)\n- الجواهر: الأحجار الكريمة"
-  }
-
-,
-  "videoUrl": "https://www.youtube.com/watch?v=YforP4lGfR4&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=11&ab_channel=Mostafa",
-  "audioUrl": "",
-  "audioType": "audio/mp3",
-  "externalLinks": [
-    {
-      "type": "text",
-      "url": "",
-      "text": { "ar": "", "en": "" },
-      "title": { "ar": "", "en": "" }
-    }
-  ],
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Unit 10: Reported Speech & Value of Time",
+      "ar": "الوحدة العاشرة: الكلام المنقول وقيمة الوقت"
+    },
+    "passage": {
+      "en": "Hurry up Before the Gates are Shut! Once, a king and a lazy man named Hani were very good friends. The king offered Hani a chance to collect wealth before sunset, but Hani lost the opportunity due to his laziness and poor time management. This story teaches us that once time is spent, it will never come back again.",
+      "ar": "أسرع قبل أن تُغلق البوابات! كان هناك ملك ورجل كسول يُدعى هاني. منح الملك هاني فرصة لجمع الثروة قبل غروب الشمس، لكن هاني أضاع الفرصة بسبب كسله وسوء إدارته للوقت. تعلمنا هذه القصة أنه بمجرد ضياع الوقت، فإنه لا يعود أبداً."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YforP4lGfR4",
+    "audioUrl": ""
+  },
   "unit10_w_1_reported_tense1": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "present-perfect-to-past-perfect", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Complete the reported sentence with the correct tense. (Original: 'Have you met Angela?')",
-      "ar": ""  
+      "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل قابلت أنجيلا؟')"
     },
     "questionText": {
       "en": "1. 'Have you met Angela?' She asked us if <input type='text' class='fill-blank-input' data-blank-id='rep_tense1' placeholder='...'> Angela.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "rep_tense1": { "en": "we had met", "ar": "" }  
+      "ar": "1. 'هل قابلت أنجيلا؟' سألتنا عما إذا كنا ________ أنجيلا."
     },
     "feedbackCorrect": {
       "en": "Correct! Present Perfect shifts to Past Perfect.",
-      "ar": "صحيح! المضارع التام يتحول إلى الماضي التام."  
+      "ar": "صحيح! المضارع التام يتحول إلى الماضي التام."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في المضارع التام ('Have you met...?'). عند نقله، يتحول إلى الماضي التام. الضمير 'you' يتغير إلى 'we' لأنها سألتنا 'us'."  
+      "en": "Incorrect. The Present Perfect ('Have you met') shifts to Past Perfect ('had met'). Since she asked 'us', 'you' becomes 'we'.",
+      "ar": "إجابة غير صحيحة. المضارع التام يتحول إلى ماضي تام، والضمير 'you' يتغير إلى 'we' لأن السؤال موجه لنا."
+    },
+    "correctAnswers": {
+      "rep_tense1": {
+        "en": "we had met",
+        "ar": "قد قابلنا"
+      }
     }
   },
   "unit10_w_2_reported_tense2": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "past-simple-to-past-perfect", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Complete the reported sentence with the correct tense. (Original: 'Did Mark pass all his exams?')",
-      "ar": ""  
+      "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل اجتاز مارك جميع امتحاناته؟')"
     },
     "questionText": {
       "en": "2. 'Did Mark pass all his exams?' He asked if Mark <input type='text' class='fill-blank-input' data-blank-id='rep_tense2' placeholder='...'> all of his exams.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "rep_tense2": { "en": "had passed", "ar": "" }
+      "ar": "2. 'هل اجتاز مارك جميع امتحاناته؟' سأل عما إذا كان مارك ________ جميع امتحاناته."
     },
     "feedbackCorrect": {
       "en": "Correct! Past Simple shifts to Past Perfect.",
-      "ar": "صحيح! الماضي البسيط يتحول إلى الماضي التام."  
+      "ar": "صحيح! الماضي البسيط يتحول إلى الماضي التام."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في الماضي البسيط ('Did Mark pass...?'). عند نقله، يتحول إلى الماضي التام (had passed)."  
+      "en": "Incorrect. The Past Simple ('Did Mark pass') shifts to Past Perfect ('had passed').",
+      "ar": "إجابة غير صحيحة. الماضي البسيط يتحول إلى الماضي التام (had passed)."
+    },
+    "correctAnswers": {
+      "rep_tense2": {
+        "en": "had passed",
+        "ar": "قد اجتاز"
+      }
     }
   },
   "unit10_w_3_reported_tense3": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "present-simple-to-past-simple", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Complete the reported sentence with the correct tense. (Original: 'Are you excited about going on a picnic?')",
-      "ar": ""  
+      "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل أنتم متحمسون للنزهة؟')"
     },
     "questionText": {
       "en": "3. 'Are you excited about going on a picnic?' He asked the children <input type='text' class='fill-blank-input' data-blank-id='rep_tense3' placeholder='...'> excited about going on a picnic.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "rep_tense3": { "en": "if they were", "ar": "" }  
+      "ar": "3. 'هل أنتم متحمسون للنزهة؟' سأل الأطفال ________ متحمسين للنزهة."
     },
     "feedbackCorrect": {
       "en": "Correct! Present Simple 'are' shifts to Past Simple 'were'.",
-      "ar": "صحيح! المضارع البسيط 'are' يتحول إلى الماضي البسيط 'were'."  
+      "ar": "صحيح! المضارع البسيط 'are' يتحول إلى الماضي البسيط 'were'."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في المضارع البسيط ('Are you...?'). عند نقله، يتحول إلى الماضي البسيط. الضمير 'you' يتغير إلى 'they' لأن السؤال موجه للأطفال 'the children'."  
-    }
-  },
-  "unit10_w_4_reported_tense4": {
-    "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "present-perfect-to-past-perfect", "unit10", "fill-blank"],
-    "supportContent": {
-      "en": "Complete the reported sentence with the correct tense. (Original: 'Have you read this book?')",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "4. 'Have you read this book?' He asked me if <input type='text' class='fill-blank-input' data-blank-id='rep_tense4' placeholder='...'> that book.",
-      "ar": ""  
+      "en": "Incorrect. 'Are' shifts to 'were' and 'you' shifts to 'they' because he asked 'the children'.",
+      "ar": "إجابة غير صحيحة. الفعل 'are' يتحول لـ 'were' والضمير 'you' يتحول لـ 'they' لأن السؤال موجه للأطفال."
     },
     "correctAnswers": {
-      "rep_tense4": { "en": "I had read", "ar": "" }
-    },
-    "feedbackCorrect": {
-      "en": "Correct! Present Perfect shifts to Past Perfect, and 'this' changes to 'that'.",
-      "ar": "صحيح! المضارع التام يتحول إلى الماضي التام، و 'this' تتغير إلى 'that'."  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في المضارع التام ('Have you read...?'). عند نقله، يتحول إلى الماضي التام. الضمير 'you' يتغير إلى 'I' لأنه سألني 'me'. كلمة الإشارة 'this' تتغير إلى 'that'."  
+      "rep_tense3": {
+        "en": "if they were",
+        "ar": "إذا كانوا"
+      }
     }
   },
   "unit10_w_5_reported_tense5": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "past-simple-to-past-perfect", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Complete the reported sentence with the correct tense. (Original: 'How much did the concert tickets cost?')",
-      "ar": ""  
+      "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'كم كانت تكلفة تذاكر الحفل؟')"
     },
     "questionText": {
       "en": "5. 'How much did the concert tickets cost?' She asked how much the concert tickets <input type='text' class='fill-blank-input' data-blank-id='rep_tense5' placeholder='...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "rep_tense5": { "en": "had cost", "ar": "" }
+      "ar": "5. 'كم كانت تكلفة تذاكر الحفل؟' سألت عن كم ________ تذاكر الحفل."
     },
     "feedbackCorrect": {
       "en": "Correct! Past Simple shifts to Past Perfect.",
-      "ar": "صحيح! الماضي البسيط يتحول إلى الماضي التام."  
+      "ar": "صحيح! الماضي البسيط يتحول إلى الماضي التام."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في الماضي البسيط ('did... cost'). عند نقله، يتحول إلى الماضي التام (had cost). لاحظ أن ترتيب الجملة يظل سؤالاً غير مباشر (فاعل ثم فعل)."  
+      "en": "Incorrect. The Past Simple ('did... cost') shifts to Past Perfect ('had cost').",
+      "ar": "إجابة غير صحيحة. الماضي البسيط يتحول إلى الماضي التام (had cost)."
+    },
+    "correctAnswers": {
+      "rep_tense5": {
+        "en": "had cost",
+        "ar": "كانت قد كلفت"
+      }
     }
   },
   "unit10_w_6_reported_tense6": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "backshift", "present-continuous-to-past-continuous", "unit10", "fill-blank"],
     "supportContent": {
-      "en": "Complete the reported sentence with the correct tense. (Original: 'Are you going to the party?')",
-      "ar": ""  
+      "en": "Complete the reported sentence with correct tense. (Original: 'Are you going to the party?')",
+      "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل ستذهب إلى الحفلة؟')"
     },
     "questionText": {
       "en": "6. 'Are you going to the party?' John asked me if I <input type='text' class='fill-blank-input' data-blank-id='rep_tense6' placeholder='...'> to the party.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "rep_tense6": { "en": "was going", "ar": "" }
+      "ar": "6. 'هل ستذهب إلى الحفلة؟' سألني جون عما إذا كنت ________ إلى الحفلة."
     },
     "feedbackCorrect": {
-      "en": "Correct! Present Continuous (for future) shifts to Past Continuous.",
-      "ar": "صحيح! المضارع المستمر (للتعبير عن المستقبل) يتحول إلى الماضي المستمر."  
+      "en": "Correct! Present Continuous shifts to Past Continuous.",
+      "ar": "صحيح! المضارع المستمر يتحول إلى الماضي المستمر."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. السؤال المباشر في المضارع المستمر للتعبير عن المستقبل ('Are you going...?'). عند نقله، يتحول إلى الماضي المستمر. الضمير 'you' يتغير إلى 'I' لأنه سألني 'me'."  
+      "en": "Incorrect. 'Are you going' shifts to 'was going' because John asked 'me'.",
+      "ar": "إجابة غير صحيحة. 'Are you going' تتحول إلى 'was going' لأن جون سألني 'me'."
+    },
+    "correctAnswers": {
+      "rep_tense6": {
+        "en": "was going",
+        "ar": "كنت سأذهب"
+      }
     }
   },
+
+
+
+
+
+
+
   "unit10_w_7_report_q1": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "wh-question", "backshift", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Report the following question: \"Where is my umbrella?\"",
-      "ar": ""  
+      "ar": "انقل السؤال التالي: \"أين مظلتي؟\""
     },
     "questionText": {
       "en": "1. \"Where is my umbrella?''\nShe asked <input type='text' class='fill-blank-input' data-blank-id='report_q1' placeholder='Reported question...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "report_q1": { "en": "where her umbrella was", "ar": "" }
+      "ar": "1. \"أين مظلتي؟\"\nسألت ________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! You changed the order and shifted the tense.",
+      "ar": "صحيح! قمت بتغيير الترتيب وتحويل الزمن."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. عند نقل سؤال يبدأ بكلمة استفهام، نحافظ على كلمة الاستفهام ثم نغير ترتيب الجملة إلى (فاعل + فعل) ونغير زمن الفعل إلى الأقدم. 'my' تتغير إلى 'her' و 'is' إلى 'was'."  
-    }
-  },
-  "unit10_w_8_report_q2": {
-    "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "wh-question", "backshift", "unit10", "fill-blank"],
-    "supportContent": {
-      "en": "Report the following question: \"How are you?\"",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "2. ''How are you?''\nMartin asked us <input type='text' class='fill-blank-input' data-blank-id='report_q2' placeholder='Reported question...'>.",
-      "ar": ""  
+      "en": "Incorrect. Keep 'where', change 'my' to 'her', and move 'was' to the end: 'where her umbrella was'.",
+      "ar": "إجابة غير صحيحة. نحافظ على 'where'، ونغير 'my' إلى 'her'، ونضع 'was' في النهاية."
     },
     "correctAnswers": {
-      "report_q2": { "en": "how we were", "ar": "" }
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. نحافظ على 'how'، ثم (فاعل + فعل). 'you' تتغير إلى 'we' (لأن السؤال موجه لنا 'us') و 'are' تتغير إلى 'were'."  
+      "report_q1": {
+        "en": "where her umbrella was",
+        "ar": "أين كانت مظلتها"
+      }
     }
   },
   "unit10_w_9_report_q3": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "yes-no-question", "modal-verb", "backshift", "unit10", "fill-blank"],
     "supportContent": {
-      "en": "Report the following question: \"Do I have to do it?\"",
-      "ar": ""  
+      "en": "Report the following Yes/No question: \"Do I have to do it?\"",
+      "ar": "انقل سؤال (نعم/لا) التالي: \"هل يجب علي فعل ذلك؟\""
     },
     "questionText": {
       "en": "3. ''Do I have to do it?''\nHe asked <input type='text' class='fill-blank-input' data-blank-id='report_q3' placeholder='Reported question...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "report_q3": { "en": "if he had to do it", "ar": "" }  
+      "ar": "3. ''هل يجب علي فعل ذلك؟''\nسأل ________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! You used 'if' and shifted 'have to' to 'had to'.",
+      "ar": "صحيح! استخدمت 'if' وحولت 'have to' إلى 'had to'."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. هذا سؤال 'yes/no'. نستخدم 'if' أو 'whether'. 'Do I have to...?' (مضارع بسيط) تتغير إلى (فاعل + had to... ) (ماضي بسيط)."  
+      "en": "Incorrect. Use 'if', change 'I' to 'he', and 'have to' to 'had to'.",
+      "ar": "إجابة غير صحيحة. نستخدم 'if'، ونحول 'I' إلى 'he'، و'have to' إلى 'had to'."
+    },
+    "correctAnswers": {
+      "report_q3": {
+        "en": "if he had to do it",
+        "ar": "إذا كان عليه فعل ذلك"
+      }
     }
   },
   "unit10_w_10_report_q4": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "wh-question", "present-perfect-to-past-perfect", "backshift", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Report the following question: \"Where have you been?\"",
-      "ar": ""  
+      "ar": "انقل السؤال التالي: \"أين كنتِ؟\""
     },
     "questionText": {
       "en": "4. ''Where have you been?''\nThe mother asked her daughter <input type='text' class='fill-blank-input' data-blank-id='report_q4' placeholder='Reported question...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "report_q4": { "en": "where she had been", "ar": "" }
+      "ar": "4. ''أين كنتِ؟''\nسألت الأم ابنتها ________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! Present Perfect shifted to Past Perfect.",
+      "ar": "صحيح! تحول المضارع التام إلى ماضي تام."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. نحافظ على 'Where'. 'you' تتغير إلى 'she' (لأن السؤال موجه لابنتها). 'have been' (مضارع تام) تتغير إلى 'had been' (ماضي تام)."  
-    }
-  },
-  "unit10_w_11_report_q5": {
-    "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "wh-question", "backshift", "unit10", "fill-blank"],
-    "supportContent": {
-      "en": "Report the following question: \"Which dress do you like best?\"",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "5. ''Which dress do you like best?''\nShe asked her friend <input type='text' class='fill-blank-input' data-blank-id='report_q5' placeholder='Reported question...'>.",
-      "ar": ""  
+      "en": "Incorrect. It should be: 'where she had been'.",
+      "ar": "إجابة غير صحيحة. يجب أن تكون: 'where she had been'."
     },
     "correctAnswers": {
-      "report_q5": { "en": "which dress she liked best", "ar": "" }
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. نحافظ على 'Which dress'. 'you' تتغير إلى 'she' (لأن السؤال موجه لصديقتها). 'do you like' (مضارع بسيط) تتغير إلى (فاعل + liked) (ماضي بسيط)."  
-    }
-  },
-  "unit10_w_12_report_q6": {
-    "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "wh-question", "present-continuous-to-past-continuous", "backshift", "unit10", "fill-blank"],
-    "supportContent": {
-      "en": "Report the following question: \"What are they doing?\"",
-      "ar": ""  
-    },
-    "questionText": {
-      "en": "6. ''What are they doing?''\nShe asked <input type='text' class='fill-blank-input' data-blank-id='report_q6' placeholder='Reported question...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "report_q6": { "en": "what they were doing", "ar": "" }
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
-    },
-    "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. نحافظ على 'What'. 'are they doing' (مضارع مستمر) تتغير إلى (فاعل + were doing) (ماضي مستمر)."  
+      "report_q4": {
+        "en": "where she had been",
+        "ar": "أين كانت"
+      }
     }
   },
   "unit10_w_13_report_q7": {
     "type": "fill-blank",
-    "difficulty": 2,
-    "tags": ["grammar", "reported-speech", "yes-no-question", "past-simple-to-past-perfect", "backshift", "unit10", "fill-blank"],
     "supportContent": {
       "en": "Report the following question: \"Did you enjoy the festival?\"",
-      "ar": ""  
+      "ar": "انقل السؤال التالي: \"هل استمتعت بالمهرجان؟\""
     },
     "questionText": {
       "en": "7. ''Did you enjoy the festival?''\nHe wanted to know <input type='text' class='fill-blank-input' data-blank-id='report_q7' placeholder='Reported question...'>.",
-      "ar": ""  
-    },
-    "correctAnswers": {
-      "report_q7": { "en": "if I had enjoyed the festival", "ar": "" }  
+      "ar": "7. ''هل استمتعت بالمهرجان؟''\nأراد أن يعرف ________."
     },
     "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "صحيح!"  
+      "en": "Correct! Past Simple shifted to Past Perfect.",
+      "ar": "صحيح! تحول الماضي البسيط إلى ماضي تام."
     },
     "feedbackIncorrect": {
-      "en": "",  
-      "ar": "الإجابة غير صحيحة. هذا سؤال 'yes/no'. نستخدم 'if' أو 'whether'. 'Did you enjoy...?' (ماضي بسيط) تتغير إلى (فاعل + had enjoyed) (ماضي تام). الضمير 'you' قد يتغير حسب السياق، افترضت هنا أنه 'I'."  
+      "en": "Incorrect. Use 'if' + Past Perfect: 'if I had enjoyed the festival'.",
+      "ar": "إجابة غير صحيحة. استخدم 'if' مع الماضي التام: 'if I had enjoyed the festival'."
+    },
+    "correctAnswers": {
+      "report_q7": {
+        "en": "if I had enjoyed the festival",
+        "ar": "إذا كنت قد استمتعت بالمهرجان"
+      }
     }
   }
 }
