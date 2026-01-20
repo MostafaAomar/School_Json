@@ -14,20 +14,6 @@
       "color": "#A78BFA",
       "icon": "📝",
       "available_grades": [9, 12]
-    },
-    {
-      "id": "math_p1",
-      "name": " رياضيات فصل اول",
-      "color": "#A78BFA",
-      "icon": "📝",
-      "available_grades": [1, 9, 12]
-    },
-    {
-      "id": "math_p2",
-      "name": " رياضيات فصل ثاني",
-      "color": "#A78BFA",
-      "icon": "📝",
-      "available_grades": [1, 9, 12]
     }
   ]
 }
