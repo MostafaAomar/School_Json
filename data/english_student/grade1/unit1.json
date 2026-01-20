@@ -102,7 +102,7 @@
       {
         "id": "zone_1",
         "label": { "en": "Apple", "ar": "تفاحة" },
-        "imageName": "apple.png",
+        "imageName": " ",
         "accepts": "item_1"
       },
       {
