@@ -72,8 +72,8 @@
       "ar": "كم عدد الليمونات؟"
     },
     "questionText": {
-      "en": "There are [blank_9921] lemons.",
-      "ar": "يوجد [blank_9921] ليمونات."
+      "en": "There are ________ lemons.",
+      "ar": "يوجد ______ ليمونات."
     },
     "feedbackCorrect": {
       "en": "Correct! There are five lemons.",
