@@ -72,7 +72,7 @@
       "ar": "كم عدد الليمونات؟"
     },
     "questionText": {
-      "en": "There are ________ lemons.",
+      "en": "There are <input type='text' class='fill-blank-input' data-blank-id='qf1' placeholder='(you do)'>  lemons.",
       "ar": "يوجد ______ ليمونات."
     },
     "feedbackCorrect": {
