@@ -50,8 +50,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "1. I don’t have a car. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b1' placeholder='...'> a car.",
-      "ar": "1. ليس لدي سيارة. أتمنى لو ___________ (have) سيارة."
+      "en": "1. I don’t have a car. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b1' placeholder='...'> (have) a car.",
+      "ar": "1. ليس لدي سيارة. أتمنى لو ___________  سيارة."
     },
     "feedbackCorrect": {
       "en": "Correct! After 'I wish' for present situations, we use the Past Simple.",
@@ -72,8 +72,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "2. I can’t play the piano. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b2' placeholder='...'> the piano.",
-      "ar": "2. لا أستطيع عزف البيانو. أتمنى لو ___________ (can play) البيانو."
+      "en": "2. I can’t play the piano. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b2' placeholder='...'> (can play)  the piano.",
+      "ar": "2. لا أستطيع عزف البيانو. أتمنى لو ___________ البيانو."
     },
     "feedbackCorrect": {
       "en": "Correct! 'could' is used after 'I wish' to talk about abilities.",
@@ -94,8 +94,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "3. I’m at work. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b3' placeholder='...'> at work.",
-      "ar": "3. أنا في العمل الآن. أتمنى لو لم ___________ (be) في العمل."
+      "en": "3. I’m at work. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b3' placeholder='...'> (be) at work.",
+      "ar": "3. أنا في العمل الآن. أتمنى لو لم ___________  في العمل."
     },
     "feedbackCorrect": {
       "en": "Correct! 'weren't' is the formal form for present situations with 'be'.",
@@ -116,8 +116,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "4. It’s winter. I wish it <input type='text' class='fill-blank-input' data-blank-id='wish_b4' placeholder='...'> winter.",
-      "ar": "4. الجو شتاء الآن. أتمنى لو لم ___________ (be) الجو شتاءً."
+      "en": "4. It’s winter. I wish it <input type='text' class='fill-blank-input' data-blank-id='wish_b4' placeholder='...'>(be) winter.",
+      "ar": "4. الجو شتاء الآن. أتمنى لو لم ___________  الجو شتاءً."
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -139,8 +139,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "5. I’m ill. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b5' placeholder='...'> ill.",
-      "ar": "5. أنا مريض. أتمنى لو لم ___________ (be) مريضاً."
+      "en": "5. I’m ill. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b5' placeholder='...'> (be) ill.",
+      "ar": "5. أنا مريض. أتمنى لو لم ___________  مريضاً."
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -164,8 +164,8 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "6. I don’t have new shoes. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b6' placeholder='...'> new shoes.",
-      "ar": "6. لا أملك أحذية جديدة. أتمنى لو ___________ (have) أحذية جديدة."
+      "en": "6. I don’t have new shoes. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b6' placeholder='...'> (have) new shoes.",
+      "ar": "6. لا أملك أحذية جديدة. أتمنى لو ___________   أحذية جديدة."
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -189,7 +189,7 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "7. I can’t afford to go on holiday. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b7' placeholder='...'> to go on holiday.",
+      "en": "7. I can’t afford to go on holiday. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b7' placeholder='...'> (can afford) to go on holiday.",
       "ar": "7. لا أستطيع تحمل تكلفة عطلة. أتمنى لو ___________ (can afford) الذهاب في عطلة."
     },
     "feedbackCorrect": {
@@ -214,7 +214,7 @@
       "ar": "أكمل الجملة باستخدام الصيغة الصحيحة بعد 'I wish'."
     },
     "questionText": {
-      "en": "8. I don’t have time to read lots of books. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b8' placeholder='...'> time to read lots of books.",
+      "en": "8. I don’t have time to read lots of books. I wish I <input type='text' class='fill-blank-input' data-blank-id='wish_b8' placeholder='...'> (have) time to read lots of books.",
       "ar": "8. ليس لدي وقت للقراءة. أتمنى لو ___________ (have) وقتاً لقراءة الكثير من الكتب."
     },
     "feedbackCorrect": {
