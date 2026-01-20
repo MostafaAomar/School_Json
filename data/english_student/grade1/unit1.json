@@ -102,19 +102,19 @@
       {
         "id": "zone_1",
         "label": { "en": "Apple", "ar": "تفاحة" },
-        "image": "apple.png",
+        "imageName": "apple.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Car", "ar": "سيارة" },
-        "image": "car.png",
+        "imageName": "car.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Book", "ar": "كتاب" },
-        "image": "book.png",
+        "imageName": "book.png",
         "accepts": "item_3"
       }
     ]
