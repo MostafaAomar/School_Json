@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "General Knowledge and Home",
@@ -114,7 +114,7 @@
       {
         "id": "zone_3",
         "label": { "en": "Book", "ar": "كتاب" },
-        "imageName": "book.png",
+        "imageName": "",
         "accepts": "item_3"
       }
     ]
