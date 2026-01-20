@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بناءً على قصة تيتانيك."
     },
     "questionText": {
-      "en": "The Titanic hit an [blank_7813] on its first trip across the Atlantic.",
-      "ar": "اصطدمت تيتانيك بـ [blank_7813] في رحلتها الأولى عبر المحيط الأطلسي."
+      "en": "The Titanic hit an <input type='text' > on its first trip across the Atlantic.",
+      "ar": "اصطدمت تيتانيك بـ _______ في رحلتها الأولى عبر المحيط الأطلسي."
     },
     "feedbackCorrect": {
       "en": "Correct! An iceberg is a large mass of ice floating in the sea.",

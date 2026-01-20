@@ -72,8 +72,8 @@
       "ar": "كم عمر أخت توم؟"
     },
     "questionText": {
-      "en": "Tom's sister is [blank_7813] years old.",
-      "ar": "أخت توم عمرها [blank_7813] سنوات."
+      "en": "Tom's sister is <input type='text' > years old.",
+      "ar": "أخت توم عمرها ______ سنوات."
     },
     "feedbackCorrect": {
       "en": "Correct! She is five.",

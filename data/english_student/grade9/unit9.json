@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة باستخدام ضمير الوصل الصحيح من القصة."
     },
     "questionText": {
-      "en": "The gift was for the student [blank_7813] marks are excellent.",
-      "ar": "كانت الهدية للطالب [blank_7813] علاماته ممتازة."
+      "en": "The gift was for the student <input type='text' > marks are excellent.",
+      "ar": "كانت الهدية للطالب ________ علاماته ممتازة."
     },
     "feedbackCorrect": {
       "en": "Correct! 'Whose' is used to show possession.",

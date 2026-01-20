@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بكلمة المفردات الصحيحة من القصة."
     },
     "questionText": {
-      "en": "Thomas Edison's mother believed her son was a [blank_7813] even when the school gave up on him.",
-      "ar": "آمنت والدة توماس إديسون أن ابنها كان [blank_7813] حتى عندما تخلت عنه المدرسة."
+      "en": "Thomas Edison's mother believed her son was a <input type='text' > even when the school gave up on him.",
+      "ar": "آمنت والدة توماس إديسون أن ابنها كان _______ حتى عندما تخلت عنه المدرسة."
     },
     "feedbackCorrect": {
       "en": "Correct! A genius is someone who is unusually intelligent.",

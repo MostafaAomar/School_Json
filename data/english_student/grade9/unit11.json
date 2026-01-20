@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بحرف الجر الصحيح من النص."
     },
     "questionText": {
-      "en": "You should be positive and capable [blank_7813] inspiring others.",
-      "ar": "يجب أن تكون إيجابياً وقادراً [blank_7813] إلهام الآخرين."
+      "en": "You should be positive and capable <input type='text' > inspiring others.",
+      "ar": "يجب أن تكون إيجابياً وقادراً ________ إلهام الآخرين."
     },
     "feedbackCorrect": {
       "en": "Correct! The adjective 'capable' is followed by the preposition 'of'.",

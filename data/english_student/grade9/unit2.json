@@ -99,8 +99,8 @@
       "ar": "أكمل الجملة باستخدام التصريف الثالث للفعل 'eat'."
     },
     "questionText": {
-      "en": "He’s hungry. He hasn’t [blank_7813] for four days.",
-      "ar": "إنه جائع. هو لم [blank_7813] منذ أربعة أيام."
+      "en": "He’s hungry. He hasn’t <input type='text' > for four days.",
+      "ar": "إنه جائع. هو لم ______ منذ أربعة أيام."
     },
     "feedbackCorrect": {
       "en": "Excellent! 'Eaten' is the past participle needed for present perfect.",

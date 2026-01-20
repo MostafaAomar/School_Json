@@ -19,8 +19,8 @@
       "ar": "أكمل الجدول بالفعل المشتق من الاسم 'communication'."
     },
     "questionText": {
-      "en": "Verb: [blank_7813] | Noun: communication",
-      "ar": "الفعل: [blank_7813] | الاسم: communication"
+      "en": "Verb: <input type='text' > | Noun: communication",
+      "ar": "الفعل: _______ | الاسم: communication"
     },
     "feedbackCorrect": {
       "en": "Correct! The verb is 'communicate'.",

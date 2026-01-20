@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة باستخدام كلمة من الكلمات المفتاحية في النص."
     },
     "questionText": {
-      "en": "If you master the technique of managing time [blank_7813], you can achieve anything.",
-      "ar": "إذا أتقنت تقنية إدارة الوقت [blank_7813]، يمكنك تحقيق أي شيء."
+      "en": "If you master the technique of managing time <input type='text' >, you can achieve anything.",
+      "ar": "إذا أتقنت تقنية إدارة الوقت ________، يمكنك تحقيق أي شيء."
     },
     "feedbackCorrect": {
       "en": "Correct! 'Efficiently' means getting good results without wasting time.",

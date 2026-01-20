@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بكلمة المفردات الصحيحة."
     },
     "questionText": {
-      "en": "Do you have [blank_7813] on your house and its contents?",
-      "ar": "هل لديك [blank_7813] على منزلك ومحتوياته؟"
+      "en": "Do you have <input type='text' > on your house and its contents?",
+      "ar": "هل لديك __________ على منزلك ومحتوياته؟"
     },
     "feedbackCorrect": {
       "en": "Correct! Insurance protects against future loss.",

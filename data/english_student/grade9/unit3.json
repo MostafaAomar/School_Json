@@ -70,8 +70,8 @@
       "ar": "أكمل الجمل بالمفردات الصحيحة."
     },
     "questionText": {
-      "en": "Scientists [blank_7813] that life will be easier. The new software [blank_7814] the old one.",
-      "ar": "العلماء [blank_7813] بأن الحياة ستكون أسهل. البرنامج الجديد [blank_7814] القديم."
+      "en": "Scientists <input type='text' > that life will be easier. The new software <input type='text' > the old one.",
+      "ar": "العلماء ________ بأن الحياة ستكون أسهل. البرنامج الجديد _______ القديم."
     },
     "feedbackCorrect": {
       "en": "Excellent! You used the context correctly.",

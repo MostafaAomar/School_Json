@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة باستخدام كلمة المفردات الصحيحة من النص."
     },
     "questionText": {
-      "en": "Climbing to the top of very high and steep buildings is called [blank_7813].",
-      "ar": "الصعود إلى قمة مبانٍ مرتفعة جدًا وشديدة الانحدار يسمى [blank_7813]."
+      "en": "Climbing to the top of very high and steep buildings is called <input type='text' >.",
+      "ar": "الصعود إلى قمة مبانٍ مرتفعة جدًا وشديدة الانحدار يسمى ________."
     },
     "feedbackCorrect": {
       "en": "Correct! 'Scaling' means climbing to the top of something high and steep.",

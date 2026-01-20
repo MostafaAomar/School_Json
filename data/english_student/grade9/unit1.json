@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بصيغة المضارع البسيط الصحيحة."
     },
     "questionText": {
-      "en": "Mrs. Al-Hroub [blank_7813] balloons and toy cars to explain her lessons.",
-      "ar": "السيدة الحروب [blank_7813] البالونات والسيارات اللعبة لشرح دروسها."
+      "en": "Mrs. Al-Hroub <input type='text' > balloons and toy cars to explain her lessons.",
+      "ar": "السيدة الحروب __________ البالونات والسيارات اللعبة لشرح دروسها."
     },
     "feedbackCorrect": {
       "en": "Correct! Mrs. Al-Hroub is singular, so we use 'uses'.",

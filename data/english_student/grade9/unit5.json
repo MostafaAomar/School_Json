@@ -19,8 +19,8 @@
       "ar": "أكمل الجملة بكلمة المفردات الصحيحة."
     },
     "questionText": {
-      "en": "Health officials have tried to raise [blank_7813].",
-      "ar": "حاول مسؤولو الصحة رفع مستوى [blank_7813]."
+      "en": "Health officials have tried to raise <input type='text' >.",
+      "ar": "حاول مسؤولو الصحة رفع مستوى _______ >."
     },
     "feedbackCorrect": {
       "en": "Correct! Awareness means knowledge or understanding of a subject.",
