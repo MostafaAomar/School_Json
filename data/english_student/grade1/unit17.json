@@ -182,7 +182,7 @@
           "en": "",
           "ar": ""
         },
-        "image": "bike.png",
+        "imageName": "bike.png",
         "accepts": "item_1"
       },
       {
@@ -191,7 +191,7 @@
           "en": "",
           "ar": ""
         },
-        "image": "car.png",
+        "imageName": "car.png",
         "accepts": "item_2"
       },
       {
@@ -200,7 +200,7 @@
           "en": "",
           "ar": ""
         },
-        "image": "plane.png",
+        "imageName": "plane.png",
         "accepts": "item_3"
       },
       {
@@ -209,7 +209,7 @@
           "en": "",
           "ar": ""
         },
-        "image": "bus.png",
+        "imageName": "bus.png",
         "accepts": "item_4"
       },
       {
@@ -218,7 +218,7 @@
           "en": "",
           "ar": ""
         },
-        "image": "train.png",
+        "imageName": "train.png",
         "accepts": "item_5"
       }
     ]

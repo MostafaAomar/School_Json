@@ -48,19 +48,19 @@
       {
         "id": "zone_1",
         "label": { "en": "5 Years Old", "ar": "5 سنوات" },
-        "image": "",
+        "imageName": "",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "6 Years Old", "ar": "6 سنوات" },
-        "image": "",
+        "imageName": "",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "10 Years Old", "ar": "10 سنوات" },
-        "image": "",
+        "imageName": "",
         "accepts": "item_3"
       }
     ]

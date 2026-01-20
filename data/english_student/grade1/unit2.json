@@ -96,13 +96,13 @@
       {
         "id": "zone_1",
         "label": { "en": "Chair", "ar": "كرسي" },
-        "image": "chair.png",
+        "imageName": "chair.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Desk", "ar": "مكتب" },
-        "image": "desk.png",
+        "imageName": "desk.png",
         "accepts": "item_2"
       }
     ]

@@ -48,19 +48,19 @@
       {
         "id": "zone_1",
         "label": { "en": "Father", "ar": "الأب" },
-        "image": "father.png",
+        "imageName": "father.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Mother", "ar": "الأم" },
-        "image": "mother.png",
+        "imageName": "mother.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Brother", "ar": "الأخ" },
-        "image": "brother.png",
+        "imageName": "brother.png",
         "accepts": "item_3"
       }
     ]

@@ -48,19 +48,19 @@
       {
         "id": "zone_1",
         "label": { "en": "Boy", "ar": "ولد" },
-        "image": "boy.png",
+        "imageName": "boy.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Girl", "ar": "بنت" },
-        "image": "girl.png",
+        "imageName": "girl.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Lemons", "ar": "ليمون" },
-        "image": "limon.png",
+        "imageName": "limon.png",
         "accepts": "item_3"
       }
     ]

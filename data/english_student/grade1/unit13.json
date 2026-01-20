@@ -60,37 +60,37 @@
       {
         "id": "zone_1",
         "label": { "en": "Sandwich", "ar": "شطيرة" },
-        "image": "sandwich.png",
+        "imageName": "sandwich.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Cheese", "ar": "جبن" },
-        "image": "cheese.png",
+        "imageName": "cheese.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Chicken", "ar": "دجاج" },
-        "image": "chicken.png",
+        "imageName": "chicken.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "Milk", "ar": "حليب" },
-        "image": "milk.png",
+        "imageName": "milk.png",
         "accepts": "item_4"
       },
       {
         "id": "zone_5",
         "label": { "en": "Juice", "ar": "عصير" },
-        "image": "juice.png",
+        "imageName": "juice.png",
         "accepts": "item_5"
       },
       {
         "id": "zone_6",
         "label": { "en": "Rice", "ar": "أرز" },
-        "image": "rice.png",
+        "imageName": "rice.png",
         "accepts": "item_6"
       }
     ]

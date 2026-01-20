@@ -52,25 +52,25 @@
       {
         "id": "zone_1",
         "label": { "en": "Girl", "ar": "بنت" },
-        "image": "girl.png",
+        "imageName": "girl.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Close book", "ar": "إغلاق الكتاب" },
-        "image": "close_book.png",
+        "imageName": "close_book.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Boy", "ar": "ولد" },
-        "image": "boy.png",
+        "imageName": "boy.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "Sit down", "ar": "جلوس" },
-        "image": "sit_down.png",
+        "imageName": "sit_down.png",
         "accepts": "item_4"
       }
     ]

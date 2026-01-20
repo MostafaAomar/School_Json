@@ -41,31 +41,31 @@
       {
         "id": "zone_1",
         "label": { "en": "", "ar": "" },
-        "image": "garden.png",
+        "imageName": "garden.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "", "ar": "" },
-        "image": "livingroom.png",
+        "imageName": "livingroom.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "", "ar": "" },
-        "image": "kitchen.png",
+        "imageName": "kitchen.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "", "ar": "" },
-        "image": "bathroom.png",
+        "imageName": "bathroom.png",
         "accepts": "item_4"
       },
       {
         "id": "zone_5",
         "label": { "en": "", "ar": "" },
-        "image": "bedroom.png",
+        "imageName": "bedroom.png",
         "accepts": "item_5"
       }
     ]

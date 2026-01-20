@@ -56,31 +56,31 @@
       {
         "id": "zone_1",
         "label": { "en": "", "ar": "" },
-        "image": "elephant.png",
+        "imageName": "elephant.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "", "ar": "" },
-        "image": "tiger.png",
+        "imageName": "tiger.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "", "ar": "" },
-        "image": "monkey.png",
+        "imageName": "monkey.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "", "ar": "" },
-        "image": "parrot.png",
+        "imageName": "parrot.png",
         "accepts": "item_4"
       },
       {
         "id": "zone_5",
         "label": { "en": "", "ar": "" },
-        "image": "rabbit.png",
+        "imageName": "rabbit.png",
         "accepts": "item_5"
       }
     ]

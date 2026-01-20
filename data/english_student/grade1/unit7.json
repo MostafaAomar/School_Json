@@ -42,37 +42,37 @@
       {
         "id": "zone_1",
         "label": { "en": "Hand", "ar": "يد" },
-        "image": "hand.png",
+        "imageName": "hand.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Foot", "ar": "قدم" },
-        "image": "foot.png",
+        "imageName": "foot.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Eye", "ar": "عين" },
-        "image": "eye.png",
+        "imageName": "eye.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "Nose", "ar": "أنف" },
-        "image": "nose.png",
+        "imageName": "nose.png",
         "accepts": "item_4"
       },
       {
         "id": "zone_5",
         "label": { "en": "Mouth", "ar": "فم" },
-        "image": "mouth.png",
+        "imageName": "mouth.png",
         "accepts": "item_5"
       },
       {
         "id": "zone_6",
         "label": { "en": "Ear", "ar": "أذن" },
-        "image": "ear.png",
+        "imageName": "ear.png",
         "accepts": "item_6"
       }
     ]

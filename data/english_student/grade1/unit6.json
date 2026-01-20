@@ -41,31 +41,31 @@
       {
         "id": "zone_1",
         "label": { "en": "Red", "ar": "أحمر" },
-        "image": "red.png",
+        "imageName": "red.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Blue", "ar": "أزرق" },
-        "image": "blue.png",
+        "imageName": "blue.png",
         "accepts": "item_2"
       },
       {
         "id": "zone_3",
         "label": { "en": "Green", "ar": "أخضر" },
-        "image": "green.png",
+        "imageName": "green.png",
         "accepts": "item_3"
       },
       {
         "id": "zone_4",
         "label": { "en": "Yellow", "ar": "أصفر" },
-        "image": "yellow.png",
+        "imageName": "yellow.png",
         "accepts": "item_4"
       },
       {
         "id": "zone_5",
         "label": { "en": "Black", "ar": "أسود" },
-        "image": "black.png",
+        "imageName": "black.png",
         "accepts": "item_5"
       }
     ]
