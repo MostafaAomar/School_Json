@@ -1,22 +1,19 @@
 {
-   "questionText": {
+    "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "Review 2",
+      "ar": " المراجعة الثانية"
+    },
+    "passage": {
     "en": " ",
     "ar": "لا يوجد نصوص في هذا القسم اذهب الى الاختبار مباشره"
-  }
-
-
-,
+  },
+  
   "videoUrl": "https://www.youtube.com/watch?v=9cJrm6uCiW8&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=15&ab_channel=Mostafa",
   "audioUrl": "https://drive.google.com/file/d/1CARjOkvo-mEyHwJdJAi11kqA15s8TwNj/view",
-  "audioType": "audio/mp3",
-  "externalLinks": [
-    {
-      "type": "text",
-      "url": "https://dictionary.cambridge.org/dictionary/english/aspire",
-      "text": { "ar": "تعريف كلمة Aspire (قاموس كامبريدج)", "en": "Definition of Aspire (Cambridge)" },
-      "title": { "ar": "زيارة قاموس كامبريدج", "en": "Visit Cambridge Dictionary" }
-    }
-  ],
+  "audioType": "audio/mp3"
+},
   "review2_s_1": {
     "type": "mcq",
     "difficulty": 1,

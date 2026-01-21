@@ -1,122 +1,51 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "General Knowledge and Home",
-      "ar": "معلومات عامة والمنزل"
+      "en": "Hello",
+      "ar": "  مرحبا"
     },
     "passage": {
-      "en": "Hello, I'm Tom. What's your name? I am currently in my bedroom. I have a book and a small car.",
-      "ar": "مرحباً، أنا توم. ما اسمك؟ أنا حالياً في غرفة نومي. لدي كتاب وسيارة صغيرة."
+      "en": "Hello\n I'm Tom. What's your name?\nI'm Mary\nTom, Tom , come here!\nGoodbye Mary!\nGoodbye",
+      "ar": "مرحباً\nأنا توم. ما اسمك؟\nأنا ماري\nتوم، توم، ائت هنا!\nوداعاً ماري!\nوداعاً"
     },
     "videoUrl": "",
     "audioUrl": ""
   },
-  "question_ID__1": {
-    "type": "fill-blank",
-    "supportContent": {
-      "en": "Geography facts.",
-      "ar": "حقائق جغرافية."
+  "metadata_2": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    "questionText": {
-      "en": "The capital of France is  .",
-      "ar": "عاصمة فرنسا هي   ."
+    "passage": {
+      "en": "Good morning , \nI'm miss  Kate \nWhat's your name?\nGood morning\nI'm Tom",
+      "ar": "صباح الخير،\nأنا السيدة كيت\nما اسمك؟\nصباح الخير\nأنا توم"
     },
-    "feedbackCorrect": {
-      "en": "Excellent! Paris is indeed the capital of France.",
-      "ar": "ممتاز! باريس هي بالفعل عاصمة فرنسا."
-    },
-    "feedbackIncorrect": {
-      "en": "Not quite. Think of the Eiffel Tower!",
-      "ar": "ليس تماماً. فكر في برج إيفل!"
-    },
-    "correctAnswers": {
-      "blank_8125": {
-        "en": "Paris",
-        "ar": "باريس"
-      }
-    }
+    "videoUrl": "",
+    "audioUrl": ""
   },
-  "question_ID__2": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "Refer back to the passage.",
-      "ar": "راجع النص السابق."
+  "metadata_3": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    "questionText": {
-      "en": "Where is Tom?",
-      "ar": "أين توم؟"
+    "passage": {
+      "en": "Hello , hello,\nhow are you?\nI'm fine , I'm fine ,\nthank you",
+      "ar": "مرحباً، مرحباً\nكيف حالك؟\nأنا بخير، أنا بخير\nشكراً"
     },
-    "feedbackCorrect": {
-      "en": "Correct! Tom is in the bedroom.",
-      "ar": "صحيح! توم في غرفة النوم."
-    },
-    "feedbackIncorrect": {
-      "en": "Try again. Check the first line of the passage.",
-      "ar": "حاول مرة أخرى. تحقق من السطر الأول في النص."
-    },
-    "options": [
-      { "en": "In the bedroom", "ar": "في غرفة النوم" },
-      { "en": "In the kitchen", "ar": "في المطبخ" },
-      { "en": "In the garden", "ar": "في الحديقة" },
-      { "en": "In the street", "ar": "في الشارع" }
-    ],
-    "correctAnswer": {
-      "en": "In the bedroom",
-      "ar": "في غرفة النوم"
-    }
+    "videoUrl": "",
+    "audioUrl": ""
   },
-  "question_ID__3": {
-    "type": "matching",
-    "supportContent": {
-      "en": "Match the objects with their Arabic names.",
-      "ar": "طابق الأشياء بأسمائها العربية."
+  "metadata_4": {
+    "unitTitle": {
+      "en": "",
+      "ar": ""
     },
-    "questionText": {
-      "en": "Match the words to the labels",
-      "ar": "طابق الكلمات بالملصقات"
+    "passage": {
+      "en": "Good morning\nhow are you?\nGood morning\nI'm fine ,\nthank you",
+      "ar": "صباح الخير\nكيف حالك؟\nصباح الخير\nأنا بخير\nشكراً"
     },
-    "feedbackCorrect": {
-      "en": "Great matching skills!",
-      "ar": "مهارات مطابقة رائعة!"
-    },
-    "feedbackIncorrect": {
-      "en": "Some matches are wrong, try again.",
-      "ar": "بعض المطابقات خاطئة، حاول ثانية."
-    },
-    "draggableItems": [
-      {
-        "id": "item_1",
-        "text": { "en": "Apple", "ar": "تفاحة" }
-      },
-      {
-        "id": "item_2",
-        "text": { "en": "Car", "ar": "سيارة" }
-      },
-      {
-        "id": "item_3",
-        "text": { "en": "Book", "ar": "كتاب" }
-      }
-    ],
-    "dropZones": [
-      {
-        "id": "zone_1",
-        "label": { "en": "Apple", "ar": "تفاحة" },
-        "imageName": " ",
-        "accepts": "item_1"
-      },
-      {
-        "id": "zone_2",
-        "label": { "en": "Car", "ar": "سيارة" },
-        "imageName": "car.png",
-        "accepts": "item_2"
-      },
-      {
-        "id": "zone_3",
-        "label": { "en": "Book", "ar": "كتاب" },
-        "imageName": "",
-        "accepts": "item_3"
-      }
-    ]
+    "videoUrl": "",
+    "audioUrl": ""
   }
 }

@@ -2,13 +2,17 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Touch People's Hearts",
-      "ar": "المس قلوب الناس"
+      "en": "Ready to Contact?",
+      "ar": "هل أنت مستعد للتواصل؟ "
     },
-    "passage": {
-      "en": "Inspiration is a powerful force that can change lives for the better. To inspire others, one should show care through small acts of kindness, earn and keep trust, fulfill promises, avoid negative criticism, and be an active listener. These actions help build meaningful connections and create a positive difference in the lives of those around us.",
-      "ar": "الإلهام قوة جبارة يمكنها تغيير الحياة للأفضل. لإلهام الآخرين، يجب على المرء إظهار الاهتمام من خلال أفعال بسيطة من اللطف، كسب الثقة والحفاظ عليها، الوفاء بالوعود، تجنب النقد السلبي، وأن يكون مستمعاً نشطاً. تساعد هذه الأفعال في بناء علاقات ذات معنى وخلق فرق إيجابي في حياة من حولنا."
-    },
+    "passage": 
+    {
+  "en": "Touch People's Hearts\nHave you ever been inspired by someone to change your life in a significant way that\nmade you healthier, happier, or more fulfilled? If so, then you understand how inspiration\ncan create a positive difference in a person’s life. Inspiration is powerful. If you want to be\npositive and capable of inspiring others, here are some tips to follow.\n• Show people you care. Remember how many times your day was changed by questions\nlike “How are you today?” or “Is everything going well with you?” said by a friend. Your\nactions are very important too. Many people’s lives are inspired by small acts of kindness.\n• Earn trust. If you are told a secret by a friend, it stays between you and him/her. Trust\ntakes a long time to be built, but in many cases it can be destroyed in no time.\n• Keep your promises. If someone is being helped by a volunteer, he/she needs to do it\nwith a smile. Life has many examples of promises that are kept to save many people’s lives.\nTherefore, you should be wise enough to keep your word no matter what it takes.\n• It is easy to criticise people, but that doesn’t mean it’s the right thing to do. Think about it:\n“How did you react when your intelligence was being once insulted by someone? Or, if your\nclothing, or your performance had been criticised in a negative way?” Whether the criticism\nwas justified or not, sure you would get upset. No one likes to be criticized, so if you don’t\nhave anything positive to say, don’t say it at all.\n• Be an active listener. Words other people say can be heard, but not many people\ncan actively listen to and comprehend those words to fully understand the meaning behind\nthem. Make an eye contact if someone talks to you about their problems, and ask follow-up\nquestions to show them you care.",
+
+  "ar": "لمس قلوب الناس\nهل شعرت يومًا بالإلهام من قبل شخص ما لتغيير حياتك بطريقة كبيرة جعلتك أكثر صحة، سعادة، أو رضا؟ إذا كان الأمر كذلك، فأنت تفهم كيف يمكن للإلهام أن يخلق فرقًا إيجابيًا في حياة الشخص. الإلهام قوي. إذا أردت أن تكون إيجابيًا وقادرًا على إلهام الآخرين، فإليك بعض النصائح للاتباع.\n• أظهر للناس أنك تهتم. تذكر كم مرة تغير يومك بفضل أسئلة مثل \"كيف حالك اليوم؟\" أو \"هل كل شيء على ما يرام معك؟\" التي قالها صديق. أفعالك مهمة جدًا أيضًا. تُلهم حياة العديد من الناس من خلال أعمال صغيرة من اللطف.\n• اكسب الثقة. إذا أخبرك صديق بسر، فإنه يبقى بينك وبينه/بينها. بناء الثقة يستغرق وقتًا طويلاً، لكن في كثير من الحالات يمكن تدميرها في لحظة.\n• حافظ على وعودك. إذا كان شخص ما يتلقى المساعدة من متطوع، يجب أن يقوم بذلك بابتسامة. تحتوي الحياة على العديد من الأمثلة للوعود التي يتم الوفاء بها لإنقاذ حياة العديد من الناس. لذلك، يجب أن تكون حكيمًا بما يكفي للوفاء بكلمتك مهما كلف الأمر.\n• من السهل انتقاد الناس، لكن هذا لا يعني أنه الشيء الصحيح للقيام به. فكر في الأمر: \"كيف كنت تتفاعل عندما تم إهانة ذكائك من قبل شخص ما؟ أو إذا تم انتقاد ملابسك، أو أدائك بطريقة سلبية؟\" سواء كان الانتقاد مبررًا أم لا، بالتأكيد ستشعر بالانزعاج. لا أحد يحب أن يُنتقد، لذلك إذا لم يكن لديك شيء إيجابي لتقوله، فلا تقله على الإطلاق.\n• كن مستمعًا نشطًا. الكلمات التي يقولها الآخرون يمكن سماعها، لكن ليس الكثير من الناس يستطيعون الاستماع بفاعلية وفهم تلك الكلمات لفهم المعنى وراءها بالكامل. تواصل بالعين إذا تحدث إليك شخص ما عن مشاكله، واطرح أسئلة متابعة لتظهر لهم أنك تهتم."
+}
+
+    ,
     "videoUrl": "https://www.youtube.com/watch?v=gs_Q7o4DUJo",
     "audioUrl": ""
   },

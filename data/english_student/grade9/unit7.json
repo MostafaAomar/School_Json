@@ -2,13 +2,17 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "No One Had Believed it was Possible",
-      "ar": "لم يصدق أحد أنه كان ممكنًا"
+      "en": "Critical Moments",
+      "ar": " لحظات حاسمة"
     },
-    "passage": {
-      "en": "In 1912, the Titanic hit an iceberg. It was the largest ship ever, carrying 2207 people but only enough lifeboats for 1178. Due to old rules and a lack of preparation, 1502 people lost their lives. Despite 6 ice warnings, the ship did not change speed or direction.",
-      "ar": "في عام 1912، اصطدمت سفينة تيتانيك بجبل جليدي. كانت أكبر سفينة على الإطلاق، تحمل 2207 شخصاً ولكنها لم تمتلك قوارب نجاة إلا لـ 1178 فقط. بسبب القواعد القديمة ونقص الاستعداد، فقد 1502 شخصاً حياتهم. ورغم تلقي 6 تحذيرات من الجليد، لم تغير السفينة سرعتها أو اتجاهها."
-    },
+    "passage": 
+    {
+  "en": "No One Had Believed it was Possible\nIn 1912, the “Titanic” hit an iceberg on its first trip across the Atlantic. The Titanic was the\nlargest ship that had ever travelled on the sea. It was carrying 2207 people, but it had taken on enough lifeboats for only 1178 people. Not more than 651 of the passengers were able\nto get into lifeboats.\nSome of the survivors had been in the icy water for hours when they were saved. Most of\nthe passengers hadn’t lived long; 1502 people had lost their lives. But why was there such\na great loss of life and so few survivors who were on the edge of death?\nNobody had prepared for such a tragedy. Nobody had believed that the Titanic could sink.\nThe steamship company had thought that its ship would be completely safe in all situations.\nThey had followed an old rule for the number of lifeboats, so they had supplied lifeboats for\nonly half the people. The passengers had not yet received their lifeboat numbers, nor had\nthey practiced lifeboat drill before the accident. Many of them had not even dressed warmly,\nthe ship had hit the iceberg late at night, and they did not believe they were in danger.\nThe ship had already received 6 ice warnings on its radio when it struck the iceberg.\nNevertheless, it had not changed its direction or its speed. A tragedy like the sinking of the\nTitanic should never happen again.",
+
+  "ar": "لم يصدق أحد أن ذلك ممكن\nفي عام 1912، اصطدم \"التيتانيك\" بجبل جليدي في رحلته الأولى عبر المحيط الأطلسي. كان التيتانيك أكبر سفينة قد سافرت على الإطلاق في البحر. كانت تحمل 2207 شخصًا، لكنها أخذت قوارب نجاة تكفي فقط لـ1178 شخصًا. ولم يتمكن أكثر من 651 من الركاب من الوصول إلى قوارب النجاة.\nبعض الناجين بقوا في المياه الجليدية لساعات قبل أن يتم إنقاذهم. معظم الركاب لم يعيشوا طويلاً؛ فقد فقد 1502 شخص حياتهم. لكن لماذا كانت هناك خسارة كبيرة في الأرواح وعدد قليل جدًا من الناجين الذين كانوا على حافة الموت؟\nلم يكن أحد مستعدًا لمثل هذه المأساة. لم يصدق أحد أن التيتانيك يمكن أن يغرق. كانت شركة الباخرة تعتقد أن سفينتها ستكون آمنة تمامًا في جميع الحالات. لقد اتبعوا قاعدة قديمة لعدد قوارب النجاة، لذا وفّروا قوارب النجاة لنصف الركاب فقط. لم يكن الركاب قد استلموا أرقام قوارب النجاة الخاصة بهم بعد، ولم يمارسوا تدريبات قوارب النجاة قبل الحادث. كثير منهم لم يرتدِ ملابس دافئة، واصطدمت السفينة بالجبل الجليدي في وقت متأخر من الليل، ولم يصدقوا أنهم في خطر.\nكانت السفينة قد تلقت بالفعل 6 تحذيرات جليدية عبر الراديو عندما اصطدمت بالجبل الجليدي. ومع ذلك، لم تغير مسارها أو سرعتها. يجب ألا تحدث مأساة مثل غرق التيتانيك مرة أخرى."
+}
+
+    ,
     "videoUrl": "",
     "audioUrl": ""
   },

@@ -2,13 +2,16 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Mothers' Decisions can Change the World",
-      "ar": "قرارات الأمهات يمكن أن تغير العالم"
+      "en": "Exciting Challenge",
+      "ar": " تحدي مثير"
     },
-    "passage": {
-      "en": "Thomas Edison was sent home with a letter saying he was mentally ill. His mother decided to hide the truth and told him he was a genius who needed to be taught at home. Because of her belief and home education, Edison grew up to invent the phonograph and create the basis for many modern technologies. He later realized that he was a 'mentally ill child that, by a hero mother, became a genius.'",
-      "ar": "أُرسل توماس إديسون إلى المنزل مع رسالة تقول إنه مريض عقلياً. قررت والدته إخفاء الحقيقة وأخبرته أنه عبقري يحتاج إلى التعليم في المنزل. بفضل إيمانها وتعليمه المنزلي، كبر إديسون ليخترع الفونوغراف ويضع الأساس للعديد من التقنيات الحديثة. أدرك لاحقاً أنه كان 'طفلاً مريضاً عقلياً، أصبح عبقرياً بفضل أم بطلة'."
-    },
+    "passage": 
+    {
+  "en": "Mothers' Decisions can Change the World\nOne day Thomas Edison came home and\ngave his mother a letter from his teacher.\nAs she read the letter, his mother’s eyes\nwere tearful. Thomas Edison's teacher\nwrote that Edison was mentally ill and\nwouldn't be allowed in school anymore.\nWhen Edison asked his mother what this\nletter was about, she pretended to read it\naloud, saying your son couldn't go to school because he was a genius and the school was\ntoo small for him. \"Please teach him yourself.\" Edison’s mother hid the letter and decided to\neducate young Thomas at home.  Edison was homeschooled by his mother's decision; he wasn't able to memorize\nlessons and needed hands-on experience to understand and learn things. Edison's\nmother wasn't frustrated; she wanted Edison to be a scientist. He grew up and set up\na laboratory at home and began his own experiments. He also set up his own telegraph\nstation and sent out messages by using a train whistle.\nAt the age of 30, Edison invented the phonograph. His work in a number of fields\ncreated the basis for many technologies that we enjoy today. However, like anyone\nelse, he suffered through failure numerous times, but where others quit, he persisted.\nAfter his mother's death, one day Edison found the hidden school letter, cried for hours\nand then he wrote in his diary, Thomas Alva Edison was a mentally ill child that, by\na hero mother, became a genius. Edison said: \"My mother was a great woman, she\nbelieved in me and made me one of the greatest inventors\".",
+
+  "ar": "قرارات الأمهات يمكن أن تغير العالم\nفي يوم من الأيام عاد توماس إديسون إلى المنزل وأعطى والدته رسالة من معلمه.\nعندما قرأت والدته الرسالة، امتلأت عيناها بالدموع. كتب معلم توماس إديسون أن إديسون كان مريضًا عقليًا ولن يُسمح له بالذهاب إلى المدرسة بعد الآن.\nعندما سأل إديسون والدته عن مضمون هذه الرسالة، تظاهرت بقراءتها بصوت عالٍ، قائلة إن ابنك لا يستطيع الذهاب إلى المدرسة لأنه عبقري والمدرسة صغيرة جدًا بالنسبة له. \"رجاءً علّميه بنفسك.\" أخفت والدة إديسون الرسالة وقررت تعليم توماس الصغير في المنزل. تم تعليم إديسون في المنزل بناءً على قرار والدته؛ لم يكن قادرًا على حفظ الدروس وكان يحتاج إلى تجربة عملية لفهم الأشياء وتعلمها. لم تشعر والدته بالإحباط؛ بل كانت تريد لإديسون أن يصبح عالمًا. نشأ وأقام مختبرًا في المنزل وبدأ تجاربه الخاصة. كما أقام محطته الخاصة للبرق وأرسل الرسائل باستخدام صفارة القطار.\nفي سن الثلاثين، اخترع إديسون الفونوغراف. وأدى عمله في عدد من المجالات إلى وضع أساس للعديد من التقنيات التي نتمتع بها اليوم. ومع ذلك، مثل أي شخص آخر، عانى من الفشل عدة مرات، ولكن حيث استسلم الآخرون، استمر هو.\nبعد وفاة والدته، وجد إديسون يومًا الرسالة المدرسية المخفية، وبكى لساعات ثم كتب في مذكراته: كان توماس ألفا إديسون طفلًا مريضًا عقليًا أصبح، بفضل والدته البطلة، عبقريًا. قال إديسون: \"كانت والدتي امرأة عظيمة، آمنت بي وجعلت مني واحدًا من أعظم المخترعين\"."
+}
+,
     "videoUrl": "",
     "audioUrl": ""
   },

@@ -2,13 +2,17 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Who Deserves the Award?",
-      "ar": "من يستحق الجائزة؟"
+      "en": " Stay Positive",
+      "ar": "   ابقَ إيجابيًا"
     },
-    "passage": {
-      "en": "Mariam, a teacher, motivated her students by promising a new pair of shoes to the top student. When everyone got full marks, the students suggested picking a name from a box. The name 'Nada' was drawn, but later Mariam discovered that every single student had written Nada's name because she was too poor to afford shoes.",
-      "ar": "قامت المعلمة مريم بتحفيز طلابها عبر وعدهم بحذاء جديد لمن يحصل على العلامة الكاملة. عندما حصل الجميع على العلامة الكاملة، اقترح الطلاب سحب اسم من صندوق. تم اختيار اسم 'ندى'، ولكن لاحقاً اكتشفت مريم أن جميع الطلاب كتبوا اسم ندى لأنها كانت فقيرة جداً ولا تستطيع شراء حذاء."
-    },
+    "passage": 
+    {
+  "en": "Who Deserves the Award?\nMariam was a teacher who wanted to motivate her students and make them do their best\nin the exam. So, she told them that she would give a gift, which was a new pair of shoes, to\nthe one whose marks would be excellent. Children rejoiced over this challenge and they\nall started writing diligently. After collecting the papers, the teacher was surprised to find\nthat everyone had a full mark.\nWho would get the givt? she thought. The teacher thanked everyone for their effort but she\nwas confused about who would deserve the award as everyone had got the full mark.\nThe teacher thought of a suitable solution with her students. The students’ opinion was that\neach of them would write his/her name on a folded paper and put it in a box from which the\nteacher would pick one. So, the paper will would reveal the name of the award’s winner.\nIndeed, the teacher picked a paper in front of all students and read the child's name [Nada],\nand said: ''you are the owner of the award''. With joy and tears in her eyes, Nada came\nforward where the shoes were. She thanked everyone for this wonderful gift. Her parents\ncouldn't afford to buy her new shoes because of their extreme poverty.\nThe teacher returned home crying and told her husband what had happened. He was\nsurprised and wanted to know the reason of her tears. She said: ''When I opened the rest of\nthe papers, I found that all the students had written the same name [Nada]\".",
+
+  "ar": "من يستحق الجائزة؟\nكانت مريم معلمة أرادت تحفيز طلابها وجعلهم يبذلون أفضل ما لديهم في الامتحان. لذلك، أخبرتهم أنها ستعطي هدية، وهي زوج جديد من الأحذية، لمن يحصل على علامات ممتازة. فرح الأطفال بهذا التحدي وبدأوا جميعًا بالكتابة بجد. بعد جمع الأوراق، فوجئت المعلمة بأن الجميع حصل على الدرجة الكاملة.\nمن سيحصل على الهدية؟ فكرت. شكرت المعلمة الجميع على جهودهم لكنها كانت محتارة حول من يستحق الجائزة بما أن الجميع حصل على الدرجة الكاملة.\nفكرت المعلمة في حل مناسب مع طلابها. كان رأي الطلاب أن يكتب كل منهم اسمه على ورقة مطوية ويضعها في صندوق تختار منه المعلمة واحدة. وهكذا، ستكشف الورقة عن اسم الفائز بالجائزة.\nفعلاً، اختارت المعلمة ورقة أمام جميع الطلاب وقرأت اسم الطفل [ندى]، وقالت: \"أنتِ صاحبة الجائزة\". بفرح ودموع في عينيها، تقدمت ندى نحو الأحذية. شكرت الجميع على هذه الهدية الرائعة. لم يتمكن والداها من شراء أحذية جديدة لها بسبب فقرهم الشديد.\nعادت المعلمة إلى المنزل باكية وأخبرت زوجها بما حدث. تفاجأ وأراد معرفة سبب دموعها. قالت: \"عندما فتحت بقية الأوراق، وجدت أن جميع الطلاب كتبوا نفس الاسم [ندى]\"."
+}
+
+    ,
     "videoUrl": "https://www.youtube.com/watch?v=qj5khHx0mxE",
     "audioUrl": ""
   },
