@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "metadata": {
     "unitTitle": {
       "en": "Hello",
@@ -50,7 +50,7 @@
       "en": "Match the classroom items to their images.",
       "ar": "طابق أغراض الفصل بصورها."
     },
-     "imageUrl": "bike.png",
+     "imageUrl": "boy.png",
     "questionText": {
       "en": "Match the classroom objects",
       "ar": "طابق أشياء الفصل الدراسي"
