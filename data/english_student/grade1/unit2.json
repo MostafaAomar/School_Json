@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Classroom Objects",
@@ -53,6 +53,7 @@
       "en": "What's this?",
       "ar": "ما هذا؟"
     },
+     "imageUrl":"bike.png",
     "feedbackCorrect": {
       "en": "Excellent! It's a pencil.",
       "ar": "ممتاز! إنه قلم رصاص."
