@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "metadata": {
     "unitTitle": {
       "en": "Hello",
@@ -50,6 +50,7 @@
       "en": "Match the classroom items to their images.",
       "ar": "طابق أغراض الفصل بصورها."
     },
+     "imageUrl": "bike.png",
     "questionText": {
       "en": "Match the classroom objects",
       "ar": "طابق أشياء الفصل الدراسي"
@@ -87,6 +88,7 @@
       "en": "Complete the sentence with the past participle of the verb 'eat'.",
       "ar": "أكمل الجملة باستخدام التصريف الثالث للفعل 'eat'."
     },
+     "imageUrl": "bike.png",
     "questionText": {
       "en": "He’s hungry. He hasn’t <input type='text' > for four days.",
       "ar": "إنه جائع. هو لم ______ منذ أربعة أيام."
