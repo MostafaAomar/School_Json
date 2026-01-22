@@ -230,7 +230,8 @@
                     });
                 });
             } else if (type === 'fill-blank') {
-                const bId = `blank_${Math.floor(Math.random()*9000)+1000}`;
+                let answercounter=1;
+                const bId = `q_${answercounter++}`;
                 data.correctAnswers = { [bId]: { en: q.querySelector('.blank-en').value, ar: q.querySelector('.blank-ar').value } };
             } else if (type === 'mcq') {
                 data.options = [];
