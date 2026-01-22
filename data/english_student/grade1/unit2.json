@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "metadata": {
     "unitTitle": {
       "en": "",
@@ -21,7 +21,7 @@
     },
     "questionText": {
       "en": "",
-      "ar": "إدارة الوقت تساعد الإنسان على زيادة ________ وتحقيق النجاح."
+      "ar": "إدارة الوقت تساعد الإنسان على زيادة  <input type='text'> وتحقيق النجاح."
     },
     "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
     "feedbackCorrect": {
