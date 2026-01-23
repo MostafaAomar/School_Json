@@ -1,5 +1,5 @@
 {
-  "version": 1.1,
+  "version": 1.2,
   "subjects": [
     {
       "id": "english_student",
@@ -11,6 +11,22 @@
     {
       "id": "english_activity",
       "name": "الإنجليزية - كتاب الأنشطة",
+      "color": "#A78BFA",
+      "icon": "📝",
+      "available_grades": [9, 12]
+    },
+    
+    {
+      "id": "arabic",
+      "name": " - كتاب ",
+      "color": "#A78BFA",
+      "icon": "📝",
+      "available_grades": [9, 12]
+    },
+    
+    {
+      "id": "math",
+      "name": "ا الأنشطة",
       "color": "#A78BFA",
       "icon": "📝",
       "available_grades": [9, 12]
