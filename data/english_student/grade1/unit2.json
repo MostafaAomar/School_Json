@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "metadata": {
     "unitTitle": {
       "en": "",
@@ -74,7 +74,7 @@
           "en": "",
           "ar": "تنظيم الوقت واستثماره بشكل صحيح"
         },
-        "imageName": "desk.png",
+        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/desk.png",
         "accepts": "item_1"
       }
     ]
