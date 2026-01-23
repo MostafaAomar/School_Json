@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "metadata": {
     "unitTitle": {
       "en": "",
@@ -65,6 +65,13 @@
           "en": "",
           "ar": "إدارة الوقت"
         }
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "",
+          "ar": "النجاح"
+        }
       }
     ],
     "dropZones": [
@@ -74,8 +81,17 @@
           "en": "",
           "ar": "تنظيم الوقت واستثماره بشكل صحيح"
         },
-        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/desk.png",
+        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
         "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": "الوصول إلى الأهداف المنشودة في الحياة"
+        },
+        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/ear.png",
+        "accepts": "item_2"
       }
     ]
   },

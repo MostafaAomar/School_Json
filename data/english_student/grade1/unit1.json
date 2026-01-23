@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "metadata": {
     "unitTitle": {
       "en": "Hello",
@@ -71,13 +71,13 @@
       {
         "id": "zone_1",
         "label": { "en": "Chair", "ar": "كرسي" },
-        "imageUrl": "chair.png",
+        "imageUrl": "carrot.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
         "label": { "en": "Desk", "ar": "مكتب" },
-        "imageUrl": "desk.png",
+        "imageUrl": "eye.png",
         "accepts": "item_2"
       }
     ]
