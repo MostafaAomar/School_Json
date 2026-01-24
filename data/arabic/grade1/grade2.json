@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "unitTitle": {
+      "en": "",
+      "ar": "وحدة الكائنات الحية"
+    },
+    "passage": {
+      "en": "",
+      "ar": "تعتبر الخلية هي وحدة بناء الكائن الحي، وهي أصغر جزء فيه يقوم بالعمليات الحيوية."
+    },
+    "videoUrl": "https://youtu.be/t-fsAJ8plnA?si=whVl8P7No0K7m9RY",
+    "audioUrl": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/audio/test.mp3",
+    "imageUrl": "car.png"
+  },
+  "metadata_2": {
+    "unitTitle": {
+      "en": "",
+      "ar": "وحدة النظام الشمسي"
+    },
+    "passage": {
+      "en": "",
+      "ar": "يتكون النظام الشمسي من الشمس وثمانية كواكب تدور حولها في مدارات محددة."
+    },
+    "videoUrl": "solar_system_vid",
+    "audioUrl": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/audio/test.mp3",
+    "imageUrl": "car.png"
+  },
+  "question_ID__1": {
+    "type": "fill-blank",
+    "supportContent": {
+      "en": "",
+      "ar": "أكمل الجملة التالية بما يناسبها."
+    },
+    "questionText": {
+      "en": "",
+      "ar": "تعتبر .. وحدة بناء جسم الكائن الحي."
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": "إجابة رائعة! الخلية هي الأساس فعلاً."
+    },
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "حاول ثانية، تذكر أصغر جزء في جسمك."
+    },
+    "correctAnswers": {
+      "q_1": {
+        "en": "",
+        "ar": "الخلية"
+      }
+    },
+    "imageName": "car.png"
+  },
+  "question_ID__2": {
+    "type": "matching",
+    "supportContent": {
+      "en": "",
+      "ar": "طابق كل كوكب بخصائصه المناسبة."
+    },
+    "questionText": {
+      "en": "",
+      "ar": "صل الكوكب بالصورة المناسبة له."
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": "أحسنت! لقد طابقت الكواكب بنجاح."
+    },
+     "imageName": "car.png",
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "هناك خطأ في التوصيل، راجع ترتيب الكواكب."
+    },
+    "draggableItems": [
+      {
+        "id": "item_1",
+        "text": {
+          "en": "",
+          "ar": "المريخ"
+        }
+      },
+      {
+        "id": "item_2",
+        "text": {
+          "en": "",
+          "ar": "الأرض"
+        }
+      },
+      {
+        "id": "item_3",
+        "text": {
+          "en": "",
+          "ar": "المشتري"
+        }
+      }
+    ],
+    "dropZones": [
+      {
+        "id": "zone_1",
+        "label": {
+          "en": "",
+          "ar": "الكوكب الأحمر"
+        },
+        "imageName": "bus.png",
+        "accepts": "item_1"
+      },
+      {
+        "id": "zone_2",
+        "label": {
+          "en": "",
+          "ar": "الكوكب الأزرق"
+        },
+        "imageName": "car.png",
+        "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": {
+          "en": "",
+          "ar": "أكبر الكواكب"
+        },
+        "imageName": "bike.png",
+        "accepts": "item_3"
+      }
+    ]
+  },
+  "question_ID__3": {
+    "type": "mcq",
+    "supportContent": {
+      "en": "",
+      "ar": "اختر الإجابة الصحيحة."
+    },
+    "questionText": {
+      "en": "",
+      "ar": "أي من الأجزاء التالية يوجد في الخلية النباتية فقط؟"
+    },
+    "feedbackCorrect": {
+      "en": "",
+      "ar": "إجابة صحيحة! الجدار الخلوي يميز النباتات."
+    },
+     "imageName": "car.png",
+    "feedbackIncorrect": {
+      "en": "",
+      "ar": "إجابة خاطئة، هذا الجزء موجود في الخلايا الحيوانية أيضاً."
+    },
+    "options": [
+      { "en": "", "ar": "النواة" },
+      { "en": "", "ar": "الجدار الخلوي" },
+      { "en": "", "ar": "السيتوبلازم" },
+      { "en": "", "ar": "الغشاء البلازمي" }
+    ],
+    "correctAnswer": {
+      "en": "",
+      "ar": "الجدار الخلوي"
+    }
+  }
+}

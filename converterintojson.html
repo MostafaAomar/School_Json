@@ -58,7 +58,7 @@
     <div id="questions-list"></div>
 
     <div class="card" style="display: flex; gap: 10px; justify-content: center; background: #f1f5f9;">
-        <button class="btn btn-add" onclick="addQuestion('mcq')">إضافة MCQ</button>
+        <button class="btn btn-add" onclick="addQuestion('mcq')">اضافه اختيار متعدد </button>
         <button class="btn btn-add" onclick="addQuestion('matching')">إضافة التوصيل</button>
         <button class="btn btn-add" onclick="addQuestion('fill-blank')">إضافة أكمل الفراغ</button>
     </div>
@@ -94,10 +94,12 @@
                 <div><label>النص (EN)</label><textarea class="meta-pass-en" rows="2"></textarea></div>
                 <div><label>النص (AR)</label><textarea class="meta-pass-ar" rows="2"></textarea></div>
             </div>
-            <div class="grid">
-                <div><label>رابط فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
-                <div><label>رابط صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
-            </div>
+           
+<div class="grid">
+    <div><label>رابط فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
+    <div><label>رابط صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
+    <div><label>   رابط الصوره المخصص للدرس </label><input type="text" class="meta-image" dir="rtl" placeholder=" اسم الصوره"></div>
+</div>
         `;
         container.appendChild(div);
     }
@@ -112,20 +114,20 @@
 
         let html = `
             <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--primary); margin-bottom:15px; padding-bottom:5px;">
-                <h3 style="margin:0;">${type.toUpperCase()} - سؤال ${qGlobalCount}</h3>
+                <h3 style="margin:0;">${type.toUpperCase()} -سؤال اكمل الفراغ ${qGlobalCount}</h3>
                 <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف</button>
             </div>
             
             <div class="support-section">
                 <label style="color:#92400e;">المحتوى الداعم (Support Content)</label>
                 <div class="grid">
-                    <input type="text" class="supp-en" placeholder="Support Text EN">
+                    <input type="text" class="supp-en" placeholder="Support Text EN" disabled>
                     <input type="text" class="supp-ar" placeholder="نص الدعم AR">
                 </div>
             </div>
 
             <div class="grid">
-                <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en"></div>
+                <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en" disabled></div>
                 <div><label>نص السؤال (AR)</label><input type="text" class="q-text-ar"></div>
             </div>`;
 
@@ -137,8 +139,8 @@
                 </div>`;
         } else if (type === 'fill-blank') {
             html += `<div class="grid">
-                <div><label>إجابة EN</label><input type="text" class="blank-en"></div>
-                <div><label>إجابة AR</label><input type="text" class="blank-ar"></div>
+                <div><label>إجابة EN</label><input type="text" class="blank-en " placeholder="اجابه السؤال الصحيحه" disabled></div>
+                <div><label>إجابة AR</label><input type="text" class="blank-ar" placeholder="اجابه السؤال الصحيحه"></div>
             </div>`;
         } else {
             for(let i=1; i<=4; i++) html += `<div class="grid"><input type="text" class="opt-en" placeholder="خيار ${i} EN"><input type="text" class="opt-ar" placeholder="خيار ${i} AR"></div>`;
@@ -147,8 +149,8 @@
 
         html += `
             <div class="grid" style="margin-top:15px">
-                <div style="background:#f0fdf4; padding:5px; border-radius:5px;"><label>صح (EN/AR)</label><input type="text" class="f-c-en"><input type="text" class="f-c-ar"></div>
-                <div style="background:#fef2f2; padding:5px; border-radius:5px;"><label>خطأ (EN/AR)</label><input type="text" class="f-i-en"><input type="text" class="f-i-ar"></div>
+                <div style="background:#f0fdf4; padding:5px; border-radius:5px;"><label>صح (EN/AR)</label><input type="text" class="f-c-en" disabled><input type="text" class="f-c-ar"></div>
+                <div style="background:#fef2f2; padding:5px; border-radius:5px;"><label>خطأ (EN/AR)</label><input type="text" class="f-i-en" disabled><input type="text" class="f-i-ar"></div>
             </div>`;
 
         card.innerHTML = html;
@@ -188,7 +190,8 @@
                 unitTitle: { en: m.querySelector('.meta-unit-en').value, ar: m.querySelector('.meta-unit-ar').value },
                 passage: { en: m.querySelector('.meta-pass-en').value, ar: m.querySelector('.meta-pass-ar').value },
                 videoUrl: m.querySelector('.meta-video').value,
-                audioUrl: m.querySelector('.meta-audio').value
+                audioUrl: m.querySelector('.meta-audio').value,
+                imageUrl: m.querySelector('.meta-image').value
             };
         });
 
