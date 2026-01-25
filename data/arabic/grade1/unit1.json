@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "metadata": {
     "unitTitle": {
       "en": "",
@@ -47,7 +47,7 @@
     },
     "questionText": {
       "en": "",
-      "ar": "تعتبر .. وحدة بناء جسم الكائن الحي."
+      "ar": "تعتبر وحدة بناء جسم الكائن الحي."
     },
     "feedbackCorrect": {
       "en": "",
