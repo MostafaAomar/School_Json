@@ -1,136 +1,113 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
-      "en": "",
-      "ar": "إدارة الوقت وأهميته في حياتنا"
+      "en": "Classroom Objects",
+      "ar": "أشياء الفصل الدراسي"
     },
     "passage": {
-      "en": "",
-      "ar": "الوقت نعمة عظيمة يجب على الإنسان استثمارها بشكل صحيح، فإدارة الوقت تساعد الفرد على تحقيق أهدافه وزيادة إنتاجيته والوصول إلى النجاح في حياته الدراسية والعملية."
+      "en": "In my classroom, I can see, point with me, point with me. I can see a chair, can you see? I can see a desk, can you see?",
+      "ar": "في صفي، أستطيع أن أرى، أشر معي، أشر معي. أستطيع أن أرى كرسيًا، هل تستطيع أن ترى؟ أستطيع أن أرى مكتبًا، هل تستطيع أن ترى؟"
     },
-    "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
     "videoUrl": "",
     "audioUrl": ""
   },
   "question_ID__1": {
-    "type": "fill-blank",
+    "type": "mcq",
     "supportContent": {
-      "en": "",
-      "ar": "اقرأ الجملة التالية ثم أكمِل الفراغ بالكلمة المناسبة."
+      "en": "Look at the object and choose the correct name.",
+      "ar": "انظر إلى الشيء واختر الاسم الصحيح."
     },
     "questionText": {
-      "en": "",
-      "ar": "إدارة الوقت تساعد الإنسان على زيادة  <input type='text'> وتحقيق النجاح."
+      "en": "What's this?",
+      "ar": "ما هذا؟"
     },
-    "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
+    "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png"
+  ,
     "feedbackCorrect": {
-      "en": "",
-      "ar": "إجابة صحيحة، أحسنت."
+      "en": "Great! It's a book.",
+      "ar": "رائع! إنه كتاب."
     },
     "feedbackIncorrect": {
-      "en": "",
-      "ar": "إجابة غير صحيحة، حاول مرة أخرى."
+      "en": "Not quite, try again.",
+      "ar": "ليس تماماً، حاول مرة أخرى."
     },
-    "correctAnswers": {
-      "q_1": {
-        "en": "",
-        "ar": "الإنتاجية"
-      }
+    "options": [
+      { "en": "It's a book.", "ar": "إنه كتاب." },
+      { "en": "It's a desk.", "ar": "إنه مكتب." },
+      { "en": "It's a table.", "ar": "إنه طاولة." },
+      { "en": "It's a bag.", "ar": "إنه حقيبة." }
+    ],
+    "correctAnswer": {
+      "en": "It's a book.",
+      "ar": "إنه كتاب."
     }
   },
   "question_ID__2": {
-    "type": "matching",
+    "type": "mcq",
     "supportContent": {
-      "en": "",
-      "ar": "صل كل مفهوم بما يناسبه."
+      "en": "Identify the writing tool.",
+      "ar": "تعرف على أداة الكتابة."
     },
     "questionText": {
-      "en": "",
-      "ar": "طابق بين الكلمة ومعناها الصحيح."
+      "en": "What's this?",
+      "ar": "ما هذا؟"
+    },
+     "imageUrl":"bike.png",
+    "feedbackCorrect": {
+      "en": "Excellent! It's a pencil.",
+      "ar": "ممتاز! إنه قلم رصاص."
+    },
+    "feedbackIncorrect": {
+      "en": "Try again, look at the tool.",
+      "ar": "حاول ثانية، انظر إلى الأداة."
+    },
+    "options": [
+      { "en": "It's a pencil.", "ar": "إنه قلم رصاص." },
+      { "en": "It's a chair", "ar": "إنه كرسي." },
+      { "en": "It's a desk.", "ar": "إنه مكتب." },
+      { "en": "It's a table.", "ar": "إنه طاولة." }
+    ],
+    "correctAnswer": {
+      "en": "It's a pencil.",
+      "ar": "إنه قلم رصاص."
+    }
+  },
+  "question_ID__3": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the classroom items to their images.",
+      "ar": "طابق أغراض الفصل بصورها."
+    },
+    "questionText": {
+      "en": "Match the classroom objects",
+      "ar": "طابق أشياء الفصل الدراسي"
     },
     "feedbackCorrect": {
-      "en": "",
-      "ar": "إجاباتك صحيحة."
+      "en": "Perfect matching!",
+      "ar": "توصيل مثالي!"
     },
-    "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
     "feedbackIncorrect": {
-      "en": "",
-      "ar": "بعض الإجابات غير صحيحة، حاول مرة أخرى."
+      "en": "Check the pictures again.",
+      "ar": "راجع الصور مرة أخرى."
     },
     "draggableItems": [
-      {
-        "id": "item_1",
-        "text": {
-          "en": "",
-          "ar": "إدارة الوقت"
-        }
-      },
-      {
-        "id": "item_2",
-        "text": {
-          "en": "",
-          "ar": "النجاح"
-        }
-      }
+      { "id": "item_1", "text": { "en": "chair", "ar": "كرسي" } },
+      { "id": "item_2", "text": { "en": "desk", "ar": "مكتب" } }
     ],
     "dropZones": [
       {
         "id": "zone_1",
-        "label": {
-          "en": "",
-          "ar": "تنظيم الوقت واستثماره بشكل صحيح"
-        },
-        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png",
+        "label": { "en": "Chair", "ar": "كرسي" },
+        "imageName": "chair.png",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
-        "label": {
-          "en": "",
-          "ar": "الوصول إلى الأهداف المنشودة في الحياة"
-        },
-        "imageName": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/ear.png",
+        "label": { "en": "Desk", "ar": "مكتب" },
+        "imageName": "desk.png",
         "accepts": "item_2"
       }
     ]
-  },
-  "question_ID__3": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "",
-      "ar": "اختر الإجابة الصحيحة."
-    },
-    "questionText": {
-      "en": "",
-      "ar": "ما الفائدة الأساسية من إدارة الوقت؟"
-    },
-    "feedbackCorrect": {
-      "en": "",
-      "ar": "إجابة صحيحة."
-    },
-    "feedbackIncorrect": {
-      "en": "",
-      "ar": "إجابة غير صحيحة."
-    },
-    "imageUrl": "black.png",
-    "options": [
-      {
-        "en": "",
-        "ar": "زيادة التوتر"
-      },
-      {
-        "en": "",
-        "ar": "تحقيق الأهداف"
-      },
-      {
-        "en": "",
-        "ar": "إضاعة الوقت"
-      }
-    ],
-    "correctAnswer": {
-      "en": "",
-      "ar": "تحقيق الأهداف"
-    }
   }
 }

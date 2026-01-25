@@ -1,111 +1,122 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Hello",
-      "ar": "  مرحبا"
+      "ar": "   مرحبا"  
     },
     "passage": {
-      "en": "Hello\n I'm Tom. What's your name?\nI'm Mary\nTom, Tom , come here!\nGoodbye Mary!\nGoodbye",
-      "ar": "مرحباً\nأنا توم. ما اسمك؟\nأنا ماري\nتوم، توم، ائت هنا!\nوداعاً ماري!\nوداعاً"
+      "en": "Hello, I'm Tom. What's your name? I am currently in my bedroom. I have a book and a small car.",
+      "ar": "مرحباً، أنا توم. ما اسمك؟ أنا حالياً في غرفة نومي. لدي كتاب وسيارة صغيرة."
     },
-    "imageUrl": "bike.png",
     "videoUrl": "",
     "audioUrl": ""
   },
   "question_ID__1": {
-    "type": "mcq",
+    "type": "fill-blank",
     "supportContent": {
-      "en": "Look at the object and choose the correct name.",
-      "ar": "انظر إلى الشيء واختر الاسم الصحيح."
+      "en": "Geography facts.",
+      "ar": "حقائق جغرافية."
     },
     "questionText": {
-      "en": "What's this?",
-      "ar": "ما هذا؟"
+      "en": "The capital of France is  .",
+      "ar": "عاصمة فرنسا هي   ."
     },
-    "imageUrl":"https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/bike.png"
-  ,
     "feedbackCorrect": {
-      "en": "Great! It's a book.",
-      "ar": "رائع! إنه كتاب."
+      "en": "Excellent! Paris is indeed the capital of France.",
+      "ar": "ممتاز! باريس هي بالفعل عاصمة فرنسا."
     },
     "feedbackIncorrect": {
-      "en": "Not quite, try again.",
-      "ar": "ليس تماماً، حاول مرة أخرى."
+      "en": "Not quite. Think of the Eiffel Tower!",
+      "ar": "ليس تماماً. فكر في برج إيفل!"
     },
-    "options": [
-      { "en": "It's a book.", "ar": "إنه كتاب." },
-      { "en": "It's a desk.", "ar": "إنه مكتب." },
-      { "en": "It's a table.", "ar": "إنه طاولة." },
-      { "en": "It's a bag.", "ar": "إنه حقيبة." }
-    ],
-    "correctAnswer": {
-      "en": "It's a book.",
-      "ar": "إنه كتاب."
+    "correctAnswers": {
+      "blank_8125": {
+        "en": "Paris",
+        "ar": "باريس"
+      }
     }
   },
-   "question_ID__3": {
-    "type": "matching",
+  "question_ID__2": {
+    "type": "mcq",
     "supportContent": {
-      "en": "Match the classroom items to their images.",
-      "ar": "طابق أغراض الفصل بصورها."
+      "en": "Refer back to the passage.",
+      "ar": "راجع النص السابق."
     },
-     "imageUrl": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/images/boy.png",
     "questionText": {
-      "en": "Match the classroom objects",
-      "ar": "طابق أشياء الفصل الدراسي"
+      "en": "Where is Tom?",
+      "ar": "أين توم؟"
     },
     "feedbackCorrect": {
-      "en": "Perfect matching!",
-      "ar": "توصيل مثالي!"
+      "en": "Correct! Tom is in the bedroom.",
+      "ar": "صحيح! توم في غرفة النوم."
     },
     "feedbackIncorrect": {
-      "en": "Check the pictures again.",
-      "ar": "راجع الصور مرة أخرى."
+      "en": "Try again. Check the first line of the passage.",
+      "ar": "حاول مرة أخرى. تحقق من السطر الأول في النص."
+    },
+    "options": [
+      { "en": "In the bedroom", "ar": "في غرفة النوم" },
+      { "en": "In the kitchen", "ar": "في المطبخ" },
+      { "en": "In the garden", "ar": "في الحديقة" },
+      { "en": "In the street", "ar": "في الشارع" }
+    ],
+    "correctAnswer": {
+      "en": "In the bedroom",
+      "ar": "في غرفة النوم"
+    }
+  },
+  "question_ID__3": {
+    "type": "matching",
+    "supportContent": {
+      "en": "Match the objects with their Arabic names.",
+      "ar": "طابق الأشياء بأسمائها العربية."
+    },
+    "questionText": {
+      "en": "Match the words to the labels",
+      "ar": "طابق الكلمات بالملصقات"
+    },
+    "feedbackCorrect": {
+      "en": "Great matching skills!",
+      "ar": "مهارات مطابقة رائعة!"
+    },
+    "feedbackIncorrect": {
+      "en": "Some matches are wrong, try again.",
+      "ar": "بعض المطابقات خاطئة، حاول ثانية."
     },
     "draggableItems": [
-      { "id": "item_1", "text": { "en": "chair", "ar": "كرسي" } },
-      { "id": "item_2", "text": { "en": "desk", "ar": "مكتب" } }
+      {
+        "id": "item_1",
+        "text": { "en": "Apple", "ar": "تفاحة" }
+      },
+      {
+        "id": "item_2",
+        "text": { "en": "Car", "ar": "سيارة" }
+      },
+      {
+        "id": "item_3",
+        "text": { "en": "Book", "ar": "كتاب" }
+      }
     ],
     "dropZones": [
       {
         "id": "zone_1",
-        "label": { "en": "Chair", "ar": "كرسي" },
-        "imageUrl": "carrot.png",
+        "label": { "en": "Apple", "ar": "تفاحة" },
+        "imageName": " ",
         "accepts": "item_1"
       },
       {
         "id": "zone_2",
-        "label": { "en": "Desk", "ar": "مكتب" },
-        "imageUrl": "eye.png",
+        "label": { "en": "Car", "ar": "سيارة" },
+        "imageName": "car.png",
         "accepts": "item_2"
+      },
+      {
+        "id": "zone_3",
+        "label": { "en": "Book", "ar": "كتاب" },
+        "imageName": "",
+        "accepts": "item_3"
       }
     ]
-  },
-   "question_ID__4": {
-    "type": "fill-blank",
-    "supportContent": {
-      "en": "Complete the sentence with the past participle of the verb 'eat'.",
-      "ar": "أكمل الجملة باستخدام التصريف الثالث للفعل 'eat'."
-    },
-     "imageUrl": "bike.png",
-    "questionText": {
-      "en": "He’s hungry. He hasn’t <input type='text' > for four days.",
-      "ar": "إنه جائع. هو لم ______ منذ أربعة أيام."
-    },
-    "feedbackCorrect": {
-      "en": "Excellent! 'Eaten' is the past participle needed for present perfect.",
-      "ar": "ممتاز! 'Eaten' هو التصريف الثالث المطلوب للمضارع التام."
-    },
-    "feedbackIncorrect": {
-      "en": "Try again. Remember to use the V3 form of the verb.",
-      "ar": "حاول ثانية. تذكر استخدام التصريف الثالث للفعل."
-    },
-   "correctAnswers": {
-      "qkjkjjkjjkjj": {
-        "en": "eaten",
-        "ar": " مأكول"
-      }
-    }
   }
 }

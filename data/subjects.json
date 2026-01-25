@@ -1,5 +1,5 @@
 {
-  "version": 1.4,
+  "version": 1.5,
   "subjects": [
     {
       "id": "english_student",
@@ -14,22 +14,6 @@
       "color": "#A78BFA",
       "icon": "📝",
       "available_grades": [9, 12]
-    },
-    
-    {
-      "id": "arabic",
-      "name": " - كتاب ",
-      "color": "#A78BFA",
-      "icon": "📝",
-      "available_grades": [1, 2]
-    },
-    
-    {
-      "id": "math",
-      "name": "ا الأنشطة",
-      "color": "#A78BFA",
-      "icon": "📝",
-      "available_grades": [1, 2]
     }
   ]
 }
