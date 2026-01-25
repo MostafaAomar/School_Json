@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منشئ المحتوى - الصور في مناطق الإسقاط</title>
+    <style>
+        :root { --primary: #2563eb; --success: #059669; --error: #dc2626; --bg: #f8fafc; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); padding: 20px; color: #1e293b; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 20px; border: 1px solid #e2e8f0; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 10px; }
+        label { display: block; font-weight: bold; font-size: 0.85rem; margin-bottom: 5px; color: #64748b; }
+        input, textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
+        
+        .version-box { background: #eff6ff; border: 2px solid var(--primary); padding: 15px; border-radius: 10px; margin-bottom: 20px; display: flex; align-items: center; gap: 20px; }
+        
+        /* تصميم التوصيل */
+        .matching-pair-row { 
+            display: grid; grid-template-columns: 1fr 1fr; gap: 20px; 
+            background: #f8fafc; padding: 15px; border-radius: 10px; 
+            margin-bottom: 15px; border: 1px solid #e2e8f0;
+        }
+        .side-box { padding: 10px; border-radius: 8px; border: 2px dashed #cbd5e1; background: white; }
+        
+        .side-drag { border-right: 4px solid var(--primary); } 
+        .side-drop { border-right: 4px solid var(--success); } 
+        
+        .side-label { font-weight: bold; font-size: 12px; margin-bottom: 8px; color: #1e293b; text-align: center; display: block; background: #eee; padding: 5px; border-radius: 4px; }
+
+        .btn { padding: 10px 20px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; transition: 0.2s; }
+        .btn-add { background: var(--success); color: white; margin-bottom: 10px; }
+        .btn-remove { background: var(--error); color: white; padding: 5px 10px; }
+        .action-zone { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .btn-preview { background: #6366f1; color: white; }
+        .btn-download { background: #1e293b; color: white; }
+        #output { width: 100%; height: 350px; font-family: 'Consolas', monospace; direction: ltr; background: #1e293b; color: #34d399; padding: 15px; border-radius: 8px; margin-top: 15px; border: none; }
+        
+        .support-section { background: #fffbeb; border: 1px solid #fef3c7; padding: 10px; border-radius: 8px; margin-bottom: 15px; }
+        .fill-blank-area { background: #f0f9ff; padding: 15px; border-radius: 8px; border: 1px solid #bae6fd; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 style="text-align: center; color: var(--primary);">منشئ JSON </h1>
+    <div class="card" style="background: #f8fafc; border-left: 5px solid var(--primary);">
+        <label style="font-size: 1rem;">اختر المادة التعليمية:</label>
+        <select id="subject-select" onchange="toggleLanguageFields()" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1; font-weight: bold;">
+            <option value="other">مواد أخرى باللغة العربية</option>
+            <option value="english">اللغة الإنجليزية (English + Arabic)</option>
+            <option value="french">اللغة الفرنسية (French + Arabic)</option>
+        </select>
+    </div>
+    <div class="version-box">
+        <label>إصدار الملف:</label>
+        <input type="text" id="file-version" value="1.0.0" style="width:80px;">
+    </div>
+
+    <div id="metadata-list"></div>
+    <button class="btn btn-add" onclick="addMetadataBlock()">+ إضافة Metadata</button>
+
+    <hr style="margin: 30px 0; border-top: 2px dashed #cbd5e1;">
+
+    <div id="questions-list"></div>
+
+    <div class="card" style="display: flex; gap: 10px; justify-content: center; background: #f1f5f9;">
+        <button class="btn btn-add" onclick="addQuestion('mcq')">اضافه اختيار متعدد </button>
+        <button class="btn btn-add" onclick="addQuestion('matching')">إضافة التوصيل</button>
+        <button class="btn btn-add" onclick="addQuestion('fill-blank')">إضافة أكمل الفراغ</button>
+    </div>
+
+    <div class="action-zone">
+        <button class="btn btn-preview" onclick="updatePreview()">1. معاينة (Generate)</button>
+        <button class="btn btn-download" onclick="downloadJSON()">2. تحميل (Download)</button>
+    </div>
+
+    <textarea id="output" readonly placeholder="الكود سيظهر هنا..."></textarea>
+</div>
+
+<script>
+    let qGlobalCount = 0;
+    let metaGlobalCount = 0;
+    let unitFileCounter = 1;
+
+    function toggleLanguageFields() {
+        const subject = document.getElementById('subject-select').value;
+        const isForeignLanguage = (subject === 'english' || subject === 'french');
+        const enInputs = document.querySelectorAll('input[class*="-en"], textarea[class*="-en"]');
+        
+        enInputs.forEach(input => {
+            if (isForeignLanguage) {
+                input.disabled = false;
+                input.style.backgroundColor = "white";
+                input.style.cursor = "auto";
+            } else {
+                input.disabled = true;
+                input.value = ""; 
+                input.style.backgroundColor = "#f1f5f9";
+                input.style.cursor = "not-allowed";
+            }
+        });
+
+        const enLabels = document.querySelectorAll('label');
+        enLabels.forEach(label => {
+            if (label.innerText.includes("(EN)")) {
+                label.innerText = subject === 'french' ? label.innerText.replace("(EN)", "(FR)") : label.innerText.replace("(FR)", "(EN)");
+            }
+        });
+    }
+
+    function addMetadataBlock() {
+        metaGlobalCount++;
+        const container = document.getElementById('metadata-list');
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                <h3 style="margin:0;">Metadata #${metaGlobalCount}</h3>
+                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف</button>
+            </div>
+            <div class="grid">
+                <div><label>العنوان (EN)</label><input type="text" class="meta-unit-en"></div>
+                <div><label>العنوان (AR)</label><input type="text" class="meta-unit-ar"></div>
+            </div>
+            <div class="grid">
+                <div><label>النص (EN)</label><textarea class="meta-pass-en" rows="2"></textarea></div>
+                <div><label>النص (AR)</label><textarea class="meta-pass-ar" rows="2"></textarea></div>
+            </div>
+            <div class="grid">
+                <div><label>رابط فيديو</label><input type="text" class="meta-video" dir="ltr"></div>
+                <div><label>رابط صوت</label><input type="text" class="meta-audio" dir="ltr"></div>
+                <div><label>رابط الصوره المخصص للدرس</label><input type="text" class="meta-image" dir="rtl" placeholder="اسم الصوره"></div>
+            </div>
+        `;
+        container.appendChild(div);
+        toggleLanguageFields();
+    }
+
+    function addQuestion(type) {
+        qGlobalCount++;
+        const container = document.getElementById('questions-list');
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.type = type;
+        card.dataset.qid = `question_ID__${qGlobalCount}`;
+
+        let html = `
+            <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--primary); margin-bottom:15px; padding-bottom:5px;">
+                <h3 style="margin:0;">${type.toUpperCase()} #${qGlobalCount}</h3>
+                <button class="btn btn-remove" onclick="this.parentElement.parentElement.remove()">حذف</button>
+            </div>
+            
+            <div class="support-section">
+                <label style="color:#92400e;">المحتوى الداعم (Support Content)</label>
+                <div class="grid">
+                    <input type="text" class="supp-en" placeholder="Support Text EN" disabled>
+                    <input type="text" class="supp-ar" placeholder="نص الدعم AR">
+                </div>
+            </div>
+
+            <div class="grid" style="background:#f1f5f9; padding:10px; border-radius:8px; margin-bottom:10px;">
+                <div><label>رابط صورة السؤال (ImageUrl)</label><input type="text" class="q-image" placeholder="صورة للدرس إذا لزم الأمر png"></div>
+            </div>`;
+
+        if (type === 'fill-blank') {
+            html += `
+                <div class="fill-blank-area">
+                    <label style="color:var(--primary)">اكتب السؤال وضع نقاط (..) مكان الفراغ:</label>
+                    <div class="grid">
+                        <input type="text" class="q-text-en" placeholder="Question Text EN (Use .. for blank)" disabled>
+                        <input type="text" class="q-text-ar" placeholder="نص السؤال بالعربي (استخدم .. للفراغ)">
+                    </div>
+                    <div class="grid" style="margin-top:10px; border-top:1px dashed #bae6fd; padding-top:10px;">
+                        <div><label>الإجابة الصحيحة (EN)</label><input type="text" class="blank-en" placeholder="الحل الصحيح"></div>
+                        <div><label>الإجابة الصحيحة (AR)</label><input type="text" class="blank-ar" placeholder="الحل الصحيح"></div>
+                    </div>
+                </div>`;
+        } else if (type === 'matching') {
+            html += `
+                <div class="grid">
+                    <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en" disabled></div>
+                    <div><label>نص السؤال (AR)</label><input type="text" class="q-text-ar"></div>
+                </div>
+                <div style="background:#e2e8f0; padding:10px; border-radius:8px; margin:10px 0;">
+                    <div class="match-container"></div>
+                    <button class="btn btn-add" style="width:100%" onclick="addMatchPair(this)">+ إضافة زوج جديد</button>
+                </div>`;
+        } else {
+            html += `
+                <div class="grid">
+                    <div><label>نص السؤال (EN)</label><input type="text" class="q-text-en" disabled></div>
+                    <div><label>نص السؤال (AR)</label><input type="text" class="q-text-ar"></div>
+                </div>`;
+            for(let i=1; i<=4; i++) html += `<div class="grid"><input type="text" class="opt-en" placeholder="خيار ${i} EN"><input type="text" class="opt-ar" placeholder="خيار ${i} AR"></div>`;
+            html += `<label>الإجابة الصحيحة (EN)</label><input type="text" class="correct-ans">`;
+        }
+
+        html += `
+            <div class="grid" style="margin-top:15px">
+                <div style="background:#f0fdf4; padding:5px; border-radius:5px;"><label>تعليق الإجابة الصحيحة</label><input type="text" class="f-c-en" placeholder ='English' disabled><input type="text" class="f-c-ar" placeholder ='عربي'></div>
+                <div style="background:#fef2f2; padding:5px; border-radius:5px;"><label>تعليق الإجابة الخاطئة</label><input type="text" class="f-i-en" placeholder ='English' disabled><input type="text" class="f-i-ar" placeholder='عربي'></div>
+            </div>`;
+
+        card.innerHTML = html;
+        container.appendChild(card);
+        if (type === 'matching') addMatchPair(card.querySelector('.btn-add'));
+        toggleLanguageFields();
+    }
+
+    function addMatchPair(btn) {
+        const container = btn.previousElementSibling;
+        const div = document.createElement('div');
+        div.className = 'matching-pair-row';
+        div.innerHTML = `
+            <div class="side-box side-drag">
+                <span class="side-label" style="background:#dbeafe; color:#1e40af;">👉 عنصر السحب (نص)</span>
+                <input type="text" class="m-text-en" placeholder="نص السحب EN">
+                <input type="text" class="m-text-ar" placeholder="نص السحب AR" style="margin-top:5px">
+            </div>
+            <div class="side-box side-drop">
+                <span class="side-label" style="background:#dcfce7; color:#166534;">🎯 منطقة الإسقاط (صورة/هدف)</span>
+                <input type="text" class="m-zone-en" placeholder="نص الهدف EN">
+                <input type="text" class="m-zone-ar" placeholder="نص الهدف AR" style="margin-top:5px">
+                <input type="text" class="m-img" placeholder="رابط الصورة" style="margin-top:5px; border-color:#22c55e;" dir="ltr">
+            </div>
+            <button class="btn btn-remove" style="grid-column: span 2; margin-top:5px" onclick="this.parentElement.remove()">حذف الزوج</button>
+        `;
+        container.appendChild(div);
+        toggleLanguageFields();
+    }
+
+    function buildJsonObject() {
+        const obj = { version: document.getElementById('file-version').value || "1.0.0" };
+        
+        document.querySelectorAll('#metadata-list > .card').forEach((m, i) => {
+            const k = i === 0 ? "metadata" : `metadata_${i+1}`;
+            obj[k] = {
+                unitTitle: { en: m.querySelector('.meta-unit-en').value, ar: m.querySelector('.meta-unit-ar').value },
+                passage: { en: m.querySelector('.meta-pass-en').value, ar: m.querySelector('.meta-pass-ar').value },
+                videoUrl: m.querySelector('.meta-video').value,
+                audioUrl: m.querySelector('.meta-audio').value,
+                imageUrl: m.querySelector('.meta-image').value
+            };
+        });
+
+        document.querySelectorAll('#questions-list > .card').forEach(q => {
+            const qid = q.dataset.qid;
+            const type = q.dataset.type;
+            const data = {
+                type: type,
+                imageUrl: q.querySelector('.q-image').value,
+                supportContent: { en: q.querySelector('.supp-en').value, ar: q.querySelector('.supp-ar').value },
+                feedbackCorrect: { en: q.querySelector('.f-c-en').value, ar: q.querySelector('.f-c-ar').value },
+                feedbackIncorrect: { en: q.querySelector('.f-i-en').value, ar: q.querySelector('.f-i-ar').value }
+            };
+
+            if (type === 'fill-blank') {
+                data.questionText = { 
+                    en: q.querySelector('.q-text-en').value, 
+                    ar: q.querySelector('.q-text-ar').value 
+                };
+                data.correctAnswers = { 
+                    "q_1": { en: q.querySelector('.blank-en').value, ar: q.querySelector('.blank-ar').value } 
+                };
+            } else if (type === 'matching') {
+                data.questionText = { en: q.querySelector('.q-text-en').value, ar: q.querySelector('.q-text-ar').value };
+                data.draggableItems = []; data.dropZones = [];
+                q.querySelectorAll('.matching-pair-row').forEach((m, i) => {
+                    const id = `item_${i+1}`;
+                    data.draggableItems.push({ id: id, text: { en: m.querySelector('.m-text-en').value, ar: m.querySelector('.m-text-ar').value } });
+                    data.dropZones.push({ id: `zone_${i+1}`, label: { en: m.querySelector('.m-zone-en').value, ar: m.querySelector('.m-zone-ar').value }, imageName: m.querySelector('.m-img').value, accepts: id });
+                });
+            } else if (type === 'mcq') {
+                data.questionText = { en: q.querySelector('.q-text-en').value, ar: q.querySelector('.q-text-ar').value };
+                data.options = [];
+                q.querySelectorAll('.opt-en').forEach((el, i) => {
+                    if (el.value) data.options.push({ en: el.value, ar: q.querySelectorAll('.opt-ar')[i].value });
+                });
+                data.correctAnswer = { en: q.querySelector('.correct-ans').value, ar: "" };
+            }
+            obj[qid] = data;
+        });
+        return obj;
+    }
+
+    function updatePreview() { document.getElementById('output').value = JSON.stringify(buildJsonObject(), null, 2); }
+    
+    function downloadJSON() {
+        const data = buildJsonObject();
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `unit${unitFileCounter++}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    addMetadataBlock();
+</script>
+</body>
+</html>
