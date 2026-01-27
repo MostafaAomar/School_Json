@@ -19,7 +19,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى/وقع أقدام، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "1. He heard someone's <input type='text' class='fill-blank-input' data-blank-id='vocab1' placeholder='word...'> in the hall.",
+      "en": "1. He heard someone's <input type='text' > in the hall.",
       "ar": "1. سمع صوت ___________ شخص ما في الردهة."
     },
     "feedbackCorrect": {
@@ -44,7 +44,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى/وقع أقدام، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "2. You are wrong, and I can <input type='text' class='fill-blank-input' data-blank-id='vocab2' placeholder='word...'> it.",
+      "en": "2. You are wrong, and I can <input type='text' > it.",
       "ar": "2. أنت مخطئ، ويمكنني ___________ ذلك."
     },
     "feedbackCorrect": {
@@ -69,7 +69,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى/وقع أقدام، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "3. She <input type='text' class='fill-blank-input' data-blank-id='vocab3' placeholder='word...'> from university this year.",
+      "en": "3. She <input type='text' > from university this year.",
       "ar": "3. هي ___________ من الجامعة هذا العام."
     },
     "feedbackCorrect": {
@@ -94,7 +94,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى/وقع أقدام، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "4. I <input type='text' class='fill-blank-input' data-blank-id='vocab4' placeholder='word...'> told you not to go near the water.",
+      "en": "4. I <input type='text'  > told you not to go near the water.",
       "ar": "4. لقد أخبرتك ___________ ألا تقترب من الماء."
     },
     "feedbackCorrect": {
@@ -119,7 +119,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى/وقع أقدام، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "5. She gave the greatest <input type='text' class='fill-blank-input' data-blank-id='vocab5' placeholder='word...'> of her career.",
+      "en": "5. She gave the greatest <input type='text'  > of her career.",
       "ar": "5. قدمت أعظم ___________ في مسيرتها المهنية."
     },
     "feedbackCorrect": {
@@ -147,7 +147,7 @@
       "ar": "املأ الفراغ بكلمة من الصندوق: [يثبت، خطى، بشكل محدد، تخرج، آلة، أداء]"
     },
     "questionText": {
-      "en": "6. Is he learning to play an <input type='text' class='fill-blank-input' data-blank-id='vocab6' placeholder='word...'>?",
+      "en": "6. Is he learning to play an <input type='text' >?",
       "ar": "6. هل يتعلم العزف على ___________ موسيقية؟"
     },
     "feedbackCorrect": {

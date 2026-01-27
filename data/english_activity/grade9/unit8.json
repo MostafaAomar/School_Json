@@ -19,7 +19,7 @@
       "ar": "أكمل الجملة بكلمة من الصندوق: [يأس، عملية، معجزة، صيدلي]"
     },
     "questionText": {
-      "en": "1. This team needs a <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s1' placeholder='word...'> to win the match.",
+      "en": "1. This team needs a <input type='text'  > to win the match.",
       "ar": "1. يحتاج هذا الفريق إلى ___________ للفوز بالمباراة."
     },
     "feedbackCorrect": {
@@ -44,7 +44,7 @@
       "ar": "أكمل الجملة بكلمة من الصندوق: [يأس، عملية، معجزة، صيدلي]"
     },
     "questionText": {
-      "en": "2. She asked the <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s2' placeholder='word...'> to prepare the medicine.",
+      "en": "2. She asked the <input type='text'  > to prepare the medicine.",
       "ar": "2. طلبت من ___________ تحضير الدواء."
     },
     "feedbackCorrect": {
@@ -69,7 +69,7 @@
       "ar": "أكمل الجملة بكلمة من الصندوق: [يأس، عملية، معجزة، صيدلي]"
     },
     "questionText": {
-      "en": "3. My friend was filled with <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s3' placeholder='word...'> when he lost his job.",
+      "en": "3. My friend was filled with <input type='text'  > when he lost his job.",
       "ar": "3. تملّك صديقي شعور بـ ___________ عندما فقد وظيفته."
     },
     "feedbackCorrect": {
@@ -94,7 +94,7 @@
       "ar": "أكمل الجملة بكلمة من الصندوق: [يأس، عملية، معجزة، صيدلي]"
     },
     "questionText": {
-      "en": "4. The patient felt better after the <input type='text' class='fill-blank-input' data-blank-id='vocab_fill_s4' placeholder='word...'>.",
+      "en": "4. The patient felt better after the <input type='text'  >.",
       "ar": "4. شعر المريض بتحسن بعد الـ ___________."
     },
     "feedbackCorrect": {
@@ -120,8 +120,8 @@
       "ar": "أعد كتابة الجملة باستخدام 'wish' للتعبير عن الندم على الماضي."
     },
     "questionText": {
-      "en": "1. She did not study hard at school.\nShe wishes <input type='text' class='fill-blank-input' data-blank-id='wish1' placeholder='...'>",
-      "ar": "1. هي لم تدرس بجد في المدرسة.\nهي تتمنى لو <input type='text' class='fill-blank-input' data-blank-id='wish1' placeholder='...'>"
+      "en": "1. She did not study hard at school.\nShe wishes <input type='text'  >",
+      "ar": "1. هي لم تدرس بجد في المدرسة.\nهي تتمنى لو <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! Past Perfect is used for past regrets.",
@@ -145,8 +145,8 @@
       "ar": "عبر عن أمنية بخصوص وضع حالي (غير واقعي)."
     },
     "questionText": {
-      "en": "3. I am not tall enough to reach the books on the top shelf.\nI wish <input type='text' class='fill-blank-input' data-blank-id='wish3' placeholder='...'>",
-      "ar": "3. أنا لست طويلاً بما يكفي للوصول للكتب في الرف العلوي.\nأتمنى لو <input type='text' class='fill-blank-input' data-blank-id='wish3' placeholder='...'>"
+      "en": "3. I am not tall enough to reach the books on the top shelf.\nI wish <input type='text'  >",
+      "ar": "3. أنا لست طويلاً بما يكفي للوصول للكتب في الرف العلوي.\nأتمنى لو <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! We use 'were' for all subjects in this structure.",
@@ -170,8 +170,8 @@
       "ar": "عبر عن الندم بخصوص إنفاق الكثير من المال."
     },
     "questionText": {
-      "en": "4. They spent so much money on their shopping trip.\nThey wish <input type='text' class='fill-blank-input' data-blank-id='wish4' placeholder='...'>",
-      "ar": "4. لقد أنفقوا الكثير من المال في رحلة التسوق.\nهم يتمنون لو <input type='text' class='fill-blank-input' data-blank-id='wish4' placeholder='...'>"
+      "en": "4. They spent so much money on their shopping trip.\nThey wish <input type='text'  >",
+      "ar": "4. لقد أنفقوا الكثير من المال في رحلة التسوق.\nهم يتمنون لو <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Hadn't spent' shows regret for a past action.",
@@ -195,8 +195,8 @@
       "ar": "عبر عن أمنية بخصوص حالة حالية (العمر)."
     },
     "questionText": {
-      "en": "5. They are too old to play football.\nI wish <input type='text' class='fill-blank-input' data-blank-id='wish5' placeholder='...'>",
-      "ar": "5. هم كبار جداً في السن للعب كرة القدم.\nأتمنى لو <input type='text' class='fill-blank-input' data-blank-id='wish5' placeholder='...'>"
+      "en": "5. They are too old to play football.\nI wish <input type='text'  >",
+      "ar": "5. هم كبار جداً في السن للعب كرة القدم.\nأتمنى لو <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! Using Past Simple 'weren't' talks about the present.",
@@ -220,8 +220,8 @@
       "ar": "عبر عن الندم بخصوص سلوك في الماضي."
     },
     "questionText": {
-      "en": "6. We weren’t kind to her before she got sick.\nWe wish <input type='text' class='fill-blank-input' data-blank-id='wish6' placeholder='...'>",
-      "ar": "6. لم نكن لطيفين معها قبل أن تمرض.\nنتمنى لو <input type='text' class='fill-blank-input' data-blank-id='wish6' placeholder='...'>"
+      "en": "6. We weren’t kind to her before she got sick.\nWe wish <input type='text'  >",
+      "ar": "6. لم نكن لطيفين معها قبل أن تمرض.\nنتمنى لو <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Had been' is the Past Perfect of 'be'.",

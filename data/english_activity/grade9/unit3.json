@@ -91,7 +91,7 @@
       "ar": "أكمل الجملة بـ (will) أو (be going to)."
     },
     "questionText": {
-      "en": "1. Do you want to go with us next Saturday? We <input type='text' class='fill-blank-input' data-blank-id='fut_1' placeholder='...'> (attend) a football match.",
+      "en": "1. Do you want to go with us next Saturday? We <input type='text' > (attend) a football match.",
       "ar": "1. هل تريد الذهاب معنا السبت القادم؟ نحن ___________ مباراة كرة قدم."
     },
     "feedbackCorrect": {
@@ -113,7 +113,7 @@
       "ar": "أكمل الجملة بـ (will) أو (be going to)."
     },
     "questionText": {
-      "en": "5. I think our team <input type='text' class='fill-blank-input' data-blank-id='fut_5' placeholder='...'> (win) the match.",
+      "en": "5. I think our team <input type='text'> (win) the match.",
       "ar": "5. أعتقد أن فريقنا ___________ المباراة."
     },
     "feedbackCorrect": {
@@ -251,7 +251,7 @@
     "type": "fill-blank",
     "supportContent": { "en": "Complete with (will) or (be going to).", "ar": "أكمل بـ (will) أو (be going to)." },
     "questionText": {
-      "en": "2. The weather <input type='text' class='fill-blank-input' data-blank-id='fut_2' placeholder='...'> (be) dreadful tomorrow.",
+      "en": "2. The weather <input type='text' > (be) dreadful tomorrow.",
       "ar": "2. الطقس ___________ سيئاً غداً."
     },
     "feedbackCorrect": { "en": "Correct! Use 'will' for general weather predictions.", "ar": "صحيح! نستخدم 'will' لتنبؤات الطقس العامة." },
@@ -262,7 +262,7 @@
     "type": "fill-blank",
     "supportContent": { "en": "Offer to help.", "ar": "عرض مساعدة." },
     "questionText": {
-      "en": "3. I <input type='text' class='fill-blank-input' data-blank-id='fut_3' placeholder='...'> (lift) that heavy box for you.",
+      "en": "3. I <input type='text' > (lift) that heavy box for you.",
       "ar": "3. أنا ___________ ذلك الصندوق الثقيل لك."
     },
     "feedbackCorrect": { "en": "Correct! 'will' is used for offers.", "ar": "صحيح! تُستخدم 'will' لعروض المساعدة." },

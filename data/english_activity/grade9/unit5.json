@@ -52,7 +52,7 @@
       "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "1. Tickets are <input type='text' class='fill-blank-input' data-blank-id='fill_1' placeholder='...'> in the box office.",
+      "en": "1. Tickets are <input type='text' > in the box office.",
       "ar": "1. التذاكر ___________ في شباك التذاكر."
     },
     "feedbackCorrect": {
@@ -74,7 +74,7 @@
       "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "2. Earthquakes are <input type='text' class='fill-blank-input' data-blank-id='fill_2' placeholder='...'> difficult to predict.",
+      "en": "2. Earthquakes are <input type='text' > difficult to predict.",
       "ar": "2. الزلازل صعبة التنبؤ ___________."
     },
     "feedbackCorrect": {
@@ -96,7 +96,7 @@
       "ar": "أكمل الجملة باستخدام إحدى الكلمات: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "3. Don't do anything you might <input type='text' class='fill-blank-input' data-blank-id='fill_3' placeholder='...'>.",
+      "en": "3. Don't do anything you might <input type='text' >.",
       "ar": "3. لا تفعل أي شيء قد ___________ عليه."
     },
     "feedbackCorrect": {
@@ -119,7 +119,7 @@
       "ar": "أكمل الجملة باختيار الكلمة المناسبة: [للغاية، متاح، استثمار، يندم]"
     },
     "questionText": {
-      "en": "4. We plan to buy some property as an <input type='text' class='fill-blank-input' data-blank-id='fill_4' placeholder='...'>.",
+      "en": "4. We plan to buy some property as an <input type='text' >.",
       "ar": "4. نحن نخطط لشراء بعض العقارات كـ ___________."
     },
     "feedbackCorrect": {
@@ -141,7 +141,7 @@
       "ar": "استخدم الماضي المستمر أو الماضي البسيط."
     },
     "questionText": {
-      "en": "1. Tom <input type='text' class='fill-blank-input' data-blank-id='verb1a' placeholder='(wrap)'> the gift when I <input type='text' class='fill-blank-input' data-blank-id='verb1b' placeholder='(walk)'> into the room.",
+      "en": "1. Tom <input type='text' > (wrap) the gift when I <input type='text' > (walk) into the room.",
       "ar": "1. كان توم ___________ الهدية عندما ___________ أنا إلى الغرفة."
     },
     "feedbackCorrect": {
@@ -164,7 +164,7 @@
       "ar": "صغ سؤالاً في زمن الماضي المستمر."
     },
     "questionText": {
-      "en": "2. What <input type='text' class='fill-blank-input' data-blank-id='verb2a' placeholder='...'> the manager <input type='text' class='fill-blank-input' data-blank-id='verb2b' placeholder='(do)'> at 7:00 pm yesterday?",
+      "en": "2. What <input type='text' > the manager <input type='text' > (do) at 7:00 pm yesterday?",
       "ar": "2. ماذا ___________ المدير ___________ في الساعة السابعة مساء أمس؟"
     },
     "feedbackCorrect": {
@@ -187,7 +187,7 @@
       "ar": "حدد أي فعل كان مستمراً وأي فعل كان قاطعاً."
     },
     "questionText": {
-      "en": "4. When Donny <input type='text' class='fill-blank-input' data-blank-id='verb4a' placeholder='(enter)'> the room, everyone <input type='text' class='fill-blank-input' data-blank-id='verb4b' placeholder='(talk)'>.",
+      "en": "4. When Donny <input type='text' >(enter) the room, everyone <input type='text' >(talk).",
       "ar": "4. عندما ___________ دوني الغرفة، كان الجميع ___________."
     },
     "feedbackCorrect": {
@@ -210,7 +210,7 @@
       "ar": "استخدم 'while' للأفعال المتزامنة."
     },
     "questionText": {
-      "en": "6. My brother <input type='text' class='fill-blank-input' data-blank-id='verb6a' placeholder='(use)'> the computer while I <input type='text' class='fill-blank-input' data-blank-id='verb6b' placeholder='(pack)'> for my trip.",
+      "en": "6. My brother <input type='text' > (use) the computer while I <input type='text' > (pack) for my trip.",
       "ar": "6. كان أخي ___________ الكمبيوتر بينما كنت أنا ___________ لرحلتي."
     },
     "feedbackCorrect": {
@@ -236,7 +236,7 @@
       "ar": "اكتب الصيغة الصحيحة للفعل في الماضي المستمر أو الماضي البسيط."
     },
     "questionText": {
-      "en": "7. This morning, while I <input type='text' class='fill-blank-input' data-blank-id='verb7a' placeholder='(have)'> breakfast, someone <input type='text' class='fill-blank-input' data-blank-id='verb7b' placeholder='(knock)'> at the door.",
+      "en": "7. This morning, while I <input type='text' > (have) breakfast, someone <input type='text' > (knock)  at the door.",
       "ar": "7. هذا الصباح، بينما كنت ___________ الإفطار، ___________ شخص ما على الباب."
     },
     "feedbackCorrect": {

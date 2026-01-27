@@ -67,7 +67,7 @@
       "ar": "استخدم الماضي البسيط أو الماضي التام للأفعال بين الأقواس."
     },
     "questionText": {
-      "en": "1. I (feel) <input type='text' class='fill-blank-input' data-blank-id='verb1a' placeholder='...'> a little better after I (take) <input type='text' class='fill-blank-input' data-blank-id='verb1b' placeholder='...'> the medicine.",
+      "en": "1. I (feel) <input type='text' > a little better after I (take) <input type='text' > the medicine.",
       "ar": "1. (شعرت) ___________ بتحسن قليل بعد أن (تناولت) ___________ الدواء."
     },
     "feedbackCorrect": {
@@ -90,7 +90,7 @@
       "ar": "املأ الفراغات بصيغ الماضي الصحيحة."
     },
     "questionText": {
-      "en": "4. It was raining heavily, but by the time class (be) <input type='text' class='fill-blank-input' data-blank-id='verb4a' placeholder='...'> over, the rain (stop) <input type='text' class='fill-blank-input' data-blank-id='verb4b' placeholder='...'>.",
+      "en": "4. It was raining heavily, but by the time class (be) <input type='text' > over, the rain (stop) <input type='text' >.",
       "ar": "4. كانت تمطر بغزارة، ولكن بحلول الوقت الذي (انتهى) ___________ فيه الفصل، كانت الأمطار قد (توقفت) ___________."
     },
     "feedbackCorrect": {
@@ -113,7 +113,7 @@
       "ar": "الماضي التام مقابل الماضي البسيط."
     },
     "questionText": {
-      "en": "5. Dinosaurs (become) <input type='text' class='fill-blank-input' data-blank-id='verb5a' placeholder='...'> extinct by the time humankind first (appear) <input type='text' class='fill-blank-input' data-blank-id='verb5b' placeholder='...'>.",
+      "en": "5. Dinosaurs (become) <input type='text' > extinct by the time humankind first (appear) <input type='text' >.",
       "ar": "5. الديناصورات (أصبحت) ___________ منقرضة بحلول الوقت الذي (ظهر) ___________ فيه البشر لأول مرة."
     },
     "feedbackCorrect": {
@@ -137,7 +137,7 @@
       "ar": "اكتب الصيغة الصحيحة للأفعال بين الأقواس (ماضي بسيط أو ماضي تام)."
     },
     "questionText": {
-      "en": "6. They (never see) <input type='text' class='fill-blank-input' data-blank-id='verb6a' placeholder='...'> any of his paintings before they (visit) <input type='text' class='fill-blank-input' data-blank-id='verb6b' placeholder='...'> the Art Museum yesterday.",
+      "en": "6. They (never see) <input type='text' > any of his paintings before they (visit) <input type='text' > the Art Museum yesterday.",
       "ar": "6. هم (لم يسبق لهم رؤية) ___________ أي من لوحاته قبل أن (يزوروا) ___________ متحف الفنون بالأمس."
     },
     "feedbackCorrect": {

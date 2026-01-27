@@ -46,7 +46,7 @@
       "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
     },
     "questionText": {
-      "en": "1. I am not hungry. I <input type='text' class='fill-blank-input' data-blank-id='pp1a' placeholder='Auxiliary'> already <input type='text' class='fill-blank-input' data-blank-id='pp1b' placeholder='Main verb'> (eat).",
+      "en": "1. I am not hungry. I <input type='text' > already <input type='text' > (eat).",
       "ar": "1. لست جائعاً. لقد ___________ (أكلت) بالفعل."
     },
     "feedbackCorrect": {
@@ -69,7 +69,7 @@
       "ar": "حول الجملة الخبرية إلى سؤال."
     },
     "questionText": {
-      "en": "Statement: She is working on a new project.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q1' placeholder='Transform to question'>?",
+      "en": "Statement: She is working on a new project.\nQuestion: <input type='text' > Transform to question?",
       "ar": "الجملة: هي تعمل على مشروع جديد.\nالسؤال: ___________؟"
     },
     "feedbackCorrect": {
@@ -94,7 +94,7 @@
       "ar": "حول الجملة الخبرية إلى سؤال مستخدماً 'كم المدة...؟'"
     },
     "questionText": {
-      "en": "Statement: Maya has taught English since 2019.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q3' placeholder='How long...?'>?",
+      "en": "Statement: Maya has taught English since 2019.\nQuestion: <input type='text' >How long...?",
       "ar": "الجملة: مايا تُدرس الإنجليزية منذ عام 2019.\nالسؤال: ___________؟"
     },
     "feedbackCorrect": {
@@ -121,7 +121,7 @@
       "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
     },
     "questionText": {
-      "en": "2. We <input type='text' class='fill-blank-input' data-blank-id='pp2' placeholder='verb phrase...'> (not/plan) for our holiday yet.",
+      "en": "2. We <input type='text' > (not/plan) for our holiday yet.",
       "ar": "2. نحن لم ___________ لعطلتنا بعد."
     },
     "feedbackCorrect": {
@@ -143,7 +143,7 @@
       "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
     },
     "questionText": {
-      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='pp3a' placeholder='Auxiliary'> you <input type='text' class='fill-blank-input' data-blank-id='pp3b' placeholder='Main verb'> (read) any interesting books?",
+      "en": "3. <input type='text' > you <input type='text' > (read) any interesting books?",
       "ar": "3. هل ___________ أي كتب ممتعة؟"
     },
     "feedbackCorrect": {
@@ -166,7 +166,7 @@
       "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
     },
     "questionText": {
-      "en": "4. <input type='text' class='fill-blank-input' data-blank-id='pp4a' placeholder='Auxiliary'> she <input type='text' class='fill-blank-input' data-blank-id='pp4b' placeholder='Main verb'> (feed) the cat yet?",
+      "en": "4. <input type='text' > she <input type='text' > (feed) the cat yet?",
       "ar": "4. هل ___________ القطة بعد؟"
     },
     "feedbackCorrect": {
@@ -189,7 +189,7 @@
       "ar": "ضع الفعل بين القوسين بالصيغة الصحيحة باستخدام زمن المضارع التام."
     },
     "questionText": {
-      "en": "5. <input type='text' class='fill-blank-input' data-blank-id='pp5a' placeholder='Auxiliary'> Amer <input type='text' class='fill-blank-input' data-blank-id='pp5b' placeholder='Main verb'> (buy) a car yet?",
+      "en": "5. <input type='text' > Amer <input type='text' > (buy) a car yet?",
       "ar": "5. هل ___________ عامر سيارة بعد؟"
     },
     "feedbackCorrect": {
@@ -212,7 +212,7 @@
       "ar": "حول الجملة الخبرية إلى سؤال."
     },
     "questionText": {
-      "en": "Statement: He has returned from Europe.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q2' placeholder='Transform to question'>?",
+      "en": "Statement: He has returned from Europe.\nQuestion: <input type='text' >?",
       "ar": "الجملة: هو عاد من أوروبا.\nالسؤال: ___________؟"
     },
     "feedbackCorrect": {
@@ -234,7 +234,7 @@
       "ar": "حول الجملة الخبرية إلى سؤال."
     },
     "questionText": {
-      "en": "Statement: Susan enjoys reading.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q4' placeholder='Transform to question'>?",
+      "en": "Statement: Susan enjoys reading.\nQuestion: <input type='text' >?",
       "ar": "الجملة: سوزان تستمتع بالقراءة.\nالسؤال: ___________؟"
     },
     "feedbackCorrect": {
@@ -256,7 +256,7 @@
       "ar": "حول الجملة الخبرية إلى سؤال."
     },
     "questionText": {
-      "en": "Statement: This car belongs to Martin.\nQuestion: <input type='text' class='fill-blank-input' data-blank-id='q5' placeholder='Transform to question'>?",
+      "en": "Statement: This car belongs to Martin.\nQuestion: <input type='text' >?",
       "ar": "الجملة: هذه السيارة تنتمي لمارتن.\nالسؤال: ___________؟"
     },
     "feedbackCorrect": {
