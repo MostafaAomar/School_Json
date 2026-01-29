@@ -139,8 +139,8 @@
       "ar": "حول الجملة للمبني للمجهول (الماضي البسيط)."
     },
     "questionText": {
-      "en": "1. The Factory bought new machinery.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='pass1' placeholder='...'>",
-      "ar": "1. اشترى المصنع آلات جديدة.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass1' placeholder='...'>"
+      "en": "1. The Factory bought new machinery.\nCombined: <input type='text'  >",
+      "ar": "1. اشترى المصنع آلات جديدة.\nالمبني للمجهول:  "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -166,8 +166,8 @@
       "ar": "حول الجملة إلى المبني للمجهول (المضارع المستمر)."
     },
     "questionText": {
-      "en": "2. The workers are building a new school in this area.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass2' placeholder='...'>",
-      "ar": "2. العمال يبنون مدرسة جديدة في هذه المنطقة.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass2' placeholder='...'>"
+      "en": "2. The workers are building a new school in this area.\nPassive: <input type='text'  >",
+      "ar": "2. العمال يبنون مدرسة جديدة في هذه المنطقة.\nالمبني للمجهول: "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -191,8 +191,8 @@
       "ar": "حول الجملة إلى المبني للمجهول (الماضي المستمر)."
     },
     "questionText": {
-      "en": "3. Two horses were pulling the farmer's wagon.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass3' placeholder='...'>",
-      "ar": "3. كان حصانان يجران عربة المزارع.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass3' placeholder='...'>"
+      "en": "3. Two horses were pulling the farmer's wagon.\nPassive: <input type='text'  >",
+      "ar": "3. كان حصانان يجران عربة المزارع.\nالمبني للمجهول:  "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -216,8 +216,8 @@
       "ar": "حول الجملة إلى المبني للمجهول (الماضي التام)."
     },
     "questionText": {
-      "en": "5. Mark had returned the book to the library.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass5' placeholder='...'>",
-      "ar": "5. كان مارك قد أعاد الكتاب إلى المكتبة.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass5' placeholder='...'>"
+      "en": "5. Mark had returned the book to the library.\nPassive: <input type='text'  >",
+      "ar": "5. كان مارك قد أعاد الكتاب إلى المكتبة.\nالمبني للمجهول:  "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -241,8 +241,8 @@
       "ar": "حول الجملة إلى المبني للمجهول (المضارع التام)."
     },
     "questionText": {
-      "en": "6. Someone has made a mistake.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass6' placeholder='...'>",
-      "ar": "6. لقد ارتكب شخص ما خطأً.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass6' placeholder='...'>"
+      "en": "6. Someone has made a mistake.\nPassive: <input type='text'  >",
+      "ar": "6. لقد ارتكب شخص ما خطأً.\nالمبني للمجهول:   "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -266,8 +266,8 @@
       "ar": "حول الجملة إلى المبني للمجهول (المضارع البسيط)."
     },
     "questionText": {
-      "en": "7. Italy produces a lot of olive oil.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass7' placeholder='...'>",
-      "ar": "7. تنتج إيطاليا الكثير من زيت الزيتون.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass7' placeholder='...'>"
+      "en": "7. Italy produces a lot of olive oil.\nPassive: <input type='text'  >",
+      "ar": "7. تنتج إيطاليا الكثير من زيت الزيتون.\nالمبني للمجهول:  "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -294,8 +294,8 @@
       "ar": "حول جملة الماضي البسيط إلى صيغة المبني للمجهول."
     },
     "questionText": {
-      "en": "8. A storm destroyed many places in the city.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass8' placeholder='...'>",
-      "ar": "8. دمرت العاصفة أماكن كثيرة في المدينة.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass8' placeholder='...'>"
+      "en": "8. A storm destroyed many places in the city.\nPassive: <input type='text'  >",
+      "ar": "8. دمرت العاصفة أماكن كثيرة في المدينة.\nالمبني للمجهول: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! You correctly used 'were destroyed' for plural past passive.",
@@ -319,8 +319,8 @@
       "ar": "حول جملة الماضي التام إلى صيغة المبني للمجهول."
     },
     "questionText": {
-      "en": "9. He had already delivered the mail by the time I left school.\nPassive: <input type='text' class='fill-blank-input' data-blank-id='pass9' placeholder='...'>",
-      "ar": "9. كان قد سلم البريد بالفعل بحلول الوقت الذي غادرت فيه المدرسة.\nالمبني للمجهول: <input type='text' class='fill-blank-input' data-blank-id='pass9' placeholder='...'>"
+      "en": "9. He had already delivered the mail by the time I left school.\nPassive: <input type='text'  >",
+      "ar": "9. كان قد سلم البريد بالفعل بحلول الوقت الذي غادرت فيه المدرسة.\nالمبني للمجهول: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'had already been delivered' is the perfect passive form.",

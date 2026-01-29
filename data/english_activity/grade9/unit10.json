@@ -19,7 +19,7 @@
       "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل قابلت أنجيلا؟')"
     },
     "questionText": {
-      "en": "1. 'Have you met Angela?' She asked us if <input type='text' class='fill-blank-input' data-blank-id='rep_tense1' placeholder='...'> Angela.",
+      "en": "1. 'Have you met Angela?' She asked us if <input type='text'  > Angela.",
       "ar": "1. 'هل قابلت أنجيلا؟' سألتنا عما إذا كنا ________ أنجيلا."
     },
     "feedbackCorrect": {
@@ -44,7 +44,7 @@
       "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل اجتاز مارك جميع امتحاناته؟')"
     },
     "questionText": {
-      "en": "2. 'Did Mark pass all his exams?' He asked if Mark <input type='text' class='fill-blank-input' data-blank-id='rep_tense2' placeholder='...'> all of his exams.",
+      "en": "2. 'Did Mark pass all his exams?' He asked if Mark <input type='text'  > all of his exams.",
       "ar": "2. 'هل اجتاز مارك جميع امتحاناته؟' سأل عما إذا كان مارك ________ جميع امتحاناته."
     },
     "feedbackCorrect": {
@@ -69,7 +69,7 @@
       "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل أنتم متحمسون للنزهة؟')"
     },
     "questionText": {
-      "en": "3. 'Are you excited about going on a picnic?' He asked the children <input type='text' class='fill-blank-input' data-blank-id='rep_tense3' placeholder='...'> excited about going on a picnic.",
+      "en": "3. 'Are you excited about going on a picnic?' He asked the children <input type='text'  > excited about going on a picnic.",
       "ar": "3. 'هل أنتم متحمسون للنزهة؟' سأل الأطفال ________ متحمسين للنزهة."
     },
     "feedbackCorrect": {
@@ -94,7 +94,7 @@
       "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'كم كانت تكلفة تذاكر الحفل؟')"
     },
     "questionText": {
-      "en": "5. 'How much did the concert tickets cost?' She asked how much the concert tickets <input type='text' class='fill-blank-input' data-blank-id='rep_tense5' placeholder='...'>.",
+      "en": "5. 'How much did the concert tickets cost?' She asked how much the concert tickets <input type='text'  >.",
       "ar": "5. 'كم كانت تكلفة تذاكر الحفل؟' سألت عن كم ________ تذاكر الحفل."
     },
     "feedbackCorrect": {
@@ -119,7 +119,7 @@
       "ar": "أكمل الجملة المنقولة بالزمن الصحيح. (الأصل: 'هل ستذهب إلى الحفلة؟')"
     },
     "questionText": {
-      "en": "6. 'Are you going to the party?' John asked me if I <input type='text' class='fill-blank-input' data-blank-id='rep_tense6' placeholder='...'> to the party.",
+      "en": "6. 'Are you going to the party?' John asked me if I <input type='text' > to the party.",
       "ar": "6. 'هل ستذهب إلى الحفلة؟' سألني جون عما إذا كنت ________ إلى الحفلة."
     },
     "feedbackCorrect": {
@@ -151,7 +151,7 @@
       "ar": "انقل السؤال التالي: \"أين مظلتي؟\""
     },
     "questionText": {
-      "en": "1. \"Where is my umbrella?''\nShe asked <input type='text' class='fill-blank-input' data-blank-id='report_q1' placeholder='Reported question...'>.",
+      "en": "1. \"Where is my umbrella?''\nShe asked <input type='text'  >.",
       "ar": "1. \"أين مظلتي؟\"\nسألت ________."
     },
     "feedbackCorrect": {
@@ -176,7 +176,7 @@
       "ar": "انقل سؤال (نعم/لا) التالي: \"هل يجب علي فعل ذلك؟\""
     },
     "questionText": {
-      "en": "3. ''Do I have to do it?''\nHe asked <input type='text' class='fill-blank-input' data-blank-id='report_q3' placeholder='Reported question...'>.",
+      "en": "3. ''Do I have to do it?''\nHe asked <input type='text'  >.",
       "ar": "3. ''هل يجب علي فعل ذلك؟''\nسأل ________."
     },
     "feedbackCorrect": {
@@ -201,7 +201,7 @@
       "ar": "انقل السؤال التالي: \"أين كنتِ؟\""
     },
     "questionText": {
-      "en": "4. ''Where have you been?''\nThe mother asked her daughter <input type='text' class='fill-blank-input' data-blank-id='report_q4' placeholder='Reported question...'>.",
+      "en": "4. ''Where have you been?''\nThe mother asked her daughter <input type='text'  >.",
       "ar": "4. ''أين كنتِ؟''\nسألت الأم ابنتها ________."
     },
     "feedbackCorrect": {
@@ -226,7 +226,7 @@
       "ar": "انقل السؤال التالي: \"هل استمتعت بالمهرجان؟\""
     },
     "questionText": {
-      "en": "7. ''Did you enjoy the festival?''\nHe wanted to know <input type='text' class='fill-blank-input' data-blank-id='report_q7' placeholder='Reported question...'>.",
+      "en": "7. ''Did you enjoy the festival?''\nHe wanted to know <input type='text'  >.",
       "ar": "7. ''هل استمتعت بالمهرجان؟''\nأراد أن يعرف ________."
     },
     "feedbackCorrect": {

@@ -558,7 +558,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. Our classroom doesn't have coloured walls. I wish our classroom <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='(have)'> coloured walls.",
+      "en": "1. Our classroom doesn't have coloured walls. I wish our classroom <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder=''> (have) coloured walls.",
       "ar": ""
     },
     "correctAnswers": {
@@ -592,7 +592,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. The sun isn't shining right now. I wish the sun <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder='(be) shining'>.",
+      "en": "2. The sun isn't shining right now. I wish the sun <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder=' shining'>(be).",
       "ar": ""
     },
     "correctAnswers": {
@@ -626,7 +626,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. I didn't go shopping last week. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder='(go) shopping'>.",
+      "en": "3. I didn't go shopping last week. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder=' shopping'>(go).",
       "ar": ""
     },
     "correctAnswers": {
@@ -660,7 +660,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. I don't know how to dance. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='(know) how to dance'>.",
+      "en": "4. I don't know how to dance. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='how to dance'>(know) .",
       "ar": ""
     },
     "correctAnswers": {
@@ -694,7 +694,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. I can't go with you tomorrow but I wish I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder='(go) with you'>.",
+      "en": "5. I can't go with you tomorrow but I wish I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder=' with you'>(go).",
       "ar": ""
     },
     "correctAnswers": {

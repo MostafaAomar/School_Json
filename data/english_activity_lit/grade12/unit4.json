@@ -23,7 +23,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1 The monkey escaped from its cage and jumped <input type='text' class='fill-blank-input' data-blank-id='gap1a' placeholder='...'> the lake. It took a long time to get it <input type='text' class='fill-blank-input' data-blank-id='gap1b' placeholder='...'> the lake and back <input type='text' class='fill-blank-input' data-blank-id='gap1c' placeholder='...'> its cage.",
+      "en": "1 The monkey escaped from its cage and jumped <input type='text'  > the lake. It took a long time to get it <input type='text'  > the lake and back <input type='text'  > its cage.",
       "ar": ""
     },
     "correctAnswers": {
@@ -49,7 +49,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2 Henry drove his car <input type='text' class='fill-blank-input' data-blank-id='gap2a' placeholder='...'> the beach and then he couldn’t move it, because the wheels sank <input type='text' class='fill-blank-input' data-blank-id='gap2b' placeholder='...'> the sand. In the end he needed eight people to push it <input type='text' class='fill-blank-input' data-blank-id='gap2c' placeholder='...'> the beach and back <input type='text' class='fill-blank-input' data-blank-id='gap2d' placeholder='...'> the road.",
+      "en": "2 Henry drove his car <input type='text'  > the beach and then he couldn’t move it, because the wheels sank <input type='text'  > the sand. In the end he needed eight people to push it <input type='text'  > the beach and back <input type='text'  > the road.",
       "ar": ""
     },
     "correctAnswers": {
@@ -76,7 +76,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3 We thought we should walk <input type='text' class='fill-blank-input' data-blank-id='gap3a' placeholder='...'> Bakery for breakfast because it is such a beautiful day.",
+      "en": "3 We thought we should walk <input type='text'  > Bakery for breakfast because it is such a beautiful day.",
       "ar": ""
     },
     "correctAnswers": {
@@ -100,7 +100,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: At the butcher’s Ahmad said, “Please cut the meat into small pieces”.\nSentence: Ahmad <input type='text' class='fill-blank-input' data-blank-id='causative1' placeholder='have + object + past participle'> into pieces.",
+      "en": "Situation: At the butcher’s Ahmad said, “Please cut the meat into small pieces”.\nSentence: Ahmad <input type='text'  > into pieces.",
       "ar": ""
     },
     "correctAnswers": {
@@ -127,7 +127,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: The hairdresser cuts Rana’s hair about twice a year.\nSentence: Rana <input type='text' class='fill-blank-input' data-blank-id='causative2' placeholder='have + object + past participle'> about twice a year.",
+      "en": "Situation: The hairdresser cuts Rana’s hair about twice a year.\nSentence: Rana <input type='text'  > about twice a year.",
       "ar": ""
     },
     "correctAnswers": {
@@ -154,7 +154,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: Yesterday, the optician checked my mother’s eyes.\nSentence: Yesterday, my mother <input type='text' class='fill-blank-input' data-blank-id='causative3' placeholder='have + object + past participle'>.",
+      "en": "Situation: Yesterday, the optician checked my mother’s eyes.\nSentence: Yesterday, my mother <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -181,7 +181,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: Mrs. Hakim’s doctor says to her: “When you come to see me next week, I’ll check your heartbeat.”\nSentence: When Mrs. Hakim goes to see the doctor next week, she <input type='text' class='fill-blank-input' data-blank-id='causative4' placeholder='have + object + past participle'>.",
+      "en": "Situation: Mrs. Hakim’s doctor says to her: “When you come to see me next week, I’ll check your heartbeat.”\nSentence: When Mrs. Hakim goes to see the doctor next week, she <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -208,7 +208,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: A carpenter is going to mend the front door of our house.\nSentence: We <input type='text' class='fill-blank-input' data-blank-id='causative5' placeholder='have + object + past participle'> of our house.",
+      "en": "Situation: A carpenter is going to mend the front door of our house.\nSentence: We <input type='text'  > of our house.",
       "ar": ""
     },
     "correctAnswers": {
@@ -235,7 +235,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: I repainted the house myself last month.\nCausative?: I <input type='text' class='fill-blank-input' data-blank-id='causative6' placeholder='Write the phrase or write N/A'> last month.",
+      "en": "Situation: I repainted the house myself last month.\nCausative?: I <input type='text'  > last month.",
       "ar": ""
     },
     "correctAnswers": {
@@ -262,7 +262,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Situation: After being late for work every day for two weeks, Tom’s boss reduced his pay.\nSentence: Tom <input type='text' class='fill-blank-input' data-blank-id='causative7' placeholder='have + object + past participle'>.",
+      "en": "Situation: After being late for work every day for two weeks, Tom’s boss reduced his pay.\nSentence: Tom <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {

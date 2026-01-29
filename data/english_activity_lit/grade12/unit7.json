@@ -552,7 +552,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "1. If I (start) <input type='text' class='fill-blank-input' data-blank-id='cond_vb1' placeholder='verb form...'> writing poetry, my English teacher would be surprised.",
+      "en": "1. If I (start) <input type='text'  > writing poetry, my English teacher would be surprised.",
       "ar": ""
     },
     "correctAnswers": {
@@ -576,7 +576,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "2. People would see my photo everywhere if I (be) <input type='text' class='fill-blank-input' data-blank-id='cond_vb2' placeholder='verb form...'> a famous model.",
+      "en": "2. People would see my photo everywhere if I (be) <input type='text'  > a famous model.",
       "ar": ""
     },
     "correctAnswers": {
@@ -600,7 +600,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "3. If the family had saved enough money, they (buy) <input type='text' class='fill-blank-input' data-blank-id='cond_vb3' placeholder='verb form...'> a new flat.",
+      "en": "3. If the family had saved enough money, they (buy) <input type='text'  > a new flat.",
       "ar": ""
     },
     "correctAnswers": {
@@ -624,7 +624,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "4. The buildings wouldn’t have burned to ashes if the firemen (come) <input type='text' class='fill-blank-input' data-blank-id='cond_vb4' placeholder='verb form...'> in time.",
+      "en": "4. The buildings wouldn’t have burned to ashes if the firemen (come) <input type='text'  > in time.",
       "ar": ""
     },
     "correctAnswers": {
@@ -648,7 +648,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "5. If my little sister did something wrong, I’m sure she (tell) <input type='text' class='fill-blank-input' data-blank-id='cond_vb5' placeholder='verb form...'> me.",
+      "en": "5. If my little sister did something wrong, I’m sure she (tell) <input type='text' > me.",
       "ar": ""
     },
     "correctAnswers": {
@@ -672,7 +672,7 @@
       "ar": "ضع الفعل بين القوسين في الزمن الصحيح للجملة الشرطية."
     },
     "questionText": {
-      "en": "6. If the policeman had seen the thief, he (arrest) <input type='text' class='fill-blank-input' data-blank-id='cond_vb6' placeholder='verb form...'> him.",
+      "en": "6. If the policeman had seen the thief, he (arrest) <input type='text'  > him.",
       "ar": ""
     },
     "correctAnswers": {
@@ -696,7 +696,7 @@
       "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
     },
     "questionText": {
-      "en": "1. I want to ring a friend now, but I don’t know her phone number.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite1' placeholder='Rewrite as conditional...'>",
+      "en": "1. I want to ring a friend now, but I don’t know her phone number.\n<input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -720,7 +720,7 @@
       "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
     },
     "questionText": {
-      "en": "2. The poor man couldn’t build his house because the officials stopped him.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite2' placeholder='Rewrite as conditional...'>",
+      "en": "2. The poor man couldn’t build his house because the officials stopped him.\n<input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -745,7 +745,7 @@
       "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
     },
     "questionText": {
-      "en": "3. Our team didn’t win the match, so they didn’t move up.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite3' placeholder='Rewrite as conditional...'>",
+      "en": "3. Our team didn’t win the match, so they didn’t move up.\n<input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -769,7 +769,7 @@
       "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
     },
     "questionText": {
-      "en": "4. Christine isn’t on holiday in Italy because she is in hospital now.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite4' placeholder='Rewrite as conditional...'>",
+      "en": "4. Christine isn’t on holiday in Italy because she is in hospital now.\n<input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -794,7 +794,7 @@
       "ar": "أعد كتابة الجملة باستخدام الشرط من النوع الثاني أو الثالث."
     },
     "questionText": {
-      "en": "5. The streets in our town are very crowded, so I can’t drive my car.\n<input type='text' class='fill-blank-input' data-blank-id='rewrite5' placeholder='Rewrite as conditional...'>",
+      "en": "5. The streets in our town are very crowded, so I can’t drive my car.\n<input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {

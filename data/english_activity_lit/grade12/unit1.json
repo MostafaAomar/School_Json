@@ -237,7 +237,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. You can always <input type='text' class='fill-blank-input' data-blank-id='reach_out_blank' placeholder='...'> me if you are feeling tired with your school work.",
+      "en": "1. You can always <input type='text'  > me if you are feeling tired with your school work.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -264,7 +264,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. When I travelled to Spain, I tried hard to <input type='text' class='fill-blank-input' data-blank-id='fit_in_blank' placeholder='...'> with the locals.",
+      "en": "2. When I travelled to Spain, I tried hard to <input type='text'  > with the locals.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -291,7 +291,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. The group had one successful song but failed to <input type='text' class='fill-blank-input' data-blank-id='follow_through_blank' placeholder='...'> with another hit record.",
+      "en": "3. The group had one successful song but failed to <input type='text'  > with another hit record.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -318,7 +318,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. Nowadays, students can <input type='text' class='fill-blank-input' data-blank-id='keep_up_blank' placeholder='...'> the latest news by using the Internet.",
+      "en": "4. Nowadays, students can <input type='text'  > the latest news by using the Internet.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -345,7 +345,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. She has been <input type='text' class='fill-blank-input' data-blank-id='get_into_blank' placeholder='...'> yoga recently.",
+      "en": "5. She has been <input type='text'  > yoga recently.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -372,7 +372,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "6. Our company has <input type='text' class='fill-blank-input' data-blank-id='run_into_blank' placeholder='...'> financial difficulties this month.",
+      "en": "6. Our company has <input type='text' > financial difficulties this month.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -678,7 +678,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "A: Excuse me. <input type='text' class='fill-blank-input' data-blank-id='leave_blank' placeholder='(someone leave)'> this mobile here?",
+      "en": "A: Excuse me. <input type='text' > (someone leave) this mobile here?",
       "ar": ""
     },
     "correctAnswers": { 
@@ -705,7 +705,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "B: I don’t know. I <input type='text' class='fill-blank-input' data-blank-id='sit_blank' placeholder='(sit)'> here all afternoon, but I <input type='text' class='fill-blank-input' data-blank-id='notice_blank' placeholder='(not notice)'> it until now.",
+      "en": "B: I don’t know. I <input type='text' >(sit) here all afternoon, but I <input type='text' >(not notice) it until now.",
       "ar": ""
     },
     "correctAnswers": {  
@@ -730,7 +730,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "A: Excuse me. <input type='text' class='fill-blank-input' data-blank-id='stand_blank' placeholder='(you stand)'> in this queue for a long time?",
+      "en": "A: Excuse me. <input type='text' >(you stand) in this queue for a long time?",
       "ar": ""
     },
     "correctAnswers": { 
@@ -754,7 +754,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "B: Yes, I <input type='text' class='fill-blank-input' data-blank-id='queue_blank' placeholder='(queue)'> for almost an hour.",
+      "en": "B: Yes, I <input type='text'  >(queue) for almost an hour.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -778,7 +778,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "A: Why are you crying?\nB: Because my brother <input type='text' class='fill-blank-input' data-blank-id='have_accident_blank' placeholder='(have)'> an accident. He <input type='text' class='fill-blank-input' data-blank-id='break_legs_blank' placeholder='(break)'> both of his legs.",
+      "en": "A: Why are you crying?\nB: Because my brother <input type='text'  >(have) an accident. He <input type='text' >(break) both of his legs.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -803,7 +803,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. <input type='text' class='fill-blank-input' data-blank-id='advice1_blank' placeholder='(not / think / good / idea)'> leave the university. If you’ve studied hard, you probably have nothing to worry about.",
+      "en": "1. <input type='text'  >(not / think / good / idea) leave the university. If you’ve studied hard, you probably have nothing to worry about.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -830,7 +830,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. <input type='text' class='fill-blank-input' data-blank-id='advice2_blank' placeholder='(why / you / try)'> talking to your university professor. He can probably help?",
+      "en": "2. <input type='text'  >(why / you / try) talking to your university professor. He can probably help?",
       "ar": ""
     },
     "correctAnswers": {  
@@ -857,7 +857,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. <input type='text' class='fill-blank-input' data-blank-id='advice3_blank' placeholder='(think / should)'> try some relaxation techniques to help you with the exam stress.",
+      "en": "3. <input type='text'  > (think / should) try some relaxation techniques to help you with the exam stress.",
       "ar": ""
     },
     "correctAnswers": {  
@@ -884,7 +884,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. <input type='text' class='fill-blank-input' data-blank-id='advice4_blank' placeholder='(good / idea)'> go to the exams even if you feel like you won’t pass them. You should at least try. Good luck!",
+      "en": "4. <input type='text'  > (good / idea) go to the exams even if you feel like you won’t pass them. You should at least try. Good luck!",
       "ar": ""
     },
     "correctAnswers": { 

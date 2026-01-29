@@ -395,7 +395,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "I'm sorry this office is so dirty, but it <input type='text' class='fill-blank-input' data-blank-id='gap1' placeholder='(can’t / clean)'> until tomorrow morning.",
+      "en": "I'm sorry this office is so dirty, but it <input type='text'  >(can’t / clean) until tomorrow morning.",
       "ar": ""
     },
     "correctAnswers": {
@@ -422,7 +422,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "These clothes <input type='text' class='fill-blank-input' data-blank-id='gap2' placeholder='(design)'> for daily use, so you can wear them wherever you want.",
+      "en": "These clothes <input type='text'  >(design) for daily use, so you can wear them wherever you want.",
       "ar": ""
     },
     "correctAnswers": {
@@ -449,7 +449,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Many offices of large companies <input type='text' class='fill-blank-input' data-blank-id='gap3' placeholder='(build)'> in the town centre recently.",
+      "en": "Many offices of large companies <input type='text'  > (build) in the town centre recently.",
       "ar": ""
     },
     "correctAnswers": {
@@ -476,7 +476,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "All the goods that were purchased yesterday have defects, so they <input type='text' class='fill-blank-input' data-blank-id='gap4' placeholder='(send)'> back to the manufacturer right now.",
+      "en": "All the goods that were purchased yesterday have defects, so they <input type='text'  >(send) back to the manufacturer right now.",
       "ar": ""
     },
     "correctAnswers": {
@@ -503,7 +503,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Camera footage shows that illegal goods <input type='text' class='fill-blank-input' data-blank-id='gap5' placeholder='(smuggle)'> into the warehouse last week.",
+      "en": "Camera footage shows that illegal goods <input type='text'  >(smuggle) into the warehouse last week.",
       "ar": ""
     },
     "correctAnswers": {
@@ -530,7 +530,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "The poor bird <input type='text' class='fill-blank-input' data-blank-id='gap6' placeholder='(capture)'> and all its efforts to escape from the trap were in vain.",
+      "en": "The poor bird <input type='text'  >(capture) and all its efforts to escape from the trap were in vain.",
       "ar": ""
     },
     "correctAnswers": {
@@ -557,7 +557,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "The hotel near our office was closed because it <input type='text' class='fill-blank-input' data-blank-id='gap7' placeholder='(renovate)'> by the owner.",
+      "en": "The hotel near our office was closed because it <input type='text'  >(renovate) by the owner.",
       "ar": ""
     },
     "correctAnswers": {
@@ -584,7 +584,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Your car is a death trap. It <input type='text' class='fill-blank-input' data-blank-id='gap8' placeholder='(should / send)'> to the scrap years ago.",
+      "en": "Your car is a death trap. It <input type='text'  >(should / send) to the scrap years ago.",
       "ar": ""
     },
     "correctAnswers": {
@@ -611,7 +611,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "He <input type='text' class='fill-blank-input' data-blank-id='passive1' placeholder='...'> since then.",
+      "en": "He <input type='text'  > since then.",
       "ar": ""
     },
     "correctAnswers": {
@@ -638,7 +638,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "The paintings <input type='text' class='fill-blank-input' data-blank-id='passive2' placeholder='...'> till the end of the month.",
+      "en": "The paintings <input type='text'  > till the end of the month.",
       "ar": ""
     },
     "correctAnswers": {
@@ -665,7 +665,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "<input type='text' class='fill-blank-input' data-blank-id='passive3' placeholder='...'> that people will live on Mars in 2050.",
+      "en": "<input type='text'  > that people will live on Mars in 2050.",
       "ar": ""
     },
     "correctAnswers": {
@@ -692,7 +692,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "The evidence <input type='text' class='fill-blank-input' data-blank-id='passive4' placeholder='...'> when the lights went off.",
+      "en": "The evidence <input type='text'  > when the lights went off.",
       "ar": ""
     },
     "correctAnswers": {
@@ -719,7 +719,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "<input type='text' class='fill-blank-input' data-blank-id='passive5' placeholder='...'> some difficult questions in the interview yesterday.",
+      "en": "<input type='text'  > some difficult questions in the interview yesterday.",
       "ar": ""
     },
     "correctAnswers": {
@@ -746,7 +746,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "Sami <input type='text' class='fill-blank-input' data-blank-id='passive6' placeholder='...'> to be more polite.",
+      "en": "Sami <input type='text'  > to be more polite.",
       "ar": ""
     },
     "correctAnswers": {
@@ -773,7 +773,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "After the interview, <input type='text' class='fill-blank-input' data-blank-id='passive7' placeholder='...'> the job at his bank.",
+      "en": "After the interview, <input type='text'  > the job at his bank.",
       "ar": ""
     },
     "correctAnswers": {

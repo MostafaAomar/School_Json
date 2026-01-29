@@ -146,7 +146,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. Children love <input type='text' class='fill-blank-input' data-blank-id='pref1' placeholder='(wrap)'> parcels at Christmas time.",
+      "en": "1. Children love <input type='text' class='fill-blank-input' data-blank-id='pref1' placeholder=''>(wrap) parcels at Christmas time.",
       "ar": ""
     },
     "correctAnswers": {
@@ -170,7 +170,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "2. I almost find that he has unusual opinions. I often <input type='text' class='fill-blank-input' data-blank-id='pref2' placeholder='(agree)'> with him.",
+      "en": "2. I almost find that he has unusual opinions. I often <input type='text' class='fill-blank-input' data-blank-id='pref2' placeholder=''>(agree) with him.",
       "ar": ""
     },
     "correctAnswers": {
@@ -194,7 +194,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "3. I’m sure he’s lying but it’s going to be hard to <input type='text' class='fill-blank-input' data-blank-id='pref3' placeholder='(prove)'> his story.",
+      "en": "3. I’m sure he’s lying but it’s going to be hard to <input type='text' class='fill-blank-input' data-blank-id='pref3' placeholder=''>(prove) his story.",
       "ar": ""
     },
     "correctAnswers": {
@@ -218,7 +218,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "4. After a brief speech the minister <input type='text' class='fill-blank-input' data-blank-id='pref4' placeholder='(veil)'> the new statue.",
+      "en": "4. After a brief speech the minister <input type='text' class='fill-blank-input' data-blank-id='pref4' placeholder=''>(veil) the new statue.",
       "ar": ""
     },
     "correctAnswers": {
@@ -242,7 +242,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "5. It took the removal men an hour to <input type='text' class='fill-blank-input' data-blank-id='pref5' placeholder='(load)'> our things from the van.",
+      "en": "5. It took the removal men an hour to <input type='text' class='fill-blank-input' data-blank-id='pref5' placeholder=''>(load) our things from the van.",
       "ar": ""
     },
     "correctAnswers": {
@@ -266,7 +266,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "6. His phone was <input type='text' class='fill-blank-input' data-blank-id='pref6' placeholder='(connect)'> because he didn’t pay his last bill.",
+      "en": "6. His phone was <input type='text' class='fill-blank-input' data-blank-id='pref6' placeholder=''>(connect) because he didn’t pay his last bill.",
       "ar": ""
     },
     "correctAnswers": {

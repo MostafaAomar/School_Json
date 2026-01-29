@@ -22,7 +22,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Parents play a vital <input type='text' class='fill-blank-input' data-blank-id='role_blank' placeholder='...'> in the career development of their children. ",
+      "en": "Parents play a vital <input type='text'  > in the career development of their children. ",
       "ar": ""
     },
     "correctAnswers": {  
@@ -49,7 +49,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Parents should study very well the <input type='text' class='fill-blank-input' data-blank-id='aptitude_blank' placeholder='...'> of their children to decide their future career.",
+      "en": "Parents should study very well the <input type='text'  > of their children to decide their future career.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -76,7 +76,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "There should be leading <input type='text' class='fill-blank-input' data-blank-id='courses_blank' placeholder='...'> to help children choose the best job for them in the future.",
+      "en": "There should be leading <input type='text'  > to help children choose the best job for them in the future.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -103,7 +103,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Nowadays, most people encourage their children to choose their future profession based on the <input type='text' class='fill-blank-input' data-blank-id='remuneration_blank' placeholder='...'> that profession brings to them.",
+      "en": "Nowadays, most people encourage their children to choose their future profession based on the <input type='text'  >(remuneration) that profession brings to them.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -130,7 +130,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Individuals have <input type='text' class='fill-blank-input' data-blank-id='various_blank' placeholder='(vary)'> dreams in their day-to-day existence.",
+      "en": "Individuals have <input type='text'  >(vary) dreams in their day-to-day existence.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -157,7 +157,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Everyone endeavours a great deal to make dreams a <input type='text' class='fill-blank-input' data-blank-id='reality_blank' placeholder='(real)'>.",
+      "en": "Everyone endeavours a great deal to make dreams a <input type='text'  >.(real)",
       "ar": ""
     },
     "correctAnswers": { 
@@ -184,7 +184,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Future plans and <input type='text' class='fill-blank-input' data-blank-id='decisions_blank' placeholder='(decide)'> have a great importance in a person’s life.", 
+      "en": "Future plans and <input type='text'  >(decide) have a great importance in a person’s life.", 
       "ar": ""
     },
     "correctAnswers": { 
@@ -211,7 +211,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "Gaining your boss confidence is really a great <input type='text' class='fill-blank-input' data-blank-id='accomplishment_blank' placeholder='(accomplish)'>.",
+      "en": "Gaining your boss confidence is really a great <input type='text'  >.(accomplish)",
       "ar": ""
     },
     "correctAnswers": { 
@@ -238,7 +238,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "I went to a counselor for <input type='text' class='fill-blank-input' data-blank-id='guidance_blank' placeholder='(guide)'> on my career.",
+      "en": "I went to a counselor for <input type='text'  >(guide) on my career.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -761,7 +761,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "A: I saw Jack last night.\nB: Oh really. I <input type='text' class='fill-blank-input' data-blank-id='not_see_blank' placeholder='(not / see)'> him for months. How is he?",
+      "en": "A: I saw Jack last night.\nB: Oh really. I <input type='text'  >(not / see) him for months. How is he?",
       "ar": ""
     },
     "correctAnswers": { 
@@ -788,7 +788,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "A: <input type='text' class='fill-blank-input' data-blank-id='ever_win_blank' placeholder='(you / ever / win)'> a competition?",
+      "en": "A: <input type='text'  >(you / ever / win) a competition?",
       "ar": ""
     },
     "correctAnswers": { 
@@ -815,7 +815,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "B: Yes, I <input type='text' class='fill-blank-input' data-blank-id='win_2006_blank' placeholder='(win)'> a writing competition in 2006.",
+      "en": "B: Yes, I <input type='text'  >(win) a writing competition in 2006.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -842,7 +842,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "A: Is that a new tab?\nB: Yes, I <input type='text' class='fill-blank-input' data-blank-id='just_buy_blank' placeholder='(just / buy)'> it.",
+      "en": "A: Is that a new tab?\nB: Yes, I <input type='text'  >(just / buy) it.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -869,7 +869,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "A: How long <input type='text' class='fill-blank-input' data-blank-id='have_it_blank' placeholder='(you / have)'> it?\nB: I've had it for at least three years. Maybe longer.",
+      "en": "A: How long <input type='text'  >(you / have) it?\nB: I've had it for at least three years. Maybe longer.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -896,7 +896,7 @@
        "ar": ""
     },
     "questionText": {
-       "en": "A: So, Jack is your best friend. <input type='text' class='fill-blank-input' data-blank-id='meet_when_blank' placeholder='(you / meet)'> him when you were at university?",
+       "en": "A: So, Jack is your best friend. <input type='text'  >(you / meet) him when you were at university?",
       "ar": ""
     },
     "correctAnswers": { 
@@ -923,7 +923,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "B: Yes, we <input type='text' class='fill-blank-input' data-blank-id='be_for_years_blank' placeholder='(be)'> friends for more than ten years.",
+      "en": "B: Yes, we <input type='text'  >(be) friends for more than ten years.",
       "ar": ""
     },
     "correctAnswers": { 

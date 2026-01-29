@@ -342,7 +342,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "The rights of all children from early 1<input type='text' class='fill-blank-input' data-blank-id='child1' placeholder='...'> stem from the 1948 Universal Declaration of Human Rights. ‘All human 2<input type='text' class='fill-blank-input' data-blank-id='beings2' placeholder='...'> are born free and equal in dignity and rights’. The declaration 3<input type='text' class='fill-blank-input' data-blank-id='states3' placeholder='...'> that human rights begin at birth and that childhood is a period demanding special care and 4<input type='text' class='fill-blank-input' data-blank-id='assist4' placeholder='...'>. The 1959 Declaration of the Rights of the Child affirmed that: ‘mankind owes to the child the best it has to give’, 5<input type='text' class='fill-blank-input' data-blank-id='includ5' placeholder='...'> education. This was amplified by the International Covenant on Economic, Social and Cultural Rights.",
+      "en": "The rights of all children from early 1<input type='text'  > stem from the 1948 Universal Declaration of Human Rights. ‘All human 2<input type='text'  > are born free and equal in dignity and rights’. The declaration 3<input type='text'  > that human rights begin at birth and that childhood is a period demanding special care and 4<input type='text'  >. The 1959 Declaration of the Rights of the Child affirmed that: ‘mankind owes to the child the best it has to give’, 5<input type='text'  > education. This was amplified by the International Covenant on Economic, Social and Cultural Rights.",
       "ar": ""
     },
     "correctAnswers": {
@@ -370,7 +370,7 @@
       "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
     },
     "questionText": {
-      "en": "1. Lubna bought a dress. The dress cost $45. She had to return it.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent1' placeholder='Type combined sentence here...'>",
+      "en": "1. Lubna bought a dress. The dress cost $45. She had to return it.\nCombined: <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -402,7 +402,7 @@
       "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
     },
     "questionText": {
-      "en": "2. Mrs. Duncan is talking to her students. The students’ projects are due on Friday.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent2' placeholder='Type combined sentence here...'>",
+      "en": "2. Mrs. Duncan is talking to her students. The students’ projects are due on Friday.\nCombined: <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -429,7 +429,7 @@
       "ar": "اجمع الجملتين باستخدام ضمير وصل، مع حذف الكلمات المكررة. اكتب الجملة المدمجة كاملة."
     },
     "questionText": {
-      "en": "3. Sally introduced me to her sister. Her sister is a civil engineer.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='sent3' placeholder='Type combined sentence here...'>",
+      "en": "3. Sally introduced me to her sister. Her sister is a civil engineer.\nCombined: <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {

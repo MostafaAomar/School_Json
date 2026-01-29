@@ -30,7 +30,7 @@
         "ar": ""
       },
       "questionText": {
-        "en": "1. His sudden outbursts have made him a real <input type='text' class='fill-blank-input' data-blank-id='idiom1' placeholder='idiom...'> and a socially unwanted.",
+        "en": "1. His sudden outbursts have made him a real <input type='text'  > and a socially unwanted.",
         "ar": ""
       },
       "correctAnswers": {
@@ -64,7 +64,7 @@
         "ar": ""
       },
       "questionText": {
-        "en": "2. Buying a brand new car is going to <input type='text' class='fill-blank-input' data-blank-id='idiom2' placeholder='idiom...'>. Maybe we should ride bikes.",
+        "en": "2. Buying a brand new car is going to <input type='text'  >. Maybe we should ride bikes.",
         "ar": ""
       },
       "correctAnswers": {
@@ -98,7 +98,7 @@
         "ar": ""
       },
       "questionText": {
-        "en": "3. My sister is very polite. She does not <input type='text' class='fill-blank-input' data-blank-id='idiom3' placeholder='idiom...'>.",
+        "en": "3. My sister is very polite. She does not <input type='text'  >.",
         "ar": ""
       },
       "correctAnswers": {
@@ -133,7 +133,7 @@
         "ar": ""
       },
       "questionText": {
-        "en": "4. The best advice is to <input type='text' class='fill-blank-input' data-blank-id='idiom4' placeholder='idiom...'> but keep your eyes open.",
+        "en": "4. The best advice is to <input type='text'  > but keep your eyes open.",
         "ar": ""
       },
       "correctAnswers": {
@@ -167,7 +167,7 @@
         "ar": ""
       },
       "questionText": {
-        "en": "5. Our friend almost <input type='text' class='fill-blank-input' data-blank-id='idiom5' placeholder='idiom...'> when she learned her son and his wife were having triplets.",
+        "en": "5. Our friend almost <input type='text'  > when she learned her son and his wife were having triplets.",
         "ar": ""
       },
       "correctAnswers": {
@@ -201,7 +201,7 @@
           "ar": ""
         },
         "questionText": {
-          "en": "1. There are two books on the table. Take <input type='text' class='fill-blank-input' data-blank-id='pron1' placeholder='...'> you like.",
+          "en": "1. There are two books on the table. Take <input type='text'  > you like.",
           "ar": ""
         },
         "correctAnswers": {
@@ -234,7 +234,7 @@
           "ar": ""
         },
         "questionText": {
-          "en": "2. <input type='text' class='fill-blank-input' data-blank-id='pron2' placeholder='...'> you go, you’ll find people speak English.",
+          "en": "2. <input type='text'  > you go, you’ll find people speak English.",
           "ar": ""
         },
         "correctAnswers": {
@@ -267,7 +267,7 @@
           "ar": ""
         },
         "questionText": {
-          "en": "3. I don’t want to talk to him <input type='text' class='fill-blank-input' data-blank-id='pron3' placeholder='...'> he is.",
+          "en": "3. I don’t want to talk to him <input type='text'  > he is.",
           "ar": ""
         },
         "correctAnswers": {
@@ -300,7 +300,7 @@
           "ar": ""
         },
         "questionText": {
-          "en": "4. I’ll cook <input type='text' class='fill-blank-input' data-blank-id='pron4' placeholder='...'> you want.",
+          "en": "4. I’ll cook <input type='text'  > you want.",
           "ar": ""
         },
         "correctAnswers": {
@@ -333,7 +333,7 @@
           "ar": ""
         },
         "questionText": {
-          "en": "5. You can borrow my car <input type='text' class='fill-blank-input' data-blank-id='pron5' placeholder='...'> you like.",
+          "en": "5. You can borrow my car <input type='text'  > you like.",
           "ar": ""
         },
         "correctAnswers": {

@@ -24,7 +24,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. to defend or support <input type='text' class='fill-blank-input' data-blank-id='def1' placeholder='word...'>",
+      "en": "1. to defend or support <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -48,7 +48,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. the activity of collecting money for a specific purpose, especially in order to help people <input type='text' class='fill-blank-input' data-blank-id='def2' placeholder='word...'>",
+      "en": "2. the activity of collecting money for a specific purpose, especially in order to help people <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -72,7 +72,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. existing or accepted in a particular place or at a particular time <input type='text' class='fill-blank-input' data-blank-id='def3' placeholder='word...'>",
+      "en": "3. existing or accepted in a particular place or at a particular time <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -96,7 +96,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "4. to select and take or approve <input type='text' class='fill-blank-input' data-blank-id='def4' placeholder='word...'>",
+      "en": "4. to select and take or approve <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -120,7 +120,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "5. an organisation or group of organisations that work together for a particular purpose <input type='text' class='fill-blank-input' data-blank-id='def5' placeholder='word...'>",
+      "en": "5. an organisation or group of organisations that work together for a particular purpose <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -144,7 +144,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. Children love <input type='text' class='fill-blank-input' data-blank-id='pref1' placeholder='(wrap)'> parcels at Christmas time.",
+      "en": "1. Children love <input type='text'  >(wrap) parcels at Christmas time.",
       "ar": ""
     },
     "correctAnswers": {
@@ -168,7 +168,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "2. I almost find that he has unusual opinions. I often <input type='text' class='fill-blank-input' data-blank-id='pref2' placeholder='(agree)'> with him.",
+      "en": "2. I almost find that he has unusual opinions. I often <input type='text'  >(agree) with him.",
       "ar": ""
     },
     "correctAnswers": {
@@ -192,7 +192,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "3. I’m sure he’s lying but it’s going to be hard to <input type='text' class='fill-blank-input' data-blank-id='pref3' placeholder='(prove)'> his story.",
+      "en": "3. I’m sure he’s lying but it’s going to be hard to <input type='text'  >(prove) his story.",
       "ar": ""
     },
     "correctAnswers": {
@@ -216,7 +216,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "4. After a brief speech the minister <input type='text' class='fill-blank-input' data-blank-id='pref4' placeholder='(veil)'> the new statue.",
+      "en": "4. After a brief speech the minister <input type='text'  >(veil) the new statue.",
       "ar": ""
     },
     "correctAnswers": {
@@ -240,7 +240,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "5. It took the removal men an hour to <input type='text' class='fill-blank-input' data-blank-id='pref5' placeholder='(load)'> our things from the van.",
+      "en": "5. It took the removal men an hour to <input type='text'  >(load) our things from the van.",
       "ar": ""
     },
     "correctAnswers": {
@@ -264,7 +264,7 @@
        "ar": ""
     },
     "questionText": {
-      "en": "6. His phone was <input type='text' class='fill-blank-input' data-blank-id='pref6' placeholder='(connect)'> because he didn’t pay his last bill.",
+      "en": "6. His phone was <input type='text'  >(connect) because he didn’t pay his last bill.",
       "ar": ""
     },
     "correctAnswers": {
@@ -288,7 +288,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. It’s hard to make predictions too far into the future, but I think I can say quite a lot about my life in about ten years. I think I (still live) will still be living in the same city. By that time, I 1 (finish) <input type='text' class='fill-blank-input' data-blank-id='fut1' placeholder='...'> my studies, and, who knows, perhaps I 2 (find) <input type='text' class='fill-blank-input' data-blank-id='fut2' placeholder='...'> a good job. And I 3 (probably go out) <input type='text' class='fill-blank-input' data-blank-id='fut3' placeholder='...'> with the same friends too!\n\n2. By the time I’m sixty, I expect that nearly everything 4 (change) <input type='text' class='fill-blank-input' data-blank-id='fut4' placeholder='...'> and everyone 5 (try) <input type='text' class='fill-blank-input' data-blank-id='fut5' placeholder='...'> their best to adapt to new circumstances. For example, I can’t imagine that we 6 (use) <input type='text' class='fill-blank-input' data-blank-id='fut6' placeholder='...'> cars, because by then most of the oil in the world 7 (run out) <input type='text' class='fill-blank-input' data-blank-id='fut7' placeholder='...'>. People 8 (travel) <input type='text' class='fill-blank-input' data-blank-id='fut8' placeholder='...'> in electric cars, or perhaps we 9 (walk) <input type='text' class='fill-blank-input' data-blank-id='fut9' placeholder='...'> everywhere. I hope that scientists 10 (solve) <input type='text' class='fill-blank-input' data-blank-id='fut10' placeholder='...'> pollution problem, but who knows! Perhaps some other worse problems 11 (come) <input type='text' class='fill-blank-input' data-blank-id='fut11' placeholder='...'> along by then!",
+      "en": "1. It’s hard to make predictions too far into the future, but I think I can say quite a lot about my life in about ten years. I think I (still live) will still be living in the same city. By that time, I 1 (finish) <input type='text'  > my studies, and, who knows, perhaps I 2 (find) <input type='text'  > a good job. And I 3 (probably go out) <input type='text'  > with the same friends too!\n\n2. By the time I’m sixty, I expect that nearly everything 4 (change) <input type='text'  > and everyone 5 (try) <input type='text'  > their best to adapt to new circumstances. For example, I can’t imagine that we 6 (use) <input type='text'  > cars, because by then most of the oil in the world 7 (run out) <input type='text'  >. People 8 (travel) <input type='text'  > in electric cars, or perhaps we 9 (walk) <input type='text'  > everywhere. I hope that scientists 10 (solve) <input type='text'  > pollution problem, but who knows! Perhaps some other worse problems 11 (come) <input type='text'  > along by then!",
       "ar": ""
     },
     "correctAnswers": {

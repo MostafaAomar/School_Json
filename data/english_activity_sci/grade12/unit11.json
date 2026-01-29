@@ -209,7 +209,7 @@
       "ar": "علمي"
     },
     "questionText": {
-      "en": "1. The amount of stress people suffer can <input type='text' class='fill-blank-input' data-blank-id='form1' placeholder='(effect)'> their life.",
+      "en": "1. The amount of stress people suffer can <input type='text' class='fill-blank-input' data-blank-id='form1' placeholder=''> (effect) their life.",
       "ar": "علمي"
     },
     "correctAnswers": {
@@ -243,7 +243,7 @@
       "ar": "علمي"
     },
     "questionText": {
-      "en": "2. He felt too <input type='text' class='fill-blank-input' data-blank-id='form2' placeholder='(anxiety)'> when he heard that his father had been involved in a car accident.",
+      "en": "2. He felt too <input type='text' class='fill-blank-input' data-blank-id='form2' placeholder=''>(anxiety) when he heard that his father had been involved in a car accident.",
       "ar": "علمي"
     },
     "correctAnswers": {
@@ -277,7 +277,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. Tom was nearly out of <input type='text' class='fill-blank-input' data-blank-id='form3' placeholder='(breathe)'> when he reached that high point.",
+      "en": "3. Tom was nearly out of <input type='text' class='fill-blank-input' data-blank-id='form3' placeholder=''>(breathe) when he reached that high point.",
       "ar": "علمي"
     },
     "correctAnswers": {
@@ -311,7 +311,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. Hama, being an ancient city, <input type='text' class='fill-blank-input' data-blank-id='form4' placeholder='(combination)'> the past and the present everywhere you walk there.",
+      "en": "4. Hama, being an ancient city, <input type='text' class='fill-blank-input' data-blank-id='form4' placeholder=''> (combination) the past and the present everywhere you walk there.",
       "ar": "علمي"
     },
     "correctAnswers": {
@@ -345,7 +345,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. I was <input type='text' class='fill-blank-input' data-blank-id='form5' placeholder='(absence)'> from school last month due to the fact that I had a broken leg.",
+      "en": "5. I was <input type='text' class='fill-blank-input' data-blank-id='form5' placeholder=''>(absence) from school last month due to the fact that I had a broken leg.",
       "ar": "علمي"
     },
     "correctAnswers": {
