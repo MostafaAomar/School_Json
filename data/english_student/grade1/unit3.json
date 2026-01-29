@@ -2,95 +2,38 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Basic Classroom Instructions and Counting",
-      "ar": "تعليمات الصف الأساسية والأرقام"
+      "en": "In the Classroom",
+      "ar": "في الصف الدراسي"
     },
     "passage": {
-      "en": "Sit down, please! Stand up, please! One, two, three, four, five.",
-      "ar": "اجلس من فضلك! قف من فضلك! واحد، اثنان، ثلاثة، أربعة، خمسة."
+      "en": "Sit down, please!\n Stand up, please!\n Come here.\nClose the window.\nOpen the door.",
+      "ar": " اجلس من فضلك!\n قف من فضلك!\n تعال هنا.\nأغلق النافذة.\nافتح الباب."
     },
     "videoUrl": "",
     "audioUrl": ""
   },
-  "question_ID__1": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "Select the correct meaning for the instruction.",
-      "ar": "اختر المعنى الصحيح للتعليمات."
+  "metadata_1": {
+    "unitTitle": {
+      "en": "In the Classroom",
+      "ar": "في الصف الدراسي"
     },
-    "questionText": {
-      "en": "Sit down, please!",
-      "ar": "اجلس من فضلك!"
+    "passage": {
+      "en": "Open your book, please.\nThank you!\none,\n two, \nthree, \nfour, \nfive.",
+      "ar": "افتح كتابك، من فضلك.\nشكراً لك!\nواحد،\nاثنان، \nثلاثة، \nأربعة، \nخمسة."
     },
-    "feedbackCorrect": {
-      "en": "Great!",
-      "ar": "رائع!"
-    },
-    "feedbackIncorrect": {
-      "en": "Try again",
-      "ar": "حاول ثانية"
-    },
-    "options": [
-      { "en": "Sit down", "ar": "اجلس" },
-      { "en": "Stand up", "ar": "قف" }
-    ],
-    "correctAnswer": {
-      "en": "Sit down",
-      "ar": "اجلس"
-    }
+    "videoUrl": "",
+    "audioUrl": ""
   },
-  "question_ID__2": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "Select the correct meaning for the instruction.",
-      "ar": "اختر المعنى الصحيح للتعليمات."
+  "metadata_2": {
+    "unitTitle": {
+      "en": "In the Classroom",
+      "ar": "في الصف الدراسي"
     },
-    "questionText": {
-      "en": "Stand up, please!",
-      "ar": "قف من فضلك!"
+    "passage": {
+      "en": "One two three,\nfour five.\nLet’s play,\ncount and say:\nOne two three,\nfour and five.",
+      "ar": "واحد، اثنان، ثلاثة،\nأربعة، خمسة.\nلنلعب،\nعد وقل:\nواحد، اثنان، ثلاثة،\nأربعة وخمسة."
     },
-    "feedbackCorrect": {
-      "en": "Excellent!",
-      "ar": "ممتاز!"
-    },
-    "feedbackIncorrect": {
-      "en": "Focus more",
-      "ar": "ركز أكثر"
-    },
-    "options": [
-      { "en": "Stand up", "ar": "قف" },
-      { "en": "Come here", "ar": "تعال هنا" }
-    ],
-    "correctAnswer": {
-      "en": "Stand up",
-      "ar": "قف"
-    }
-  },
-  "question_ID__3": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "Identify the range of numbers being counted.",
-      "ar": "حدد نطاق الأرقام التي يتم عدها."
-    },
-    "questionText": {
-      "en": "One, two, three, four, five.",
-      "ar": "واحد، اثنان، ثلاثة، أربعة، خمسة."
-    },
-    "feedbackCorrect": {
-      "en": "Good job!",
-      "ar": "عمل جيد!"
-    },
-    "feedbackIncorrect": {
-      "en": "Not correct",
-      "ar": "غير صحيح"
-    },
-    "options": [
-      { "en": "Counting 1-5", "ar": "العد من 1-5" },
-      { "en": "Counting 6-10", "ar": "العد من 6-10" }
-    ],
-    "correctAnswer": {
-      "en": "Counting 1-5",
-      "ar": "العد من 1-5"
-    }
+    "videoUrl": "",
+    "audioUrl": ""
   }
 }

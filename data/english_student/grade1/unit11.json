@@ -2,12 +2,12 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "At Home",
-      "ar": "في المنزل"
+      "en": "My House",
+      "ar": "   منزلي"
     },
     "passage": {
-      "en": "Where's Ted? He isn't in the bedroom, garden, living room, or bathroom. Mum! Ted is in the kitchen. The mouse is in the box. The mouse is on the box. Where's my father? He's in the garden.",
-      "ar": "أين تيد؟ هو ليس في غرفة النوم أو الحديقة أو غرفة المعيشة أو الحمام. أمي! تيد في المطبخ. الفأر داخل الصندوق. الفأر فوق الصندوق. أين والدي؟ إنه في الحديقة."
+      "en": "Where's Ted?\n He isn't in the bedroom.\n He isn’t in the living room. \nIs he in the bedroom?\n He isn’t in the bathroom. \n He's in the garden.\nMum! Ted is in the kitchen.",
+      "ar": "أين تيد؟\n إنه ليس في غرفة النوم.\n إنه ليس في غرفة المعيشة.\n هل هو في غرفة النوم؟\n إنه ليس في الحمام.\n إنه في الحديقة.\n أمي! تيد في المطبخ."
     },
     "videoUrl": "",
     "audioUrl": ""
@@ -15,8 +15,8 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "Look at the pictures of the house and match them to the correct room names.",
-      "ar": "انظر إلى صور المنزل وقم بمطابقتها مع أسماء الغرف الصحيحة."
+      "en": " ",
+      "ar": "  "
     },
     "questionText": {
       "en": "Match the rooms to the pictures",
@@ -73,8 +73,8 @@
   "question_ID__2": {
     "type": "mcq",
     "supportContent": {
-      "en": "Look at the description of the mouse in the text.",
-      "ar": "انظر إلى وصف الفأر في النص."
+      "en": " ",
+      "ar": "  "
     },
     "questionText": {
       "en": "Where is the mouse?",

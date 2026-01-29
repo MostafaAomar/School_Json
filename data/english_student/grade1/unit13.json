@@ -2,12 +2,12 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Food and Drinks",
-      "ar": "الطعام والشراب"
+      "en": "My Food",
+      "ar": "   طعامي"
     },
     "passage": {
-      "en": "Is this my sandwich? Yes, it is. What do you like? I like rice. I like cheese and juice. I like chicken. It's delicious. I like milk, meow meow. I like chicken. What do you like? What's in my lunch box? Is it a sandwich? No, it isn't. Is it a banana? Yes, it is. I like to eat, eat eat eat, apples and bananas.",
-      "ar": "هل هذه شطيرتي؟ نعم، هي كذلك. ماذا تحب؟ أنا أحب الأرز. أنا أحب الجبن والعصير. أنا أحب الدجاج، إنه لذيذ. أنا أحب الحليب، مياو مياو. أنا أحب الدجاج، ماذا تحب أنت؟ ماذا يوجد في صندوق طعامي؟ هل هي شطيرة؟ لا. هل هي موزة؟ نعم. أنا أحب أن آكل، التفاح والموز."
+      "en": "What do you like?\n I like rice.\n Is this my sandwich?\n Yes, it is.\n I like cheese and juice.\n I like chicken. It’s delicious.\n I like milk, meow, meow.",
+      "ar": " ماذا تحب؟\n أنا أحب الأرز.\n هل هذه شطيرتي؟\n نعم، إنها كذلك.\n أنا أحب الجبن والعصير.\n أنا أحب الدجاج. إنه لذيذ.\n أنا أحب الحليب، مياو، مياو."
     },
     "videoUrl": "",
     "audioUrl": ""
@@ -15,8 +15,8 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "Look at the pictures and match them with the correct word.",
-      "ar": "انظر إلى الصور وقم بمطابقتها مع الكلمة الصحيحة."
+      "en": "",
+      "ar": ""
     },
     "questionText": {
       "en": "Match the food to the pictures",
@@ -94,5 +94,17 @@
         "accepts": "item_6"
       }
     ]
+  },
+  "metadata_1": {
+    "unitTitle": {
+      "en": "My Food",
+      "ar": "   طعامي"
+    },
+    "passage": {
+      "en": "I like to eat,\n eat eat eat,\n apples and bananas.\nI like to eat,\n eat eat eat,\napples and bananas.",
+      "ar": " أنا أحب أن آكل،\n آكل آكل آكل،\n التفاح والموز.\nأنا أحب أن آكل،\n آكل آكل آكل،\nالتفاح والموز."
+    },
+    "videoUrl": "",
+    "audioUrl": ""
   }
 }

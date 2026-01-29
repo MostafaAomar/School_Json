@@ -2,43 +2,26 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Seasons and Weather",
-      "ar": "الفصول والطقس"
+      "en": "Seasons ",
+      "ar": "الفصول "
     },
     "passage": {
-      "en": "I like spring. What's your favourite season, Mary? I like summer. It's hot. What's your favourite season, Sally? I like autumn. What about you, Jack? I like winter. It's cold in winter. It's cold. It's hot.",
-      "ar": "أنا أحب الربيع. ما هو فصلك المفضل يا ماري؟ أنا أحب الصيف، الجو حار. ما هو فصلك المفضل يا سالي؟ أنا أحب الخريف، وماذا عنك يا جاك؟ أنا أحب الشتاء، الجو بارد في الشتاء. إنه بارد. إنه حار."
+      "en": "I like spring.\n What's your favourite season, Mary?\n I like summer. It's hot.\n What's your favourite season, Sally? \nI like autumn.\n What about you, Jack? \n I like winter.\n It's cold in winter. ",
+      "ar": "  أنا أحب الربيع.\n ما هو فصلك المفضل، ماري؟\n أنا أحب الصيف. إنه حار.\n ما هو فصلك المفضل، سالي؟ \nأنا أحب الخريف.\n ماذا عنك، جاك؟ \n أنا أحب الشتاء.\n الطقس بارد في الشتاء. "
     },
     "videoUrl": "",
     "audioUrl": ""
   },
-  "question_ID__1": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "Select the correct season from the text.",
-      "ar": "اختر الفصل الصحيح بناءً على النص."
+  "metadata_1": {
+    "unitTitle": {
+      "en": "Seasons ",
+      "ar": "الفصول "
     },
-    "questionText": {
-      "en": "What's your favourite season?",
-      "ar": "ما هو فصلك المفضل؟"
+    "passage": {
+      "en": "What’s your favourite season?\n It’s autumn.\n It’s cold.\n It’s hot. \nIt’s summer.",
+      "ar": "   "
     },
-    "feedbackCorrect": {
-      "en": "Well done! You remembered the dialogue.",
-      "ar": "أحسنت! لقد تذكرت الحوار بشكل جيد."
-    },
-    "feedbackIncorrect": {
-      "en": "Try again, look at the text.",
-      "ar": "حاول مرة أخرى، انظر إلى النص."
-    },
-    "options": [
-      { "en": "Spring", "ar": "الربيع" },
-      { "en": "Summer", "ar": "الصيف" },
-      { "en": "Winter", "ar": "الشتاء" },
-      { "en": "Autumn", "ar": "الخريف" }
-    ],
-    "correctAnswer": {
-      "en": "Summer",
-      "ar": "الصيف"
-    }
+    "videoUrl": "",
+    "audioUrl": ""
   }
 }

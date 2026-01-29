@@ -2,12 +2,12 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "My Body and Days of the Week",
-      "ar": "جسمي وأيام الأسبوع"
+      "en": "My Body",
+      "ar": "   جسمي"  
     },
     "passage": {
-      "en": "What's this? It's your hand. Is it a mouth? Yes, it is. This is my eye and this is my ear. Is it your hand? No, it isn't, it's my nose. Is it your foot? No, it isn't, it's my nose. Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.",
-      "ar": "ما هذا؟ إنها يدك. هل هذا فم؟ نعم، هو كذلك. هذه عيني وهذه أذني. هل هذه يدك؟ لا، ليست كذلك، إنه أنفي. هل هذه قدمك؟ لا، ليست كذلك، إنه أنفي. الأحد، الاثنين، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت."
+      "en": "What's this?\n It's your hand.\n Is it a mouth? \nYes, it is. \nThis is my eye \n this is my ear.\n Is it your hand? \nNo, it isn't, it's my nose. ", 
+      "ar": " ما هذا؟\n إنها يدك.\n هل هي فم؟ \n نعم، إنها كذلك. \n هذه عيني \n هذه أذني.\n هل هي يدك؟ \n لا، ليست كذلك، إنها أنفي. "
     },
     "videoUrl": "",
     "audioUrl": ""
@@ -15,8 +15,8 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "Identify the body parts and match them with their pictures.",
-      "ar": "تعرف على أجزاء الجسم وقم بمطابقتها مع صورها."
+      "en": " ",
+      "ar": ""
     },
     "questionText": {
       "en": "Match the body parts to the pictures",
@@ -104,5 +104,17 @@
       "en": "Nose",
       "ar": "أنف"
     }
+  },
+  "metadata_1": {
+   "unitTitle": {
+      "en": "My Body",
+      "ar": "   جسمي"  
+    },
+    "passage": {
+      "en": "sunday\n monday\n tuesday\n wednesday\n thursday\n friday\n saturday", 
+      "ar": "الأحد\n الاثنين\n الثلاثاء\n الأربعاء\n الخميس\n الجمعة\n السبت"
+    },
+    "videoUrl": "",
+    "audioUrl": ""
   }
-}
+  }

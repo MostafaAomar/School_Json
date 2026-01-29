@@ -2,12 +2,12 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Clothes and Colors",
-      "ar": "الملابس والألوان"
+      "en": "Clothes  ",
+      "ar": "الملابس  "
     },
     "passage": {
-      "en": "Who's that? That's Peter. Who's this? Jack has a red hat. He has a black jacket. This is Tom. That's Mary. He has a blue shirt and a yellow tie. Mary has a green dress. Who's that? That's Boxy. Boxy has a red hat. P p pen. H h hen. This is a pen. This is a hen. I draw a hen with my pen.",
-      "ar": "من هذا؟ ذلك بيتر. من هذا؟ جاك لديه قبعة حمراء. لديه سترة سوداء. هذا توم. تلك ماري. لديه قميص أزرق وربطة عنق صفراء. ماري لديها فستان أخضر. من هذا؟ هذا بوكسي. لدى بوكسي قبعة حمراء. P p قلم. H h دجاجة. هذا قلم. هذه دجاجة. أرسم دجاجة بقلمي."
+      "en": "Who's that? \n That's Peter.\nHe has a black jacket.\n Who's this?\n Jack has a red hat. \n This is Tom.\nHe has a blue shirt and a yellow tie.\n  That's Mary. \n Mary has a green dress. \n\nWho's that? \nThat's Boxy. Boxy has a red hat.\n ",
+      "ar": "من هذا؟ \n هذا بيتر.\n لديه سترة سوداء.\n من هذا؟\n جاك لديه قبعة حمراء. \n هذا توم.\n لديه قميص أزرق وربطة عنق صفراء.\n  هذه ماري. \n ماري لديها فستان أخضر. \n\nمن هذا؟ \nهذا بوكسي. بوكسي لديه قبعة حمراء.\n "
     },
     "videoUrl": "",
     "audioUrl": ""
@@ -15,8 +15,8 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "Match the clothing items with the correct images.",
-      "ar": "طابق قطع الملابس بالصور الصحيحة."
+      "en": "",
+      "ar": ""
     },
     "questionText": {
       "en": "Match the clothes to the pictures",
@@ -70,30 +70,13 @@
       }
     ]
   },
-  "question_ID__2": {
-    "type": "mcq",
-    "supportContent": { "en": "Refer to Tom's description in the text.", "ar": "راجع وصف توم في النص." },
-    "questionText": { "en": "What colour is Tom's shirt?", "ar": "ما لون قميص توم؟" },
-    "feedbackCorrect": { "en": "Correct! Tom has a blue shirt.", "ar": "صحيح! توم لديه قميص أزرق." },
-    "feedbackIncorrect": { "en": "Incorrect, check the passage again.", "ar": "خاطئ، راجع النص مرة أخرى." },
-    "options": [
-      { "en": "Blue", "ar": "أزرق" },
-      { "en": "Red", "ar": "أحمر" },
-      { "en": "Green", "ar": "أخضر" }
-    ],
-    "correctAnswer": { "en": "Blue", "ar": "أزرق" }
-  },
-  "question_ID__3": {
-    "type": "mcq",
-    "supportContent": { "en": "Refer to Mary's description in the text.", "ar": "راجع وصف ماري في النص." },
-    "questionText": { "en": "What colour is Mary's dress?", "ar": "ما لون فستان ماري؟" },
-    "feedbackCorrect": { "en": "Correct! Mary's dress is green.", "ar": "صحيح! فستان ماري أخضر." },
-    "feedbackIncorrect": { "en": "Try again, what color did the text mention?", "ar": "حاول ثانية، ما اللون الذي ذكره النص؟" },
-    "options": [
-      { "en": "Green", "ar": "أخضر" },
-      { "en": "Yellow", "ar": "أصفر" },
-      { "en": "Black", "ar": "أسود" }
-    ],
-    "correctAnswer": { "en": "Green", "ar": "أخضر" }
-  }
-}
+  "metadata_1": {
+     "unitTitle": {
+      "en": "Clothes  ",
+      "ar": "الملابس  "
+    },
+    "passage": {
+      "en":"This is a pen, p, p, pen.\nThis is a hen, h, h, hen.\n I draw a hen with my pen.",
+      "ar":"هذا قلم، ب، ب، قلم.\nهذا دجاجة، هـ، هـ، دجاجة.\n أرسم دجاجة بقلمي."
+    }
+}}
