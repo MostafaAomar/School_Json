@@ -76,6 +76,7 @@
       "en": "What color is mentioned as the color of an apple in the text?",
       "ar": "ما هو اللون المذكور للون التفاحة في النص؟"
     },
+    "imageUrl": "whatcolor.png",
     "questionText": {
       "en": "What colour is it?",
       "ar": "ما لونه؟"
