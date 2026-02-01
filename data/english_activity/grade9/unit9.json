@@ -19,8 +19,8 @@
       "ar": "اشتقاق الكلمات: أوجد صيغة الاسم من الفعل المعطى."
     },
     "questionText": {
-      "en": "Verb: die | Noun: <input type='text' class='fill-blank-input' data-blank-id='r1n' placeholder='Enter Noun...'>",
-      "ar": "الفعل: die | الاسم: <input type='text' class='fill-blank-input' data-blank-id='r1n' placeholder='أدخل الاسم...'>"
+      "en": "Verb: die | Noun: <input type='text' >",
+      "ar": "الفعل: die | الاسم: >"
     },
     "feedbackCorrect": {
       "en": "Correct! The noun is 'death'.",
@@ -44,8 +44,8 @@
       "ar": "اشتقاق الكلمات: أوجد صيغة الصفة."
     },
     "questionText": {
-      "en": "Verb: die | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r1a' placeholder='Enter Adjective...'>",
-      "ar": "الفعل: die | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r1a' placeholder='أدخل الصفة...'>"
+      "en": "Verb: die | Adjective: <input type='text'  >",
+      "ar": "الفعل: die | الصفة:  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -69,8 +69,8 @@
       "ar": "اشتقاق الكلمات: أوجد الفعل من الاسم."
     },
     "questionText": {
-      "en": "Noun: encouragement | Verb: <input type='text' class='fill-blank-input' data-blank-id='r2v' placeholder='Enter Verb...'>",
-      "ar": "الاسم: encouragement | الفعل: <input type='text' class='fill-blank-input' data-blank-id='r2v' placeholder='أدخل الفعل...'>"
+      "en": "Noun: encouragement | Verb: <input type='text'  >",
+      "ar": "الاسم: encouragement | الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! The verb is 'encourage'.",
@@ -94,8 +94,8 @@
       "ar": "اشتقاق الكلمات: أوجد الصفة."
     },
     "questionText": {
-      "en": "Noun: encouragement | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r2a' placeholder='Enter Adjective...'>",
-      "ar": "الاسم: encouragement | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r2a' placeholder='أدخل الصفة...'>"
+      "en": "Noun: encouragement | Adjective: <input type='text'  >",
+      "ar": "الاسم: encouragement | الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -119,8 +119,8 @@
       "ar": "اشتقاق الكلمات: أوجد الفعل."
     },
     "questionText": {
-      "en": "Noun: production | Verb: <input type='text' class='fill-blank-input' data-blank-id='r3v' placeholder='Enter Verb...'>",
-      "ar": "الاسم: production | الفعل: <input type='text' class='fill-blank-input' data-blank-id='r3v' placeholder='أدخل الفعل...'>"
+      "en": "Noun: production | Verb: <input type='text'  >",
+      "ar": "الاسم: production | الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -144,8 +144,8 @@
       "ar": "اشتقاق الكلمات: أوجد الصفة."
     },
     "questionText": {
-      "en": "Noun: production | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r3a' placeholder='Enter Adjective...'>",
-      "ar": "الاسم: production | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r3a' placeholder='أدخل الصفة...'>"
+      "en": "Noun: production | Adjective: <input type='text'  >",
+      "ar": "الاسم: production | الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -170,8 +170,8 @@
       "ar": "أوجد صيغة الاسم من الفعل المعطى."
     },
     "questionText": {
-      "en": "Verb: comfort | Noun: <input type='text' class='fill-blank-input' data-blank-id='r4n' placeholder='Enter Noun...'>",
-      "ar": "الفعل: comfort | الاسم: <input type='text' class='fill-blank-input' data-blank-id='r4n' placeholder='أدخل الاسم...'>"
+      "en": "Verb: comfort | Noun: <input type='text'  >",
+      "ar": "الفعل: comfort | الاسم:  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Comfort' can be both a verb and a noun.",
@@ -195,8 +195,8 @@
       "ar": "أوجد صيغة الصفة من الفعل 'comfort'."
     },
     "questionText": {
-      "en": "Verb: comfort | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r4a' placeholder='Enter Adjective...'>",
-      "ar": "الفعل: comfort | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r4a' placeholder='أدخل الصفة...'>"
+      "en": "Verb: comfort | Adjective: <input type='text'  >",
+      "ar": "الفعل: comfort | الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Comfortable' is the adjective.",
@@ -220,8 +220,8 @@
       "ar": "أوجد الفعل المتعلق بهذا الاسم."
     },
     "questionText": {
-      "en": "Noun: responsibility | Verb: <input type='text' class='fill-blank-input' data-blank-id='r5v' placeholder='Enter Verb...'>",
-      "ar": "الاسم: responsibility | الفعل: <input type='text' class='fill-blank-input' data-blank-id='r5v' placeholder='أدخل الفعل...'>"
+      "en": "Noun: responsibility | Verb: <input type='text'  >",
+      "ar": "الاسم: responsibility | الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Respond' is the root verb.",
@@ -245,8 +245,8 @@
       "ar": "أوجد صيغة الصفة من 'responsibility'."
     },
     "questionText": {
-      "en": "Noun: responsibility | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r5a' placeholder='Enter Adjective...'>",
-      "ar": "الاسم: responsibility | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r5a' placeholder='أدخل الصفة...'>"
+      "en": "Noun: responsibility | Adjective: <input type='text'  >",
+      "ar": "الاسم: responsibility | الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -270,8 +270,8 @@
       "ar": "أوجد صيغة الفعل من الصفة 'respectable'."
     },
     "questionText": {
-      "en": "Adjective: respectable | Verb: <input type='text' class='fill-blank-input' data-blank-id='r6v' placeholder='Enter Verb...'>",
-      "ar": "الصفة: respectable | الفعل: <input type='text' class='fill-blank-input' data-blank-id='r6v' placeholder='أدخل الفعل...'>"
+      "en": "Adjective: respectable | Verb: <input type='text'  >",
+      "ar": "الصفة: respectable | الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! The verb is 'respect'.",
@@ -295,8 +295,8 @@
       "ar": "أوجد صيغة الاسم من الفعل 'contribute'."
     },
     "questionText": {
-      "en": "Verb: contribute | Noun: <input type='text' class='fill-blank-input' data-blank-id='r7n' placeholder='Enter Noun...'>",
-      "ar": "الفعل: contribute | الاسم: <input type='text' class='fill-blank-input' data-blank-id='r7n' placeholder='أدخل الاسم...'>"
+      "en": "Verb: contribute | Noun: <input type='text'  >",
+      "ar": "الفعل: contribute | الاسم: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -323,8 +323,8 @@
       "ar": "أوجد صيغة الصفة من الفعل 'contribute'."
     },
     "questionText": {
-      "en": "Verb: contribute | Adjective: <input type='text' class='fill-blank-input' data-blank-id='r7a' placeholder='Enter Adjective...'>",
-      "ar": "الفعل: contribute | الصفة: <input type='text' class='fill-blank-input' data-blank-id='r7a' placeholder='أدخل الصفة...'>"
+      "en": "Verb: contribute | Adjective: <input type='text'  >",
+      "ar": "الفعل: contribute | الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -348,8 +348,8 @@
       "ar": "أوجد صيغة الاسم من الصفة 'talented'."
     },
     "questionText": {
-      "en": "Adjective: talented | Noun: <input type='text' class='fill-blank-input' data-blank-id='r8n' placeholder='Enter Noun...'>",
-      "ar": "الصفة: talented | الاسم: <input type='text' class='fill-blank-input' data-blank-id='r8n' placeholder='أدخل الاسم...'>"
+      "en": "Adjective: talented | Noun: <input type='text'  >",
+      "ar": "الصفة: talented | الاسم: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -436,7 +436,7 @@
       "ar": "أكمل بضمير وصل صحيح (who, which, whose)."
     },
     "questionText": {
-      "en": "1. My sister wore a mask <input type='text' class='fill-blank-input' data-blank-id='rel1' placeholder='...'> made her look like Mickey Mouse.",
+      "en": "1. My sister wore a mask <input type='text'  > made her look like Mickey Mouse.",
       "ar": "1. ارتدت أختي قناعاً ___________ جعلها تبدو مثل ميكي ماوس."
     },
     "feedbackCorrect": {
@@ -461,7 +461,7 @@
       "ar": "استخدم ضمير الوصل الصحيح للملكية."
     },
     "questionText": {
-      "en": "3. The man <input type='text' class='fill-blank-input' data-blank-id='rel3' placeholder='...'> mobile was ringing did not know what to do.",
+      "en": "3. The man <input type='text'  > mobile was ringing did not know what to do.",
       "ar": "3. الرجل ___________ كان هاتفه يرن لم يعرف ماذا يفعل."
     },
     "feedbackCorrect": {
@@ -499,7 +499,7 @@
       "ar": "أكمل بضمير وصل صحيح يشير إلى الزمان."
     },
     "questionText": {
-      "en": "4. I still remember the days <input type='text' class='fill-blank-input' data-blank-id='rel4' placeholder='...'> grandmother told us interesting stories.",
+      "en": "4. I still remember the days <input type='text'  > grandmother told us interesting stories.",
       "ar": "4. ما زلت أتذكر الأيام ___________ كانت جدتي تقص علينا فيها قصصاً ممتعة."
     },
     "feedbackCorrect": {
@@ -524,7 +524,7 @@
       "ar": "أكمل بضمير وصل صحيح يشير إلى المكان."
     },
     "questionText": {
-      "en": "6. Is that the hospital <input type='text' class='fill-blank-input' data-blank-id='rel6' placeholder='...'> your brother works?",
+      "en": "6. Is that the hospital <input type='text'  > your brother works?",
       "ar": "6. هل ذلك هو المستشفى ___________ يعمل فيه أخوك؟"
     },
     "feedbackCorrect": {
@@ -549,7 +549,7 @@
       "ar": "اختر ضميراً لشخص في محل مفعول به."
     },
     "questionText": {
-      "en": "7. Who was that lady <input type='text' class='fill-blank-input' data-blank-id='rel7' placeholder='...'> you were talking to?",
+      "en": "7. Who was that lady <input type='text'  > you were talking to?",
       "ar": "7. من كانت تلك السيدة التي كنت تتحدث ___________؟"
     },
     "feedbackCorrect": {
@@ -574,8 +574,8 @@
       "ar": "ادمج الجملتين باستخدام 'who'، مع حذف التكرار."
     },
     "questionText": {
-      "en": "1. A person is lucky. That person has a lot of friends.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb1' placeholder='Type combined sentence...'>",
-      "ar": "1. الشخص محظوظ. ذلك الشخص لديه الكثير من الأصدقاء.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb1' placeholder='اكتب الجملة كاملة...'>"
+      "en": "1. A person is lucky. That person has a lot of friends.\nCombined: <input type='text'  >",
+      "ar": "1. الشخص محظوظ. ذلك الشخص لديه الكثير من الأصدقاء.\nالجملة المدمجة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Excellent! You combined the sentences correctly.",
@@ -602,8 +602,8 @@
       "ar": "ادمج الجملتين باستخدام 'whose' للدلالة على الملكية."
     },
     "questionText": {
-      "en": "2. Martha has a brother. Her brother’s name is Manuel.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb2' placeholder='Type combined sentence...'>",
-      "ar": "2. مارثا لديها أخ. اسم أخيها مانويل.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb2' placeholder='اكتب الجملة كاملة...'>"
+      "en": "2. Martha has a brother. Her brother’s name is Manuel.\nCombined: <input type='text'  >",
+      "ar": "2. مارثا لديها أخ. اسم أخيها مانويل.\nالجملة المدمجة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -627,8 +627,8 @@
       "ar": "ادمج الجملتين باستخدام 'where' للمكان."
     },
     "questionText": {
-      "en": "3. That is the house. I grew up with my sister Emilia there.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb3' placeholder='Type combined sentence...'>",
-      "ar": "3. ذلك هو المنزل. نشأت هناك مع أختي إميليا.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb3' placeholder='اكتب الجملة كاملة...'>"
+      "en": "3. That is the house. I grew up with my sister Emilia there.\nCombined: <input type='text'  >",
+      "ar": "3. ذلك هو المنزل. نشأت هناك مع أختي إميليا.\nالجملة المدمجة:  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -652,8 +652,8 @@
       "ar": "ادمج الجملتين باستخدام 'when' للزمان."
     },
     "questionText": {
-      "en": "4. I remember that wonderful summer. The whole family gathered again then.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb4' placeholder='Type combined sentence...'>",
-      "ar": "4. أتذكر ذلك الصيف الرائع. اجتمعت العائلة بأكملها مرة أخرى حينها.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb4' placeholder='اكتب الجملة كاملة...'>"
+      "en": "4. I remember that wonderful summer. The whole family gathered again then.\nCombined: <input type='text'  >",
+      "ar": "4. أتذكر ذلك الصيف الرائع. اجتمعت العائلة بأكملها مرة أخرى حينها.\nالجملة المدمجة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -677,8 +677,8 @@
       "ar": "ادمج باستخدام 'which' أو 'that' للأشياء."
     },
     "questionText": {
-      "en": "5. Leila gave me a beautiful souvenir. Leila bought the souvenir from Al-Hamideya souk.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb5' placeholder='Type combined sentence...'>",
-      "ar": "5. أعطتني ليلى تذكاراً جميلاً. اشترت ليلى التذكار من سوق الحميدية.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb5' placeholder='اكتب الجملة كاملة...'>"
+      "en": "5. Leila gave me a beautiful souvenir. Leila bought the souvenir from Al-Hamideya souk.\nCombined: <input type='text'  >",
+      "ar": "5. أعطتني ليلى تذكاراً جميلاً. اشترت ليلى التذكار من سوق الحميدية.\nالجملة المدمجة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -702,8 +702,8 @@
       "ar": "ادمج باستخدام 'who' للأشخاص (جملة غير معرفة)."
     },
     "questionText": {
-      "en": "6. The teacher smiled at Sami. Sami was working very hard.\nCombined: <input type='text' class='fill-blank-input' data-blank-id='comb6' placeholder='Type combined sentence...'>",
-      "ar": "6. ابتسم المعلم لسـامي. كان سامي يعمل بجد كبير.\nالجملة المدمجة: <input type='text' class='fill-blank-input' data-blank-id='comb6' placeholder='اكتب الجملة كاملة...'>"
+      "en": "6. The teacher smiled at Sami. Sami was working very hard.\nCombined: <input type='text'  >",
+      "ar": "6. ابتسم المعلم لسـامي. كان سامي يعمل بجد كبير.\nالجملة المدمجة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! Notice the use of the comma.",

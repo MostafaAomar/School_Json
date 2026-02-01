@@ -880,7 +880,7 @@
        "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
     },
     "questionText": {
-      "en": "2. Warn your brother not to put too many things in his drawer or it'll break.\n(Warning with conditional): <input type='text' class='fill-blank-input' data-blank-id='cond_s2' placeholder='If...'>",
+      "en": "2. Warn your brother not to put too many things in his drawer or it'll break.\n(Warning with conditional): <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -907,7 +907,7 @@
        "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
     },
     "questionText": {
-      "en": "3. You haven't got enough time, so you can't visit your aunt in the next town.\n(Expressing unreal present): <input type='text' class='fill-blank-input' data-blank-id='cond_s3' placeholder='If...'>",
+      "en": "3. You haven't got enough time, so you can't visit your aunt in the next town.\n(Expressing unreal present): <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -934,7 +934,7 @@
        "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
     },
     "questionText": {
-      "en": "4. You should have studied earlier for the test. That's why you didn't pass.\n(Expressing past regret): <input type='text' class='fill-blank-input' data-blank-id='cond_s4' placeholder='If...'>",
+      "en": "4. You should have studied earlier for the test. That's why you didn't pass.\n(Expressing past regret): <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -961,7 +961,7 @@
        "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
     },
     "questionText": {
-      "en": "5. Your friend might need some help. If so, tell her to give you a ring.\n(Conditional offer/instruction): <input type='text' class='fill-blank-input' data-blank-id='cond_s5' placeholder='If...'>",
+      "en": "5. Your friend might need some help. If so, tell her to give you a ring.\n(Conditional offer/instruction): <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {
@@ -988,7 +988,7 @@
        "ar": "ماذا يمكن أن تقول في هذا الموقف؟ استخدم جملة شرطية."
     },
     "questionText": {
-      "en": "6. You didn't see the product advertised, otherwise you could buy it.\n(Expressing missed past opportunity): <input type='text' class='fill-blank-input' data-blank-id='cond_s6' placeholder='If...'>",
+      "en": "6. You didn't see the product advertised, otherwise you could buy it.\n(Expressing missed past opportunity): <input type='text'  >",
       "ar": ""
     },
     "correctAnswers": {

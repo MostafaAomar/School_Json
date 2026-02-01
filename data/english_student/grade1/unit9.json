@@ -2,16 +2,20 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Happy Birthday!",
-      "ar": "عيد ميلاد سعيد!"
+      "en": "My Birthday",
+      "ar": "عيد ميلادي"
     },
     "passage": {
-      "en": "Happy birthday, Tom. I'm six. How old are you? I'm ten. How old is Tom's sister? She's five. Six, seven, eight, nine, ten. How old is Mary? She's six. Happy birthday to you, happy birthday just for you. Happy birthday to me and you.",
-      "ar": "عيد ميلاد سعيد يا توم. عمري ست سنوات. كم عمرك؟ عمري عشر سنوات. كم عمر أخت توم؟ عمرها خمس سنوات. ستة، سبعة، ثمانية، تسعة، عشرة. كم عمر ماري؟ عمرها ست سنوات. عيد ميلاد سعيد لك، عيد ميلاد سعيد خصيصًا لك، عيد ميلاد سعيد لي ولك."
+      "en": "Happy birthday, Tom.\n I'm six.\n How old are you? \nI'm ten. \nHow old is Tom's sister? \n She's five.\n ",
+      "ar": " عيد ميلاد سعيد، توم.\n أنا في السادسة من عمري.\n كم عمرك؟ \nأنا في العاشرة من عمري. \nكم عمر أخت توم؟ \n هي في الخامسة من عمرها.\n "
     },
     "videoUrl": "",
     "audioUrl": ""
   },
+
+
+
+
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
@@ -64,30 +68,5 @@
         "accepts": "item_3"
       }
     ]
-  },
-  "question_ID__2": {
-    "type": "fill-blank",
-    "supportContent": {
-      "en": "How old is Tom's sister?",
-      "ar": "كم عمر أخت توم؟"
-    },
-    "questionText": {
-      "en": "Tom's sister is <input type='text' > years old.",
-      "ar": "أخت توم عمرها ______ سنوات."
-    },
-    "feedbackCorrect": {
-      "en": "Correct! She is five.",
-      "ar": "صحيح! عمرها خمس سنوات."
-    },
-    "feedbackIncorrect": {
-      "en": "Check the text again.",
-      "ar": "راجع النص مرة أخرى."
-    },
-    "correctAnswers": {
-      "blank_7813": {
-        "en": "five",
-        "ar": "خمسة"
-      }
-    }
   }
 }

@@ -1,13 +1,14 @@
 {
+ 
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Unit 6 - Colours",
-      "ar": "الوحدة السادسة - الألوان"
+      "en": "Colours",
+      "ar": "الألوان"
     },
     "passage": {
-      "en": "What colour is this? It's yellow. What colour is your pencil? It's red. Is it green? Yes, it is. Is this ruler black? No, it isn't. It's blue. The sun is yellow, the sky is blue, the apple is red, and the tree is green.",
-      "ar": "ما لون هذا؟ إنه أصفر. ما لون قلمك؟ إنه أحمر. هل هو أخضر؟ نعم، هو كذلك. هل هذه المسطرة سوداء؟ لا، ليست كذلك، إنها زرقاء. الشمس صفراء، السماء زرقاء، التفاحة حمراء، والشجرة خضراء."
+      "en": "What colour is this?\nIt’s yellow.\nWhat colour is your pencil?\nIt’s red.\nIs it green?\nYes, it is.\nIs this ruler black?\nNo, it isn’t. It’s blue.",
+      "ar": "ما لون هذا؟\nهو أصفر.\nما لون قلمك؟\nهو أحمر.\nهل هو أخضر؟\nنعم، هو كذلك.\nهل هذا المسطرة سوداء؟\nلا، ليست كذلك. هو زرقاء."
     },
     "videoUrl": "",
     "audioUrl": ""

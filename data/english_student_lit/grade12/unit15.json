@@ -30,7 +30,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. You (mustn't / don't have to) <input type='text' class='fill-blank-input' data-blank-id='mod1' placeholder='type one option...'> smoke here. Smoking is forbidden in this restaurant.",
+      "en": "1. You (mustn't / don't have to) <input type='text'  > smoke here. Smoking is forbidden in this restaurant.",
       "ar": ""
     },
     "correctAnswers": {
@@ -63,7 +63,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. There is plenty of time. We (mustn't / don't have to) <input type='text' class='fill-blank-input' data-blank-id='mod2' placeholder='type one option...'> be at the meeting until 9.00.",
+      "en": "2. There is plenty of time. We (mustn't / don't have to) <input type='text'  > be at the meeting until 9.00.",
       "ar": ""
     },
     "correctAnswers": {
@@ -97,7 +97,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. (We don’t have to / We’d better not) <input type='text' class='fill-blank-input' data-blank-id='mod3' placeholder='type one option...'> talk for too long. These calls are expensive.",
+      "en": "3. (We don’t have to / We’d better not) <input type='text'  > talk for too long. These calls are expensive.",
       "ar": ""
     },
     "correctAnswers": {
@@ -131,7 +131,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. You (should, may) <input type='text' class='fill-blank-input' data-blank-id='mod4' placeholder='type one option...'> see a doctor for that serious cut on your arm.",
+      "en": "4. You (should, may) <input type='text'  > see a doctor for that serious cut on your arm.",
       "ar": ""
     },
     "correctAnswers": {
@@ -165,7 +165,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. You (didn’t have to tell me / shouldn’t have told me) <input type='text' class='fill-blank-input' data-blank-id='mod5' placeholder='type one option...'> about the party. Now it’s not a surprise.",
+      "en": "5. You (didn’t have to tell me / shouldn’t have told me) <input type='text'  > about the party. Now it’s not a surprise.",
       "ar": ""
     },
     "correctAnswers": {
@@ -199,7 +199,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "6. Each driver (should, must) <input type='text' class='fill-blank-input' data-blank-id='mod6' placeholder='type one option...'> have health insurance. It is obligatory.",
+      "en": "6. Each driver (should, must) <input type='text'  > have health insurance. It is obligatory.",
       "ar": ""
     },
     "correctAnswers": {
@@ -233,7 +233,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "7. You (should study, should have studied) <input type='text' class='fill-blank-input' data-blank-id='mod7' placeholder='type one option...'> harder for the exam last term. Your results are too bad.",
+      "en": "7. You (should study, should have studied) <input type='text'  > harder for the exam last term. Your results are too bad.",
       "ar": ""
     },
     "correctAnswers": {
@@ -267,7 +267,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "8. These books are on the wrong shelf. They (shouldn’t / mustn’t) <input type='text' class='fill-blank-input' data-blank-id='mod8' placeholder='type one option...'> be here.",
+      "en": "8. These books are on the wrong shelf. They (shouldn’t / mustn’t) <input type='text'  > be here.",
       "ar": ""
     },
     "correctAnswers": {
@@ -301,7 +301,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. Hind enjoys swimming in the early morning. Hasan enjoys swimming in the early morning. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair1' placeholder='Combined sentence...'>.",
+      "en": "1. Hind enjoys swimming in the early morning. Hasan enjoys swimming in the early morning. (both…and…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -335,7 +335,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. Sua'ad is not in class today. Waleed is not in class today. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair2' placeholder='Combined sentence...'>.",
+      "en": "2. Sua'ad is not in class today. Waleed is not in class today. (neither…nor…)\n<input type='text' >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -369,7 +369,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. We can fix dinner for our guests here, or we can take them to a restaurant. (either…or…)\n<input type='text' class='fill-blank-input' data-blank-id='pair3' placeholder='Combined sentence...'>.",
+      "en": "3. We can fix dinner for our guests here, or we can take them to a restaurant. (either…or…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -403,7 +403,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. The panda faces extinction. The koala faces extinction too. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair4' placeholder='Combined sentence...'>.",
+      "en": "4. The panda faces extinction. The koala faces extinction too. (both…and…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -437,7 +437,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. This website doesn't have the topic I need. That website doesn't have the topic I need either. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair5' placeholder='Combined sentence...'>.",
+      "en": "5. This website doesn't have the topic I need. That website doesn't have the topic I need either. (neither…nor…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -471,7 +471,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "6. Wind power is renewable. Solar power is also renewable. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair6' placeholder='Combined sentence...'>.",
+      "en": "6. Wind power is renewable. Solar power is also renewable. (both…and…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -505,7 +505,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "7. Rayan doesn't know where Hani is. Nadeem doesn't know either. (neither…nor…)\n<input type='text' class='fill-blank-input' data-blank-id='pair7' placeholder='Combined sentence...'>.",
+      "en": "7. Rayan doesn't know where Hani is. Nadeem doesn't know either. (neither…nor…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -539,7 +539,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "8. Sham wants to ask her teacher a question. Hala wants to ask the teacher a question. (both…and…)\n<input type='text' class='fill-blank-input' data-blank-id='pair8' placeholder='Combined sentence...'>.",
+      "en": "8. Sham wants to ask her teacher a question. Hala wants to ask the teacher a question. (both…and…)\n<input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -573,7 +573,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. The little boy to his mother: I ate all the cake yesterday. (ADMIT)\nThe little boy <input type='text' class='fill-blank-input' data-blank-id='rep_verb1' placeholder='...'>.",
+      "en": "1. The little boy to his mother: I ate all the cake yesterday. (ADMIT)\nThe little boy <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -610,7 +610,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. Karen to Nancy: I ‘m so proud of you. (TELL)\nKaren <input type='text' class='fill-blank-input' data-blank-id='rep_verb2' placeholder='...'>.",
+      "en": "2. Karen to Nancy: I ‘m so proud of you. (TELL)\nKaren <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -645,7 +645,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. Janet to Hala: Did someone ring you an hour ago? (WANT TO KNOW)\nJanet <input type='text' class='fill-blank-input' data-blank-id='rep_verb3' placeholder='...'>.",
+      "en": "3. Janet to Hala: Did someone ring you an hour ago? (WANT TO KNOW)\nJanet <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -679,7 +679,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. Judy to Martin: Would you like to join me for lunch tomorrow? (INVITE)\nJudy <input type='text' class='fill-blank-input' data-blank-id='rep_verb4' placeholder='...'>.",
+      "en": "4. Judy to Martin: Would you like to join me for lunch tomorrow? (INVITE)\nJudy <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": {
@@ -713,7 +713,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. Fuad to his friend: The teachers are working on the exam results. (SAY)\nFuad <input type='text' class='fill-blank-input' data-blank-id='rep_verb5' placeholder='...'>.",
+      "en": "5. Fuad to his friend: The teachers are working on the exam results. (SAY)\nFuad <input type='text'  >.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -749,7 +749,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "1. Not only / Rarely <input type='text' class='fill-blank-input' data-blank-id='mcq1' placeholder='type one option...'> do you see top-rate cameras which are also easy to use.",
+      "en": "1. Not only / Rarely <input type='text'  > do you see top-rate cameras which are also easy to use.",
       "ar": ""
     },
     "correctAnswers": {
@@ -782,7 +782,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "2. Never I have seen / Never have I seen <input type='text' class='fill-blank-input' data-blank-id='mcq2' placeholder='type one option...'> such a dramatic end to a football match.",
+      "en": "2. Never I have seen / Never have I seen <input type='text'  > such a dramatic end to a football match.",
       "ar": ""
     },
     "correctAnswers": {
@@ -815,7 +815,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "3. What he is talking about / What is he talking about <input type='text' class='fill-blank-input' data-blank-id='mcq3' placeholder='type one option...'>, I have no idea.",
+      "en": "3. What he is talking about / What is he talking about <input type='text'  >, I have no idea.",
       "ar": ""
     },
     "correctAnswers": {
@@ -848,7 +848,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "4. Only the two members of our school team managed / did they manage <input type='text' class='fill-blank-input' data-blank-id='mcq4' placeholder='type one option...'> to finish the race.",
+      "en": "4. Only the two members of our school team managed / did they manage <input type='text'  > to finish the race.",
       "ar": ""
     },
     "correctAnswers": { 
@@ -882,7 +882,7 @@
       "ar": ""
     },
     "questionText": {
-      "en": "5. Should / Were <input type='text' class='fill-blank-input' data-blank-id='mcq5' placeholder='type one option...'> the alarm to ring, leave the building immediately.",
+      "en": "5. Should / Were <input type='text'  > the alarm to ring, leave the building immediately.",
       "ar": ""
     },
     "correctAnswers": {

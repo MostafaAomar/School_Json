@@ -77,7 +77,7 @@
       "ar": "ضع الفعل بين القوسين في صيغة السؤال الصحيحة."
     },
     "questionText": {
-      "en": "1. What <input type='text' class='fill-blank-input' data-blank-id='qf1' placeholder='(you do)'> under the table?",
+      "en": "1. What <input type='text' > (you do) under the table?",
       "ar": "1. ماذا ___________ تحت الطاولة؟"
     },
     "feedbackCorrect": {
@@ -102,7 +102,7 @@
       "ar": "ضع الفعل بين القوسين في صيغة السؤال الصحيحة."
     },
     "questionText": {
-      "en": "2. Where <input type='text' class='fill-blank-input' data-blank-id='qf2' placeholder='(she stay)'> when she goes to Homs?",
+      "en": "2. Where <input type='text' > (she stay) when she goes to Homs?",
       "ar": "2. أين ___________ عادةً عندما تذهب إلى حمص؟"
     },
     "feedbackCorrect": {
@@ -131,7 +131,7 @@
       "ar": "ضع الفعل بين القوسين في صيغة السؤال الصحيحة."
     },
     "questionText": {
-      "en": "3. What a delicious smell! What <input type='text' class='fill-blank-input' data-blank-id='qf3' placeholder='(your mother prepare)'> for dinner?",
+      "en": "3. What a delicious smell! What <input type='text' > (your mother prepare) for dinner?",
       "ar": "3. يا لها من رائحة شهية! ماذا ___________ للعشاء؟"
     },
     "feedbackCorrect": {
@@ -156,7 +156,7 @@
       "ar": "ضع الفعل بين القوسين في صيغة السؤال الصحيحة."
     },
     "questionText": {
-      "en": "4. What time <input type='text' class='fill-blank-input' data-blank-id='qf4' placeholder='(he wake up)'> on weekdays?",
+      "en": "4. What time <input type='text' > (he wake up) on weekdays?",
       "ar": "4. في أي وقت ___________ في أيام الأسبوع؟"
     },
     "feedbackCorrect": {
@@ -181,7 +181,7 @@
       "ar": "ضع الفعل بين القوسين في صيغة السؤال الصحيحة."
     },
     "questionText": {
-      "en": "5. Where <input type='text' class='fill-blank-input' data-blank-id='qf5' placeholder='(you live)'>?",
+      "en": "5. Where <input type='text' > (you live)?",
       "ar": "5. أين ___________؟"
     },
     "feedbackCorrect": {

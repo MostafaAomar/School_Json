@@ -2,12 +2,12 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Animals Unit",
-      "ar": "وحدة الحيوانات"
+      "en": "Animals ",
+      "ar": " الحيوانات"
     },
     "passage": {
-      "en": "Look! There are four elephants. They are big. Is there a tiger? Yes, there is. There is a monkey. It is funny. Are there parrots? No, there aren't. Look, it is a small rabbit. B b basket. S s strawberry.",
-      "ar": "انظر! هناك أربعة أفيال. إنها كبيرة. هل هناك نمر؟ نعم، هناك. هناك قرد. إنه مضحك. هل هناك ببغاوات؟ لا، لا يوجد. انظر، إنه أرنب صغير. B b — سلة. S s — فراولة."
+      "en": "Look! There are four elephants.\n They are big. \n There is a monkey. It is funny.\n Is there a tiger? \nYes, there is.\n  Are there parrots?\n No, there aren't. \nLook, it is a small rabbit. ",
+      "ar": " انظر! هناك أربعة فيلة.\n إنهم كبار. \n هناك قرد. إنه مضحك.\n هل هناك نمر؟ \n نعم، هناك.\n هل هناك ببغاوات؟\n لا، لا يوجد. \n انظر، إنه أرنب صغير. "
     },
     "videoUrl": "",
     "audioUrl": ""
@@ -15,8 +15,8 @@
   "question_ID__1": {
     "type": "matching",
     "supportContent": {
-      "en": "Match the animals to their pictures",
-      "ar": "طابق الحيوانات بصورها"
+      "en": " ",
+      "ar": "  "
     },
     "questionText": {
       "en": "Match the animals to the pictures",

@@ -2,93 +2,16 @@
   "version": "1.0.0",
   "metadata": {
     "unitTitle": {
-      "en": "Gender and Counting",
-      "ar": "النوع والعد"
+      "en": "A Boy and a Girl",
+      "ar": "ولد وبنت  "
     },
     "passage": {
-      "en": "I'm a boy. I'm a girl. He's a boy. She's a girl. How many boys? Two boys. How many girls? Three girls. How many lemons? Five lemons.",
-      "ar": "أنا ولد. أنا بنت. هو ولد. هي بنت. كم عدد الأولاد؟ ولدان. كم عدد البنات؟ ثلاث بنات. كم عدد الليمونات؟ خمس ليمونات."
+      "en": "I'm a boy.\n I'm a girl. \nHe's a boy. \nShe's a girl. How many boys?\n Two boys.\n How many girls? \n Three girls.\n How many lemons?\n Five lemons.",
+      "ar": "أنا ولد.\n أنا بنت. \nهو ولد. \nهي بنت. كم عدد الأولاد؟\n ولدان.\n كم عدد البنات؟ \n ثلاث بنات.\n كم عدد الليمونات؟\n خمس ليمونات."
     },
     "videoUrl": "",
     "audioUrl": ""
-  },
-  "question_ID__1": {
-    "type": "matching",
-    "supportContent": {
-      "en": "Match the words with the correct images.",
-      "ar": "طابق الكلمات بالصور الصحيحة."
-    },
-    "questionText": {
-      "en": "Match the words to the pictures",
-      "ar": "طابق الكلمات بالصور"
-    },
-    "feedbackCorrect": {
-      "en": "Excellent! You matched them all correctly.",
-      "ar": "ممتاز! لقد طابقتهم جميعاً بشكل صحيح."
-    },
-    "feedbackIncorrect": {
-      "en": "Not quite right, look at the pictures again.",
-      "ar": "ليس صحيحاً تماماً، انظر إلى الصور مرة أخرى."
-    },
-    "draggableItems": [
-      {
-        "id": "item_1",
-        "text": { "en": "boy", "ar": "ولد" }
-      },
-      {
-        "id": "item_2",
-        "text": { "en": "girl", "ar": "بنت" }
-      },
-      {
-        "id": "item_3",
-        "text": { "en": "lemons", "ar": "ليمون" }
-      }
-    ],
-    "dropZones": [
-      {
-        "id": "zone_1",
-        "label": { "en": "Boy", "ar": "ولد" },
-        "imageName": "boy.png",
-        "accepts": "item_1"
-      },
-      {
-        "id": "zone_2",
-        "label": { "en": "Girl", "ar": "بنت" },
-        "imageName": "girl.png",
-        "accepts": "item_2"
-      },
-      {
-        "id": "zone_3",
-        "label": { "en": "Lemons", "ar": "ليمون" },
-        "imageName": "limon.png",
-        "accepts": "item_3"
-      }
-    ]
-  },
-  "question_ID__2": {
-    "type": "fill-blank",
-    "supportContent": {
-      "en": "How many lemons are there?",
-      "ar": "كم عدد الليمونات؟"
-    },
-    
-    "questionText": {
-      "en": "There are <input type='text' >  lemons.",
-      "ar": "يوجد ______ ليمونات."
-    },
-    "feedbackCorrect": {
-      "en": "Correct! There are five lemons.",
-      "ar": "صحيح! هناك خمس ليمونات."
-    },
-    "feedbackIncorrect": {
-      "en": "Try again, check the passage.",
-      "ar": "حاول مرة أخرى، راجع النص."
-    },
-    "correctAnswers": {
-      "blank_9921": {
-        "en": "five",
-        "ar": "خمسة"
-      }
-    }
   }
+
+
 }

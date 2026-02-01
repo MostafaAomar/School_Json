@@ -326,7 +326,7 @@
       "ar": "أكمل باستخدام محدد كمية مناسب."
     },
     "questionText": {
-      "en": "<input type='text' class='fill-blank-input' data-blank-id='det1' placeholder='...'> people drive cars nowadays.",
+      "en": "<input type='text' > people drive cars nowadays.",
       "ar": "___________ ناس يقودون السيارات هذه الأيام."
     },
     "feedbackCorrect": {
@@ -348,7 +348,7 @@
       "ar": "أكمل باستخدام محدد كمية مناسب."
     },
     "questionText": {
-      "en": "Sami likes to eat <input type='text' class='fill-blank-input' data-blank-id='det2' placeholder='...'> food before he sits down to study.",
+      "en": "Sami likes to eat <input type='text' > food before he sits down to study.",
       "ar": "يحب سامي تناول ___________ طعام قبل أن يجلس للدراسة."
     },
     "feedbackCorrect": {
@@ -370,7 +370,7 @@
       "ar": "أكمل باستخدام محدد مناسب."
     },
     "questionText": {
-      "en": "<input type='text' class='fill-blank-input' data-blank-id='det3' placeholder='...'> children will hurt themselves if they don’t get off that tree!",
+      "en": "<input type='text' > children will hurt themselves if they don’t get off that tree!",
       "ar": "___________ أطفال سيؤذون أنفسهم إذا لم ينزلوا عن تلك الشجرة!"
     },
     "feedbackCorrect": {
@@ -392,7 +392,7 @@
       "ar": "أكمل باستخدام أداة التعريف/التنكير المناسبة."
     },
     "questionText": {
-      "en": "The doctor advised me to eat <input type='text' class='fill-blank-input' data-blank-id='det4' placeholder='...'> apple every morning.",
+      "en": "The doctor advised me to eat <input type='text' > apple every morning.",
       "ar": "نصحني الطبيب بتناول ___________ تفاحة كل صباح."
     },
     "feedbackCorrect": {
@@ -414,7 +414,7 @@
       "ar": "أكمل باستخدام محدد كمية مناسب."
     },
     "questionText": {
-      "en": "She got her license without <input type='text' class='fill-blank-input' data-blank-id='det5' placeholder='...'> problems.",
+      "en": "She got her license without <input type='text' > problems.",
       "ar": "حصلت على رخصتها بدون ___________ مشاكل."
     },
     "feedbackCorrect": {

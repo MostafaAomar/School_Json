@@ -26,7 +26,7 @@
       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "1. Joe has inherited a lot of money. He <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder='(buy)'> a new villa next month.",
+      "en": "1. Joe has inherited a lot of money. He <input type='text' class='fill-blank-input' data-blank-id='verb1' placeholder=''>(buy) a new villa next month.",
       "ar": ""
     },
     "correctAnswers": {
@@ -50,7 +50,7 @@
       "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "2. It was a stupid thing to say. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder='(not / say)'> it.",
+      "en": "2. It was a stupid thing to say. I wish I <input type='text' class='fill-blank-input' data-blank-id='verb2' placeholder=''>(not / say) it.",
       "ar": ""
     },
     "correctAnswers": {
@@ -74,7 +74,7 @@
        "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "3. I should have listened to you. I wish <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder='(I / take)'> your advice.",
+      "en": "3. I should have listened to you. I wish <input type='text' class='fill-blank-input' data-blank-id='verb3' placeholder=''>(I / take) your advice.",
       "ar": ""
     },
     "correctAnswers": {
@@ -98,7 +98,7 @@
        "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "4. At 8:30 this evening I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder='(meet)'> my friend Tom at Yooooj Café.",
+      "en": "4. At 8:30 this evening I <input type='text' class='fill-blank-input' data-blank-id='verb4' placeholder=''>(meet) my friend Tom at Yooooj Café.",
       "ar": ""
     },
     "correctAnswers": {
@@ -122,7 +122,7 @@
        "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "5. By the end of this year I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder='(drive)'> more than 1000 km. with my car.",
+      "en": "5. By the end of this year I <input type='text' class='fill-blank-input' data-blank-id='verb5' placeholder=''>(drive) more than 1000 km. with my car.",
       "ar": ""
     },
     "correctAnswers": {
@@ -146,7 +146,7 @@
        "ar": "ضع الفعل بين القوسين في الصيغة الصحيحة."
     },
     "questionText": {
-      "en": "6. Our flat is rather small. I wish <input type='text' class='fill-blank-input' data-blank-id='verb6' placeholder='(it / be)'> a bit bigger.",
+      "en": "6. Our flat is rather small. I wish <input type='text' class='fill-blank-input' data-blank-id='verb6' placeholder=''>(it / be) a bit bigger.",
       "ar": ""
     },
     "correctAnswers": {
