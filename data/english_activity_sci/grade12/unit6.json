@@ -13,9 +13,7 @@
 }
 
 ,
-  "videoUrl": "https://www.youtube.com/watch?v=9BWL2oRrEI8&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=22&ab_channel=Mostafa",
-  "audioUrl": "https://drive.google.com/file/d/1CARjOkvo-mEyHwJdJAi11kqA15s8TwNj/view",
-  "audioType": "audio/mp3"
+  "videoUrl": "https://www.youtube.com/watch?v=9BWL2oRrEI8&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=22&ab_channel=Mostafa"
 },
   "unit6_w_1": {
     "type": "fill-blank",
