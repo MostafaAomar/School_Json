@@ -1,5 +1,5 @@
 { 
-   "version": "1.0.1",
+   "version": "1.0.2",
   "metadata": {
     "unitTitle": {
       "en": "Life Choices",
@@ -12,8 +12,8 @@
 
 ,
   "videoUrl": "https://www.youtube.com/watch?v=KyYx_iqXkyY&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT&index=6&ab_channel=Mostafa",
-  "audioUrl": "rahma.mp3",
-  "audioType": "Sultan.mp3"
+ "audioUrl": "https://raw.githubusercontent.com/MostafaAomar/School_Json/main/audio/rahma.mp3",
+  "audioType": "audio/mpeg"
 },
   "unit1_scientific_w_1": {
     "type": "matching",
