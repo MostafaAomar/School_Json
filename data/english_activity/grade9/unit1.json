@@ -27,7 +27,7 @@
       "ar": "صحيح! تم مطابقة جميع الجمل بشكل صحيح."
     },
     "feedbackIncorrect": {
-      "en": "Incorrect. Try reading the beginning and ending of each sentence together.",
+      "en": "",
       "ar": "الإجابة غير صحيحة. حاول قراءة بداية كل جملة ونهايتها معاً لترى أيها تشكل جملة منطقية."
     },
     "draggableItems": [
