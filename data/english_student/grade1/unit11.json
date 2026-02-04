@@ -80,6 +80,7 @@
       "en": "Where is the mouse?",
       "ar": "أين الفأر؟"
     },
+    "imageUrl": "mouse.png",
     "feedbackCorrect": {
       "en": "Correct! The mouse is in the box.",
       "ar": "صحيح! الفأر داخل الصندوق."

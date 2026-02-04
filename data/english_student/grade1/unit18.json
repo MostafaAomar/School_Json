@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Jobs",
@@ -161,6 +161,7 @@
       "en": "Is she a teacher?",
       "ar": " هل هي معلمة؟"
     },
+    "imageUrl": "doctor.png",
     "feedbackCorrect": {
       "en": "",
       "ar": ""

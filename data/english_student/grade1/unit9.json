@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "My Birthday",
@@ -30,6 +30,7 @@
       "en": "Great! You remembered everyone's age.",
       "ar": "رائع! لقد تذكرت عمر الجميع."
     },
+    "imageUrl": "peterage.png",
     "feedbackIncorrect": {
       "en": "Not quite right. Look at the numbers again.",
       "ar": "ليس صحيحاً تماماً. انظر إلى الأرقام مرة أخرى."

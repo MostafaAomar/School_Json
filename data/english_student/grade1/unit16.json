@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Animals ",
@@ -95,6 +95,7 @@
       "en": "Is there an elephant?",
       "ar": "هل هناك فيل؟"
     },
+    "imageUrl": "animal_s_16.png",
     "feedbackCorrect": {
       "en": "Correct!",
       "ar": "إجابة صحيحة!"
@@ -110,33 +111,6 @@
     "correctAnswer": {
       "en": "Yes, there is",
       "ar": "نعم، هناك"
-    }
-  },
-  "question_ID__3": {
-    "type": "mcq",
-    "supportContent": {
-      "en": "",
-      "ar": ""
-    },
-    "questionText": {
-      "en": "Are there parrots?",
-      "ar": "هل هناك ببغاوات؟"
-    },
-    "feedbackCorrect": {
-      "en": "Correct!",
-      "ar": "إجابة صحيحة!"
-    },
-    "feedbackIncorrect": {
-      "en": "Incorrect, look at the text again.",
-      "ar": "إجابة خاطئة، راجع النص مجدداً."
-    },
-    "options": [
-      { "en": "Yes, there are", "ar": "نعم، يوجد" },
-      { "en": "No, there aren't", "ar": "لا، لا يوجد" }
-    ],
-    "correctAnswer": {
-      "en": "No, there aren't",
-      "ar": "لا، لا يوجد"
     }
   }
 }

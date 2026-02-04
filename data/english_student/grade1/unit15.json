@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Revision 3",
@@ -15,6 +15,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Where is Tom?", "ar": "أين توم؟" },
     "feedbackCorrect": { "en": "Correct!", "ar": "إجابة صحيحة!" },
+    "imageUrl": "tomhouse.png",
     "feedbackIncorrect": { "en": "Try again.", "ar": "حاول مرة أخرى." },
     "options": [
       { "en": "In the kitchen", "ar": "في المطبخ" },
@@ -27,6 +28,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Is the ball in the box?", "ar": "هل الكرة داخل الصندوق؟" },
     "feedbackCorrect": { "en": "Correct!", "ar": "إجابة صحيحة!" },
+    "imageUrl": "tomhouse.png",
     "feedbackIncorrect": { "en": "No, look closely.", "ar": "لا، انظر جيداً." },
     "options": [
       { "en": "No, it isn't", "ar": "لا، ليست كذلك" },
@@ -39,6 +41,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Where is the doll?", "ar": "أين الدمية؟" },
     "feedbackCorrect": { "en": "Well done!", "ar": "أحسنت!" },
+    "imageUrl": "tomhouse.png",
     "feedbackIncorrect": { "en": "Check the chair.", "ar": "تحقق من الكرسي." },
     "options": [
       { "en": "On the table", "ar": "على الطاولة" },
@@ -51,6 +54,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Odd one out: doll, dress, shirt, hat", "ar": "اختر المختلف: دمية، فستان، قميص، قبعة" },
     "feedbackCorrect": { "en": "Correct! Doll is a toy, others are clothes.", "ar": "صحيح! الدمية لعبة والبقية ملابس." },
+   "imageUrl": "odd.png",
     "feedbackIncorrect": { "en": "Think about clothes.", "ar": "فكر في الملابس." },
     "options": [
       { "en": "doll", "ar": "دمية" },
@@ -65,6 +69,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Odd one out: milk, sandwich, chair, chicken", "ar": "اختر المختلف: حليب، شطيرة، كرسي، دجاج" },
     "feedbackCorrect": { "en": "Right! Chair is furniture.", "ar": "صحيح! الكرسي من الأثاث." },
+    "imageUrl": "odd.png",
     "feedbackIncorrect": { "en": "Which one isn't food?", "ar": "أيها ليس طعاماً؟" },
     "options": [
       { "en": "chair", "ar": "كرسي" },
@@ -79,6 +84,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Odd one out: winter, summer, blue, autumn", "ar": "اختر المختلف: شتاء، صيف، أزرق، خريف" },
     "feedbackCorrect": { "en": "Correct! Blue is a color.", "ar": "صحيح! الأزرق لون." },
+    "imageUrl": "odd.png",
     "feedbackIncorrect": { "en": "Which one is not a season?", "ar": "أيها ليس فصلاً من فصول السنة؟" },
     "options": [
       { "en": "blue", "ar": "أزرق" },
@@ -93,6 +99,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "Listen and circle: My favourite season is...", "ar": "استمع وضع دائرة: فصلي المفضل هو..." },
     "feedbackCorrect": { "en": "Perfect listening!", "ar": "استماع ممتاز!" },
+    "imageUrl": "review_s_3.png",
     "feedbackIncorrect": { "en": "Listen again.", "ar": "استمع مرة أخرى." },
     "options": [
       { "en": "winter", "ar": "الشتاء" },
@@ -105,6 +112,7 @@
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "The weather is...", "ar": "الطقس..." },
     "feedbackCorrect": { "en": "Yes!", "ar": "نعم!" },
+    "imageUrl": "review_s_3.png",
     "feedbackIncorrect": { "en": "Try again.", "ar": "حاول ثانية." },
     "options": [
       { "en": "cold", "ar": "بارد" },
@@ -116,6 +124,7 @@
     "type": "mcq",
     "supportContent": { "en": "", "ar": "" },
     "questionText": { "en": "My brother has a green...", "ar": "أخي لديه ... أخضر" },
+    "imageUrl": "review_s_3.png",
     "feedbackCorrect": { "en": "Correct!", "ar": "صحيح!" },
     "feedbackIncorrect": { "en": "Incorrect.", "ar": "خاطئ." },
     "options": [
