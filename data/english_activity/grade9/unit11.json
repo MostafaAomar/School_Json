@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "Unit 11: Messages to and from Outer Space",
@@ -295,7 +295,7 @@
     },
     "questionText": {
       "en": "8. A storm destroyed many places in the city.\nPassive: <input type='text'  >",
-      "ar": "8. دمرت العاصفة أماكن كثيرة في المدينة.\nالمبني للمجهول: <input type='text'  >"
+      "ar": "8. دمرت العاصفة أماكن كثيرة في المدينة.\nالمبني للمجهول: "
     },
     "feedbackCorrect": {
       "en": "Correct! You correctly used 'were destroyed' for plural past passive.",
@@ -320,7 +320,7 @@
     },
     "questionText": {
       "en": "9. He had already delivered the mail by the time I left school.\nPassive: <input type='text'  >",
-      "ar": "9. كان قد سلم البريد بالفعل بحلول الوقت الذي غادرت فيه المدرسة.\nالمبني للمجهول: <input type='text'  >"
+      "ar": "9. كان قد سلم البريد بالفعل بحلول الوقت الذي غادرت فيه المدرسة.\nالمبني للمجهول: "
     },
     "feedbackCorrect": {
       "en": "Correct! 'had already been delivered' is the perfect passive form.",

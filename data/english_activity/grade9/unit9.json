@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "An active Citizen, A Better World",
@@ -69,8 +69,8 @@
       "ar": "اشتقاق الكلمات: أوجد الفعل من الاسم."
     },
     "questionText": {
-      "en": "Noun: encouragement | Verb: <input type='text'  >",
-      "ar": "الاسم: encouragement | الفعل: <input type='text'  >"
+      "en": "",
+      "ar": "الاسم: encouragement \n الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! The verb is 'encourage'.",
@@ -94,8 +94,8 @@
       "ar": "اشتقاق الكلمات: أوجد الصفة."
     },
     "questionText": {
-      "en": "Noun: encouragement | Adjective: <input type='text'  >",
-      "ar": "الاسم: encouragement | الصفة: <input type='text'  >"
+      "en": "",
+      "ar": "الاسم: encouragement \n الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -119,8 +119,8 @@
       "ar": "اشتقاق الكلمات: أوجد الفعل."
     },
     "questionText": {
-      "en": "Noun: production | Verb: <input type='text'  >",
-      "ar": "الاسم: production | الفعل: <input type='text'  >"
+      "en": "",
+      "ar": "الاسم: production \n الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -144,8 +144,8 @@
       "ar": "اشتقاق الكلمات: أوجد الصفة."
     },
     "questionText": {
-      "en": "Noun: production | Adjective: <input type='text'  >",
-      "ar": "الاسم: production | الصفة: <input type='text'  >"
+      "en": "",
+      "ar": "الاسم: production \n الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -195,8 +195,8 @@
       "ar": "أوجد صيغة الصفة من الفعل 'comfort'."
     },
     "questionText": {
-      "en": "Verb: comfort | Adjective: <input type='text'  >",
-      "ar": "الفعل: comfort | الصفة: <input type='text'  >"
+      "en": "",
+      "ar": "الفعل: comfort \n الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Comfortable' is the adjective.",
@@ -220,8 +220,8 @@
       "ar": "أوجد الفعل المتعلق بهذا الاسم."
     },
     "questionText": {
-      "en": "Noun: responsibility | Verb: <input type='text'  >",
-      "ar": "الاسم: responsibility | الفعل: <input type='text'  >"
+      "en": " ",
+      "ar": "الاسم: responsibility \n الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! 'Respond' is the root verb.",
@@ -245,8 +245,8 @@
       "ar": "أوجد صيغة الصفة من 'responsibility'."
     },
     "questionText": {
-      "en": "Noun: responsibility | Adjective: <input type='text'  >",
-      "ar": "الاسم: responsibility | الصفة: <input type='text'  >"
+      "en": "",
+      "ar": "الاسم: responsibility \n الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -270,8 +270,8 @@
       "ar": "أوجد صيغة الفعل من الصفة 'respectable'."
     },
     "questionText": {
-      "en": "Adjective: respectable | Verb: <input type='text'  >",
-      "ar": "الصفة: respectable | الفعل: <input type='text'  >"
+      "en": "",
+      "ar": "الصفة: respectable \n الفعل: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct! The verb is 'respect'.",
@@ -295,8 +295,8 @@
       "ar": "أوجد صيغة الاسم من الفعل 'contribute'."
     },
     "questionText": {
-      "en": "Verb: contribute | Noun: <input type='text'  >",
-      "ar": "الفعل: contribute | الاسم: <input type='text'  >"
+      "en": "",
+      "ar": "الفعل: contribute \n الاسم: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -323,8 +323,8 @@
       "ar": "أوجد صيغة الصفة من الفعل 'contribute'."
     },
     "questionText": {
-      "en": "Verb: contribute | Adjective: <input type='text'  >",
-      "ar": "الفعل: contribute | الصفة: <input type='text'  >"
+      "en": "",
+      "ar": "الفعل: contribute \n الصفة: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -348,8 +348,8 @@
       "ar": "أوجد صيغة الاسم من الصفة 'talented'."
     },
     "questionText": {
-      "en": "Adjective: talented | Noun: <input type='text'  >",
-      "ar": "الصفة: talented | الاسم: <input type='text'  >"
+      "en": "",
+      "ar": "الصفة: talented \n الاسم: <input type='text'  >"
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -575,7 +575,7 @@
     },
     "questionText": {
       "en": "1. A person is lucky. That person has a lot of friends.\nCombined: <input type='text'  >",
-      "ar": "1. الشخص محظوظ. ذلك الشخص لديه الكثير من الأصدقاء.\nالجملة المدمجة: <input type='text'  >"
+      "ar": "1. الشخص محظوظ. ذلك الشخص لديه الكثير من الأصدقاء.\nالجملة المدمجة: "
     },
     "feedbackCorrect": {
       "en": "Excellent! You combined the sentences correctly.",
@@ -603,7 +603,7 @@
     },
     "questionText": {
       "en": "2. Martha has a brother. Her brother’s name is Manuel.\nCombined: <input type='text'  >",
-      "ar": "2. مارثا لديها أخ. اسم أخيها مانويل.\nالجملة المدمجة: <input type='text'  >"
+      "ar": "2. مارثا لديها أخ. اسم أخيها مانويل.\nالجملة المدمجة: "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -653,7 +653,7 @@
     },
     "questionText": {
       "en": "4. I remember that wonderful summer. The whole family gathered again then.\nCombined: <input type='text'  >",
-      "ar": "4. أتذكر ذلك الصيف الرائع. اجتمعت العائلة بأكملها مرة أخرى حينها.\nالجملة المدمجة: <input type='text'  >"
+      "ar": "4. أتذكر ذلك الصيف الرائع. اجتمعت العائلة بأكملها مرة أخرى حينها.\nالجملة المدمجة: "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -678,7 +678,7 @@
     },
     "questionText": {
       "en": "5. Leila gave me a beautiful souvenir. Leila bought the souvenir from Al-Hamideya souk.\nCombined: <input type='text'  >",
-      "ar": "5. أعطتني ليلى تذكاراً جميلاً. اشترت ليلى التذكار من سوق الحميدية.\nالجملة المدمجة: <input type='text'  >"
+      "ar": "5. أعطتني ليلى تذكاراً جميلاً. اشترت ليلى التذكار من سوق الحميدية.\nالجملة المدمجة: "
     },
     "feedbackCorrect": {
       "en": "Correct!",
@@ -703,7 +703,7 @@
     },
     "questionText": {
       "en": "6. The teacher smiled at Sami. Sami was working very hard.\nCombined: <input type='text'  >",
-      "ar": "6. ابتسم المعلم لسـامي. كان سامي يعمل بجد كبير.\nالجملة المدمجة: <input type='text'  >"
+      "ar": "6. ابتسم المعلم لسـامي. كان سامي يعمل بجد كبير.\nالجملة المدمجة: "
     },
     "feedbackCorrect": {
       "en": "Correct! Notice the use of the comma.",

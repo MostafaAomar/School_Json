@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "metadata": {
     "unitTitle": {
       "en": "On the Edge of Innocence",
@@ -121,7 +121,7 @@
     },
     "questionText": {
       "en": "1. She did not study hard at school.\nShe wishes <input type='text'  >",
-      "ar": "1. هي لم تدرس بجد في المدرسة.\nهي تتمنى لو <input type='text'  >"
+      "ar": "1. هي لم تدرس بجد في المدرسة.\nهي تتمنى لو ...."
     },
     "feedbackCorrect": {
       "en": "Correct! Past Perfect is used for past regrets.",
@@ -146,7 +146,7 @@
     },
     "questionText": {
       "en": "3. I am not tall enough to reach the books on the top shelf.\nI wish <input type='text'  >",
-      "ar": "3. أنا لست طويلاً بما يكفي للوصول للكتب في الرف العلوي.\nأتمنى لو <input type='text'  >"
+      "ar": "3. أنا لست طويلاً بما يكفي للوصول للكتب في الرف العلوي.\nأتمنى لو "
     },
     "feedbackCorrect": {
       "en": "Correct! We use 'were' for all subjects in this structure.",
@@ -171,7 +171,7 @@
     },
     "questionText": {
       "en": "4. They spent so much money on their shopping trip.\nThey wish <input type='text'  >",
-      "ar": "4. لقد أنفقوا الكثير من المال في رحلة التسوق.\nهم يتمنون لو <input type='text'  >"
+      "ar": "4. لقد أنفقوا الكثير من المال في رحلة التسوق.\nهم يتمنون لو "
     },
     "feedbackCorrect": {
       "en": "Correct! 'Hadn't spent' shows regret for a past action.",
@@ -196,7 +196,7 @@
     },
     "questionText": {
       "en": "5. They are too old to play football.\nI wish <input type='text'  >",
-      "ar": "5. هم كبار جداً في السن للعب كرة القدم.\nأتمنى لو <input type='text'  >"
+      "ar": "5. هم كبار جداً في السن للعب كرة القدم.\nأتمنى لو "
     },
     "feedbackCorrect": {
       "en": "Correct! Using Past Simple 'weren't' talks about the present.",
@@ -221,7 +221,7 @@
     },
     "questionText": {
       "en": "6. We weren’t kind to her before she got sick.\nWe wish <input type='text'  >",
-      "ar": "6. لم نكن لطيفين معها قبل أن تمرض.\nنتمنى لو <input type='text'  >"
+      "ar": "6. لم نكن لطيفين معها قبل أن تمرض.\nنتمنى لو "
     },
     "feedbackCorrect": {
       "en": "Correct! 'Had been' is the Past Perfect of 'be'.",
